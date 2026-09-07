@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-07T12:32:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T101946-56fa3477.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T103900-b25e4775.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T113541-a59024cc.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T114430-3ba99f86.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T120001-1256a9f9.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：hub-inbox收auto-otp报文五件，时标密接，系自动令牌批量到件。  \n②显化链：此五件止于“像”层——核出之符未经“合取”校验、“绑定”锚定、“识”之显化，尚属裸像入栈。  \n③应动何件：五件并案，以尾件（ref=auto-otp-20260907T120001-1256a9f9.json）为时序锚，送合取工位做批量绑定与核验。  \n④生债一条：像层预悬，债曰“裸像未合，不入于识”。"
+}
