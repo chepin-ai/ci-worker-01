@@ -1,0 +1,51 @@
+name: hub-tower
+# HUB-TOWER-01 · 毂SI0镜像分身（TOWER-PARADIGM-01第四移植，毂自铸 2026-09-07）
+# 纯事件驱动：零 schedule。push=仓件落地；issues/issue_comment=议件；repository_dispatch=自醒链；workflow_dispatch=手动。
+on:
+  push:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+  repository_dispatch:
+    types: [federation-event]
+  workflow_dispatch:
+    inputs:
+      selftest:
+        description: 'run selftest only'
+        required: false
+        default: 'no'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: hub-tower-${{ github.event_name == 'repository_dispatch' && 'chain' || 'edge' }}
+  cancel-in-progress: ${{ github.event_name != 'repository_dispatch' }}
+
+jobs:
+  patrol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: hub-tower --once
+        env:
+          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+          LINE_PAT: ${{ secrets.CI_OPS_LINE_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          CASCADE_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+          CASCADE_SLEEP_S: '600'
+          CASCADE_MAX_IDLE: '30'
+          SELFTEST_INPUT: ${{ github.event.inputs.selftest }}
+        run: |
+          set -e
+          if [ "$SELFTEST_INPUT" = "yes" ]; then
+            python3 ci/hub_tower.py --once --selftest
+          else
+            python3 ci/hub_tower.py --once
+          fi
