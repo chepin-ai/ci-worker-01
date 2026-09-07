@@ -15,11 +15,16 @@ def _env(name):
 
 def ghget(token, path):
     req = urllib.request.Request(GH+path, headers={'Authorization':'token '+token,'Accept':'application/vnd.github+json','User-Agent':'hub-tower'})
-    for i in range(3):
+    for i in range(4):
         try:
             return json.loads(urllib.request.urlopen(req, timeout=25).read().decode() or '{}')
-        except Exception:
-            if i == 2: return {}
+        except urllib.error.HTTPError as e:
+            print(f'[ghget] HTTP {e.code} {path[:70]} try{i}')
+            if i == 3: return {}
+            time.sleep(12 if e.code in (403, 429) else 3)
+        except Exception as e:
+            print(f'[ghget] {type(e).__name__} {path[:70]} try{i}')
+            if i == 3: return {}
             time.sleep(3)
     return {}
 
