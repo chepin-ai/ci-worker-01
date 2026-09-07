@@ -1,0 +1,10 @@
+{
+ "ts": "2026-09-07T09:14:43Z",
+ "names": {
+  "KIMI_API_KEY": "present",
+  "LINE_PAT": "present",
+  "GITHUB_TOKEN": "present"
+ },
+ "kimi_models_http": 200,
+ "gh_whoami": "FAIL"
+}
