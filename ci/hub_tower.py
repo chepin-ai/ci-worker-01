@@ -78,6 +78,15 @@ def main():
     idle = 0
     cp = {}
     has_cascade = False
+    seen_prev = set()
+    seen_new = []
+    try:
+        import base64 as _B
+        st0 = ghget(ghtok or pat or '', '/repos/%s/contents/receipts/tower/state.json' % REPO) if (ghtok or pat) else {}
+        if st0.get('content'):
+            seen_prev = set(json.loads(_B.b64decode(st0['content']).decode()).get('seen', []))
+    except Exception:
+        seen_prev = set()
     raw = os.environ.get('CASCADE_PAYLOAD', '').strip()
     if raw:
         try:
@@ -139,6 +148,19 @@ def main():
         if isinstance(hin, list):
             for x in hin[-5:]:
                 events.append({'kind':'hub-inbox','ref': x['name']})
+        # BRIDGE-MIRROR-01: 出向断线之自域面巡(增量: seen.json持久化,只报新像)
+        seen = seen_prev
+        qglr = ghget(pat, '/repos/chepin-ai/vci-qgl/contents/receipts/tower')
+        if isinstance(qglr, list):
+            for x in qglr:
+                nm = 'vci-qgl/receipts/tower/'+x['name']
+                if nm.startswith('vci-qgl') and x['name'].startswith(('QT-','SELFTEST')) and nm not in seen:
+                    events.append({'kind':'qgl-self-domain','ref': nm}); seen_new.append(nm)
+        vse = ghget(pat, '/repos/chepin-ai/vinf-market-kernel/contents/self_events.jsonl')
+        if isinstance(vse, dict) and vse.get('sha'):
+            nm = 'vinf-market-kernel/self_events.jsonl@'+vse['sha'][:10]
+            if nm not in seen:
+                events.append({'kind':'vinf-self-domain','ref': nm}); seen_new.append(nm)
     print('[patrol] events:', len(events), [e['ref'] for e in events][:10])
 
     note = ''
@@ -154,7 +176,7 @@ def main():
 
     # ---- SPARK-HOOK：三线像现/lane线声 → 唤毂（otp-gate wake-inject@cisvr），每拍至多一发 ----
     spark = 'no-spark'
-    hot = [e for e in events if e['kind'] in ('three-line-image','lane-line-voice')]
+    hot = [e for e in events if e['kind'] in ('three-line-image','lane-line-voice','qgl-self-domain','vinf-self-domain')]
     if hot and pat:
         wr = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF/_WAKE-REG.json')
         try:
@@ -185,7 +207,7 @@ def main():
         else:
             cascade = f'breaker-rest idle={idle2}'
     print('[cascade]', cascade)
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events)}, ensure_ascii=False))
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:]}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
