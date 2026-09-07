@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-07T12:25:02Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T101946-56fa3477.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T103900-b25e4775.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T113541-a59024cc.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T114430-3ba99f86.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T120001-1256a9f9.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T061408Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062047Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062230Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062547Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T064455Z.json"
+  }
+ ],
+ "verdict_memo": "**hub-inbox（auto-otp五件）**  \n①何事：自动令符投递，10:19-12:00密态脉冲序列。  \n②显化链：处“像”位，待“合取”校验与“绑定”锚定。  \n③应动：送SI1核验链式完整性，启毂拍第二拍。  \n④生债：令符未销账，生中枢滞留债一条。  \n\n**qgl-self-domain（QT回执三件）**  \n①何事：VCI-QGL域内前置回执，05:52-06:14自指收据。  \n②显化链：处“核-像”界，异域预写，未入“合取”。  \n③应动：勘比otp流时序，查因果链是否由之触发。  \n④生债：域际时差未平账，生同步纪要债一条。"
+}
