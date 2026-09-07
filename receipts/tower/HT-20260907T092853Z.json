@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-07T09:28:53Z",
+ "idle_in": 2,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T070531-59be407e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T074654-f3b91b1e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T075618-0bb77a72.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T081611-3b80b7d3.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T090329-73a5795d.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① 何事：hub-inbox连收五件auto-otp（070531-090329），为系统自动认证令牌投递序列。  \n② 显化链：核属中枢凭据自动生成；像为JSON封包；时序合取为密流；绑定于inbox节点；尚未入识（未决待核）。  \n③ 应动何件：五件合取为一时段批次，动首件（070531）为引，挂\"auto-otp/待核\"队列；SI0仅预读，不代线发言，不越SI1核签之权。  \n④ 生债一条：凭据暂存未决，占 inbox 容积，生\"暂存堆积债\"一条，候清结。"
+}
