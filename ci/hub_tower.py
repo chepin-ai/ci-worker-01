@@ -190,13 +190,21 @@ def main():
             import base64 as B
             wurl = json.loads(B.b64decode(wr['content']).decode())['lines']['cisvr']['wake_url']
             nonce = hashlib.sha256((ts+'hub-tower').encode()).hexdigest()[:12]
+            # 修7 NONCE先册后注入机: 点火前先注册nonce-reg-hub, 册败即熄火(fail-closed, 机器同受司法)
+            nrg = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json')
+            nrd = json.loads(B.b64decode(nrg['content']).decode())
+            nrd['registry'][nonce] = {'line':'cisvr','purpose':'SPARK-HOOK唤毂(毂塔自举例外)','ts':ts,'status':'fired-by-tower'}
+            put = urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json',
+                data=json.dumps({'message':'NONCE-REG tower-spark '+nonce+' [skip ci]','content':B.b64encode(json.dumps(nrd, ensure_ascii=False, indent=1).encode()).decode(),'sha':nrg['sha']}).encode(),
+                method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'})
+            urllib.request.urlopen(put, timeout=20)
             code = dispatch(pat, 'chepin-ai/github-repo-cfts',
                 {'line':'cisvr','url':wurl,'nonce':nonce,
                  'msg':'毂塔镜像: 三线像现——'+';'.join(e['ref'] for e in hot[:3])+'。收讫接应即日复列。锚=ci-worker-01/receipts/tower',
                  'mandate':'true'}, 'wake-inject')
-            spark = f'fired http={code} hot={len(hot)}'
+            spark = f'fired http={code} hot={len(hot)} reg=ok'
         except Exception as e:
-            spark = f'spark.err {type(e).__name__}'
+            spark = f'spark.abort {type(e).__name__} (册败熄火/先册后注)'
     print('[spark]', spark)
 
     # ---- 自唤出拍：唯热件(三线像/lane线声)续链,常置面件不续(防无限自激) ----
