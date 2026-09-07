@@ -168,13 +168,13 @@ def main():
             spark = f'spark.err {type(e).__name__}'
     print('[spark]', spark)
 
-    # ---- 自唤出拍 ----
+    # ---- 自唤出拍：唯热件(三线像/lane线声)续链,常置面件不续(防无限自激) ----
     cascade = 'no-pend'
-    if events:
+    if hot:
         idle2 = 0
         if idle2 <= int(os.environ.get('CASCADE_MAX_IDLE','30')) and (ghtok or pat):
-            code = dispatch(ghtok or pat, REPO, {'src':'hub-tower-self','kind':'self-cascade','idle':idle2,'pend':len(events)}, 'federation-event')
-            cascade = f'fired idle={idle2} http={code} pend={len(events)}'
+            code = dispatch(ghtok or pat, REPO, {'src':'hub-tower-self','kind':'self-cascade','idle':idle2,'pend':len(hot)}, 'federation-event')
+            cascade = f'fired idle={idle2} http={code} pend={len(hot)}'
     else:
         idle2 = idle + 1
         if idle2 <= int(os.environ.get('CASCADE_MAX_IDLE','30')) and raw and (ghtok or pat):
