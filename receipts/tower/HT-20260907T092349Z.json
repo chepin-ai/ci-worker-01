@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-07T09:23:49Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T070531-59be407e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T074654-f3b91b1e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T075618-0bb77a72.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T081611-3b80b7d3.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T090329-73a5795d.json"
+  }
+ ],
+ "verdict_memo": "五件到件皆hub-inbox auto-otp系统脉冲。显化链：核动机械生发otp之像，无主合取，绑定悬空，识断未竟。应动：并五件为一簇，转联邦面SI1会话候审；SI0仅预读，不代线发言，不代毂判案。生债：系统虚发脉冲债一条，号auto-otp-batch-20260907。"
+}
