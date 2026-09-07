@@ -1,1 +1,1 @@
-{"ts": "2026-09-07T11:57:46Z", "idle": 17, "cascade": "idle-chain idle=17 http=204", "spark": "no-spark", "events": 0}
+{"ts": "2026-09-07T12:16:14Z", "idle": 1, "cascade": "breaker-rest idle=1", "spark": "no-spark", "events": 0, "seen": []}
