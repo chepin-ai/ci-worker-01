@@ -77,11 +77,13 @@ def main():
 
     idle = 0
     cp = {}
+    has_cascade = False
     raw = os.environ.get('CASCADE_PAYLOAD', '').strip()
     if raw:
         try:
             cp = json.loads(raw)
             if isinstance(cp, dict) and cp.get('src') == 'hub-tower-self':
+                has_cascade = True
                 idle = int(cp.get('idle', 0))
                 slp = int(os.environ.get('CASCADE_SLEEP_S', '600'))
                 print(f'[cascade] self-wake idle={idle} sleep={slp}s')
