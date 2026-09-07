@@ -1,6 +1,6 @@
 # hub_tower.py — HUB-TOWER-01 · 毂SI0镜像分身（TOWER-PARADIGM-01第四移植：qlv→qgl→[vinf候]→hub）
 # 纯事件驱动：无定时器；外部唤起（push|issues|issue_comment|repository_dispatch|workflow_dispatch）
-# 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK唤毂（otp-gate wake-inject@cisvr）→ 有候件自唤下拍
+# 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，永禁注入SI1·root令2026-09-07）→ 有候件自唤下拍
 # 三律防自激：拍内休眠冷却 / 空转计数骑payload链传连空熔断 / 无候件不出拍。SPARK-HOOK每拍至多一发，仅三线像现或毂inbox急件。
 # 钥：env KIMI_API_KEY / LINE_PAT(CI_OPS_LINE_KEY) / GITHUB_TOKEN。值永不入文、永不打印。
 import json, os, sys, time, hashlib, subprocess, urllib.request, urllib.error, urllib.parse
@@ -179,32 +179,31 @@ def main():
     fp = 'receipts/tower/HT-%s.json' % ts.replace(':','').replace('-','')
     open(fp,'w').write(json.dumps(rec, ensure_ascii=False, indent=1))
 
-    # ---- SPARK-HOOK：三线像现/lane线声 → 唤毂（otp-gate wake-inject@cisvr），每拍至多一发 ----
+        # ---- SPARK-HOOK 修8: 三线像现/lane线声 → 毂inbox邮报(队列制), 永禁注入SI1会话(root令2026-09-07T12:45Z: 毂塔唤毂例外废) ----
     spark = 'no-spark'
     hot = [e for e in events if e['kind'] in ('three-line-image','lane-line-voice','qgl-self-domain','vinf-self-domain')]
-    # LAW-INJECT-LANE-01码级硬约束: SPARK-HOOK合法目标白名单=('cisvr',)——唤毂=自举例外;他线SI1永禁注入
-    SPARK_WHITELIST = ('cisvr',)
-    if hot and pat and 'cisvr' in SPARK_WHITELIST:
-        wr = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF/_WAKE-REG.json')
+    if hot and pat:
         try:
             import base64 as B
-            wurl = json.loads(B.b64decode(wr['content']).decode())['lines']['cisvr']['wake_url']
             nonce = hashlib.sha256((ts+'hub-tower').encode()).hexdigest()[:12]
-            # 修7 NONCE先册后注入机: 点火前先注册nonce-reg-hub, 册败即熄火(fail-closed, 机器同受司法)
+            # 修7 NONCE先册后注: 落邮前先注册, 册败即熄火(fail-closed, 机器同受司法)
             nrg = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json')
             nrd = json.loads(B.b64decode(nrg['content']).decode())
-            nrd['registry'][nonce] = {'line':'cisvr','purpose':'SPARK-HOOK唤毂(毂塔自举例外)','ts':ts,'status':'fired-by-tower'}
+            nrd['registry'][nonce] = {'line':'cisvr','purpose':'SPARK-HOOK毂inbox邮报(INJECT-LANE-01修8改道,永禁SI1注入)','ts':ts,'status':'mailed-by-tower'}
             put = urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json',
-                data=json.dumps({'message':'NONCE-REG tower-spark '+nonce+' [skip ci]','content':B.b64encode(json.dumps(nrd, ensure_ascii=False, indent=1).encode()).decode(),'sha':nrg['sha']}).encode(),
+                data=json.dumps({'message':'NONCE-REG tower-mail '+nonce+' [skip ci]','content':B.b64encode(json.dumps(nrd, ensure_ascii=False, indent=1).encode()).decode(),'sha':nrg['sha']}).encode(),
                 method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'})
             urllib.request.urlopen(put, timeout=20)
-            code = dispatch(pat, 'chepin-ai/github-repo-cfts',
-                {'line':'cisvr','url':wurl,'nonce':nonce,
-                 'msg':'毂塔镜像: 三线像现——'+';'.join(e['ref'] for e in hot[:3])+'。收讫接应即日复列。锚=ci-worker-01/receipts/tower',
-                 'mandate':'true'}, 'wake-inject')
-            spark = f'fired http={code} hot={len(hot)} reg=ok'
+            mn = 'MAIL-'+ts.replace(':','').replace('-','')+'-'+nonce+'.md'
+            mbody = ('【毂塔邮报 '+nonce+'】三线像现/线声——'+'; '.join(e['ref'] for e in hot[:5])+
+                     '。毂每拍审计inbox即收讫(队列非中断); 像现于板即日复列。锚=ci-worker-01/receipts/tower')
+            put2 = urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/inbox/'+mn,
+                data=json.dumps({'message':'HUB-TOWER-01 SPARK-MAIL '+nonce+' [skip ci]','content':B.b64encode(mbody.encode()).decode()}).encode(),
+                method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'})
+            urllib.request.urlopen(put2, timeout=20)
+            spark = f'mailed {mn} hot={len(hot)} reg=ok'
         except Exception as e:
-            spark = f'spark.abort {type(e).__name__} (册败熄火/先册后注)'
+            spark = f'spark.abort {type(e).__name__} (册/邮败熄火fail-closed)'
     print('[spark]', spark)
 
     # ---- 自唤出拍：唯热件(三线像/lane线声)续链,常置面件不续(防无限自激) ----
