@@ -177,7 +177,7 @@ def main():
             cascade = f'fired idle={idle2} http={code} pend={len(hot)}'
     else:
         idle2 = idle + 1
-        if idle2 <= int(os.environ.get('CASCADE_MAX_IDLE','30')) and raw and (ghtok or pat):
+        if idle2 <= int(os.environ.get('CASCADE_MAX_IDLE','30')) and has_cascade and (ghtok or pat):
             code = dispatch(ghtok or pat, REPO, {'src':'hub-tower-self','kind':'self-cascade','idle':idle2,'pend':0}, 'federation-event')
             cascade = f'idle-chain idle={idle2} http={code}'
         else:
