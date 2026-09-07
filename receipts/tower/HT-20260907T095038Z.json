@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-07T09:50:38Z",
+ "idle_in": 4,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T074654-f3b91b1e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T075618-0bb77a72.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T081611-3b80b7d3.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T090329-73a5795d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T095814-423b8c95.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要（HUB-TOWER-01 预读）**\n\n① 何事：五到件俱为 kind=hub-inbox、ref=auto-otp-* 之自动验证令牌投递，时序 07:46–09:58，枢纽自动捕获。  \n② 显化链：核（验证请求）→像（OTP报文体）→合取（五件堆叠于 inbox 面）→绑定（各 ref 节点锚定）→识（时序密度异常，待正式鉴识）。  \n③ 应动：五件整体转毂 SI1 会话；SI0 不代线、不代判，仅作预读封缄。  \n④ 生债：SI0 未拆报文、未核值，负「五件形式盲审未竟之债」。"
+}
