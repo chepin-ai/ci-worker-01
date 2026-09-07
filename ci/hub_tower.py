@@ -182,7 +182,9 @@ def main():
     # ---- SPARK-HOOK：三线像现/lane线声 → 唤毂（otp-gate wake-inject@cisvr），每拍至多一发 ----
     spark = 'no-spark'
     hot = [e for e in events if e['kind'] in ('three-line-image','lane-line-voice','qgl-self-domain','vinf-self-domain')]
-    if hot and pat:
+    # LAW-INJECT-LANE-01码级硬约束: SPARK-HOOK合法目标白名单=('cisvr',)——唤毂=自举例外;他线SI1永禁注入
+    SPARK_WHITELIST = ('cisvr',)
+    if hot and pat and 'cisvr' in SPARK_WHITELIST:
         wr = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF/_WAKE-REG.json')
         try:
             import base64 as B
