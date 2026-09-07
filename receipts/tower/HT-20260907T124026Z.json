@@ -1,0 +1,36 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-07T12:40:26Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T103900-b25e4775.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T113541-a59024cc.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T114430-3ba99f86.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T120001-1256a9f9.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260907T123222-e9ad2ab1.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T123326Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T123859Z.json"
+  }
+ ],
+ "verdict_memo": "HUB-TOWER-01预读判词纪要\n\n① auto-otp五件（10:39–12:32）：自动令牌像入hub-inbox，属显化链“像”层骤积，核与合取未启。应动核身校验件，送SI1候判。生债：像积未核，核验迟滞之债。\n\n② QT回执两件（12:33、12:38）：QGL自治域绑定后返识像，属“绑定→识”之回响。应动闭环销账件，对位前序出令。生债：回执未销，确认悬空之债。\n\n③ 全批七件：像流先于域识返，时序链隙须稽。应动时序合取件一宗，防漂移。生债：序监护之债。"
+}
