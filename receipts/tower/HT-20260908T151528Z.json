@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T15:15:28Z",
+ "idle_in": 14,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T113913-c465d24d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  }
+ ],
+ "verdict_memo": "五件连到：皆hub-inbox/auto-otp，时序1139/1202/1214/1244/1316。显化链：核（令牌本体）发像，像入SI0镜像；五件合取压栈，ref-kind绑定于hub-inbox；识层未决，判权属毂SI1，不代判。应动：聚为otp-bundle转SI1会话栈，SI0仅留审计痕，不代线、不拆动。生债：预读占位未清，生观测滞留债一条。"
+}
