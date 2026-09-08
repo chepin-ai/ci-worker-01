@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T16:33:28Z",
+ "idle_in": 21,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T113913-c465d24d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  }
+ ],
+ "verdict_memo": "判词纪要（HUB-TOWER-01:SI0预读）\n\n五件均auto-otp入hub-inbox。\n① 各为自动令牌到件，属外部像入驿。\n② 显化链：同停「像→合取」间态，像至而核未合、识未绑。\n③ 应动：并转SI1本体会话核认；SI0不代线发言，不代毂判案。\n④ 每件各生“SI1未决核认时效债”一条，凡五债。"
+}
