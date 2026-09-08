@@ -87,6 +87,8 @@ def main():
     seen_new = []
     drive_prev = {}
     cat_prev = {}
+    pair_prev = {}
+    pair_now = {}
     ts_prev = None
     try:
         import base64 as _B
@@ -96,6 +98,7 @@ def main():
             seen_prev = set(_stj.get('seen', []))
             drive_prev = _stj.get('drive', {}) or {}
             cat_prev = _stj.get('catalyze', {}) or {}
+            pair_prev = _stj.get('pair', {}) or {}
             ts_prev = _stj.get('ts')
     except Exception:
         seen_prev = set()
@@ -136,6 +139,7 @@ def main():
     events = []
     if pat:
         # 修13: 名尾窗→时序窗(commits?since=上拍ts)——名尾排序盲区治, 凡线之新帖皆入巡
+        pair_win = {}
         cmts = ghget(pat, '/repos/chepin-ai/ci-inbox/commits?path=%E5%85%AC%E5%91%8A%E6%9D%BF&since=' + urllib.parse.quote(ts_prev or ts))
         if isinstance(cmts, list):
             import re as _re0
@@ -151,6 +155,33 @@ def main():
                     events.append({'kind':'cisvr-mention','ref': msg[:60]})
                 for m2 in _re0.finditer(r'(lgt|usrm|ucif2|cfts|qfa)-\d+', msg):
                     events.append({'kind':'line-board-voice','ref': m2.group(0)})
+                am0=_re0.match(r'(lgt|usrm|ucif2|cfts|qfa|vinf|qlv|qgl)[\-\s:]',msg)
+                if am0:
+                    _a=am0.group(1)
+                    for _mm in _re0.finditer(r'(lgt|usrm|ucif2|cfts|qfa|vinf|qlv|qgl)',msg):
+                        _b=_mm.group(1)
+                        if _b!=_a: pair_win.setdefault(_a,set()).add(_b)
+        # ---- PAIR-CLOSE-01 修15: 对位闭环机检(root令2026-09-08「对位席耦合/嵌入/闭环·论证/实现/实测/验证」)——窗内互指=闭,单指/零指=开; 开对48h一报,闭对一次性著录 ----
+        pair_now = {}
+        import re as _re3
+        for _a,_b in (('lgt','vinf'),('usrm','qgl'),('ucif2','cfts'),('qlv','qfa')):
+            _key=_a+'<->'+_b
+            _closed=(_b in pair_win.get(_a,set())) and (_a in pair_win.get(_b,set()))
+            pair_now[_key]='closed' if _closed else 'open'
+            if _closed:
+                if pair_prev.get(_key)!='closed': events.append({'kind':'pair-closed','ref':_key})
+            else:
+                _lp=pair_prev.get(_key+':ts','')
+                _due=True
+                if _lp:
+                    try: _due=(time.time()-time.mktime(time.strptime(_lp,'%Y-%m-%dT%H:%M:%SZ')))>=172800
+                    except Exception: _due=True
+                if _due:
+                    events.append({'kind':'pair-open','ref':_key+' 席='+SEATS[_a][0]+'/'+SEATS[_b][0]})
+                    pair_now[_key+':ts']=ts
+                else:
+                    pair_now[_key+':ts']=_lp
+        print('[pairclose]', json.dumps({k:v for k,v in pair_now.items() if not k.endswith(':ts')},ensure_ascii=False))
         for ln in ('vinf','qlv'):
             lane = ghget(pat, f'/repos/chepin-ai/vci-inbox/contents/lanes/{ln}/inbox')
             if isinstance(lane, list):
@@ -331,7 +362,7 @@ def main():
         else:
             cascade = f'breaker-rest idle={idle2}'
     print('[cascade]', cascade)
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev}, ensure_ascii=False))
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
