@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T18:02:21Z",
+ "idle_in": 29,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T113913-c465d24d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：五件 auto-otp 系统凭证到件，时跨 11:39–13:16，乃机器自发令牌流，非人驿投书。  \n② 显化链：核动 OTP 验签算法；像化为 JSON 到件；合取于 hub-inbox；绑定 auto-otp 类；SI0 识其为纯机器凭证链，无人驿附识。  \n③ 应动：五件悉予悬置，不代线发言，不代毂判案，整卷移送 SI1 正堂核签，待权属确后行绑定或销号。  \n④ 生债：机器流无人驿指印，积「无主凭证悬置债」一条，记于 HUB-TOWER-01 预读档。"
+}
