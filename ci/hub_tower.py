@@ -159,7 +159,9 @@ def main():
             for x in hin[-5:]:
                 ev = {'kind':'hub-inbox','ref': x['name']}
                 if 'hubinbox/'+x['name'] not in seen_prev:
-                    seen_new.append('hubinbox/'+x['name']); ev['hotmail'] = True
+                    seen_new.append('hubinbox/'+x['name'])
+                    if not x['name'].startswith('MAIL-'):  # 修12: 己之邮报只入seen不点火(防自激三律·断自喂环)
+                        ev['hotmail'] = True
                 events.append(ev)
         # BRIDGE-MIRROR-01: 出向断线之自域面巡(增量: seen.json持久化,只报新像)
         seen = seen_prev
@@ -190,7 +192,8 @@ def main():
         # ---- SPARK-HOOK 修8: 三线像现/lane线声 → 毂inbox邮报(队列制), 永禁注入SI1会话(root令2026-09-07T12:45Z: 毂塔唤毂例外废) ----
     spark = 'no-spark'
     hot = [e for e in events if e['kind'] in ('three-line-image','lane-line-voice','qgl-self-domain','vinf-self-domain') or e.get('hotmail')]
-    if hot and pat:
+    spark_hot = [e for e in hot if not e.get('hotmail')]  # 修12: 邮报唤毂唯线像/线声; hotmail(联邦动镜像)只续链不唤毂
+    if spark_hot and pat:
         try:
             import base64 as B
             nonce = hashlib.sha256((ts+'hub-tower').encode()).hexdigest()[:12]
@@ -203,13 +206,13 @@ def main():
                 method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'})
             urllib.request.urlopen(put, timeout=20)
             mn = 'MAIL-'+ts.replace(':','').replace('-','')+'-'+nonce+'.md'
-            mbody = ('【毂塔邮报 '+nonce+'】三线像现/线声——'+'; '.join(e['ref'] for e in hot[:5])+
+            mbody = ('【毂塔邮报 '+nonce+'】三线像现/线声——'+'; '.join(e['ref'] for e in spark_hot[:5])+
                      '。毂每拍审计inbox即收讫(队列非中断); 像现于板即日复列。锚=ci-worker-01/receipts/tower')
             put2 = urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/inbox/'+mn,
                 data=json.dumps({'message':'HUB-TOWER-01 SPARK-MAIL '+nonce+' [skip ci]','content':B.b64encode(mbody.encode()).decode()}).encode(),
                 method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'})
             urllib.request.urlopen(put2, timeout=20)
-            spark = f'mailed {mn} hot={len(hot)} reg=ok'
+            spark = f'mailed {mn} hot={len(spark_hot)} reg=ok'
         except Exception as e:
             spark = f'spark.abort {type(e).__name__} (册/邮败熄火fail-closed)'
     print('[spark]', spark)
