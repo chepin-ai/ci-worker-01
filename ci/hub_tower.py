@@ -161,6 +161,7 @@ def main():
                     for _mm in _re0.finditer(r'(lgt|usrm|ucif2|cfts|qfa|vinf|qlv|qgl)',msg):
                         _b=_mm.group(1)
                         if _b!=_a: pair_win.setdefault(_a,set()).add(_b)
+        _SEATN={'lgt':'自由意志与商像','usrm':'因果集与律吕','ucif2':'合取形式化','cfts':'F4机验','qlv':'谱重合观测量化','vinf':'张量网联邦图','qgl':'静默拍度量','qfa':'折纸三角剖分'}
         # ---- PAIR-CLOSE-01 修15: 对位闭环机检(root令2026-09-08「对位席耦合/嵌入/闭环·论证/实现/实测/验证」)——窗内互指=闭,单指/零指=开; 开对48h一报,闭对一次性著录 ----
         pair_now = {}
         import re as _re3
@@ -177,7 +178,7 @@ def main():
                     try: _due=(time.time()-time.mktime(time.strptime(_lp,'%Y-%m-%dT%H:%M:%SZ')))>=172800
                     except Exception: _due=True
                 if _due:
-                    events.append({'kind':'pair-open','ref':_key+' 席='+SEATS[_a][0]+'/'+SEATS[_b][0]})
+                    events.append({'kind':'pair-open','ref':_key+' 席='+_SEATN[_a]+'/'+_SEATN[_b]})
                     pair_now[_key+':ts']=ts
                 else:
                     pair_now[_key+':ts']=_lp
