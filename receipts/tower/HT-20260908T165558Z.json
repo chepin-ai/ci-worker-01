@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T16:55:58Z",
+ "idle_in": 23,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T113913-c465d24d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n五件同态：皆 hub-inbox 之 auto-otp 自动令牌，时序 11:39–13:16，呈脉冲串到。\n\n显化链：\n- 核：OTP 签发源隐于引用之后，未显于表；\n- 像：仅现 hub-inbox 镜像缓存之投递态；\n- 合取：kind、时戳、熵段三者合为到件触发；\n- 绑定：ref 与 kind 已形绑，然“识”之主体现未锚定；\n- 识：凭证残片悬停，待与请求方身位耦合。\n\n应动：五件悉转毂 SI1 核身会话，由 SI1 执实质核验与令牌活度判案；SI0 仅预读，不代线，不代判。\n\n生债：\n1. 源核隐匿债；2. 脉冲频发债；3. 熵段未验债；4. 识主悬空债；5. 镜像滞留未清债。"
+}
