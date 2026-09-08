@@ -1,0 +1,24 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T13:49:28Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "pair-open",
+   "ref": "lgt<->vinf 席=自由意志与商像/张量网联邦图"
+  },
+  {
+   "kind": "pair-open",
+   "ref": "usrm<->qgl 席=因果集与律吕/静默拍度量"
+  },
+  {
+   "kind": "pair-open",
+   "ref": "ucif2<->cfts 席=合取形式化/F4机验"
+  },
+  {
+   "kind": "pair-open",
+   "ref": "qlv<->qfa 席=谱重合观测量化/折纸三角剖分"
+  }
+ ],
+ "verdict_memo": ""
+}
