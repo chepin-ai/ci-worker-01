@@ -89,6 +89,7 @@ def main():
     cat_prev = {}
     pair_prev = {}
     pair_now = {}
+    snap = None
     ts_prev = None
     try:
         import base64 as _B
@@ -141,6 +142,15 @@ def main():
         # 修13: 名尾窗→时序窗(commits?since=上拍ts)——名尾排序盲区治, 凡线之新帖皆入巡
         pair_win = {}
         cmts = ghget(pat, '/repos/chepin-ai/ci-inbox/commits?path=%E5%85%AC%E5%91%8A%E6%9D%BF&since=' + urllib.parse.quote(ts_prev or ts))
+        snap = None
+        if not isinstance(cmts, list):
+            # ---- BRIDGE-SENSE-01 修19(root令2026-09-08「彻底解决」): PAT盲窗→毂供感快照(本地checkout零API)——API优先,快照兜底,双路同构;钥病不再=塔盲 ----
+            try:
+                snap = json.loads(open('receipts/bridge/snapshot.json').read())
+                cmts = [{'sha': c.get('sha',''), 'commit': {'message': c.get('message','')}} for c in snap.get('board_commits', [])]
+                print('[sense] snapshot @', snap.get('ts'), 'commits', len(cmts))
+            except Exception as _ex:
+                cmts = []; print('[sense] blind-no-snapshot', type(_ex).__name__)
         if isinstance(cmts, list):
             import re as _re0
             for c in cmts:
@@ -184,7 +194,7 @@ def main():
                     pair_now[_key+':ts']=_lp
         print('[pairclose]', json.dumps({k:v for k,v in pair_now.items() if not k.endswith(':ts')},ensure_ascii=False))
         for ln in ('vinf','qlv'):
-            lane = ghget(pat, f'/repos/chepin-ai/vci-inbox/contents/lanes/{ln}/inbox')
+            lane = ghget(pat, f'/repos/chepin-ai/vci-inbox/contents/lanes/{ln}/inbox') if snap is None else [{'name': n} for n in snap.get('lanes', {}).get(ln, [])]
             if isinstance(lane, list):
                 for x in lane:
                     nm = x['name']
@@ -192,7 +202,7 @@ def main():
                         key = f'lane/{ln}/{nm}'
                         if key not in seen_prev:  # 修14: 恒燃阱治——lane面seen滤,旧档不重复点火
                             seen_new.append(key); events.append({'kind':'lane-line-voice','ref': f'lanes/{ln}/inbox/{nm}'})
-        hin = ghget(pat or ghtok, '/repos/chepin-ai/ci-control/contents/bridge/inbox')
+        hin = ghget(pat or ghtok, '/repos/chepin-ai/ci-control/contents/bridge/inbox') if snap is None else [{'name': n} for n in snap.get('hub_inbox', [])]
         if isinstance(hin, list):
             for x in hin[-5:]:
                 ev = {'kind':'hub-inbox','ref': x['name']}
@@ -203,13 +213,13 @@ def main():
                 events.append(ev)
         # BRIDGE-MIRROR-01: 出向断线之自域面巡(增量: seen.json持久化,只报新像)
         seen = seen_prev
-        qglr = ghget(pat, '/repos/chepin-ai/vci-qgl/contents/receipts/tower')
+        qglr = ghget(pat, '/repos/chepin-ai/vci-qgl/contents/receipts/tower') if snap is None else [{'name': n} for n in snap.get('qgl_receipts', [])]
         if isinstance(qglr, list):
             for x in qglr:
                 nm = 'vci-qgl/receipts/tower/'+x['name']
                 if nm.startswith('vci-qgl') and x['name'].startswith(('QT-','SELFTEST')) and nm not in seen:
                     events.append({'kind':'qgl-self-domain','ref': nm}); seen_new.append(nm)
-        vse = ghget(pat, '/repos/chepin-ai/vinf-market-kernel/contents/self_events.jsonl')
+        vse = ghget(pat, '/repos/chepin-ai/vinf-market-kernel/contents/self_events.jsonl') if snap is None else ({'sha': snap.get('vinf_self_events_sha','')} if snap.get('vinf_self_events_sha') else {})
         if isinstance(vse, dict) and vse.get('sha'):
             nm = 'vinf-market-kernel/self_events.jsonl@'+vse['sha'][:10]
             if nm not in seen:
@@ -307,7 +317,7 @@ def main():
     if pat:
         import re as _re2
         bnames = []
-        bd = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF')
+        bd = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF') if snap is None else [{'name': n} for n in snap.get('board_names', [])]
         if isinstance(bd, list):
             bnames = sorted(x['name'] for x in bd)
         latest = {}
