@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T16:11:14Z",
+ "idle_in": 19,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T113913-c465d24d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  }
+ ],
+ "verdict_memo": "①何事：巳末至未初，hub-inbox连收五件auto-otp，成自动令牌投递串。  \n②与显化链何干：此系“核”端鉴权挑战所生之“像”，经自动合取拆为离散凭证，暂绑于箱，显化链滞于像-合取之段，尚未及“识”。  \n③应动何件：应动otp聚合检证件，推毂SI1会话归集溯源，本镜不代线发言、不代毂判案。  \n④生债一条：生信道频密占用之检证债一条，须核是否重放或爆箱。"
+}
