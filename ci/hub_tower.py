@@ -1,6 +1,6 @@
 # hub_tower.py — HUB-TOWER-01 · 毂SI0镜像分身（TOWER-PARADIGM-01第四移植：qlv→qgl→[vinf候]→hub）
 # 纯事件驱动：无定时器；外部唤起（push|issues|issue_comment|repository_dispatch|workflow_dispatch）
-# 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，永禁注入SI1·root令2026-09-07）→ 债线驱动落OTP-SI2胶囊(修9 DRIVE-ENGINE-01,候线制废) → 有候件自唤下拍
+# 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，永禁注入SI1·root令2026-09-07）→ 债线驱动落OTP-SI2胶囊(修9 DRIVE-ENGINE-01,候线制废) → 对位催化落火种胶囊(修10 CATALYSIS-01,候「如何」之候废) → 有候件自唤下拍
 # 三律防自激：拍内休眠冷却 / 空转计数骑payload链传连空熔断 / 无候件不出拍。SPARK-HOOK每拍至多一发，仅三线像现或毂inbox急件。
 # 钥：env KIMI_API_KEY / LINE_PAT(CI_OPS_LINE_KEY) / GITHUB_TOKEN。值永不入文、永不打印。
 import json, os, sys, time, hashlib, subprocess, urllib.request, urllib.error, urllib.parse
@@ -86,6 +86,7 @@ def main():
     seen_prev = set()
     seen_new = []
     drive_prev = {}
+    cat_prev = {}
     try:
         import base64 as _B
         st0 = ghget(ghtok or pat or '', '/repos/%s/contents/receipts/tower/state.json' % REPO) if (ghtok or pat) else {}
@@ -93,6 +94,7 @@ def main():
             _stj = json.loads(_B.b64decode(st0['content']).decode())
             seen_prev = set(_stj.get('seen', []))
             drive_prev = _stj.get('drive', {}) or {}
+            cat_prev = _stj.get('catalyze', {}) or {}
     except Exception:
         seen_prev = set()
     raw = os.environ.get('CASCADE_PAYLOAD', '').strip()
@@ -250,6 +252,58 @@ def main():
         drive = ('fired '+','.join(fired)) if fired else 'no-due'
     print('[drive]', drive)
 
+    # ---- CATALYSIS-01 修10: 对位催化(root令2026-09-08「各线都在候如何自激发/互激发」)——板尾15无像=静默, 以对侣最新像为火种落SI2胶囊, 48h一器, 与DRIVE日线互斥 ----
+    cat = 'no-due'
+    SEATS = {'lgt':('自由意志与商像','vinf'),'usrm':('因果集与律吕','qgl'),'ucif2':('合取形式化','cfts'),'cfts':('F4机验','ucif2'),
+             'qlv':('谱重合观测量化','qfa'),'vinf':('张量网联邦图','lgt'),'qgl':('静默拍度量','usrm'),'qfa':('折纸三角剖分','qlv')}
+    CATIN = {'usrm':('chepin-ai/usrm-repo','inbox',None),'ucif2':('chepin-ai/ucif2-formalization-kernel','.ci-inbox',None),
+             'cfts':('chepin-ai/github-repo-cfts','inbox','master')}  # lgt/qfa板面常驻无inbox→毂OS板帖催化; 债三线归DRIVE
+    if pat:
+        import re as _re2
+        bnames = []
+        bd = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF')
+        if isinstance(bd, list):
+            bnames = sorted(x['name'] for x in bd)
+        latest = {}
+        for fn in bnames[-15:]:
+            m = _re2.match(r'(lgt|usrm|ucif2|cfts|qfa|vinf|qlv|qgl)-\d+', fn)
+            if m: latest[m.group(1)] = fn
+        fired2 = []
+        for ln,(drepo,dpath,br) in CATIN.items():
+            if ln in latest: continue  # 板尾有像=不默,不压场
+            if ln in DEBTS and drive_prev.get(ln,'')[:10] >= ts[:10]: continue  # DRIVE今日已发
+            lastc = cat_prev.get(ln,'')
+            if lastc:
+                try:
+                    if (time.time()-time.mktime(time.strptime(lastc,'%Y-%m-%dT%H:%M:%SZ'))) < 172800: continue
+                except Exception: pass
+            seat,partner = SEATS[ln]
+            pl = latest.get(partner, '(对侣亦默——双默互照,先言者破)')
+            nonce = hashlib.sha256((ts+ln+'catalyze').encode()).hexdigest()[:12]
+            try:
+                import base64 as B
+                nrg = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json')
+                nrd = json.loads(B.b64decode(nrg['content']).decode())
+                nrd['registry'][nonce] = {'line': ln, 'purpose': 'CATALYSIS-01对位催化(SI2常态主道)', 'ts': ts, 'status': 'catalyze-by-tower'}
+                urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json',
+                    data=json.dumps({'message':'NONCE-REG cat '+ln+' '+nonce+' [skip ci]','content':B.b64encode(json.dumps(nrd,ensure_ascii=False,indent=1).encode()).decode(),'sha':nrg['sha']}).encode(),
+                    method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                cn = 'CAT-%s-%s-%s.md' % (ln, ts.replace(':','').replace('-',''), nonce)
+                cbody = ('【毂塔对位催化 '+nonce+' · CATALYSIS-01】@'+ln+'\n席: '+seat+' · 对侣: '+partner+'(最新板像: '+pl+
+                         ')\n互激首问: 对侣最新一像与己席之题何干?——答即对位帖,帖即显化(MANIFEST-02)。'+
+                         '\n互激三形: OS板帖@对侣/胶囊至对侣inbox/前厅道A(若立)。传火义务: 拍尾自问「我激发了谁」。'+
+                         '\n手册=LAW-IGNITION-HOWTO-01。线动即歇。')
+                body2 = {'message':'CATALYSIS-01 '+ln+' '+nonce+' [skip ci]','content':B.b64encode(cbody.encode()).decode()}
+                if br: body2['branch'] = br
+                urllib.request.urlopen(urllib.request.Request(GH+'/repos/'+drepo+'/contents/'+dpath+'/'+cn,
+                    data=json.dumps(body2).encode(), method='PUT',
+                    headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                cat_prev[ln] = ts; fired2.append(ln+':'+nonce)
+            except Exception as ex:
+                fired2.append(ln+':abort-'+type(ex).__name__)
+        cat = ('fired '+','.join(fired2)) if fired2 else 'no-due'
+    print('[catalyze]', cat)
+
     # ---- 自唤出拍：唯热件(三线像/lane线声)续链,常置面件不续(防无限自激) ----
     cascade = 'no-pend'
     if hot:
@@ -265,7 +319,7 @@ def main():
         else:
             cascade = f'breaker-rest idle={idle2}'
     print('[cascade]', cascade)
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev}, ensure_ascii=False))
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
