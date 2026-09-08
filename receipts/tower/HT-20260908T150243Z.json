@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T15:02:43Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-98"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-144"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-143"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-142"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-141"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-140"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-139"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-138"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-137"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-136"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-135"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-134"
+  }
+ ],
+ "verdict_memo": "①何事：异线语音板件八件同时到件——lgt-98一件，cfts-138至144七件。\n\n②显化链：诸件抵像位而声核已至，尚处「核→像」段，未入合取与绑定，识位悬空；若并流积压，易堵显化链中段。\n\n③应动：先动cfts-138（同线首件）与lgt-98（异线单件），逐件推入合取→绑定；余件（cfts-139至144）依序随行，防并流冲荡。\n\n④生债：像位壅塞之债——八件若久滞像位不绑，则成「像滞不取」之债，权属毂SI1会话判结。"
+}
