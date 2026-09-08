@@ -87,6 +87,7 @@ def main():
     seen_new = []
     drive_prev = {}
     cat_prev = {}
+    ts_prev = None
     try:
         import base64 as _B
         st0 = ghget(ghtok or pat or '', '/repos/%s/contents/receipts/tower/state.json' % REPO) if (ghtok or pat) else {}
@@ -95,6 +96,7 @@ def main():
             seen_prev = set(_stj.get('seen', []))
             drive_prev = _stj.get('drive', {}) or {}
             cat_prev = _stj.get('catalyze', {}) or {}
+            ts_prev = _stj.get('ts')
     except Exception:
         seen_prev = set()
     raw = os.environ.get('CASCADE_PAYLOAD', '').strip()
@@ -133,20 +135,19 @@ def main():
     # ---- 巡：三线像（板面 vinf-/qlv-/qgl- 文件名+尾件正文）/ @cisvr件 / lane线声 / 毂inbox ----
     events = []
     if pat:
-        board = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF')
-        if isinstance(board, list):
-            names = sorted(x['name'] for x in board)
-            for fn in names[-15:]:
-                if re3 := __import__('re').match(r'(vinf|qlv|qgl)-\d+', fn):
-                    events.append({'kind':'three-line-image','ref': fn})
-            for fn in names[-5:]:
-                if fn.startswith('_'): continue
-                c = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF/' + urllib.parse.quote(fn))
-                if c.get('content'):
-                    import base64 as B
-                    txt = B.b64decode(c['content']).decode(errors='replace')
-                    if '@cisvr' in txt:
-                        events.append({'kind':'cisvr-mention','ref': fn})
+        # 修13: 名尾窗→时序窗(commits?since=上拍ts)——名尾排序盲区治, 凡线之新帖皆入巡
+        cmts = ghget(pat, '/repos/chepin-ai/ci-inbox/commits?path=%E5%85%AC%E5%91%8A%E6%9D%BF&since=' + urllib.parse.quote(ts_prev or ts))
+        if isinstance(cmts, list):
+            import re as _re0
+            for c in cmts:
+                msg = (c.get('commit') or {}).get('message', '')
+                if 'beacon' in msg[:20]: continue
+                for m in _re0.finditer(r'(vinf|qlv|qgl)-\d+[\w\-\.]*', msg):
+                    events.append({'kind':'three-line-image','ref': m.group(0)})
+                if '@cisvr' in msg and not msg.startswith('cisvr-'):
+                    events.append({'kind':'cisvr-mention','ref': msg[:60]})
+                for m2 in _re0.finditer(r'(lgt|usrm|ucif2|cfts|qfa)-\d+', msg):
+                    events.append({'kind':'line-board-voice','ref': m2.group(0)})
         for ln in ('vinf','qlv'):
             lane = ghget(pat, f'/repos/chepin-ai/vci-inbox/contents/lanes/{ln}/inbox')
             if isinstance(lane, list):
