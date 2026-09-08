@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T15:49:17Z",
+ "idle_in": 17,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T113913-c465d24d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：hub-inbox于11:39至13:16连收五件auto-otp到件，为无主自动验证码信号机械涌入。\n\n②显化链：此属“像”层空转。连投虽成“合取”之势，然缺“核”（无主体意图发起）、未达“识”（无现场确认绑定），尚不成有效显化链。\n\n③应动何件：建议SI1会话启动关联溯源，将此五件并案标记为“无主自动认证像”，暂悬inbox；毋代线发言、毋代毂判。若核证无主，则动件退回或熔断。\n\n④生债一条：生“像涌债”一条。自动信号无核占位，耗审计预读算力，HUB-TOWER-01已录，待SI1核销。"
+}
