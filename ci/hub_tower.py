@@ -278,6 +278,8 @@ def main():
             try:
                 import base64 as B
                 nrg = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json')
+                if not (isinstance(nrg, dict) and nrg.get('content')):
+                    fired2.append(ln+':blind-skip'); continue  # 修17: 盲窗不伪作——钥401时册不可读,跳过而非炸号
                 nrd = json.loads(B.b64decode(nrg['content']).decode())
                 nrd['registry'][nonce] = {'line': ln, 'purpose': 'DRIVE-ENGINE-01债驱胶囊(SI2常态主道)', 'ts': ts, 'status': 'drive-by-tower'}
                 urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json',
