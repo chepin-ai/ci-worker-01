@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-08T17:40:08Z",
+ "idle_in": 27,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T113913-c465d24d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  }
+ ],
+ "verdict_memo": "件一至件五（auto-otp批次）：\n①何事：自动OTP令牌投递，hub-inbox连到五件，时跨11:39至13:16。\n②显化链：核（身份验求）生像（OTP符码），时戳合取，会话哈希绑定，识（主体认领）未决。五件同构，俱滞于像→合取段。\n③应动：并批升阶，移送毂SI1会话作核验裁判；SI0镜像仅预读，不代线发言，不代毂判案。\n④生债：自动件高频涌入而分拣未竟，生“审计队列延迟债”一条。"
+}
