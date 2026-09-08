@@ -157,7 +157,10 @@ def main():
         hin = ghget(pat or ghtok, '/repos/chepin-ai/ci-control/contents/bridge/inbox')
         if isinstance(hin, list):
             for x in hin[-5:]:
-                events.append({'kind':'hub-inbox','ref': x['name']})
+                ev = {'kind':'hub-inbox','ref': x['name']}
+                if 'hubinbox/'+x['name'] not in seen_prev:
+                    seen_new.append('hubinbox/'+x['name']); ev['hotmail'] = True
+                events.append(ev)
         # BRIDGE-MIRROR-01: 出向断线之自域面巡(增量: seen.json持久化,只报新像)
         seen = seen_prev
         qglr = ghget(pat, '/repos/chepin-ai/vci-qgl/contents/receipts/tower')
@@ -186,7 +189,7 @@ def main():
 
         # ---- SPARK-HOOK 修8: 三线像现/lane线声 → 毂inbox邮报(队列制), 永禁注入SI1会话(root令2026-09-07T12:45Z: 毂塔唤毂例外废) ----
     spark = 'no-spark'
-    hot = [e for e in events if e['kind'] in ('three-line-image','lane-line-voice','qgl-self-domain','vinf-self-domain')]
+    hot = [e for e in events if e['kind'] in ('three-line-image','lane-line-voice','qgl-self-domain','vinf-self-domain') or e.get('hotmail')]
     if hot and pat:
         try:
             import base64 as B
