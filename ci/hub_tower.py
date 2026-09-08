@@ -140,6 +140,9 @@ def main():
         if isinstance(cmts, list):
             import re as _re0
             for c in cmts:
+                csha = c.get('sha','')
+                if 'bc/'+csha in seen_prev: continue  # 修14: commit面seen滤
+                seen_new.append('bc/'+csha)
                 msg = (c.get('commit') or {}).get('message', '')
                 if 'beacon' in msg[:20]: continue
                 for m in _re0.finditer(r'(vinf|qlv|qgl)-\d+[\w\-\.]*', msg):
@@ -153,8 +156,10 @@ def main():
             if isinstance(lane, list):
                 for x in lane:
                     nm = x['name']
-                    if nm != '.gitkeep' and not nm.startswith('auto-otp') and not nm.startswith('LQ-') and not nm.startswith('DISC-'):
-                        events.append({'kind':'lane-line-voice','ref': f'lanes/{ln}/inbox/{nm}'})
+                    if nm != '.gitkeep' and not nm.startswith(('auto-otp','LQ-','DISC-','DRIVE-','CAT-','RESP-','CLEAR-','DIGEST-')):
+                        key = f'lane/{ln}/{nm}'
+                        if key not in seen_prev:  # 修14: 恒燃阱治——lane面seen滤,旧档不重复点火
+                            seen_new.append(key); events.append({'kind':'lane-line-voice','ref': f'lanes/{ln}/inbox/{nm}'})
         hin = ghget(pat or ghtok, '/repos/chepin-ai/ci-control/contents/bridge/inbox')
         if isinstance(hin, list):
             for x in hin[-5:]:
