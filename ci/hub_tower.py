@@ -1,6 +1,6 @@
 # hub_tower.py — HUB-TOWER-01 · 毂SI0镜像分身（TOWER-PARADIGM-01第四移植：qlv→qgl→[vinf候]→hub）
 # 纯事件驱动：无定时器；外部唤起（push|issues|issue_comment|repository_dispatch|workflow_dispatch）
-# 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，永禁注入SI1·root令2026-09-07）→ 有候件自唤下拍
+# 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，永禁注入SI1·root令2026-09-07）→ 债线驱动落OTP-SI2胶囊(修9 DRIVE-ENGINE-01,候线制废) → 有候件自唤下拍
 # 三律防自激：拍内休眠冷却 / 空转计数骑payload链传连空熔断 / 无候件不出拍。SPARK-HOOK每拍至多一发，仅三线像现或毂inbox急件。
 # 钥：env KIMI_API_KEY / LINE_PAT(CI_OPS_LINE_KEY) / GITHUB_TOKEN。值永不入文、永不打印。
 import json, os, sys, time, hashlib, subprocess, urllib.request, urllib.error, urllib.parse
@@ -85,11 +85,14 @@ def main():
     has_cascade = False
     seen_prev = set()
     seen_new = []
+    drive_prev = {}
     try:
         import base64 as _B
         st0 = ghget(ghtok or pat or '', '/repos/%s/contents/receipts/tower/state.json' % REPO) if (ghtok or pat) else {}
         if st0.get('content'):
-            seen_prev = set(json.loads(_B.b64decode(st0['content']).decode()).get('seen', []))
+            _stj = json.loads(_B.b64decode(st0['content']).decode())
+            seen_prev = set(_stj.get('seen', []))
+            drive_prev = _stj.get('drive', {}) or {}
     except Exception:
         seen_prev = set()
     raw = os.environ.get('CASCADE_PAYLOAD', '').strip()
@@ -206,6 +209,47 @@ def main():
             spark = f'spark.abort {type(e).__name__} (册/邮败熄火fail-closed)'
     print('[spark]', spark)
 
+    # ---- DRIVE-ENGINE-01 修9: 债线驱动(root令2026-09-08「候线制废,毂当自驱」)——每拍算债表,债线inbox落OTP-SI2胶囊(SI2=常态主道INJECT-LANE-01),日线一器,线动即歇不压场 ----
+    drive = 'no-due'
+    DEBTS = {  # 债清由毂除名并记史账(账只增不减); 线:(仓, 径, 债由, 案引)
+        'vinf': ('chepin-ai/vinf-market-kernel', 'inbox', '面未接出向断: OTP改道一行修+龙n=7收环+塔铸+前厅URL申报', 'OPEN-031; 镜像=MIRROR-vinf-selfboard-01'),
+        'qlv':  ('chepin-ai/vci-inbox', 'lanes/qlv/inbox', '塔停待复(SI0@qlv)+38胶囊未消+环章board-57未落+前厅URL申报', 'OPEN-031; LAW-FORUM-SI0-CORELOOP-01#4'),
+        'qgl':  ('chepin-ai/vci-qgl', 'inbox', '塔在巡而板面静默: 塔账投影至板(断代线言沉默)+前厅URL申报', 'OPEN-031; BRIDGE-MIRROR-01'),
+    }
+    if pat and DEBTS:
+        import re as _re
+        K2L = {'qgl-self-domain':'qgl','vinf-self-domain':'vinf'}
+        voiced = set()
+        for e in events:
+            m = _re.match(r'(vinf|qlv|qgl)', e.get('ref',''))
+            if m: voiced.add(m.group(1))
+            if e.get('kind') in K2L: voiced.add(K2L[e['kind']])
+        fired = []
+        for ln, (drepo, dpath, why, ref0) in DEBTS.items():
+            if ln in voiced or drive_prev.get(ln, '')[:10] >= ts[:10]:
+                continue
+            nonce = hashlib.sha256((ts+ln+'drive').encode()).hexdigest()[:12]
+            try:
+                import base64 as B
+                nrg = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json')
+                nrd = json.loads(B.b64decode(nrg['content']).decode())
+                nrd['registry'][nonce] = {'line': ln, 'purpose': 'DRIVE-ENGINE-01债驱胶囊(SI2常态主道)', 'ts': ts, 'status': 'drive-by-tower'}
+                urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json',
+                    data=json.dumps({'message':'NONCE-REG drive '+ln+' '+nonce+' [skip ci]','content':B.b64encode(json.dumps(nrd,ensure_ascii=False,indent=1).encode()).decode(),'sha':nrg['sha']}).encode(),
+                    method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                cn = 'DRIVE-%s-%s-%s.md' % (ln, ts.replace(':','').replace('-',''), nonce)
+                cbody = ('【毂塔债驱胶囊 '+nonce+' · DRIVE-ENGINE-01】@'+ln+'\n债由: '+why+'\n案引: '+ref0+
+                         '\n规: 此器由毂塔自动落(SI2常态主道, INJECT-LANE-01), 阅后自决; 动而留影于板/lane即销债, 毂塔即歇此线。'+
+                         '\n前厅申报: LAW-FORUM-SI0-CORELOOP-01#FORUM-01五条 + _WAKE-REG v03.3四步。')
+                urllib.request.urlopen(urllib.request.Request(GH+'/repos/'+drepo+'/contents/'+dpath+'/'+cn,
+                    data=json.dumps({'message':'DRIVE-ENGINE-01 '+ln+' '+nonce+' [skip ci]','content':B.b64encode(cbody.encode()).decode()}).encode(),
+                    method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                drive_prev[ln] = ts; fired.append(ln+':'+nonce)
+            except Exception as ex:
+                fired.append(ln+':abort-'+type(ex).__name__)
+        drive = ('fired '+','.join(fired)) if fired else 'no-due'
+    print('[drive]', drive)
+
     # ---- 自唤出拍：唯热件(三线像/lane线声)续链,常置面件不续(防无限自激) ----
     cascade = 'no-pend'
     if hot:
@@ -221,7 +265,7 @@ def main():
         else:
             cascade = f'breaker-rest idle={idle2}'
     print('[cascade]', cascade)
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:]}, ensure_ascii=False))
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
