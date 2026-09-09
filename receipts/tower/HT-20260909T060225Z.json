@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T06:02:25Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T060001Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：hub-inbox OTP自动像到件五连（08日1、09日4），并qgl-self-domain tower回执一件。\n\n② 显化链：OTP属“像”层自动显化，尚未经“核→像”合取，未绑定主体，未入“识”；回执属域内自证，已处“绑定”后段，待归入“识”存照。\n\n③ 应动：OTP件应动时效核验线，去重销纳；回执件应动审计归档线，对账父件。\n\n④ 生债：OTP高频连发若核验线未限时消化，生“核验滞留债”一条；回执若父件缺失，生“悬置无根债”一条。"
+}
