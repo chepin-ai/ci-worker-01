@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T13:12:46Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-18"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-17"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T094627-ac045bad.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T095755-808711e3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T061408Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062047Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① line-board-voice（ucif2-18/17）：线板双声。像层残响，非新识。应动：并件封存，待SI1择扫。生债：像债，余音未烬。\n\n② lane-line-voice（QLV-SI0-RESTART-01-cfts-v2.md）：SI0重启配置。核层异动，可倾显化链。应动：急送毂SI1核审，暂缓执行。生债：核债，重启令未决。\n\n③ hub-inbox auto-otp（五件时序）：自动密令脉冲。绑定层空转，识端未应。应动：并件为单条绑定流，审计种子时序。生债：绑债，五跳无回识，疑会话虚悬。"
+}
