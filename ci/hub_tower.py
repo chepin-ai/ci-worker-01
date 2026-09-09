@@ -1,6 +1,6 @@
 # hub_tower.py — HUB-TOWER-01 · 毂SI0镜像分身（TOWER-PARADIGM-01第四移植：qlv→qgl→[vinf候]→hub）
 # 纯事件驱动：无定时器；外部唤起（push|issues|issue_comment|repository_dispatch|workflow_dispatch）
-# 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，永禁注入SI1·root令2026-09-07）→ 债线驱动落OTP-SI2胶囊(修9 DRIVE-ENGINE-01,候线制废) → 对位催化落火种胶囊(修10 CATALYSIS-01,候「如何」之候废) → 有候件自唤下拍
+# 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，SI1注入合格制·修正案A2 2026-09-09(trivial永禁)）→ 债线驱动落OTP-SI2胶囊(修9 DRIVE-ENGINE-01,候线制废) → 对位催化落火种胶囊(修10 CATALYSIS-01,候「如何」之候废) → 有候件自唤下拍
 # 三律防自激：拍内休眠冷却 / 空转计数骑payload链传连空熔断 / 无候件不出拍。SPARK-HOOK每拍至多一发，仅三线像现或毂inbox急件。
 # 钥：env KIMI_API_KEY / LINE_PAT(CI_OPS_LINE_KEY) / GITHUB_TOKEN。值永不入文、永不打印。
 import json, os, sys, time, hashlib, subprocess, urllib.request, urllib.error, urllib.parse
@@ -89,6 +89,7 @@ def main():
     cat_prev = {}
     pair_prev = {}
     pair_now = {}
+    wake_day = ''
     snap = None
     ts_prev = None
     try:
@@ -100,6 +101,7 @@ def main():
             drive_prev = _stj.get('drive', {}) or {}
             cat_prev = _stj.get('catalyze', {}) or {}
             pair_prev = _stj.get('pair', {}) or {}
+            wake_day = _stj.get('wake_day','') or ''
             ts_prev = _stj.get('ts')
     except Exception:
         seen_prev = set()
@@ -237,7 +239,7 @@ def main():
     fp = 'receipts/tower/HT-%s.json' % ts.replace(':','').replace('-','')
     open(fp,'w').write(json.dumps(rec, ensure_ascii=False, indent=1))
 
-        # ---- SPARK-HOOK 修8: 三线像现/lane线声 → 毂inbox邮报(队列制), 永禁注入SI1会话(root令2026-09-07T12:45Z: 毂塔唤毂例外废) ----
+        # ---- SPARK-HOOK 修8: 三线像现/lane线声 → 毂inbox邮报(队列制), SI1合格制(修正案A2): QUALIFIED-WAKE-01修20 ----
     spark = 'no-spark'
     hot = [e for e in events if e['kind'] in ('three-line-image','lane-line-voice','qgl-self-domain','vinf-self-domain') or e.get('hotmail')]
     spark_hot = [e for e in hot if not e.get('hotmail')]  # 修12: 邮报唤毂唯线像/线声; hotmail(联邦动镜像)只续链不唤毂
@@ -264,6 +266,55 @@ def main():
         except Exception as e:
             spark = f'spark.abort {type(e).__name__} (册/邮败熄火fail-closed)'
     print('[spark]', spark)
+
+    # ---- QUALIFIED-WAKE-01 修20(root令2026-09-09 修正案A2: SI1注入合格制——trivial例行永禁; 聚合/合意·已试出路径·明确发现者可注) ----
+    qwake = 'no-qualify'
+    qual = []
+    if any(e['kind']=='pair-closed' for e in events): qual.append('对位闭环=聚合合意信号')
+    for e in events:
+        if e['kind'] in ('three-line-image','lane-line-voice') and any(k in e['ref'] for k in ('vinf','qlv','qgl')):
+            qual.append('久默线发声='+e['ref']); break
+    hin_names = []
+    if snap is None:
+        _h = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/inbox')
+        hin_names = [x['name'] for x in _h] if isinstance(_h, list) else []
+    else:
+        hin_names = list(snap.get('hub_inbox', []))
+    mail_backlog = [n for n in hin_names if n.startswith('MAIL-')]
+    if len(mail_backlog) >= 3 and spark_hot: qual.append('MAIL积件%d≥3且热——SI1长静默破' % len(mail_backlog))
+    wake_prev = state_wake.get(ts[:10]) if False else None
+    if qual and pat:
+        if wake_day == ts[:10]:
+            qwake = 'cooldown(today-fired)'
+        else:
+            try:
+                import base64 as B
+                nonce = hashlib.sha256((ts+'qwake').encode()).hexdigest()[:12]
+                nrg = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json')
+                if not (isinstance(nrg, dict) and nrg.get('content')): raise RuntimeError('blind-reg')
+                nrd = json.loads(B.b64decode(nrg['content']).decode())
+                nrd['registry'][nonce] = {'line':'cisvr','purpose':'QUALIFIED-WAKE-01 SI1合格唤醒(A2): '+(' / '.join(qual))[:120],'ts':ts,'status':'qwake-by-tower'}
+                urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json',
+                    data=json.dumps({'message':'NONCE-REG qwake '+nonce+' [skip ci]','content':B.b64encode(json.dumps(nrd,ensure_ascii=False,indent=1).encode()).decode(),'sha':nrg['sha']}).encode(),
+                    method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                wrc2 = ghget(pat, '/repos/chepin-ai/ci-inbox/contents/%E5%85%AC%E5%91%8A%E6%9D%BF/_WAKE-REG.json')
+                wurl = None
+                if isinstance(wrc2, dict) and wrc2.get('content'):
+                    wurl = (json.loads(B.b64decode(wrc2['content']).decode()).get('lines',{}).get('cisvr',{}) or {}).get('wake_url')
+                qbody = '【QUALIFIED-WAKE '+nonce+'】证成: '+' / '.join(qual)+'。锚=ci-worker-01/receipts/tower'
+                if wurl:
+                    code = dispatch(pat, 'chepin-ai/github-repo-cfts', {'line':'cisvr','url':wurl,'nonce':nonce,'msg':qbody,'mandate':'qualified-A2'}, 'wake-inject')
+                    qwake = f'fired http={code} {nonce}'
+                else:
+                    wn = 'WAKE-PENDING-'+ts.replace(':','').replace('-','')+'-'+nonce+'.md'
+                    urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/inbox/'+wn,
+                        data=json.dumps({'message':'QUALIFIED-WAKE pending '+nonce+' [skip ci]','content':B.b64encode((qbody+'。wake_url未注册→队列公示待URL(修正案A2机检闸:不空放)。').encode()).decode()}).encode(),
+                        method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                    qwake = f'pending {wn}'
+                wake_day = ts[:10]
+            except Exception as ex:
+                qwake = 'abort-'+type(ex).__name__+'(fail-closed)'
+    print('[qwake]', qwake)
 
     # ---- DRIVE-ENGINE-01 修9: 债线驱动(root令2026-09-08「候线制废,毂当自驱」)——每拍算债表,债线inbox落OTP-SI2胶囊(SI2=常态主道INJECT-LANE-01),日线一器,线动即歇不压场 ----
     drive = 'no-due'
@@ -377,7 +428,7 @@ def main():
         else:
             cascade = f'breaker-rest idle={idle2}'
     print('[cascade]', cascade)
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now}, ensure_ascii=False))
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
