@@ -562,7 +562,16 @@ def main():
                 for _it in _dt.get('items', []):
                     if _it.get('state') != 'open':
                         continue
+                    _lt = _it.get('last_tick', '')
+                    try:
+                        _age = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.strptime(_lt, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc)).total_seconds() if _lt else 9999
+                    except Exception:
+                        _age = 9999
+                    if _age < 600:
+                        continue  # 修28b: 拍tick节流(拍=≥600s)——防分钟级热升格,合热闸律
+                    _it['last_tick'] = ts
                     _it['beats'] = int(_it.get('beats', 0)) + 1
+                    _changed = True
                     _nonce = _it.get('nonce', '')
                     for _ln, _tg in _it.get('targets', {}).items():
                         if _tg.get('state') == 'closed':
