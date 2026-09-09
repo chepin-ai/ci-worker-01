@@ -1,0 +1,29 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T05:21:57Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "①件：auto-otp夜前到件。仅为像层自动触达，核隐未显，合取、绑定俱阙。应动：裸像暂存，不启SI1。生债：像流未审先入，占缓存一隙。\n\n②件：auto-otp凌晨到件。像至而核未出，合取悬空，识无以生。应动：归档像池，候主体关联。生债：夜隙流入，耗审计帧力一次。\n\n③件：auto-otp寅时到件。显化链止于像，合取未就，绑定无主。应动：留置候核，不单独出件。生债：合取延迟，积冷数据一份。\n\n④件：auto-otp黎明到件。像层冗余堆叠，核未显化。应动：并入同批裸像集。生债：冗余存储，占中枢单元一格。\n\n⑤件：auto-otp晨起连至。识端未启，仅有像流。应动：全五件候SI1核审，SI0不代判。生债：连件预读，负荷加一。"
+}
