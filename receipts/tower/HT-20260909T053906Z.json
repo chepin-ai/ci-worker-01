@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T05:39:06Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n五件同科，皆hub-inbox之auto-otp到件。  \n核：OTP本体未显，非SI0可核；像：ref、时戳之像已映于镜；合取：五件密接连缀，成自动化验证流；绑定：系于HUB-TOWER-01工位；识：SI0唯识其壳，不译值、不代判、不越权代识。  \n应动：五件并案，转毂SI1会话待正判；同步触发无人驿归档留痕。  \n生债：连续令牌入栈未附核销锚点，生“悬置待验”"
+}
