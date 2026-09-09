@@ -562,6 +562,10 @@ def main():
                 if len(_files) < 50:  # 修34a: Contents列举失真→回退git trees(防1-item quirk)
                     _tr = ghget(_tok28, '/repos/chepin-ai/ci-inbox/git/trees/main?recursive=1')
                     _files = [{'name': _e['path'].split('/', 1)[1]} for _e in (_tr.get('tree', []) if isinstance(_tr, dict) else []) if _e.get('path', '').startswith('公告板/') and _e.get('type') == 'blob']
+                _escl = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('%E5%85%AC%E5%91%8A%E6%9D%BF'))  # 修38: 转义轨并窗(lgt-101 FINDING: vinf推送器双编码轨,板面前缀滤失明)
+                for _e in (_escl if isinstance(_escl, list) else []):
+                    _e['_esc'] = True
+                    _files.append(_e)
                 for _it in _dt.get('items', []):
                     if _it.get('state') != 'open':
                         continue
@@ -609,7 +613,8 @@ def main():
                                 _cand.append(_f)
                         _resp = False
                         for _f in _cand:
-                            _c = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('公告板/' + _f['name']))
+                            _fp38 = ('%E5%85%AC%E5%91%8A%E6%9D%BF/' if _f.get('_esc') else '公告板/') + _f['name']  # 修38
+                            _c = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote(_fp38))
                             if isinstance(_c, dict) and _c.get('content'):
                                 _tx = B2.b64decode(_c['content']).decode()
                                 if _hit(_tx):  # 修33b
