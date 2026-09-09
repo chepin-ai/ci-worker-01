@@ -1,0 +1,41 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:47:37Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-99"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T082937Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T084149Z.json"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 七件到案：一线路语音板（lgt-99），五件枢纽自动otp（辰时至巳末连珠），两件自域收据（QT-0829/0841）。\n\n② 显化链：核层——QT回执为内证未销；像层——otp automate连珠入栈；合取——声板与机发并至；绑定——同日七件未系链结；识层判为运维时段自动簇，属预读范畴。\n\n③ 应动两件QT回执，启核账预读；余件同批挂待，不越权，俟毂SI1正判。\n\n④ 生债：自动入件无人工复核戳，曰“自动化入件滞留债”一宗。"
+}
