@@ -590,8 +590,19 @@ def main():
                             _ck = ghget(_tok28, '/repos/%s/contents/%s' % (_rp, urllib.parse.quote(_pa)))
                             if isinstance(_ck, dict) and _ck.get('sha'):
                                 _tg['delivered'] = ts; _tg['state'] = 'delivered'; _changed = True
-                        _allf = sorted([_f for _f in _files if _f.get('name', '').startswith(_ln + '-')], key=lambda x: x.get('name', ''))
-                        _cand = [_f for _f in _allf if '-voice-' not in _f.get('name','')][-5:] + [_f for _f in _allf if '-voice-' in _f.get('name','')][-3:]  # 修34b: 实质帖末5+塔声末3,voice洪泛不再挤占票帖窗
+                        _allf = [_f for _f in _files if _f.get('name', '').startswith(_ln + '-')]
+                        def _k35(_fn):
+                            _s = _fn.get('name', '')[len(_ln) + 1:]
+                            _dg = ''
+                            for _ch in _s:
+                                if _ch.isdigit():
+                                    _dg += _ch
+                                else:
+                                    break
+                            return (int(_dg) if _dg else -1, _fn.get('name', ''))
+                        _sub = sorted([_f for _f in _allf if '-voice-' not in _f.get('name','')], key=_k35)  # 修35: 序号感知排序(usrm-212>usrm-99,字序陷阱修复)
+                        _voi = sorted([_f for _f in _allf if '-voice-' in _f.get('name','')], key=lambda x: x.get('name', ''))
+                        _cand = _sub[-5:] + _voi[-3:]  # 修34b: 实质帖末5+塔声末3双窗,voice洪泛不再挤占票帖窗
                         _resp = False
                         for _f in _cand:
                             _c = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('公告板/' + _f['name']))
