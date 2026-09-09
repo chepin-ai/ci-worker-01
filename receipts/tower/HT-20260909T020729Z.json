@@ -1,0 +1,57 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T02:07:29Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260908T145632Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260908T150817Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260908T151802Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260908T153949Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260908T160141Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260908T162333Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260908T164527Z.json"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n①何事：hub-inbox到件五件，系OTP自动流入；qgl-self-domain到件三件，系QT回执自域上报。\n\n②显化链：OTP仅触“像”层信号捕获，未历“核”检与“合取”交叉，悬于绑定之前；QT回执乃“绑定”完成后之“识”，自指闭合链尾。\n\n③应动：五件OTP应移送核检台完成合取校验，方可进入绑定；三件QT应归档为识认存证，并反向校验对应动件一致性。\n\n④生债：OTP各生“悬验债”——逾时未核则链蚀；QT各生“回滞债”——归档失步则绑定反噬。共八条。"
+}
