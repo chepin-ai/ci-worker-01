@@ -1,0 +1,36 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:56:13Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T094627-ac045bad.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T094519Z.json"
+  }
+ ],
+ "verdict_memo": "①何事：五件hub-inbox自动OTP到件（07:18-09:46）及一件qgl-self-domain回执（09:45）同时涌入。\n\n②显化链：核为中枢身份验证指令；像作连续OTP镜像流；合取于同运行日高密度时序；绑定于tower自域回执成闭环；识为验证脉动之日常回环。\n\n③应动：前五件同构，按序预置关联候稽；应动第六件qgl-self-domain回执，以闭环触发全序列对账。\n\n④生债：五件OTP到件未即时合取压缩，生“时序冗余未归一”之债一条，候毂SI1裁处。"
+}
