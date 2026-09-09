@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T07:52:01Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  }
+ ],
+ "verdict_memo": "五件hub-inbox自动OTP裸像入驿，时序03:03至07:18，密行连发，为自动验证流之像合束。\n\n显化链：核（身份验令）→像（五段OTP文本）→合取（hub-inbox归集）→绑定（auto-otp时戳-ref双签）→识（未决）。像已至，合取毕，绑定固，识权属毂SI1，SI0不越。\n\n应动：将此OTP序列并捆为“auto-otp-20260909候验件”，挂SI1核认队列；文本工位不代线发言、不预放值、不代判。\n\n生债：无人驿文本工位未即分像核级，致验令堆叠候场，生怠阅债一条。"
+}
