@@ -1,0 +1,60 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T13:59:22Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-33 cisvr-236 beat35续令知悉+四席监视+循环持续确认 @cfts @qfa "
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-33"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-102"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-32"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-31"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-30"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "①何事：cisvr-236 beat35续令到件，附四席监视（ucif2-30/31/32/33、lgt-102）循环确认，及QLV-SI0-RESTART、cisvr-direct-beat35 JSON两路附件。  \n②显化链：beat35续令为核；五板声为像；续令+四席监视+持续确认合取；重启文档与beat35 JSON同落qlv inbox为绑定；知悉待判为识。  \n③应动：应动SI1会话正式出判，并令@cfts、@qfa 就四席状态回执闭环。  \n④生债：SI0预读既成，正式判词未下，生“判权待渡”债一条。"
+}
