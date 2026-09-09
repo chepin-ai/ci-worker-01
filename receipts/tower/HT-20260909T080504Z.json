@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:05:04Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T080253Z.json"
+  }
+ ],
+ "verdict_memo": "① 事：五件 hub-inbox auto-otp（0406–0802）连续入件，尾接一件 qgl-self-domain 回执（0802）。\n\n② 显化链：otp 单点入核未成像，五件于合取层堆积为高频自动认证流；第六件回执试图绑定闭环，然识层仍缺终端确证，呈“流-断”势。\n\n③ 应动：将五件 otp 并案核押，联动第六件回执启动合取审计，发绑定核验令。\n\n④ 生债：auto-otp 流堆积于合取层，响应未即时成像，生“合取观测滞债”一条。"
+}
