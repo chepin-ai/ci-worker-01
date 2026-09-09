@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T13:50:26Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-29"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-28"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-27"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T061408Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：ucif2 线板语音三件（27–29）；QLV-SI0-RESTART 车道线协议一件；hub-inbox 自动 OTP 四件（10:54–13:27）。\n\n② 显化链：\n- 语音三件：线端「像」影浮投，未入「合取」。\n- 重启文本：「核→像」跃迁，lane 级「合取」待决。\n- OTP 四件：频触「绑定」，趋「识」未验。\n\n③ 应动：\n- 语音：退线端，令 ucif2 自核署名，无署不得入 lane。\n- 重启：转 SI1 会话，候毂核裁夺 cfts-v2 重载。\n- OTP：锁 inbox 时序链，待 SI1 验签后解绑入识。\n\n④ 生债：SI0 镜像预读已览，未代线言、未代毂判；然线-道-hub 三层交叠，若分层标引迟滞，致使 SI1 会话前时序链断裂，债归 HUB-TOWER-"
+}
