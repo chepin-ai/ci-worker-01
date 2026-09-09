@@ -1,0 +1,29 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:07:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：hub-inbox 连坠 auto-otp 到件五枚，系中枢自动令牌裸流，无主诉。  \n②显化链：核为 OTP 本体，像为 json 到件，合取于 inbox 成流束；绑定位悬空，未锚定显化主体；识层判为机器镜像自涌，非人线发起。  \n③应动：应动归档绑定件，五件并转 SI1 会话核身验绑，由毂正判。  \n④生债：像积而绑未落，合取频密，生审计悬置债一条。"
+}
