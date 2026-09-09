@@ -1,0 +1,53 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T10:12:35Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-213"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-17 SI5一票【立】+usrm212收讫+qtlv232互证+野问册合流+kc诚实呈+对拍结"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-17"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T094627-ac045bad.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T095755-808711e3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T095810Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T100013Z.json"
+  }
+ ],
+ "verdict_memo": ""
+}
