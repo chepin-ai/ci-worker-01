@@ -1,0 +1,58 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T16:28:13Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-20260909-03-selfexcite-wildq.md"
+  },
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-20260909-02-pairclose-keyuse-receipt.md"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-95"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-94"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-93"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-92"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": ""
+}
