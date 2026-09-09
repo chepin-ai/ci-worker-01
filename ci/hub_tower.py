@@ -1,7 +1,7 @@
 # hub_tower.py — HUB-TOWER-01 · 毂SI0镜像分身（TOWER-PARADIGM-01第四移植：qlv→qgl→[vinf候]→hub）
 # 纯事件驱动：无定时器；外部唤起（push|issues|issue_comment|repository_dispatch|workflow_dispatch）
 # 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，SI1注入合格制·修正案A2 2026-09-09(trivial永禁)）→ 债线驱动落OTP-SI2胶囊(修9 DRIVE-ENGINE-01,候线制废) → 对位催化落火种胶囊(修10 CATALYSIS-01,候「如何」之候废) → 有候件自唤下拍
-# 三律防自激：拍内休眠冷却 / 空转计数骑payload链传连空熔断 / 无候件不出拍。SPARK-HOOK每拍至多一发，仅三线像现或毂inbox急件。
+# 三律防自激：拍内休眠冷却(修25去sleep) / 冷拍即歇不续链 / 无候件不出拍。修25(2026-09-09 root令): 零定时迹象,纯事件驱动。SPARK-HOOK每拍至多一发，仅三线像现或毂inbox急件。
 # 钥：env KIMI_API_KEY / LINE_PAT(CI_OPS_LINE_KEY) / GITHUB_TOKEN。值永不入文、永不打印。
 import json, os, sys, time, hashlib, subprocess, urllib.request, urllib.error, urllib.parse
 
@@ -114,9 +114,7 @@ def main():
             if isinstance(cp, dict) and cp.get('src') == 'hub-tower-self':
                 has_cascade = True
                 idle = int(cp.get('idle', 0))
-                slp = int(os.environ.get('CASCADE_SLEEP_S', '600'))
-                print(f'[cascade] self-wake idle={idle} sleep={slp}s')
-                time.sleep(slp)
+                print(f'[cascade] self-wake idle={idle} (修25: sleep连根拔——零定时迹象,纯事件驱动)')
         except Exception:
             cp = {}
 
@@ -471,11 +469,7 @@ def main():
             cascade = f'fired idle={idle2} http={code} pend={len(hot)}'
     else:
         idle2 = idle + 1
-        if idle2 <= int(os.environ.get('CASCADE_MAX_IDLE','30')) and has_cascade and (ghtok or pat):
-            code = dispatch(ghtok or pat, REPO, {'src':'hub-tower-self','kind':'self-cascade','idle':idle2,'pend':0}, 'federation-event')
-            cascade = f'idle-chain idle={idle2} http={code}'
-        else:
-            cascade = f'breaker-rest idle={idle2}'
+        cascade = f'cold-rest idle={idle2}'  # 修25: 冷拍即歇不续链——醒路=毂拍dispatch/他塔互唤/push/issue,空链自眠非定时
     print('[cascade]', cascade)
     open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
