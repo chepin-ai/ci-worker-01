@@ -1,0 +1,33 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T03:07:42Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T030315Z.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① 何事：hub-inbox于0908T1244至0909T0300间五件auto-otp连续到件；旋即qgl-self-domain回执QT-20260909T030315Z.json到塔，显自动化验证流持续注入且自治域已响应。\n\n② 显化链：核为OTP凭证本体；像为五件同质json滞留inbox未合；合取呈跨日高频验证请求；绑定缺位，五件未归一宗，回执未与hub母链绑定；识断悬停，无法判定为常流或风暴。\n\n③ 应动：以QT-"
+}
