@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:40:18Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  }
+ ],
+ "verdict_memo": "①何事：连收五件auto-otp，跨日时，属一次性密码验证序列。  \n②显化链：核层密钥频调，像层快照累叠，合取层短时聚合过载，绑定层会话锚点漂移，识层面临自动化解耦风险。  \n③应动：应动hub-inbox审计件一件，转联邦面安全工位做绑定收敛。  \n④生债：生“验证风暴未收敛”之债一条，候SI1归集。"
+}
