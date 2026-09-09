@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T07:56:39Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T075154Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：hub-inbox连收auto-otp五件（0303-0718时序），tower收qgl-self-domain回执一件（0751）。\n\n②显化链：otp序列：核（外源认证端）→像（令牌报文）→合取（hub-inbox五连落）→绑定（inbox收信标识）→识（auto-otp类信包），链路显化持续未断。qt回执：核（qgl自域）→像（QT-json）→合取（tower/receipts）→绑定（当日批次）→识（闭环凭据）。\n\n③应动：otp序列应动hub-inbox溢流监测与自动分拣；qt回执应动源件勾稽归档。均呈SI1会话备核。\n\n④生债：otp序列生“自动收件连续积压债”；qt回执生“源回匹配勾稽债”。"
+}
