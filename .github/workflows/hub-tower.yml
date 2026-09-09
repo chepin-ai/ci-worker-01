@@ -39,7 +39,6 @@ jobs:
           LINE_PAT: ${{ secrets.CI_OPS_LINE_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
           CASCADE_PAYLOAD: ${{ toJson(github.event.client_payload) }}
-          CASCADE_SLEEP_S: '600'
           CASCADE_MAX_IDLE: '30'
           SELFTEST_INPUT: ${{ github.event.inputs.selftest }}
         run: |
