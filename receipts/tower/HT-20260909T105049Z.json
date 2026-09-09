@@ -1,0 +1,49 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T10:50:49Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T094627-ac045bad.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T095755-808711e3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T061408Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 到件八：一声线重启令（QLV-SI0-RESTART-01-cfts-v2），五连鉴权脉冲（auto-otp-09日0802—0957），二自域滞收（QT-07日0552、0603）。  \n② 显化链：重启令冲核；五脉冲为像层未合取之噪；二回执为合取残片，绑定未竟；识层不净，旧识将随核重载。  \n③ 应动：以重启令为纲预读，冻结五脉冲禁止落栈，挂起二回执待重启后重行合取绑定。  \n④ 生债：净场债——重启前未清空inbox与self-domain滞件，致SI0镜像携旧识入新核。"
+}
