@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:40:21Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  }
+ ],
+ "verdict_memo": "【件一·eeac0398】何事：OTP自动入箱（040647）。显化链：核动发码→像呈token→合取时效→绑定终端→识显hub-inbox。应动：列候，逾时销。生债：早发未领，生怠债一。\n\n【件二·6087b0be】何事：OTP自动入箱（052134）。显化链：核起随机像→合取会话→绑定设备→识层落件。应动：配主待验。生债：占埠未用，生壅债一。\n\n【件三·6a4cfb95】何事：OTP自动入箱（064741）。显化链：核令生码→像化数字→合取路由→绑定ref→识显未读。应动：速配或归档。生债：窗期将尽，生弃债一。\n\n【件四·13092d8e】何事：OTP自动入"
+}
