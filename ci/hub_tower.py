@@ -375,7 +375,7 @@ def main():
                 _oj = json.loads(B.b64decode(_og['content']).decode())
                 _cl = set(_oj.get('closed_cum') or []) | set((x.get('id') if isinstance(x,dict) else x) for x in _oj.get('closed_today',[]))
                 _front = [o for o in _oj.get('open',[]) if isinstance(o,dict) and set(o.get('deps') or []) <= _cl]
-                _heads = [o for o in _front if str(o.get('id','')).startswith('R')][:3]
+                _heads = [o for o in _front if __import__('re').match(r'^R[1-5]$', str(o.get('id','')))][:3]
                 if _heads: events.append({'kind':'pareto-frontier','ref':'+'.join(o['id'] for o in _heads)})
                 firedp = []
                 for o in _heads:
