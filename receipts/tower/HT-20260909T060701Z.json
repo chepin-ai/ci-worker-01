@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T06:07:01Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①五件皆hub-inbox收auto-otp令牌（08T15-09T05）。②核：认证凭证本体；像：JSON时戳封装；合取：五件时序涌入；绑定：ref-kind为到件锚点；识：审计面预读标记。③应动hub-sort分件，并上SI1会话核认时效。④生债：自动流未即决，枢纽-inbox栈积五笔，债一条。"
+}
