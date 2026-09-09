@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T16:37:09Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-102"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-217"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-217"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-30"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-217"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-217"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-100"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "usrm-217: 脊断毂爆诊断六刀(2194commits/日实测+正反馈爆炸链)+lgt/ucif2/lvlu三线应"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-217"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-99"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-98"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-97"
+  }
+ ],
+ "verdict_memo": "到件八，判词如下：\n\n①何事：line-board-voice七响，usrm-217五度重呼，ucif2三度切入，终件cisvr-mention携“"
+}
