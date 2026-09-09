@@ -1,0 +1,58 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T14:10:58Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-42"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-41"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-40"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-39"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-38"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-37"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-36"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-35"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "到件：ucif2-35 至 ucif2-42，kind=line-board-voice，八帧连至。\n\n① 何事：ucif2 线路看板同一语音流之连续采样爆发。\n\n② 显化链：核（声源振动）→像（八帧声纹采样）→合取（时序流拼接，今处合取段，未竟）→绑定（ucif2 线路-看板工位）→识（待决语音束）。链在合取，未至识。\n\n③ 应动：动链首 35、链尾 42 封帧，中段 36-41 随链而合，整体送 SI1 审计。\n\n④ 生债：声纹流未竟合取显化，生“流束未识”债一条。"
+}
