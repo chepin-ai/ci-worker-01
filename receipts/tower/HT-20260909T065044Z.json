@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T06:50:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T064804Z.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n件一至五：auto-otp五连发（0232–0647），核显像为时戳令牌，经 hub-inbox 合取绑定，识未决。应归并为「序列动件」，送 SI1 核其同源性及触发节律。  \n件六：qgl-self-domain 回执（QT-20260909T064804Z），外域像返绑本塔，识已局部闭环。应收入 QT 备查，与 otp 序列合参。  \n\n显化链：核（种子）→像（otp）→合取（五时段连发）→绑定（inbox 锚定）→识（qgl 收据）。  \n\n生债：自动流转无审计断点，生「核像一致性待验债」，由 SI1 补断。"
+}
