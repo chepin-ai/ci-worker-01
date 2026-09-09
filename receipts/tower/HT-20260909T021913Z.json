@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T02:19:13Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T020727Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：hub-inbox连收auto-otp到件五件（12:02、12:14、12:44、13:16、15:07），皆自动验证像；qgl-self-domain收QT回执一件（02:07）。\n\n② 显化链：五otp为像层脉冲，无核照见，壅塞于合取之前，绑定层积压；QT回执为识层自指，然时序跨日，链未闭合。\n\n③ 应动：otp五件应并案为单一合取审计件，送核→绑定；QT回执应入qgl-self-domain核备，触发跨域绑定校验。\n\n④ 生债：生hub-inbox未合取之像债一件；生qgl-self-domain未核之识债一件。"
+}
