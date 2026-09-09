@@ -200,7 +200,7 @@ def main():
             if isinstance(lane, list):
                 for x in lane:
                     nm = x['name']
-                    if nm != '.gitkeep' and not nm.startswith(('auto-otp','LQ-','DISC-','DRIVE-','CAT-','RESP-','CLEAR-','DIGEST-')):
+                    if nm != '.gitkeep' and not nm.startswith(('auto-otp','LQ-','DISC-','DRIVE-','CAT-','RESP-','CLEAR-','DIGEST-','PAIR-OTP','SOLVE-OTP','WAKE-PENDING')):
                         key = f'lane/{ln}/{nm}'
                         if key not in seen_prev:  # 修14: 恒燃阱治——lane面seen滤,旧档不重复点火
                             seen_new.append(key); events.append({'kind':'lane-line-voice','ref': f'lanes/{ln}/inbox/{nm}'})
