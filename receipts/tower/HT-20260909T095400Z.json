@@ -1,0 +1,40 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:54:00Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-212"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-16"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T094627-ac045bad.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "①何事：收line-board-voice二件（usrm-212、ucif2-16），hub-inbox自动OTP五件（07:18至09:46）。\n\n②显化链：语音板为像层声纹/意图投射，合取未决，核层待启；OTP为识层自动信令，绑定层受机控，核→像→合取均非人志直显，属空转脉冲。\n\n③应动：语音板二件转毂SI1会话裁决；OTP五件由合取层过滤归集，异常转审，无异常仅留痕。\n\n④生债：未决语音生“受理悬债”；OTP未核销生“凭证堆债”。"
+}
