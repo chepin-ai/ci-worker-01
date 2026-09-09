@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:07:35Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  }
+ ],
+ "verdict_memo": "① 何事：五件 hub-inbox 自动 OTP 到件，为核端身份验证脉冲之机械投递。  \n② 显化链：属「核→像」之生成段，已封装 JSON 像体，然「合取」未与账户上下文对齐，「绑定」未就，「识」之闭环未竟，仅显化链中段待验料。  \n③ 应动何件：审计预读，分流留置，待 SI1 或认证网关终裁合取；本镜像不代线、不代判。  \n④ 生债一条：五件 OTP 悬置未销，生「待核验之悬置债」一条，候主站核销。"
+}
