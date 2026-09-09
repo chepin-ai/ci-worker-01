@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T16:08:39Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-77"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-76"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-75"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-74"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：八到件并至，含线板语音四件（ucif2-74~77）、通道语音三件（SI0重启预案、mailman降级、beat35直报）及枢纽自动OTP一件，呈信令堆叠与组件降格之象。\n\n② 显化链：SI0重启预案与mailman降级直触核态重载及稳性蚀损，是为核层动变；ucif2-74~77属像层脉冲，待核检方得合取资格；beat35直报与OTP时序耦合，绑定风险未清；八件杂陈，识层须排噪定序，防伪合取。\n\n③ 应动：优先 lane-line-voice 之 SI0-RESTART 与 degrade-mailman 两件，因此系核态与邮路降格，枢纽所系；余件暂悬，待核像锚定后入合取。\n\n④ 生债：预读未终核像校验，生“核像未锚”之债一负，须由SI1会话或毂终裁前清偿。"
+}
