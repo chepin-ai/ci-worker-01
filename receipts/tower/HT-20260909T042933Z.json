@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:29:33Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T041832Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：跨日六件到件，五件hub-inbox自动OTP令牌流（0908-0909），一件qgl-self-domain域回执（0909）。\n\n②显化链：OTP以时戳杂凑为核，投箱为像；五件连续到件构成时序合取，待验是否同一会话批次。qgl回执承其绑定，归识于tower域。然核→像间缺发起方注记，合取→绑定间缺授权状衔接，链未全显。\n\n③应动：将五件OTP并案归集，核其时序源发与杂凑连续性；对qgl回执核验绑定指向，确认其对应末件OTP或独立成案。\n\n④生债：自动令牌未附触发标识，核像权责未显，合取绑定之识缺举证支撑。负补登“自动发起方标识”及“域绑定授权状”之债一条。"
+}
