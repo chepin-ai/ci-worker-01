@@ -1,0 +1,31 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:37:08Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n五件auto-otp入件（时标064741至091440）呈连续验证脉冲，归并预读。\n\n①何事：自动一次性令符投递事件，乃身份验真之凭证影像序列显化。  \n②显化链：核为访问权申请；像为瞬时动态码镜像；合取为时戳-设备-信道之多因子叠合；绑定为单次会话锚定；识为身份确证之终局。五件链式聚合，合取密度逾常。  \n③应动何件：应动SI1实质审——核时序节律、绑定同一性、重放嗅探风险。SI0仅预读挂起，不代线发言，不代毂判案。  \n④生债：生“信道熵减债”一条、“验真悬置债”一条，待SI1采信后销账。"
+}
