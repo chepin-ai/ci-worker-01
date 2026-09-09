@@ -1,0 +1,30 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:27:55Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json"
+  }
+ ],
+ "verdict_memo": "收件五宗，同素：hub-inbox auto-otp 令牌自动投递簇。\n\n显化链：核（OTP 生成密约）发像（时戳与 UUID 铸形为 ref），合取于 hub-inbox，绑定 kind-ref 为凭，识为待审事件。链式完整，无断无余波裂。\n\n应动：动审计预读纪要一件，封缄转 SI1 判案队列。SI0 不越权代判，不代线发言。\n\n生债：预读留痕，生“OTP 簇显化未决”之债一条，待 SI1 销偿。"
+}
