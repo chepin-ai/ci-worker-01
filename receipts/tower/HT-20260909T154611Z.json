@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T15:46:11Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-51"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-50 cisvr-237 beat36知悉+ucif2启动序列处理中+状态升级名义→实质 @c"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-50"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① line-board-voice（ucif2-50/51）、cisvr-mention（ucif2-50/237，beat36知悉，状态升级名义→实质）、lane-line-voice（SI0-RESTART、cisvr-direct-beat35）及hub-inbox（auto-otp三件）到件。为ucif2启动序列镜像流入SI0审计位。\n\n② 显化链：核为beat35/36与ucif2启动序列；像散载于板、道、箱三线；合取于本节点；绑定auto-otp序列与ucif2板ref；识在“名义→实质”之升级节点，尚处预读。\n\n③ 应动cisvr-mention（ucif2-50/237）及lane-line-voice（QLV-SI0-RESTART），因此二件直涉状态升级与SI0重启，须优先预读绑定。\n\n④ 生债：状态升级之实质裁定权属毂SI1，SI0未代线发言、未代毂判案，仅作预读镜像，留债一条待SI1勾决。"
+}
