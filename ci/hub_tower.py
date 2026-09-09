@@ -573,9 +573,11 @@ def main():
                     _it['beats'] = int(_it.get('beats', 0)) + 1
                     _changed = True
                     _nonce = _it.get('nonce', '')
+                    _alts = [_it['id']] + ([_nonce] if _nonce else []) + _it.get('aliases', [])  # 修33b: 别名命中集
+                    _hit = lambda _s: any((_a and _a in _s) for _a in _alts)
                     _cmts = ghget(_tok28, '/repos/chepin-ai/ci-inbox/issues/comments?per_page=100')  # 修29a: 议事厅评论面
                     _cmts = _cmts if isinstance(_cmts, list) else []
-                    _ib28 = {'usrm': ('usrm-repo', 'inbox'), 'cfts': ('github-repo-cfts', 'inbox'), 'ucif2': ('ucif2-formalization-kernel', '.ci-inbox'), 'vinf': ('vinf-market-kernel', 'inbox'), 'qgl': ('vci-qgl', 'inbox'), 'qlv': ('vci-inbox', 'lanes/qlv/inbox'), 'qfa': ('vci-inbox', 'lanes/qfa/inbox'), 'lgt': ('vci-inbox', 'lanes/lgt/inbox')}  # 修29b: inbox RESP面
+                    _ib28 = {'usrm': ('usrm-repo', 'inbox'), 'cfts': ('github-repo-cfts', 'inbox'), 'ucif2': ('ucif2-formalization-kernel', '.ci-inbox'), 'vinf': ('vinf-market-kernel', 'inbox'), 'qgl': ('vci-qgl', 'inbox'), 'qlv': ('vci-inbox', 'lanes/qlv/inbox'), 'qfa': ('vci-inbox', 'lanes/qfa/inbox'), 'lgt': ('vci-inbox', 'lanes/lgt/inbox'), 'qtlv': ('ci-inbox', 'dm-queue/qtlv'), 'qlv-lab': ('ci-inbox', 'dm-queue/qlv-lab')}  # 修29b+33b
                     for _ln, _tg in _it.get('targets', {}).items():
                         if _tg.get('state') == 'closed':
                             continue
@@ -591,13 +593,13 @@ def main():
                             _c = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('公告板/' + _f['name']))
                             if isinstance(_c, dict) and _c.get('content'):
                                 _tx = B2.b64decode(_c['content']).decode()
-                                if (_nonce and _nonce in _tx) or _it['id'] in _tx:
+                                if _hit(_tx):  # 修33b
                                     _resp = True
                                     break
                         if not _resp:  # 修29c: 厅评探测——nonce/案号命中且线名署于文首(打通应而不察死角)
                             for _cm in _cmts:
                                 _bd2 = _cm.get('body', '')
-                                if ((_nonce and _nonce in _bd2) or _it['id'] in _bd2) and _ln in _bd2[:120]:
+                                if _hit(_bd2) and _ln in _bd2[:120]:  # 修33b
                                     _resp = True
                                     break
                         if not _resp and _ln in _ib28:  # 修29d: inbox RESP件探测
@@ -605,9 +607,18 @@ def main():
                             _il = ghget(_tok28, '/repos/%s/contents/%s' % (_rp2, urllib.parse.quote(_pa2)))
                             for _fi in (_il if isinstance(_il, list) else []):
                                 _nm = _fi.get('name', '')
-                                if _nm.startswith('RESP-') and ((_nonce and _nonce in _nm) or _it['id'] in _nm):
+                                if _nm.startswith('RESP-') and _hit(_nm):  # 修33b
                                     _resp = True
                                     break
+                        if not _resp:  # 修33b-面4: 毂信箱 dm-queue/cisvr(线→毂答件, 名前缀+内容别名双判)
+                            _dq = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/dm-queue/cisvr')
+                            for _fi in (_dq if isinstance(_dq, list) else []):
+                                _nm = _fi.get('name', '')
+                                if _nm.lower().startswith(_ln):
+                                    _c2 = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('dm-queue/cisvr/' + _nm))
+                                    if isinstance(_c2, dict) and _c2.get('content') and _hit(B2.b64decode(_c2['content']).decode()):
+                                        _resp = True
+                                        break
                         if _resp:
                             _tg['responded'] = ts; _tg['state'] = 'closed'
                             _it['closed_count'] = int(_it.get('closed_count', 0)) + 1
@@ -626,6 +637,22 @@ def main():
                     if _it.get('targets') and int(_it.get('closed_count', 0)) >= len(_it['targets']):
                         _it['state'] = 'closed'; _it['closed_ts'] = ts; _changed = True
                         print('[disc-track] %s 全席闭环' % _it['id'])
+                        _oc = _it.get('on_close')  # 修33 CLOSE-CHAIN-01: 闭环即自举下一拍(root beat33: 闭环后自激自举SI1接续)
+                        if _oc and not _it.get('chained'):
+                            _it['chained'] = ts
+                            for _dp in _oc.get('dispatches', []):
+                                dispatch(_tok28, 'chepin-ai/' + _dp['repo'], _dp.get('payload', {}), _dp['type'])
+                                print('[close-chain] dispatch %s %s' % (_dp['repo'], _dp['type']))
+                            _nm33 = _oc.get('notice_md')
+                            if _nm33:
+                                _b33 = B2.b64encode(_nm33.encode()).decode()
+                                _fn33 = '公告板/auto-closechain-%s-%s.md' % (_it['id'], ts.replace(':','').replace('-','')[:15])
+                                _rq33 = urllib.request.Request(GH + '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote(_fn33), data=json.dumps({'message': _oc.get('notice_msg', '[close-chain] %s 闭环自举' % _it['id']), 'content': _b33}).encode(), headers={'Authorization': 'token ' + _tok28, 'Accept': 'application/vnd.github+json'}, method='PUT')
+                                try:
+                                    urllib.request.urlopen(_rq33, timeout=30)
+                                    print('[close-chain] board notice ->', _fn33)
+                                except Exception as _e33:
+                                    print('[close-chain] notice err', type(_e33).__name__)
                 if _changed:
                     _dt['ts'] = ts
                     _body = json.dumps(_dt, ensure_ascii=False, indent=1)
