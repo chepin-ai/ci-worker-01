@@ -91,6 +91,7 @@ def main():
     pair_now = {}
     wake_day = ''
     par_prev = {}
+    anch_prev = ''
     snap = None
     ts_prev = None
     try:
@@ -104,6 +105,7 @@ def main():
             pair_prev = _stj.get('pair', {}) or {}
             wake_day = _stj.get('wake_day','') or ''
             par_prev = _stj.get('pareto', {}) or {}
+            anch_prev = _stj.get('anchor_sha','') or ''
             ts_prev = _stj.get('ts')
     except Exception:
         seen_prev = set()
@@ -471,7 +473,38 @@ def main():
         idle2 = idle + 1
         cascade = f'cold-rest idle={idle2}'  # 修25: 冷拍即歇不续链——醒路=毂拍dispatch/他塔互唤/push/issue,空链自眠非定时
     print('[cascade]', cascade)
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev}, ensure_ascii=False))
+    # ---- 修26 ANCHOR-WITNESS-01: 公链锚变即唤root-witness(事件驱动见证,零定时;首见亦事件) ----
+    anchorw = 'skip'
+    anch_sha = anch_prev
+    try:
+        import base64 as B
+        _atok = pat or ghtok
+        if _atok:
+            c_anc = ghget(_atok, '/repos/chepin-ai/vci-inbox/contents/bridge/chain-anchor.json')
+            _new_sha = c_anc.get('sha') if isinstance(c_anc, dict) else None
+            if _new_sha and _new_sha != anch_prev:
+                nonce = hashlib.sha256((ts + 'anchor-witness').encode()).hexdigest()[:12]
+                nrg = ghget(_atok, '/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json')
+                nrd = json.loads(B.b64decode(nrg['content']).decode())
+                if nonce not in nrd['registry']:
+                    nrd['registry'][nonce] = {'line':'cisvr','purpose':'ANCHOR-WITNESS-01 锚变唤root-witness(事件驱动见证)','ts':ts}
+                    _nb = {'message':'NONCE-REG anchor-witness '+nonce+' [skip ci]','content':B.b64encode(json.dumps(nrd,ensure_ascii=False,indent=1).encode()).decode(),'sha':nrg['sha']}
+                    urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json', data=json.dumps(_nb).encode(), method='PUT', headers={'Authorization':'token '+_atok,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                    code = dispatch(_atok, 'chepin-ai/vci-root', {'src':'hub-tower','kind':'anchor-change','anchor_sha':_new_sha[:12],'nonce':nonce}, 'root-witness')
+                    anchorw = 'dispatched http=%s sha=%s' % (code, _new_sha[:12])
+                    events.append({'t':ts,'kind':'anchor-witness','nonce':nonce,'sha':_new_sha[:12]})
+                else:
+                    anchorw = 'nonce-dup-skip'
+            elif _new_sha:
+                anchorw = 'same ' + _new_sha[:12]
+            else:
+                anchorw = 'anchor-unread'
+            anch_sha = _new_sha or anch_prev
+    except Exception as ex:
+        anchorw = 'abort-' + type(ex).__name__
+    print('[anchor-witness]', anchorw)
+
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev,'anchor_sha':anch_sha}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
