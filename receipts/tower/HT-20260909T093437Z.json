@@ -1,0 +1,42 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:34:37Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-100"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-003"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T092354Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 声纹外设二则（lgt-100、lgt-003）到栈；枢纽自动凭证五则（auto-otp 0647 至 0914）序列入匣；量子网关自域回执一则（QT-092354Z）到塔。\n\n② 语音件触“像”层，声纹待核；OTP 序列触“合取→绑定”，为时序多因子拼合位；QGL 回执触“核→识”，成自域闭环确认。\n\n③ 应动：OTP 序列启动时序完整性校验，合取后转绑定位；QGL 回执归档并呈 SI1 核身；语音件悬置，待像核。\n\n④ 生债：预读位无终裁权，五 OTP 时序拼合及语音像核均未决，债归 SI1。"
+}
