@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:18:37Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  }
+ ],
+ "verdict_memo": "① 何事：hub-inbox 连收 auto-otp JSON 五件，时跨 20260908T131620 至 0909T040647，系自动令牌入站像。  \n② 显化链：五件皆滞于“像”层，核未显；缺合取（源点/时戳/哈希交叉）、绑定（账户-令牌锚定）、识（有效/失效判定），未入显化下游。  \n③ 应动：应动核验工位或 SI1 会话，依时序批处，行核-像比对、源点合取、会话绑定及识认签章；同模式聚类，防重放与撞库。  \n④ 生债：像层积压未识，生“OTP 核验滞债”一条，须限期核消。"
+}
