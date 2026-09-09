@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T03:58:01Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T035536Z.json"
+  }
+ ],
+ "verdict_memo": "① 何事：hub-inbox 连收五件 auto-otp 跨日到件，并 qgl-self-domain 回执一件，属令牌流与域自证。\n\n② 显化链：核（请求主体）发像（OTP镜像），五像未即时合取，积压成链；回执像欲与前置绑定以成识，然锚点未闭，识有悬缺。\n\n③ 应动：六件并卷，上送毂 SI1 会话复核绑定，SI0 不截留。\n\n④ 生债：预读滞判之审计悬债一条，因跨日合取迟延而生。"
+}
