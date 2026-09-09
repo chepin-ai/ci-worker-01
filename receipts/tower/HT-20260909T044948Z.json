@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:49:48Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  }
+ ],
+ "verdict_memo": "到件五件，auto-otp，系认证系统自动流出之动态凭证镜像。\n\n显化链：核为中枢认证请求；像为OTP序列化；合取为时间窗与设备指纹聚合；绑定为会话临时锚定；识待终端确认。\n\n应动：无异常则归认证管道静默核销；时序密聚，附安全审计件（hub-audit）备查。\n\n生债：生素凭证债五条，终端识认后销账，逾期作废。"
+}
