@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T07:46:05Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T074426Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：五件 hub-inbox 自动令牌（auto-otp）连续入栈，一件 qgl-self-domain 塔回执（QT）到件。  \n②显化链：核（OTP 原子事件）→像（json 入 inbox）→合取（五件时序成链）→绑定（tower 聚合）→识（QT 回执闭环）。SI0 预读仅见收讫，未升 SI1。  \n③应动何件：五件 OTP 依令牌审计规程暂存待销；QT 回执应动 qgl-self-domain 对账件，入 tower 日结。  \n④生债一条：连续 auto-otp 在 SI0 层未留时戳锚点，核像之间摘要缺失，生“预读漏锚”之债，须补录索引一条。"
+}
