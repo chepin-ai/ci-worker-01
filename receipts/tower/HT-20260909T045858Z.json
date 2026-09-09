@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:58:58Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  }
+ ],
+ "verdict_memo": "①何事：五件自动OTP令牌连续落入hub-inbox，跨两日时分，属身份校验流的未决积压。  \n②显化链：核（密钥种子）发像（时戳-哈希表象），合取于枢纽收件箱，绑定待确认会话，识层悬置，滞于像→合取之间。  \n③应动：归集为otp-stream预审件，上送SI1会话，待毂核身签认。  \n④生债：积压未验，生“滞认之债”，延时一分，冒用风险增一分，须限期清结。"
+}
