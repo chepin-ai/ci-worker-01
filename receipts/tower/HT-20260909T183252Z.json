@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T18:32:52Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-SEAT-ASK-01-qlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  }
+ ],
+ "verdict_memo": "①何事：OTP席位申请一件、自动OTP三件、SI0重启一件、拍35直发一件、拍37草稿一件、邮差降级一件，共八到件，分属席位、镜像、链路三类。  \n②与显化链何干：OTP-seat-ask与auto-otp属「核」之启动占位，尚未成像；restart及beat35/37属「像」之自指震荡与「合取」之频闪校验；degrade-mailman属「绑定」松脱，逼近「识」之失步。  \n③应动何件：OTP类应动seat-ack核录件；镜像类应动mirror-sync校准件；降级件应动bind-repair或lane-failover置换件。  \n④生债一条：八件俱积于qlv-inbox与hub-inbox，预读已标，判词权属毂SI1，若逾期未结，hub-tower-01留痕为债。"
+}
