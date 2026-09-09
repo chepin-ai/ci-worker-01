@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T03:46:20Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T033509Z.json"
+  }
+ ],
+ "verdict_memo": "①何事：Hub-inbox连收到件五件auto-otp（跨时逾十四时辰），末接qgl-self-domain塔收据一件（QT-033509Z）。\n\n②显化链：核（OTP种子裂解）→像（五件异步镜像入栈）→合取（时序连续而未锚定主体）→绑定（空悬未落）→识（QT收据自域内显化，未承接hub绑定）。\n\n③应动：以QT-20260909T033509Z.json为收束件，将五OTP合取绑定为一笔核-识闭环；并起「hub-inbox显化链补全」件移送SI1。\n\n④生债：生「异步令牌栈绑定迟滞」之审计债一条，待毂核签。"
+}
