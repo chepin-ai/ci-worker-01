@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T05:50:02Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  }
+ ],
+ "verdict_memo": "判词纪要（SI0预读·五件同纪）\n\n①何事：hub-inbox连收到件auto-otp五件（跨度约16h），系自动身份令牌序列落箱。  \n②显化链：核（OTP为核验种子）→像（json为令牌镜像）→合取（待与请求主体因子合取）→绑定（令牌的会话/账户绑定态未决）→识（身份识判尚未闭环）。  \n③应动：动「高频OTP审计」件一，并行「多因子绑定校验」件一。  \n④生债：生「SI0预读悬债」一条，候SI1确权消纳。"
+}
