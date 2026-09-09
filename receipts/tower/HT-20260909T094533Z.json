@@ -1,0 +1,35 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:45:33Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T093737Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：五件 hub-inbox auto-otp 入栈（0647–0914 时序连续），一件 qgl-self-domain 回执入塔（0937）。全序为自动化令牌投递簇及其域内回执锚点。\n\n② 显化链：核为身份验证令牌之自动流转；像显为 JSON 序列投送至 hub-inbox；合取六件成「OTP 流 + QGL 确认」闭环；绑定于 HUB-TOWER-01 入栈队列与 vci-qgl 自治域握手通道；识为跨域自动化身份序列与域内归档双类事件簇。\n\n③ 应动：auto-otp 序列触发时序校验件（核对接续完整性、防重放）；QT 回执触发自域归档件，并闭合当批次令牌流。\n\n④ 生债：五件 OTP 离散入栈未在途合批，生通道碎片债一笔。"
+}
