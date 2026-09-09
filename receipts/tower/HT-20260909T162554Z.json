@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T16:25:54Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-91"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-90"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-89"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-88"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-87"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-68"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-86"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-85"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-84"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-83"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-82"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-81"
+  }
+ ],
+ "verdict_memo": "① **何事**：line-board-voice 八件连到（ref ucif2-85 至 91），然 ucif2-68 乱序插入于 87/86 之间，显语音板批量件中时戳序列失稳。\n\n② **显化链**：诸件属像层涌入；68 号错位暴露核→像投射在合取层之时序绑定未牢，若未经重绑直入识层，将致因果叙事紊乱。\n\n③ **应动何件**：先动 ucif2-68（异常锚）作时序重校；再动 ucif2-91（末件）收束边界；整体待发序列重整令。\n\n④ **生债一条**：乱序插入生「合取时序校验债」一条，须核层回溯清偿，方准入识。"
+}
