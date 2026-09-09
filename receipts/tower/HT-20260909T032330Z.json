@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T03:23:30Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  }
+ ],
+ "verdict_memo": "五件到件，系hub-inbox收容之auto-otp自旋残片。\n\n①何事：机器身份验证流于09-08T12:44至09-09T03:03连续抛掷五枚一次性密码到件，为系统熵核自动生成之认证碎片。\n\n②显化链：核→认证引擎之随机熵涌；像→JSON载具与OTP ref；合取→时间戳-哈希锁闭；绑定→hub-inbox收容；识→无人驿可读之自动验证标记。\n\n③应动：SI0预读判定为机器自旋，不触人工截断。应动SI1会话形式归档，核验熵源合法性后销案。\n\n④生债：五件连珠到件仅录未决，生“自动验证残片积压债”一条，待核清。"
+}
