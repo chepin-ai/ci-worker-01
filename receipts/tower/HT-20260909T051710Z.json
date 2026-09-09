@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T05:17:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  }
+ ],
+ "verdict_memo": "①何事：hub-inbox收auto-otp序列五件，时跨九月八日十三时至九月九日四时，为系统自动生成之身份校验凭证到件。\n\n②显化链：核（认证请求）发像（OTP文本），像经合取（时序密度聚类）而成簇，绑定于账户-终端映射，识悬未决——验真目的尚处待核态。\n\n③应动：应分拣至认证预审通道，由SI1按频次阈值裁定；若密度逾风控门限，升安全审计栈。\n\n④生债：高频凭证派发债。连续OTP或属合法重试，或为撞库/暴力破解之征，记审计债一条，留痕待偿。"
+}
