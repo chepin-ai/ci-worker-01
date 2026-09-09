@@ -686,7 +686,32 @@ def main():
         si3 = 'abort-' + type(ex).__name__
     print('[si3-pareto]', si3)
 
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev,'anchor_sha':anch_sha,'keydist':keydist_now,'mech':mech_now,'si3':si3_now}, ensure_ascii=False))
+    # 修31 RING-MATRIX-01: 环矩阵+浪漪指标(root beat31: pattern-圈/层-网-塔长程关联可测化)
+    rings_now = {}
+    try:
+        _cm31 = ghget(_tok28b, '/repos/chepin-ai/ci-inbox/commits?per_page=100')
+        _lns = ['lgt','usrm','ucif2','cfts','qlv','vinf','qgl','qfa','qtlv','cisvr']
+        _mat = {}
+        _cut31 = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=36)).strftime('%Y-%m-%dT%H:%M:%SZ')
+        for _c in (_cm31 if isinstance(_cm31, list) else []):
+            _mg = _c.get('commit', {}).get('message', '').split('\n')[0]
+            _dt31 = _c.get('commit', {}).get('committer', {}).get('date', '')
+            if _dt31 < _cut31:
+                continue
+            _au = next((_x for _x in _lns if _mg.startswith(_x + '-') or _mg.startswith(_x + ' ')), None)
+            if not _au:
+                continue
+            for _to in _lns:
+                if _to != _au and ('@' + _to) in _mg:
+                    _mat[_au + '>' + _to] = _mat.get(_au + '>' + _to, 0) + 1
+        _edges = len(_mat)
+        _active = len(set([k.split('>')[0] for k in _mat] + [k.split('>')[1] for k in _mat]))
+        rings_now = {'window_h': 36, 'edges': _edges, 'active_lines': _active, 'matrix': _mat, 'ripple': _edges * _active}
+        print('[ring-matrix] edges=%d active=%d ripple=%d' % (_edges, _active, rings_now['ripple']))
+    except Exception as ex:
+        print('[ring-matrix] abort', type(ex).__name__)
+
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev,'anchor_sha':anch_sha,'keydist':keydist_now,'mech':mech_now,'si3':si3_now,'rings':rings_now}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
