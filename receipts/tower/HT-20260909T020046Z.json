@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T02:00:46Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T113913-c465d24d.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T120204-51ab55e2.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  }
+ ],
+ "verdict_memo": "【件1】①auto-OTP首件触inbox。②像先而核隐，显化链滞于像层，合取、绑定未立。③应动核源追认件。④生债：表象受偿债。  \n【件2】①auto-OTP次件叠至。②像复核仍隐，链为空转，合取悬置。③应动频阈审查件。④生债：叠像默许债。  \n【件3】①auto-OTP三件壅至。②核→像断裂，合取、绑定双盲。③应动链路压测件。④生债：壅塞失察债。  \n【件4】①auto-OTP四件空抵。②显化链全断，唯余时戳空壳。③应动冻结待审件。④生债：空壳堆积债。  \n【件5】①auto-OTP五件末至。②识层未启，显化彻底悬停。③应动统退清账件。④生债：终局失审债。"
+}
