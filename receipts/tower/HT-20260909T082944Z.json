@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:29:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n①何事：五件 hub-inbox auto-otp 到件，系 0406–0802 间系统自动下发之验证令牌流。  \n②显化链：核（协议自动生码）→像（JSON 封装实体）→合取（五包归集同一收件面）→绑定（timestamp-ref 锚定各件）→识（止于 SI0 预读，未入 SI1 裁决）。  \n③应动：并案标记“待验 OTP 批次”，上呈 SI1 会话作时效与路由检校；逾阈依规沉降。  \n④生债：预读截留，生“自动验证流未决债”一条。"
+}
