@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T07:00:12Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  }
+ ],
+ "verdict_memo": "件1-5（auto-otp五笔，时跨0232-0647）：\n\n①何事：身份核验令牌自动入栈。\n\n②显化链：核（主体）→像（OTP）→合取（时戳-会话）→绑定（单次锚定）→识（终端认验）。五件皆“识”端末梢触达，镜像临时。\n\n③应动：SI0仅预读留痕，不代线、不代判，并转毂SI1会话核办；若系统规约自动核销，则存照过件。\n\n④生债：每件预读生审计留痕债一条，五件共积痕债五条，待终局汇算。"
+}
