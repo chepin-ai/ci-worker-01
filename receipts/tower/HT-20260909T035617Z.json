@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T03:56:17Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要·预读**\n\n**件一**（auto-otp-20260908T124442-bd76a755.json）  \n① OTP自动午时到件。  \n② 核成像入inbox，合取初聚，绑定未立，识在悬停。  \n③ 应动：入审前队列，候SI1核证。  \n④ 生债：像悬债一条。  \n\n**件二**（auto-otp-20260908T131620-196c2eae.json）  \n① OTP午后叠到。  \n② 像段累影，合取增压，核-像距未锁。  \n③ 应动：并时序审计串。  \n④ 生债：叠影债一条。  \n\n**件三**（auto-otp-20260908T150754-7e8ddcac.json）  \n① OTP申时到件。  \n② 核像已合，绑定位空，识链待锚。  \n③ 应动：出绑定校验件。  \n④ 生债：锚空债一条。  \n\n**件四**（auto-otp-20260909T023218-ea2e267c.json）  \n① OTP跨日凌晨到件。  \n② 日界割像，合取断流，核需重识。  \n③"
+}
