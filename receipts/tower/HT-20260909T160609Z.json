@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T16:06:09Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-73"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-72"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-71"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-70"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-69"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-68"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-67"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-66"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-65"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-64"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  }
+ ],
+ "verdict_memo": ""
+}
