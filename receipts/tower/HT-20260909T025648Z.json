@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T02:56:48Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T121444-615dabf7.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T024047Z.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① 何事：hub-inbox连收五件auto-otp到件（时跨0908T12–0909T02），继收qgl-self-domain回执一件（QT-0909T0240Z）。\n\n② 显化链：核（身份验签种子）→像（五件OTP序列化到件）→合取（跨时汇聚hub-inbox）→绑定（末件tower回执入域闭环）→识（持续令牌流之身份轨迹，尚待勘验）。\n\n③ 应动：五件OTP并案动“身份令牌聚合”预读标引件；末件回执动“域内闭环归档”件，候SI1绑定。\n\n④ 生债：预读未于第三件到件时插入中间态合取标引，迟滞至第六件方显闭环，生审计漏标债一条。判词权属毂SI1。"
+}
