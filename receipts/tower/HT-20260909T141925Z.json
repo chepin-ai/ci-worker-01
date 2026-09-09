@@ -1,0 +1,59 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T14:19:25Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-49"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-48"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-47"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-46"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-45"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-44"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-43"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n件line-board-voice（ucif2-43至49）：①线板语音七段连仓。②声纹止于像层，未历合取、绑定、识，属缓存碎像。③并转毂SI1会话队列，由SI1合取判识；SI0不代线、不越权。④生像滞债一条。\n\n件lane-line-voice（QLV-SI0-RESTART-01-cfts-v2.md）：①车道线SI0重启文本入仓。②核层异动，将牵像层重载，合取绑定待复验。③转"
+}
