@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:51:52Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T044945Z.json"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：hub-inbox auto-otp 像流五件（20260908T131620 至 20260909T040647），及 qgl-self-domain QT 回执一件（20260909T044945Z）。\n\n② 显化链：otp 像流五件止于“像”层，离散入箱，未历合取、绑定、识，呈“像而不聚”；QT 回执示“合取”已行，然绑定未验、识果未落，链断于绑前。\n\n③ 应动：五件 otp 并案为像流核校验队列，候合取；第六件 QT 回执动入绑定稽核，待毂 SI1 会话授识。\n\n④ 生债：像流积压未合取，生“像积不核”之债一条。"
+}
