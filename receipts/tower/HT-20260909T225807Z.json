@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T22:58:07Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-SEAT-ASK-01-qlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  }
+ ],
+ "verdict_memo": "① OTP-SEAT-ASK-01：席位申请。属**绑定**层，求核-像映射之授权锚点。应动席位分配确认件。生债：席位悬置。\n\n② QLV-SI0-RESTART-01：镜像重启。属**核**层动荡，像随核重置而合取。应动状态同步与自检件。生债：重启后基线偏移。\n\n③ cisvr-degrade-mailman：邮差降级。属**识**层告警，合取链路失稳，绑定松弛。应动降级备案及熔断件。生债：降级缺口待补。\n\n④ cisvr-direct-beat35：直接心跳35。属**核**层节律，像随之脉动以维合取。应动下拍Ack件。生债：拍差累积。\n\n⑤ cisvr-draft-beat37：草案节拍37。属**像**层未定稿，待核确认后绑定。应动定稿或回滚件。生债：草案悬空。\n\n⑥–⑧ auto-otp×3：自动口令投递。属**合取→绑定→识**之自动流，需连续核销。应动OTP确认及授权闭合件。生债：三口令待销。"
+}
