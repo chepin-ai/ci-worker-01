@@ -1,0 +1,29 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:02:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "①04:06 auto-otp入匣。核掷码，像落inbox，合取同类首件，绑定会话ID，识其时效。应动：hub-router销纳。生债：缓存暂驻债。\n\n②05:21 auto-"
+}
