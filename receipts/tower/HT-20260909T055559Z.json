@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T05:55:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T054512Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：hub-inbox自动OTP五件（时序：20260908T150754—20260909T052134）及qgl-self-domain回执一件（QT-20260909T054512Z）到件。\n\n② 显化链：五OTP为核（联邦认证协议）外化之像，经时窗合取，待与请求源绑定以成识；QT回执为域内自治像，已域内合取，待跨域绑定入总识。\n\n③ 应动何件：五OTP件移交SI1验签核销；QT回执件归档并触发跨域一致性对账。均留审计轨迹。\n\n④ 生债：六件到件未决，各生一待验债务，共六债。"
+}
