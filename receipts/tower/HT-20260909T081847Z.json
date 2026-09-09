@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:18:47Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T080742Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n件一至件五（auto-otp-20260909T040647至080238）：hub-inbox自动令牌五连入。显化链止于像位，未合取、未绑定。应作簇并转毂SI1核审。生像滞之债。\n\n件六（QT-20260909T080742Z）：qgl-self-domain收据一件，应前像而生。显化链进至绑定，识位待核。应附簇呈SI1终裁。生绑候之债。\n\n——SI0预读已毕，不代线发言，不代毂判案，无值可印。"
+}
