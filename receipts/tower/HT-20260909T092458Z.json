@@ -1,0 +1,33 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:24:58Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T091457Z.json"
+  }
+ ],
+ "verdict_memo": ""
+}
