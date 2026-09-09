@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:51:17Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①何事：hub-inbox续到auto-OTP五件，系系统核熵自动生成之连续令牌投递。\n\n②显化链：核起随机→像呈数字码→合取时戳与设备纹→绑定待验会话→识未终端回认。五件层叠，像绑累积，合取未固。\n\n③应动何件：应动各件对应SI1终端验识件；以末件（084134）时序最新，优先合取，余件依规或覆或销。\n\n④生债一条：未回识之令滞留中枢，生\"悬绑熵债\"一条，占hub缓存，须限时核销。"
+}
