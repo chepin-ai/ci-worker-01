@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T07:12:39Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T071044Z.json"
+  }
+ ],
+ "verdict_memo": "【判词纪要】HUB-TOWER-01·预读\n\n① auto-otp-023218：hub-inbox自动验证码到件。显化链：核动生像，时戳为合取，未竟绑定-识。应动：入SI1待验池。生债：自动像无主体验识债。\n\n② auto-otp-030300：同型续到。显化链：像上加像，合取密度增，绑定-识仍阙。应动：续挂池，启序列关联。生债：密接去重债。\n\n③ auto-otp-040647：OTP到件。显化链：核-像合取，绑定悬置。应动：挂起候核。生债：时滞绑定债。\n\n④ auto-otp-052134：同型到件。显化链：四像连珠，合取未"
+}
