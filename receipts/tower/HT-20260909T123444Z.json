@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T12:34:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T094627-ac045bad.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T095755-808711e3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T061408Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062047Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062230Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062547Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要（HUB-TOWER-01 预读）\n\n一、声线重启件（lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md）：声线通道复位文本。属显化链“像”层机像刷新，核层未决。应动：镜像预载该配置，交SI1核审。生债：lane-line-voice兼容债一条，须核cfts-v2与现行核版本对齐。\n\n二、OTP自动件五件（auto-otp-20260909T091440至113937）：联邦面自动令牌流。属“合取→绑定”层连续生发，未入识层。应动：序列入库hub-inbox，待绑定层销账。生债：auto-otp滞留共债一条，若超期未绑则触发清退。\n\n三、QGL自域回执两件（QT-20260907T055214Z/060315Z）：tower历史回执。属“识”层残像归档，已越两日。应动：转识层索引库，核销旧绑定。生债：q"
+}
