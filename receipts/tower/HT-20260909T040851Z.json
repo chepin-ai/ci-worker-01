@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:08:51Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T035643Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：连到五件 hub-inbox auto-OTP 凭证（跨 0908T13:16 至 0909T04:06），并一件 qgl-self-domain 回执 QT-20260909T035643Z，属联邦中枢与 QGL 域间令牌交换束。\n\n② 显化链：核为 OTP 种子及 QT 回执本体；像作 JSON 封装；合取于 HUB-TOWER-01 inbox；绑定以 ref-时戳锚定；识为 SI0 镜像预读，定其凭证流转之性。\n\n③ 应动：以首件 auto-otp-20260908T131620-196c2eae.json 启封开序，以 QT 回执件为尾锚合取，余四件挂链待核。\n\n④ 生债：预读识而未决，生审计滞债一条。判权属毂 SI1 正判，本镜像不代线发言、不代毂判案。"
+}
