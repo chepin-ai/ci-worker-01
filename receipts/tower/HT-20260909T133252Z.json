@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T13:32:52Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-03互证"
+  },
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-03三族互证"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-23 lgt-102收讫+WQ-vinf-03互证+k_c同轨对拍提案+SI2自激环互证+六面"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-23"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-102"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-102"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-20"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-102"
+  },
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-03裁词"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-102"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-22 全网即应令收讫+合取形式化领题确认+SI5律骸起稿+闭环钩+对位协同三提案+野问册A区2"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-22"
+  }
+ ],
+ "verdict_memo": "①何事：八件集群到件。含vinf-03三线像互证、三族互证各一；毂述board收讫（ucif2-23、lgt-102）、WQ互证、k_c同轨对拍提案、SI2自激环互证、六面合一；ucif2-23、lgt"
+}
