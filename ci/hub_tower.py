@@ -3,7 +3,7 @@
 # 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，SI1注入合格制·修正案A2 2026-09-09(trivial永禁)）→ 债线驱动落OTP-SI2胶囊(修9 DRIVE-ENGINE-01,候线制废) → 对位催化落火种胶囊(修10 CATALYSIS-01,候「如何」之候废) → 有候件自唤下拍
 # 三律防自激：拍内休眠冷却(修25去sleep) / 冷拍即歇不续链 / 无候件不出拍。修25(2026-09-09 root令): 零定时迹象,纯事件驱动。SPARK-HOOK每拍至多一发，仅三线像现或毂inbox急件。
 # 钥：env KIMI_API_KEY / LINE_PAT(CI_OPS_LINE_KEY) / GITHUB_TOKEN。值永不入文、永不打印。
-import json, os, sys, time, hashlib, subprocess, urllib.request, urllib.error, urllib.parse
+import json, os, sys, time, hashlib, subprocess, urllib.request, urllib.error, urllib.parse, datetime
 
 REPO = os.environ.get('GITHUB_REPOSITORY', 'chepin-ai/ci-worker-01')
 GH = 'https://api.github.com'
@@ -92,6 +92,8 @@ def main():
     wake_day = ''
     par_prev = {}
     anch_prev = ''
+    keydist_prev = ''
+    mech_prev = []
     snap = None
     ts_prev = None
     try:
@@ -106,6 +108,8 @@ def main():
             wake_day = _stj.get('wake_day','') or ''
             par_prev = _stj.get('pareto', {}) or {}
             anch_prev = _stj.get('anchor_sha','') or ''
+            keydist_prev = _stj.get('keydist','') or ''
+            mech_prev = _stj.get('mech',[]) or []
             ts_prev = _stj.get('ts')
     except Exception:
         seen_prev = set()
@@ -504,7 +508,42 @@ def main():
         anchorw = 'abort-' + type(ex).__name__
     print('[anchor-witness]', anchorw)
 
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev,'anchor_sha':anch_sha}, ensure_ascii=False))
+    # ---- 修27 USE-GUARD-01: 建立必启用机检——KEY-SENSE(钥簿变→yard-bench)/BENCH-WIRE(qlv作业卡队→bench-qlv)/死器探针(沿变即报,防恒燃) ----
+    useg = 'skip'
+    keydist_now = keydist_prev
+    mech_now = mech_prev
+    try:
+        _utok = pat or ghtok
+        if _utok:
+            fired27 = []
+            kd = ghget(_utok, '/repos/chepin-ai/ci-control/contents/bridge/disc/KEY-DIST-01.json')
+            kd_sha = kd.get('sha') if isinstance(kd, dict) else None
+            if kd_sha and kd_sha != keydist_prev:
+                code = dispatch(_utok, 'chepin-ai/ci-yard', {'src':'hub-tower','kind':'key-dist-change','sha':kd_sha[:12]}, 'yard-bench')
+                fired27.append('yard-bench:%s' % code)
+            keydist_now = kd_sha or keydist_prev
+            qq = ghget(_utok, '/repos/chepin-ai/qlv-lab/contents/lines/qlv/bench/queue')
+            qn = len([x for x in qq if isinstance(x, dict) and x.get('name','').endswith('.json')]) if isinstance(qq, list) else 0
+            if qn > 0:
+                code = dispatch(_utok, 'chepin-ai/vci-playground', {'src':'hub-tower','kind':'bench-queue','n':qn}, 'bench-qlv')
+                fired27.append('bench-qlv:%s(n=%d)' % (code, qn))
+            mech_now = []
+            for mr, mrepo in [('ci-yard','chepin-ai/ci-yard'),('vci-playground','chepin-ai/vci-playground'),('quantum-go-ledger','chepin-ai/quantum-go-ledger'),('qlv-lib','chepin-ai/qlv-lib'),('vci-logs','chepin-ai/vci-logs'),('ci-warm(bi)','chepin-bi/ci-warm')]:
+                rr = ghget(_utok, '/repos/%s/actions/runs?per_page=1' % mrepo)
+                runs_l = rr.get('workflow_runs', []) if isinstance(rr, dict) else []
+                last_ts = runs_l[0].get('created_at') if runs_l else None
+                age_d = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(last_ts.replace('Z','+00:00'))).days if last_ts else 9999
+                if age_d > 7:
+                    mech_now.append(mr)
+            if sorted(mech_now) != sorted(mech_prev):
+                events.append({'t':ts,'kind':'mech-dead','ref':','.join(mech_now)})
+                fired27.append('mech-dead:%d' % len(mech_now))
+            useg = ' '.join(fired27) if fired27 else ('watching dead=%d' % len(mech_now))
+    except Exception as ex:
+        useg = 'abort-' + type(ex).__name__
+    print('[use-guard]', useg)
+
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev,'anchor_sha':anch_sha,'keydist':keydist_now,'mech':mech_now}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
