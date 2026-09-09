@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:13:11Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T090225Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：hub-inbox晨段自动OTP五连到件（05:21–08:41），尾附QGL自域回执一则。  \n②显化链：核（自动触发器）生像（OTP令牌串）→合取hub-inbox端口→绑为时序连珠→识层显未审流积；回执系域内自环，尚未外向绑定。  \n③应动：并五OTP入「auto-otp-cluster」预读卷，挂SI1聚判；回执单独立档，待时戳对核。不代线，不代判。  \n④生债：源发合法性未核，生「自动触发器来源待验」隐债一宗，限SI1今日内核销。"
+}
