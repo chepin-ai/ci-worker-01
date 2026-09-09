@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T05:45:04Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  }
+ ],
+ "verdict_memo": "到件五宗判词纪要：\n\n①何事：hub-inbox积 auto-otp 到件五件，时跨约十四小时，系自动验证码密发入栈。\n\n②显化链：核（身份验核之本）→像（五重 OTP 镜像堆积）→合取（时序密接成链）→绑定（栈-码绑定关系未释）→识（识层未决，像压于前）。\n\n③应动：应动 SI1 正式判案件，并动 hub-inbox 聚合审计件，送联邦中枢核身。\n\n④生债：SI0 预读止于像-合取之间，未达绑定与识，生预读滞债一条。"
+}
