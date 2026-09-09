@@ -573,6 +573,9 @@ def main():
                     _it['beats'] = int(_it.get('beats', 0)) + 1
                     _changed = True
                     _nonce = _it.get('nonce', '')
+                    _cmts = ghget(_tok28, '/repos/chepin-ai/ci-inbox/issues/comments?per_page=100')  # 修29a: 议事厅评论面
+                    _cmts = _cmts if isinstance(_cmts, list) else []
+                    _ib28 = {'usrm': ('usrm-repo', 'inbox'), 'cfts': ('github-repo-cfts', 'inbox'), 'ucif2': ('ucif2-formalization-kernel', '.ci-inbox'), 'vinf': ('vinf-market-kernel', 'inbox'), 'qgl': ('vci-qgl', 'inbox'), 'qlv': ('vci-inbox', 'lanes/qlv/inbox'), 'qfa': ('vci-inbox', 'lanes/qfa/inbox'), 'lgt': ('vci-inbox', 'lanes/lgt/inbox')}  # 修29b: inbox RESP面
                     for _ln, _tg in _it.get('targets', {}).items():
                         if _tg.get('state') == 'closed':
                             continue
@@ -589,6 +592,20 @@ def main():
                             if isinstance(_c, dict) and _c.get('content'):
                                 _tx = B2.b64decode(_c['content']).decode()
                                 if (_nonce and _nonce in _tx) or _it['id'] in _tx:
+                                    _resp = True
+                                    break
+                        if not _resp:  # 修29c: 厅评探测——nonce/案号命中且线名署于文首(打通应而不察死角)
+                            for _cm in _cmts:
+                                _bd2 = _cm.get('body', '')
+                                if ((_nonce and _nonce in _bd2) or _it['id'] in _bd2) and _ln in _bd2[:120]:
+                                    _resp = True
+                                    break
+                        if not _resp and _ln in _ib28:  # 修29d: inbox RESP件探测
+                            _rp2, _pa2 = _ib28[_ln]
+                            _il = ghget(_tok28, '/repos/%s/contents/%s' % (_rp2, urllib.parse.quote(_pa2)))
+                            for _fi in (_il if isinstance(_il, list) else []):
+                                _nm = _fi.get('name', '')
+                                if _nm.startswith('RESP-') and ((_nonce and _nonce in _nm) or _it['id'] in _nm):
                                     _resp = True
                                     break
                         if _resp:
