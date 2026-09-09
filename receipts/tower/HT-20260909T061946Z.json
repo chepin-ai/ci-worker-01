@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T06:19:46Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  }
+ ],
+ "verdict_memo": "件一至五并案判词：\n\n① 何事：hub-inbox 旬日内连收 auto-otp 五件，呈自动令牌异动聚类。  \n② 显化链：诸件属像层噪涌，核层未映；多像迫促合取，绑定未立，识域悬空。  \n③ 应动何件：应动 hub-audit/otp-cluster 审计件，呈毂 SI1 确权候核，SI0 不代决。  \n④ 生债一条：预读悬置，生程序滞债一条，待毂结清。"
+}
