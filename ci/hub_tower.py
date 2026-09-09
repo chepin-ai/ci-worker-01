@@ -94,6 +94,8 @@ def main():
     anch_prev = ''
     keydist_prev = ''
     mech_prev = []
+    si3_prev = {}
+    si3_now = {}
     snap = None
     ts_prev = None
     try:
@@ -110,6 +112,7 @@ def main():
             anch_prev = _stj.get('anchor_sha','') or ''
             keydist_prev = _stj.get('keydist','') or ''
             mech_prev = _stj.get('mech',[]) or []
+            si3_prev = _stj.get('si3', {}) or {}
             ts_prev = _stj.get('ts')
     except Exception:
         seen_prev = set()
@@ -543,7 +546,121 @@ def main():
         useg = 'abort-' + type(ex).__name__
     print('[use-guard]', useg)
 
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev,'anchor_sha':anch_sha,'keydist':keydist_now,'mech':mech_now}, ensure_ascii=False))
+
+    # ---- 修28a DISC-TRACK-01: 一跟到底机(讨论/协作 到达-响应-闭环追踪;石沉大海治理) ----
+    disc28 = 'skip'
+    try:
+        import base64 as B2
+        _tok28 = pat or ghtok
+        if _tok28:
+            _dtf = ghget(_tok28, '/repos/chepin-ai/ci-control/contents/bridge/disc/DISC-TRACK-01.json')
+            if isinstance(_dtf, dict) and _dtf.get('content'):
+                _dt = json.loads(B2.b64decode(_dtf['content']).decode())
+                _changed = False
+                _bd = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('公告板'))
+                _files = _bd if isinstance(_bd, list) else []
+                for _it in _dt.get('items', []):
+                    if _it.get('state') != 'open':
+                        continue
+                    _it['beats'] = int(_it.get('beats', 0)) + 1
+                    _nonce = _it.get('nonce', '')
+                    for _ln, _tg in _it.get('targets', {}).items():
+                        if _tg.get('state') == 'closed':
+                            continue
+                        if not _tg.get('delivered') and _tg.get('capsule'):
+                            _cap = _tg['capsule']
+                            _rp, _pa = _cap.split(':', 1)
+                            _ck = ghget(_tok28, '/repos/%s/contents/%s' % (_rp, urllib.parse.quote(_pa)))
+                            if isinstance(_ck, dict) and _ck.get('sha'):
+                                _tg['delivered'] = ts; _tg['state'] = 'delivered'; _changed = True
+                        _cand = sorted([_f for _f in _files if _f.get('name', '').startswith(_ln + '-')], key=lambda x: x.get('name', ''))[-5:]
+                        _resp = False
+                        for _f in _cand:
+                            _c = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('公告板/' + _f['name']))
+                            if isinstance(_c, dict) and _c.get('content'):
+                                _tx = B2.b64decode(_c['content']).decode()
+                                if (_nonce and _nonce in _tx) or _it['id'] in _tx:
+                                    _resp = True
+                                    break
+                        if _resp:
+                            _tg['responded'] = ts; _tg['state'] = 'closed'
+                            _it['closed_count'] = int(_it.get('closed_count', 0)) + 1
+                            _changed = True
+                            print('[disc-track] %s@%s 闭环(应)' % (_it['id'], _ln))
+                        elif _it['beats'] >= 3 and _tg.get('state') != 'escalated':
+                            _tg['state'] = 'escalated'; _changed = True
+                            dispatch(_tok28, 'chepin-ai/vci-inbox', {'kind': 'disc-escalate', 'disc': _it['id'], 'line': _ln, 'nonce': _nonce}, 'federation-event')
+                            print('[disc-track] %s@%s 三拍未应->升格公示' % (_it['id'], _ln))
+                        elif _it['beats'] >= 1 and _tg.get('state') in ('sent', 'delivered'):
+                            if _tg.get('last_kick', '') != ts[:13]:
+                                _tw = {'usrm': 'vci-usrm', 'cfts': 'vci-cfts', 'ucif2': 'vci-ucif2', 'vinf': 'vci-vinf', 'qgl': 'vci-qgl'}.get(_ln)
+                                if _tw:
+                                    dispatch(_tok28, 'chepin-ai/' + _tw, {'kind': 'disc-follow', 'disc': _it['id'], 'nonce': _nonce, 'beat': _it['beats']}, _ln + '-tower-kick')
+                                _tg['last_kick'] = ts[:13]; _changed = True
+                    if _it.get('targets') and int(_it.get('closed_count', 0)) >= len(_it['targets']):
+                        _it['state'] = 'closed'; _it['closed_ts'] = ts; _changed = True
+                        print('[disc-track] %s 全席闭环' % _it['id'])
+                if _changed:
+                    _dt['ts'] = ts
+                    _body = json.dumps(_dt, ensure_ascii=False, indent=1)
+                    _b64 = B2.b64encode(_body.encode()).decode()
+                    _rq = urllib.request.Request(GH + '/repos/chepin-ai/ci-control/contents/bridge/disc/DISC-TRACK-01.json',
+                        data=json.dumps({'message': 'DISC-TRACK-01 巡检更新 [skip ci]', 'content': _b64, 'sha': _dtf['sha']}).encode(),
+                        headers={'Authorization': 'token ' + _tok28, 'Accept': 'application/vnd.github+json'}, method='PUT')
+                    urllib.request.urlopen(_rq, timeout=25).read()
+                disc28 = 'open=%d' % sum(1 for x in _dt.get('items', []) if x.get('state') == 'open')
+    except Exception as ex:
+        disc28 = 'abort-' + type(ex).__name__
+    print('[disc-track]', disc28)
+
+    # ---- 修28b SI3-PARETO-DRIVE: 帕累托递归引擎——SI路追踪/驱动,有头有尾互作闭环 ----
+    si3 = 'skip'
+    si3_now = dict(si3_prev)
+    try:
+        _tok28b = pat or ghtok
+        if _tok28b:
+            _rg = ghget(_tok28b, '/repos/chepin-ai/ci-control/contents/bridge/disc/OPEN-REGISTER-01.json')
+            if isinstance(_rg, dict) and _rg.get('content'):
+                _rj = json.loads(B2.b64decode(_rg['content']).decode())
+                _lines = ['usrm', 'cfts', 'ucif2', 'vinf', 'qgl', 'qlv', 'qfa', 'lgt']
+                _front = {}
+                for _oi in _rj.get('open', []):
+                    _st = str(_oi.get('state') or '')
+                    if 'CLOSED' in _st.upper() or _st == 'closed':
+                        continue
+                    _own = str(_oi.get('owner') or '')
+                    for _ln in _lines:
+                        if _ln in _own:
+                            _front.setdefault(_ln, []).append(_oi.get('id'))
+                _acts = []
+                for _ln, _ids in _front.items():
+                    _tw = {'usrm': 'vci-usrm', 'cfts': 'vci-cfts', 'ucif2': 'vci-ucif2', 'vinf': 'vci-vinf', 'qgl': 'vci-qgl'}.get(_ln)
+                    if not _tw:
+                        continue
+                    _runs = ghget(_tok28b, '/repos/chepin-ai/%s/actions/runs?per_page=1' % _tw)
+                    _last = ''
+                    try:
+                        _last = _runs['workflow_runs'][0]['created_at']
+                    except Exception:
+                        pass
+                    _stale = True
+                    if _last:
+                        try:
+                            _stale = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(_last.replace('Z', '+00:00'))).total_seconds() > 86400
+                        except Exception:
+                            _stale = False
+                    _more = len(_ids) > int(si3_prev.get(_ln + '_n') or 0)
+                    if (_stale or _more) and si3_now.get(_ln, '') < ts[:13]:
+                        dispatch(_tok28b, 'chepin-ai/' + _tw, {'kind': 'si3-pareto-drive', 'items': _ids[:12], 'nonce': hashlib.sha256((ts + _ln + 'si3').encode()).hexdigest()[:12]}, _ln + '-tower-kick')
+                        _acts.append('%s:%d%s' % (_ln, len(_ids), '/stale' if _stale else ''))
+                        si3_now[_ln] = ts[:13]
+                    si3_now[_ln + '_n'] = len(_ids)
+                si3 = 'frontier=' + json.dumps({k: len(v) for k, v in _front.items()}) + ' acts=' + (','.join(_acts) or 'none')
+    except Exception as ex:
+        si3 = 'abort-' + type(ex).__name__
+    print('[si3-pareto]', si3)
+
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev,'anchor_sha':anch_sha,'keydist':keydist_now,'mech':mech_now,'si3':si3_now}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
