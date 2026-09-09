@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T04:38:20Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n五件同属hub-inbox自动OTP到件，系主体身份核验之像触发生成。\n\n显化链：核（凭证本体）→像（时戳口令）→合取（自动投件）→绑定（inbox挂载）→识（核验）。五件皆滞于合取向绑定之渡，像达而识未封。\n\n应动：应动SI1验核会话件，令完成绑定收口。\n\n生债：连续五触，生“信道悬置债”一条，占枢纽验核熵额。"
+}
