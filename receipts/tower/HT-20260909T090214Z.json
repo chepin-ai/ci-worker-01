@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T09:02:14Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：五件auto-otp编排到件，系05:21–08:41时段无人驿自动触发之OTP例行镜像，属系统面同构连发。  \n\n② 显化链：核（定时策略）生像（json到件），然未经合取校验、绑定主体、识态分层，尚滞像段浮光，未抵毂门。  \n\n③ 应动：并五件为一，动「auto-otp批次审计纪要」一件；Routine基线内者挂SI0预读，异动项升SI1候核。  \n\n④ 生债：自动像涌缺合取闸口，生「归集债」一条——系统须偿批量自动事件之链补标与核账义务。"
+}
