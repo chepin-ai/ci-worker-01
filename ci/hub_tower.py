@@ -90,6 +90,7 @@ def main():
     pair_prev = {}
     pair_now = {}
     wake_day = ''
+    par_prev = {}
     snap = None
     ts_prev = None
     try:
@@ -102,6 +103,7 @@ def main():
             cat_prev = _stj.get('catalyze', {}) or {}
             pair_prev = _stj.get('pair', {}) or {}
             wake_day = _stj.get('wake_day','') or ''
+            par_prev = _stj.get('pareto', {}) or {}
             ts_prev = _stj.get('ts')
     except Exception:
         seen_prev = set()
@@ -359,6 +361,53 @@ def main():
         drive = ('fired '+','.join(fired)) if fired else 'no-due'
     print('[drive]', drive)
 
+    # ---- PARETO-GUARD-01 修22(root令2026-09-09: SI3帕累托递归进程驻守一跟到底)——每拍读OPEN-REGISTER: 前沿=deps⊆闭集之开件; R头件日一器落胶囊; 销则下拍递归重算 ----
+    par = 'no-due'
+    PARETO_T = {'R1':[('chepin-ai/vci-inbox','lanes/qlv/inbox',None),('chepin-ai/vinf-market-kernel','inbox',None),('chepin-ai/vci-qgl','inbox',None)],
+                'R2':[('chepin-ai/github-repo-cfts','inbox','master')],
+                'R3':[('chepin-ai/usrm-repo','inbox',None),('chepin-ai/ucif2-formalization-kernel','.ci-inbox',None)],
+                'R4':[('chepin-ai/vci-inbox','lanes/qlv/inbox',None)]}
+    if pat:
+        _og = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/disc/OPEN-REGISTER-01.json')
+        if isinstance(_og, dict) and _og.get('content'):
+            try:
+                import base64 as B
+                _oj = json.loads(B.b64decode(_og['content']).decode())
+                _cl = set(_oj.get('closed_cum') or []) | set((x.get('id') if isinstance(x,dict) else x) for x in _oj.get('closed_today',[]))
+                _front = [o for o in _oj.get('open',[]) if isinstance(o,dict) and set(o.get('deps') or []) <= _cl]
+                _heads = [o for o in _front if str(o.get('id','')).startswith('R')][:3]
+                if _heads: events.append({'kind':'pareto-frontier','ref':'+'.join(o['id'] for o in _heads)})
+                firedp = []
+                for o in _heads:
+                    nid = str(o.get('id',''))
+                    if par_prev.get(nid,'')[:10] >= ts[:10]: continue
+                    ok = False
+                    for drepo,dpath,br in PARETO_T.get(nid, []):
+                        try:
+                            nonce = hashlib.sha256((ts+nid+drepo).encode()).hexdigest()[:12]
+                            nrg = ghget(pat, '/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json')
+                            if not (isinstance(nrg, dict) and nrg.get('content')): continue
+                            nrd = json.loads(B.b64decode(nrg['content']).decode())
+                            nrd['registry'][nonce] = {'line': nid, 'purpose': 'PARETO-GUARD-01前沿驻守胶囊', 'ts': ts, 'status': 'pareto-by-tower'}
+                            urllib.request.urlopen(urllib.request.Request(GH+'/repos/chepin-ai/ci-control/contents/bridge/disc/nonce-reg-hub.json',
+                                data=json.dumps({'message':'NONCE-REG pareto '+nid+' '+nonce+' [skip ci]','content':B.b64encode(json.dumps(nrd,ensure_ascii=False,indent=1).encode()).decode(),'sha':nrg['sha']}).encode(),
+                                method='PUT', headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                            cb = ('【毂塔帕累托驻守 '+nonce+' · PARETO-GUARD-01】'+nid+' 前沿头件\n下一动: '+str(o.get('next',''))+'\n销据: '+str(o.get('判据',''))+
+                                  '\n一帖即销,销则下拍递归重算前沿——帕累托不停,直至链尽。 #noauto')
+                            body2 = {'message':'PARETO-GUARD-01 '+nid+' '+nonce+' [skip ci]','content':B.b64encode(cb.encode()).decode()}
+                            if br: body2['branch'] = br
+                            urllib.request.urlopen(urllib.request.Request(GH+'/repos/'+drepo+'/contents/'+dpath+'/PARETO-'+nid+'-'+nonce+'.md',
+                                data=json.dumps(body2).encode(), method='PUT',
+                                headers={'Authorization':'token '+pat,'Accept':'application/vnd.github+json','User-Agent':'hub-tower','Content-Type':'application/json'}), timeout=20)
+                            ok = True
+                        except Exception as ex:
+                            print('[pareto] cap-abort', nid, type(ex).__name__)
+                    if ok: par_prev[nid] = ts; firedp.append(nid)
+                par = ('fired '+','.join(firedp)) if firedp else ('heads '+','.join(o['id'] for o in _heads) if _heads else 'frontier-empty')
+            except Exception as ex:
+                par = 'abort-'+type(ex).__name__
+    print('[pareto]', par)
+
     # ---- CATALYSIS-01 修10: 对位催化(root令2026-09-08「各线都在候如何自激发/互激发」)——板尾15无像=静默, 以对侣最新像为火种落SI2胶囊, 48h一器, 与DRIVE日线互斥 ----
     cat = 'no-due'
     SEATS = {'lgt':('自由意志与商像','vinf'),'usrm':('因果集与律吕','qgl'),'ucif2':('合取形式化','cfts'),'cfts':('F4机验','ucif2'),
@@ -428,7 +477,7 @@ def main():
         else:
             cascade = f'breaker-rest idle={idle2}'
     print('[cascade]', cascade)
-    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day}, ensure_ascii=False))
+    open('receipts/tower/state.json','w').write(json.dumps({'ts':ts,'idle':idle2,'cascade':cascade,'spark':spark,'events':len(events),'seen':sorted(seen_prev|set(seen_new))[-200:],'drive':drive_prev,'catalyze':cat_prev,'pair':pair_now,'wake_day':wake_day,'pareto':par_prev}, ensure_ascii=False))
     commit_all('HUB-TOWER-01 patrol: events=%d idle=%d %s [skip ci]' % (len(events), idle2, cascade[:40]))
 
 main()
