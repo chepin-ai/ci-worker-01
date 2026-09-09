@@ -604,7 +604,7 @@ def main():
                         _voi = sorted([_f for _f in _allf if '-voice-' in _f.get('name','')], key=lambda x: x.get('name', ''))
                         _lex = sorted(_sub, key=lambda x: x.get('name', ''))
                         _cand = []
-                        for _f in _sub[-5:] + _lex[-5:] + _voi[-3:]:  # 修36: 序号窗∪字序窗∪塔声窗 三窗并集(日期命名/序号命名/字序命名全覆盖)
+                        for _f in _sub[-15:] + _lex[-8:] + _voi[-3:]:  # 修37: 序号窗15∪字序窗8∪塔声窗3 加宽并集(混合命名下新帖必入窗)
                             if _f.get('name') not in [x.get('name') for x in _cand]:
                                 _cand.append(_f)
                         _resp = False
