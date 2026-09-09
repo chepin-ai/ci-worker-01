@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T12:13:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T091440-29d878a2.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T094627-ac045bad.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T095755-808711e3.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T061408Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062047Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062230Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062547Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：QLV-SI0线路重启协议（cfts-v2）一件；hub-inbox auto-OTP时序报文五件；QGL自域回执两件。\n\n②显化链：重启件属“像”层刷新，诱映核变；五件OTP属“合取→绑定”连帧，填隙时空；两件回执属“核”域自识，然时序倒挂，链上逆张。\n\n③应动：以 lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md 为主件，余七件伴生归档，待毂SI1会话定谳。\n\n④生债：OTP流缺显化摘要，QGL回执缺绑定锚点，共负“索引未显”之链债一件。"
+}
