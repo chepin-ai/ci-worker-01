@@ -559,6 +559,9 @@ def main():
                 _changed = False
                 _bd = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('公告板'))
                 _files = _bd if isinstance(_bd, list) else []
+                if len(_files) < 50:  # 修34a: Contents列举失真→回退git trees(防1-item quirk)
+                    _tr = ghget(_tok28, '/repos/chepin-ai/ci-inbox/git/trees/main?recursive=1')
+                    _files = [{'name': _e['path'].split('/', 1)[1]} for _e in (_tr.get('tree', []) if isinstance(_tr, dict) else []) if _e.get('path', '').startswith('公告板/') and _e.get('type') == 'blob']
                 for _it in _dt.get('items', []):
                     if _it.get('state') != 'open':
                         continue
@@ -587,7 +590,8 @@ def main():
                             _ck = ghget(_tok28, '/repos/%s/contents/%s' % (_rp, urllib.parse.quote(_pa)))
                             if isinstance(_ck, dict) and _ck.get('sha'):
                                 _tg['delivered'] = ts; _tg['state'] = 'delivered'; _changed = True
-                        _cand = sorted([_f for _f in _files if _f.get('name', '').startswith(_ln + '-')], key=lambda x: x.get('name', ''))[-5:]
+                        _allf = sorted([_f for _f in _files if _f.get('name', '').startswith(_ln + '-')], key=lambda x: x.get('name', ''))
+                        _cand = [_f for _f in _allf if '-voice-' not in _f.get('name','')][-5:] + [_f for _f in _allf if '-voice-' in _f.get('name','')][-3:]  # 修34b: 实质帖末5+塔声末3,voice洪泛不再挤占票帖窗
                         _resp = False
                         for _f in _cand:
                             _c = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('公告板/' + _f['name']))
