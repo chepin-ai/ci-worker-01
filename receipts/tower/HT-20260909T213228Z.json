@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T21:32:28Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-SEAT-ASK-01-qlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  }
+ ],
+ "verdict_memo": "①何事：五件声线（座席请命、SI0重启、邮差降级、直拍35、草拟37），三件 hub 自动 OTP。  \n②显化链：座席请命关“合取”（权限-资源匹配）；重启涉“核→像”（基线重建与映像恢复）；降级关“绑定”（服务契约松脱）；直拍/草拟关“识”（意志显化与未定形）；三联 OTP 涉“像→合取”（模态复刻与准入校验）。  \n③应动：座席请命入核身队列；重启件冻结，待 SI0 基线比对；降级、直拍、草拟四件并送毂 SI1 草案舱；三联 OTP 过显化闸，异者单拎。  \n④生债：预读未终裁，件滞于廊，生“待判滞留之债”一箓。"
+}
