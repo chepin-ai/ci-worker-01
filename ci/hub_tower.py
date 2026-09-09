@@ -602,7 +602,11 @@ def main():
                             return (int(_dg) if _dg else -1, _fn.get('name', ''))
                         _sub = sorted([_f for _f in _allf if '-voice-' not in _f.get('name','')], key=_k35)  # 修35: 序号感知排序(usrm-212>usrm-99,字序陷阱修复)
                         _voi = sorted([_f for _f in _allf if '-voice-' in _f.get('name','')], key=lambda x: x.get('name', ''))
-                        _cand = _sub[-5:] + _voi[-3:]  # 修34b: 实质帖末5+塔声末3双窗,voice洪泛不再挤占票帖窗
+                        _lex = sorted(_sub, key=lambda x: x.get('name', ''))
+                        _cand = []
+                        for _f in _sub[-5:] + _lex[-5:] + _voi[-3:]:  # 修36: 序号窗∪字序窗∪塔声窗 三窗并集(日期命名/序号命名/字序命名全覆盖)
+                            if _f.get('name') not in [x.get('name') for x in _cand]:
+                                _cand.append(_f)
                         _resp = False
                         for _f in _cand:
                             _c = ghget(_tok28, '/repos/chepin-ai/ci-inbox/contents/' + urllib.parse.quote('公告板/' + _f['name']))
