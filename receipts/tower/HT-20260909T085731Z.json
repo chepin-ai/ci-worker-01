@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T08:57:31Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T071838-13092d8e.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T080238-41f2b539.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T085309Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要  \n① 晨间五件auto-otp蝉联入hub-inbox，末件qgl-self-domain回执收口，乃HUB-TOWER-01机验心跳串流。  \n② 显化链：核未萌动，诸件仅为像层机械反射；五件连发成合取；末件回执完成绑定；识滞于镜像，未升联邦面。  \n③ 应动末件qgl-self-domain回执，启封归档，并稽核前五OTP源端指纹是否闭环。  \n④ 生债：连续auto-otp发起源一致性未于SI0层核验，债留SI1勘验。"
+}
