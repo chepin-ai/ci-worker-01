@@ -1,0 +1,28 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T06:35:04Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T040647-eeac0398.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T052134-6087b0be.json"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：五宗auto-otp到件（refs如上），自动验证令牌暂存inbox。  \n② 显化链：核（认证请求）发像（OTP码），各就时戳与设备合取，绑定未识会话；五宗同滞于“绑定→识”之隙。  \n③ 应动：应动hub-auth核验件，或升SI1会话完成识阶，使链闭合。  \n④ 生债：遗“验讫债”一条，若久悬不核，转生“时效耗散债”。"
+}
