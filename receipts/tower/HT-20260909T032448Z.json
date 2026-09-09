@@ -1,0 +1,32 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-09T03:24:48Z",
+ "idle_in": 1,
+ "events": [
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T124442-bd76a755.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T131620-196c2eae.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T023218-ea2e267c.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T030300-d3a71751.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260909T031326Z.json"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 事：TOWER-01 预读收讫 hub-inbox OTP 自动流入件五枚（08–09 日）及 qgl-self-domain 塔收据一枚（09 日 0313Z）。\n\n② 显化链：六件俱为“像”层残影，核隐未现；OTP 令牌未经验证合取，QGL 回执未与 inbox 流跨域绑定，俱滞于像→合取段，未臻于识。\n\n③ 应动：SI0 不越权代决，应将 OTP 五件并案为「瞬时值审计包」，QGL 回执单列「域锚件」，同步移送 SI1 会话待毂级判读。\n\n④ 债：连续 OTP 自动流入而无显化核标识，生「无核之像债」一条，须补核–像映射表。"
+}
