@@ -593,7 +593,7 @@ def main():
                         _lb41 = _lb41 if isinstance(_lb41, list) else []
                     except Exception as _e41:
                         print('[修41] lobby fetch warn:', str(_e41)[:120]); _lb41 = []
-                    _ib28 = {'usrm': ('USRM-VAULT', 'inbox'), 'cfts': ('CFTS-VAULT', 'inbox'), 'ucif2': ('UCIF2-VAULT', '.ci-inbox'), 'vinf': ('VINF-VAULT', 'inbox'), 'qgl': ('vci-qgl', 'inbox'), 'qlv': ('vci-inbox', 'lanes/qlv/inbox'), 'qfa': ('vci-inbox', 'lanes/qfa/inbox'), 'lgt': ('vci-inbox', 'lanes/lgt/inbox'), 'qtlv': ('HUB-MAIL', 'dm-queue/qtlv'), 'QLV-VAULT': ('HUB-MAIL', 'dm-queue/qlv-lab')}  # 修29b+33b
+                    _ib28 = {'usrm': ('vci-usrm', 'inbox'), 'cfts': ('vci-cfts', 'inbox'), 'ucif2': ('vci-ucif2', 'inbox'), 'vinf': ('vci-vinf', 'inbox'), 'qgl': ('vci-qgl', 'inbox'), 'qlv': ('vci-inbox', 'lanes/qlv/inbox'), 'qfa': ('vci-inbox', 'lanes/qfa/inbox'), 'lgt': ('vci-inbox', 'lanes/lgt/inbox'), 'qtlv': ('vci-inbox', 'lanes/qtlv/inbox'), 'qlv-lab': ('vci-inbox', 'lanes/qlv-lab/inbox')}  # 修42[株九虚巷根治]: VAULT/HUB-MAIL虚巷全灭, 指实仓实巷(vci-{line}/inbox; qtlv/qlv-lab新开户)
                     for _ln, _tg in _it.get('targets', {}).items():
                         if _tg.get('state') == 'closed':
                             continue
