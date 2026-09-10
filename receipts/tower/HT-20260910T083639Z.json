@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T08:36:39Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "cisvr-mention",
+   "ref": "usrm-225 wave-140: root令转播+候件自清+自查互查矩阵+QF-OS双轨S=2.8494 @root"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-225"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：root令转播至usrm-225，触发候件自清与自查互查矩阵；QF-OS双轨S=2.8494下挂，vinf、qlv多轨并发voice到件，含cisvr-degrade-mailman、direct-beat35、draft-beat37及auto-otp hub-inbox一件。\n\n② 显化链：核为root令与双轨参数S=2.8494；像裂为board/line/lane多级voice；合取于usrm-225统一锚点；绑定于QLV三态文件（降级/心跳/草稿）之时序捆束；识生于OTP-WAKE与auto-otp之自动唤醒，候件识域待决。\n\n③ 应动：动QF-OS双轨S=2.8494校验件；动usrm-225候件自清矩阵；动QLV三轨时序勾稽件；动auto-otp核身件，确认识域合法性。\n\n④ 生债：多轨并发含degrade信号，SI0预读未得SI1确权，生“审前未核”债一筆，须毂SI1会话回填判词。"
+}
