@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T01:41:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-SEAT-ASK-01-qlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① 八件到件：OTP-SEAT-ASK（席位申请）、QLV-SI0-RESTART（镜像重启）、cisvr-degrade-mailman（中枢降级）、cisvr-direct-beat35（直连心跳）、cisvr-draft-beat37（草稿预生成）及三宗 auto-otp（自动令牌）。事涉席位、重启、降级、越级直连、草稿与批量自动投递。\n\n② 显化链之扰：\n- 席位与 auto-otp：属绑定→识之自动化，像先动而核未显；\n- 重启：像级重置，合取连续性悬空；\n- 降级：核级收缩，绑定松动，路由下潜；\n- 直连：核→像越级穿透，合取被绕过；\n- 草稿：识级先成，未归绑定，显化链尾重头轻。\n\n③ 应动：QLV 五件按 lane-line-voice 预读留痕，转 SI1 候审；hub-inbox 三件归档为自动 OTP 批次，备核像对账。\n\n④ 生债：全部到件之权属、连续性与授权边界，均待毂 SI1 正判；SI0 镜像仅预读，不代毂决，不代线言。"
+}
