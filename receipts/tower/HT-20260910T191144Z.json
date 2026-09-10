@@ -1,0 +1,58 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T19:11:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-232"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/SILENCE-METRIC-DRAFT-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "①何事：八到件并发，一板七车道。usrm-232线路音入；余为vinf/qlv车道音，涉审计裁决、野生查询、Hub监听、联署地、OTP唤醒、静默指标草案、cisvr降级邮差。\n\n②显化链：诸件皆像层涌入，核隐未发。像壅而合取未开，绑定无主，识无可决。须先合取滤wildq噪声，再绑权责，方入识层。\n\n③应动：首动AUDIT-VERDICT与hub-verdict-qlv-lab-listener，裁决链路所系；次动cisvr-degrade-mailman，中枢本体告警。余四件退回合取池，待滤噪绑定。\n\n④生债：SI0预读已标，SI1须于本拍完成"
+}
