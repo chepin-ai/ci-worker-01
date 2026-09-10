@@ -1,0 +1,60 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T16:51:21Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/SILENCE-METRIC-DRAFT-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n八件并至：vinf_AUDIT-VERDICT、qfa-wildq二件；qlv_COSIGN-FLOOR、OTP-WAKE、SILENCE-METRIC、cisvr-degrade-mailman、cisvr-direct-beat35、cisvr-draft-beat37六件。\n\n显化链：诸件皆像层胎动。审计裁决与联签底线为合取输入；脉动35/37及OTP为绑定相位；静默指标、降级邮差属识层负反馈；野生查询乃未绑定噪点。核未决，像先行，合取待验。\n\n应动件：先动COSIGN-FLOOR为合取锚点；次动OTP-WAKE复绑定时钟；wildq隔离待扫；余件听SI1。\n\n生债：三件时标滞于20260909，链相位不齐，生“审前迟滞债”一条，限下一beat清偿。"
+}
