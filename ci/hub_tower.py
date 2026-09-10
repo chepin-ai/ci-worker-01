@@ -584,6 +584,15 @@ def main():
                     _hit = lambda _s: any((_a and _a in _s) for _a in _alts)
                     _cmts = ghget(_tok28, '/repos/chepin-ai/ci-inbox/issues/comments?per_page=100')  # 修29a: 议事厅评论面
                     _cmts = _cmts if isinstance(_cmts, list) else []
+                    _lb41 = []  # 修41: 大堂面(vci-inbox 大厅 issue#1, 末页评论)——株八(大堂盲)根治: qlv/qfa/qgl 真实活跃面, 毂曾盲导致误判沉默
+                    try:
+                        _iss41 = ghget(_tok28, '/repos/chepin-ai/vci-inbox/issues/1')
+                        _nc41 = int((_iss41 or {}).get('comments') or 0)
+                        _pg41 = max(1, -(-_nc41 // 100))
+                        _lb41 = ghget(_tok28, '/repos/chepin-ai/vci-inbox/issues/1/comments?per_page=100&page=%d' % _pg41)
+                        _lb41 = _lb41 if isinstance(_lb41, list) else []
+                    except Exception as _e41:
+                        print('[修41] lobby fetch warn:', str(_e41)[:120]); _lb41 = []
                     _ib28 = {'usrm': ('USRM-VAULT', 'inbox'), 'cfts': ('CFTS-VAULT', 'inbox'), 'ucif2': ('UCIF2-VAULT', '.ci-inbox'), 'vinf': ('VINF-VAULT', 'inbox'), 'qgl': ('vci-qgl', 'inbox'), 'qlv': ('vci-inbox', 'lanes/qlv/inbox'), 'qfa': ('vci-inbox', 'lanes/qfa/inbox'), 'lgt': ('vci-inbox', 'lanes/lgt/inbox'), 'qtlv': ('HUB-MAIL', 'dm-queue/qtlv'), 'QLV-VAULT': ('HUB-MAIL', 'dm-queue/qlv-lab')}  # 修29b+33b
                     for _ln, _tg in _it.get('targets', {}).items():
                         if _tg.get('state') == 'closed':
@@ -624,6 +633,12 @@ def main():
                             for _cm in _cmts:
                                 _bd2 = _cm.get('body', '')
                                 if _hit(_bd2) and _ln in _bd2[:120]:  # 修33b
+                                    _resp = True
+                                    break
+                        if not _resp and _lb41:  # 修41: 大堂探测(株八根治)——别名命中且线名署于文首, 与厅评同则
+                            for _cm in _lb41:
+                                _bd3 = _cm.get('body', '')
+                                if _hit(_bd3) and _ln in _bd3[:120]:  # 修33b
                                     _resp = True
                                     break
                         if not _resp and _ln in _ib28:  # 修29d: inbox RESP件探测
