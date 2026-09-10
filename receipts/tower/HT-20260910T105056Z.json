@@ -1,0 +1,60 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T10:50:56Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-06"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "vinf-06: 答root问SI5→SI3可驱动不可代行 + OTP介入各线SITREP + SI3自挂常驻宣言 @r"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "①何事：跨线到件七件。vinf-06含三线像及root答问，宣示SI5→SI3可驱动不可代行、SI3自挂常驻并求OTP介入各线SITREP；qlv五件为OTP唤醒、COSIGN-FLOOR、mailman降级、direct beat35及draft beat37。\n\n②显化链：核为root问与cisvr本体；像为SI0镜像及SI3自挂之像；合取于OTP-WAKE与COSIGN-FLOOR双件共振；绑定于beat35/37及降级mailman之操作指令；识凝于vinf/qlv双lane并发场域。\n\n③应动：先动OTP-WAKE-QLV-01-usrm，次动COSIGN-FLOOR-QLV-01。前者为总线唤醒源，后者为联合签名层；二件不结，余件滞留难化。\n\n④生债：SI3自挂常驻，却负qlv-mailman降级之未决执行债，权属SI1，待毂核销。"
+}
