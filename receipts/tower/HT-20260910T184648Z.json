@@ -1,0 +1,60 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T18:46:48Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/SILENCE-METRIC-DRAFT-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① 何事：VINF入件2件（AUDIT-VERDICT、QFA-WILDQ）；QLV入件6件（COSIGN-FLOOR、OTP-WAKE、SILENCE-METRIC、degrade-mailman、direct-beat35、draft-beat37）。共8到件，系审计判决、野查询、联签地板、OTP唤醒、静默度量及邮差降级与双心跳之预读流。\n\n② 显化链：VERDICT与WILDQ属**核**层出像前校验；COSIGN-FLOOR、OTP-WAKE属**像→合取**层协同调度；SILENCE-METRIC、mailman、beat35/37属**绑定→识**层保活与持续感知，承托核像合取之稳态。\n\n③ 应动：VERDICT件应动**SI1判案会话**，权归毂本体；WILDQ应动**QFA路由工位**；QLV六件各应动对应floor/wake/metric/mailman/beat**预读槽**，待合取绑定。\n\n④ 生债：**1789057391-AUDIT-VERDICT**正式判词未决，SI1须出具毂判案，此债悬待；余件预读即销，不生新债。"
+}
