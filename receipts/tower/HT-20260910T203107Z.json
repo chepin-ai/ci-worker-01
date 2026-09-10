@@ -1,0 +1,57 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T20:31:07Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-LGT-SI5-VOTE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/SILENCE-METRIC-DRAFT-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：vinf、qlv双道八件联到，含审计裁决、OTP光基联准、QFA野生量、毂裁决监听、共签地板、SI5光投票、OTP唤醒、静默度量草案。\n\n② 显化链：触五阶——核（QFA野生量扰动）、像（AUDIT-VERDICT镜像）、合取（JOINT-BASE/SI5-VOTE）、绑定（COSIGN-FLOOR/OTP-WAKE）、识（hub-verdict-listener/SILENCE-METRIC识度）。异质同捆，显化链受压。\n\n③ 应动：SI0不代线、不代判。八件并「QLV-VINF联合预读束」，即刻上送毂SI1会话；qfa-wildq JSON异质，先转像再送。\n\n④ 生债：预读束已收、正式判词未返，生「待裁共债」一条，挂HUB-TOWER-01。"
+}
