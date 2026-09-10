@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T06:50:13Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T061408Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T062047Z.json"
+  }
+ ],
+ "verdict_memo": "件一（degrade-mailman）：mailman降级告警。像层剥落，合取断链，绑定松脱。应动降级审计件。生债：降级路径未回核校验。\n\n件二（direct-beat35）：cisvr直驱节律35。核越像层，绑定硬贯，合取被跃。应动节律缓冲与回查件。生债：直驱缺合取缓冲。\n\n件三（draft-beat37）：cisvr起草节律37。合取预演，像层未凝，识未绑定。应动草案确权件。生债：草稿越像层而生。\n\n件四至八（auto-otp五件）：hub自动OTP五连投。机械触发，识层空转，绑定虚悬。应动OTP核销与源头验真件。生债：自动链路免核而生。"
+}
