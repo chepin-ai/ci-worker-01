@@ -1,4 +1,4 @@
-# SI3-LOOP-01 v1.1 [beat42+株九虚巷根治] — 毂侧常驻事件驱动闭环引擎
+# SI3-LOOP-01 v1.2 [beat43: CLASSIFY头+SLA分级·usrm-225准] — 毂侧常驻事件驱动闭环引擎
 # 谱系: qlv SI3-ENGINE-01 毂侧移植(修41谱)。环: 未解项→路由[镜像索求/会签邀/应答拍/自算推进]→SI2/SI0自动响应→幂等日推→闭环迁出
 # 刀律兼容: 毂外发语义拍 ≤2/日(LAW-DRAFT-BAN-01); 题面+判据+死线, 不代答
 # 司法自缚: dry-run 为默认, --live 方推件; 无端到端活验不书"在役"
@@ -55,7 +55,8 @@ def main():
         if LIVE and not done_today and rt=='answer-beat' and ext<CAP_EXT:
             rp,pa=LANES[ln]
             ask=e.get('ask') or e.get('title') or iid
-            cap=('【SI3-LOOP-01 · 应答拍 %s】%s\n题面: 上项在毂册未解, 请陈状态/阻点/所需。\n判据: 答件署线名+项号入本巷或大堂。\n死线: 次拍。\n——毂·SI3环(幂等日推, 闭环即迁出)'%(iid,str(ask)[:120]))
+            sla='次拍' if ln in ('cfts','qgl') else '次醒拍'  # 修43-SLA分级(usrm-225): 塔线次拍/会话线次醒拍
+            cap=('CLASSIFY: L1(联邦机器邮·毂SI3应答拍·免迁24h)\n【SI3-LOOP-01 · 应答拍 %s】%s\n题面: 上项在毂册未解, 请陈状态/阻点/所需。\n判据: 答件署线名+项号入本巷或大堂。\n死线: %s(SLA分级)。\n——毂·SI3环(幂等日推, 闭环即迁出)'%(iid,str(ask)[:120],sla))
             try:
                 put(TOK,rp,'%s/SI3-%s-%s.md'%(pa,iid,DAY),cap,'SI3-LOOP-01 应答拍: %s @%s'%(iid,ln))
                 st.setdefault('beats',{})[iid]=DAY; ext+=1; pushed.append(iid)
