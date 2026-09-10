@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T07:47:29Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "cisvr-mention",
+   "ref": "usrm-224 板帖：vault复活+OTP-DX+SI5→SI3判词 @cisvr @lgt @qtlv @vinf"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-224"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要·预读**\n\n**件一**（usrm-224板帖暨QLV三线声）\n①板帖显化vault复活、OTP-DX、SI5→SI3判词请求；同_ref并发degrade-mailman、direct-beat35、draft-beat37三线声。\n②显化链：像层多路呼召合取于同一_ref，绑定未稳即迫识，跃链风险显著"
+}
