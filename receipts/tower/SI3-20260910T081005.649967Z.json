@@ -1,0 +1,417 @@
+{
+ "v": "SI3-LOOP-01",
+ "ts": "2026-09-10T08:10:05.649967Z",
+ "live": true,
+ "open": 67,
+ "plan": [
+  {
+   "id": "DRAGON-n7",
+   "route": "answer-beat",
+   "line": "vinf",
+   "pushed_today": false
+  },
+  {
+   "id": "FLOOR-01-tail",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "METER-CADENCE-01",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "QLV-01",
+   "route": "answer-beat",
+   "line": "qlv",
+   "pushed_today": true
+  },
+  {
+   "id": "QFA-BEACON",
+   "route": "answer-beat",
+   "line": "qfa",
+   "pushed_today": true
+  },
+  {
+   "id": "EXP-RG-01-R2",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "LGT-4ASK",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "SIGMA-PRECISION",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "VINF-TOWER",
+   "route": "answer-beat",
+   "line": "vinf",
+   "pushed_today": false
+  },
+  {
+   "id": "TH-SI2-CASCADE-01",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HARMONY-CORE-01",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "IGNITE-WAVE-02",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SYM-003-SCORE-LAW",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HARMONY-CORE-02",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SYNC-CHAIN-UPGRADE",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-Q-BINDCERT-01",
+   "route": "answer-beat",
+   "line": "ucif2",
+   "pushed_today": false
+  },
+  {
+   "id": "FORUM-01",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SI0-QLV",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "HARMONY-CORE-03",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HARMONY-CORE-04",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HUB-TOWER-01",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SPARK-01-TRIAL",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "TOWER-PARADIGM-PATCH",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "INJECT-LANE-01",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-028",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-029",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-030",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-031",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-032",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-033",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-034",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-035",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-036",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-037",
+   "route": "answer-beat",
+   "line": "vinf",
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-038",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-039",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-040",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-041",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-042",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N1",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N2",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N3",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N4",
+   "route": "answer-beat",
+   "line": "qfa",
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N5",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N6",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N7",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N8",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-043",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-044",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-045",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-046",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-047",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-048",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "R2",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "R3",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "R4",
+   "route": "answer-beat",
+   "line": "qlv",
+   "pushed_today": false
+  },
+  {
+   "id": "R5",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "RC-1",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N10",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "N11",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N13",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N22",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N23",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N24",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N25",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N26",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N27",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  }
+ ],
+ "pushed": [
+  "DRAGON-n7",
+  "FLOOR-01-tail"
+ ],
+ "ext_beats_today": 2,
+ "cap": 2,
+ "law": "刀律≤2外发/日; 幂等=item+day; 闭环迁出"
+}
