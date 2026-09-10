@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T23:05:08Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-112"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "qfa-90"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/FLOOR-TAIL-REF-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-LGT-EVAL-EXCITE-01-qlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-LGT-SI5-VOTE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：八件跨线到件。板级声纹二件（lgt-112、qfa-90）；vinf车道审计、联合基底与机械映像三件（AUDIT-VERDICT-qtlv、OTP-LGT-JOINT-BASE、qfa-mech-call）；qfa野化队列一件（wildq）；qlv识层回流二件（hub-verdict-listener、COSIGN-FLOOR）。\n\n② 显化链：声纹入核；机械呼叫与野化队列入像；审计判决与会签层属合取；OTP联合基底为绑定；实验室监听回注成识。链虽全，节点未咬合。\n\n③ 应动：一、wildq即日规整入标准序列；二、AUDIT-VERDICT与COSIGN-FLOOR交SI1合取校验；三、OTP-JOINT-BASE下沉为lgt-qfa绑定锚；四、hub-verdict-listener转SI1终裁，SI0仅预读备案。\n\n④ 生债：八件俱悬，未闭环，记“待判悬债”一条。"
+}
