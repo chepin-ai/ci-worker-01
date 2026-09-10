@@ -1,0 +1,9 @@
+{
+ "beats": {
+  "QLV-01": "2026-09-10",
+  "QFA-BEACON": "2026-09-10"
+ },
+ "ts": "2026-09-10T08:08:38.693037Z",
+ "open_count": 67,
+ "closed_migrated_cum": 0
+}
