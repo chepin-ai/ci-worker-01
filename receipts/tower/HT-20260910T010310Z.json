@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T01:03:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-SEAT-ASK-01-qlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/QLV-SI0-RESTART-01-cfts-v2.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T060315Z.json"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n1. OTP-SEAT-ASK：席位申领，像层占位，合取未定；应动SI1核席；生债：席悬未决，席债一条。  \n2. QLV-SI0-RESTART：镜像自净，核动像摇，绑定重置；应动cfts-v2净身并上报；生债：时序中断，净债一条。  \n3. cisvr-degrade-mailman：邮差降级，核损像退，绑定松脱；应动切备援邮路；生债：驿降失速，信债一条。  \n4. cisvr-direct-beat35：直连脉动，像显脉存，绑定续命；应动脉账留痕；生债：脉续为系，命债一条。  \n5. cisvr-draft-beat37：草案虚悬，像合未锚，绑定待定；应动锁草稿池待毂批；生债：稿悬未落，稿债一条。  \n6-8. auto-otp×3（1054/1139/1304）：机发OTP，核出像显，机器自合，绑定待验；应动转鉴权核；生债：机发无人"
+}
