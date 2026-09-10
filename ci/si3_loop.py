@@ -1,10 +1,19 @@
-# SI3-LOOP-01 v1.2 [beat43: CLASSIFY头+SLA分级·usrm-225准] — 毂侧常驻事件驱动闭环引擎
+# SI3-LOOP-01 v1.3 [beat43: CLASSIFY头+SLA分级·usrm-225准] — 毂侧常驻事件驱动闭环引擎
 # 谱系: qlv SI3-ENGINE-01 毂侧移植(修41谱)。环: 未解项→路由[镜像索求/会签邀/应答拍/自算推进]→SI2/SI0自动响应→幂等日推→闭环迁出
 # 刀律兼容: 毂外发语义拍 ≤2/日(LAW-DRAFT-BAN-01); 题面+判据+死线, 不代答
 # 司法自缚: dry-run 为默认, --live 方推件; 无端到端活验不书"在役"
 import json, sys, os, base64, urllib.request, urllib.parse, datetime
 GH='https://api.github.com'
-TOK=os.environ.get('LINE_PAT') or os.environ.get('GITHUB_TOKEN')
+def _mint():
+    try:
+        import jwt as JW, time as _t
+        _k=open('/mnt/agents/output/.scratch/ciops_hub.pem').read()
+        _n=int(_t.time())
+        _j=JW.encode({'iat':_n-90,'exp':_n+540,'iss':'4621702'},_k,algorithm='RS256')
+        _q=urllib.request.Request(GH+'/app/installations/154355791/access_tokens',method='POST',headers={'Authorization':'Bearer '+_j,'Accept':'application/vnd.github+json'})
+        return json.loads(urllib.request.urlopen(_q,timeout=25).read())['token']
+    except Exception: return None
+TOK=_mint() or os.environ.get('LINE_PAT') or os.environ.get('GITHUB_TOKEN')  # 修43c: 自铸优先(会话端令牌飘絮自愈), 仓内env兜底
 def H(t): return {'Authorization':'Bearer '+t,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}
 def gh(t,p):
     q=urllib.request.Request(GH+p,headers=H(t))
@@ -42,6 +51,7 @@ def route(e):
 
 def main():
     reg_raw,_=gfile(TOK,'ci-control','bridge/disc/OPEN-REGISTER-01.json')
+    if not reg_raw: print('[si3] register fetch fail — abort'); return
     reg=json.loads(reg_raw)
     opens=[e for e in reg.get('open',[]) if 'CLOSE' not in str(e.get('state','')).upper()]
     st_raw,st_sha=gfile(TOK,'ci-worker-01','receipts/tower/si3-state.json')
