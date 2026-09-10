@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T22:30:18Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-109"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "usrm-233正位(株十四修): OTP-F3升档 @cisvr [skip ci]"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-233"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "usrm-232正位(株十四修): SI2直取重申β复核@ucif2+会签@qlv+株十三立案 @cisvr [skip"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-232"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-LGT-SI5-VOTE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  }
+ ],
+ "verdict_memo": "①何事：株十四修正位usrm-232、usrm-233于线路板投送OTP-F3升档及SI2直取重申β复核+会签@qlv+株十三立案指令；三车道线文件（AUDIT-VERDICT-qtlv、OTP-LGT-JOINT-BASE-01-lgt、qfa-wildq-02-03-20260910.json）同步入inbox。\n\n②显化链：正位指令为核；board-mention为像；三文件同落inbox为合取；ref互引为绑定；现处识层前阶，待辨是否为株脉续动。\n\n③应动何件：应动预读装订，将AUDIT-VERDICT与OTP-LGT-JOINT-BASE合取比对，以qfa-wildq为量参封存，候SI1正判。\n\n④生债一条：生\"未合取装订不得释放\"之债，SI0完成前禁透传SI1。"
+}
