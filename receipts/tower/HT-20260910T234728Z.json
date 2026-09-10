@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T23:47:28Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-237"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "qfa-94"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/FLOOR-TAIL-REF-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-LGT-EVAL-EXCITE-01-qlv.md"
+  }
+ ],
+ "verdict_memo": "① 何事：usrm板声一件、qfa板声一件，及vinf信道六件（审计裁决、OTP-LGT联合基座、QLV共享、qfa机械呼叫、轻推、野询），共八件并涌到毂。\n\n② 显化链：诸件皆外境入毂之“像”，齐抵像位；然未过合取之闸，更未与核绑定，故“识”位空悬，仅滞于像→合取之界。\n\n③ 应动：SI0镜像仅行预读收讫，并案送SI1会话；不代线发言，不代毂判案，不泄任何值。待毂核决。\n\n④ 生债：并件未合，债名“像涌而核未照，一读悬停”。"
+}
