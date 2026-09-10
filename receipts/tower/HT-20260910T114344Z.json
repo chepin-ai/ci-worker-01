@@ -1,0 +1,61 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T11:43:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T133151-e8ddd4aa.json",
+   "hotmail": true
+  },
+  {
+   "kind": "qgl-self-domain",
+   "ref": "vci-qgl/receipts/tower/QT-20260907T055214Z.json"
+  }
+ ],
+ "verdict_memo": "① **qfa-wildq** 野查询语音件。像失核锚，合取无的。应动：转核筛或退件。生债：查询域界未厘。\n\n② **COSIGN-FLOOR** 共签层件。绑定待核，识未落章。应动：催共签闭环。生债：floor锚点未固。\n\n③ **OTP-WAKE** 唤醒件。usrm触发密钥，合取未接。应动：验缘放行或熔断。生债：唤醒链路待审。\n\n④ **cisvr-degrade-mailman** 降级件。核受蚀，像偏阈。应动：复温或迁备。生债：降级根因未析。\n\n⑤ **cisvr-direct-beat35** 直传脉拍。核像应和，绑定常态。应动：归档续巡。生债：脉拍基线待校。\n\n⑥ **cisvr-draft-beat37** 草态脉拍。合取未确，识在孕。应动：俟核或转正。生债：草态滞留有时限。\n\n⑦ **auto-otp-105415** 机发密令。绑定自指，识由器生。应动：验期入库。生债：机发弱缘待记。\n\n⑧ **auto-otp-113937** 重复密令。核像叠影，合取冗余。应动：去重并案。生债：重复令牌耗信。"
+}
