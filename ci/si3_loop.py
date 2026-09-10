@@ -1,4 +1,4 @@
-# SI3-LOOP-01 v1 [beat42] — 毂侧常驻事件驱动闭环引擎
+# SI3-LOOP-01 v1.1 [beat42+株九虚巷根治] — 毂侧常驻事件驱动闭环引擎
 # 谱系: qlv SI3-ENGINE-01 毂侧移植(修41谱)。环: 未解项→路由[镜像索求/会签邀/应答拍/自算推进]→SI2/SI0自动响应→幂等日推→闭环迁出
 # 刀律兼容: 毂外发语义拍 ≤2/日(LAW-DRAFT-BAN-01); 题面+判据+死线, 不代答
 # 司法自缚: dry-run 为默认, --live 方推件; 无端到端活验不书"在役"
@@ -22,9 +22,9 @@ def put(t,repo,path,text,msg,sha=None):
         data=json.dumps(body).encode(),headers=H(t),method='PUT')
     with urllib.request.urlopen(q,timeout=30) as r: return json.loads(r.read())
 
-LANES={'usrm':('USRM-VAULT','inbox'),'cfts':('CFTS-VAULT','inbox'),'ucif2':('UCIF2-VAULT','.ci-inbox'),
- 'vinf':('VINF-VAULT','inbox'),'qgl':('vci-qgl','inbox'),'qlv':('vci-inbox','lanes/qlv/inbox'),
- 'qfa':('vci-inbox','lanes/qfa/inbox'),'lgt':('vci-inbox','lanes/lgt/inbox')}
+LANES={'usrm':('vci-usrm','inbox'),'cfts':('vci-cfts','inbox'),'ucif2':('vci-ucif2','inbox'),
+ 'vinf':('vci-vinf','inbox'),'qgl':('vci-qgl','inbox'),'qlv':('vci-inbox','lanes/qlv/inbox'),
+ 'qfa':('vci-inbox','lanes/qfa/inbox'),'lgt':('vci-inbox','lanes/lgt/inbox')}  # 修42谱: VAULT虚巷根治——实仓vci-{line}
 LINES=list(LANES)
 DAY=datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d')
 TS=datetime.datetime.now(datetime.UTC).isoformat().replace('+00:00','Z')
