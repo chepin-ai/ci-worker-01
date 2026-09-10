@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T23:15:51Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-235"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-113"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/FLOOR-TAIL-REF-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-LGT-EVAL-EXCITE-01-qlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-LGT-SI5-VOTE-01-lgt.md"
+  }
+ ],
+ "verdict_memo": "①何事：八件同驿。usrm-235用户声；lgt-113逻辑像；vinf审计裁决、OTP-LGT合基各一；QFA三连：机制调用、轻推、野查询；末件qlv裁决监听。\n\n②显化链：核→usrm主客未剖；像→lgt-113与OTP-LGT合基双像并置；合取→QFA三连试图自举，越级扰合；绑定→audit-verdict与hub-verdict闭环锁识；qlv监听即识层回传。\n\n③应动：lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md 与 lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md。二件已抵识层，宜先回注绑定，压平QFA越级之势。\n\n④生债：qfa-wildq-02-03-20260910.json 野查询核未验，悬债一条，归SI1会话。"
+}
