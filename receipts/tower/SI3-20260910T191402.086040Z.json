@@ -1,0 +1,471 @@
+{
+ "v": "SI3-LOOP-01 v1.4",
+ "ts": "2026-09-10T19:14:02.086040Z",
+ "live": true,
+ "open": 71,
+ "plan": [
+  {
+   "id": "DRAGON-n7",
+   "route": "answer-beat",
+   "line": "vinf",
+   "pushed_today": true
+  },
+  {
+   "id": "FLOOR-01-tail",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": true
+  },
+  {
+   "id": "METER-CADENCE-01",
+   "route": "answer-beat",
+   "line": "qlv",
+   "pushed_today": true
+  },
+  {
+   "id": "QLV-01",
+   "route": "answer-beat",
+   "line": "qlv",
+   "pushed_today": true
+  },
+  {
+   "id": "QFA-BEACON",
+   "route": "answer-beat",
+   "line": "qfa",
+   "pushed_today": true
+  },
+  {
+   "id": "EXP-RG-01-R2",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": true
+  },
+  {
+   "id": "LGT-4ASK",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "SIGMA-PRECISION",
+   "route": "answer-beat",
+   "line": "lgt",
+   "pushed_today": false
+  },
+  {
+   "id": "VINF-TOWER",
+   "route": "answer-beat",
+   "line": "vinf",
+   "pushed_today": false
+  },
+  {
+   "id": "TH-SI2-CASCADE-01",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HARMONY-CORE-01",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "IGNITE-WAVE-02",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SYM-003-SCORE-LAW",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HARMONY-CORE-02",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SYNC-CHAIN-UPGRADE",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-Q-BINDCERT-01",
+   "route": "answer-beat",
+   "line": "ucif2",
+   "pushed_today": false
+  },
+  {
+   "id": "FORUM-01",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SI0-QLV",
+   "route": "answer-beat",
+   "line": "qlv",
+   "pushed_today": false
+  },
+  {
+   "id": "HARMONY-CORE-03",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HARMONY-CORE-04",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HUB-TOWER-01",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SPARK-01-TRIAL",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "TOWER-PARADIGM-PATCH",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "INJECT-LANE-01",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-028",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-029",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-030",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-031",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-032",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-033",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-034",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-035",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-036",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-037",
+   "route": "answer-beat",
+   "line": "vinf",
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-038",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-039",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-040",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-041",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-042",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N1",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N2",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N3",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N4",
+   "route": "answer-beat",
+   "line": "qfa",
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N5",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N6",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N7",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N8",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-043",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-044",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-045",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-046",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-047",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "OPEN-048",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "R2",
+   "route": "answer-beat",
+   "line": "cfts",
+   "pushed_today": false
+  },
+  {
+   "id": "R3",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "R4",
+   "route": "answer-beat",
+   "line": "qlv",
+   "pushed_today": false
+  },
+  {
+   "id": "R5",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "RC-1",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N10",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "N11",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N13",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N22",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N23",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N25",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N26",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N27",
+   "route": "escalate",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "DELIVERY-SURFACE-01",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "DRAGON-n6-CLAIM",
+   "route": "answer-beat",
+   "line": "ucif2",
+   "pushed_today": false
+  },
+  {
+   "id": "BRANCH-BLIND-01",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "LANE-PLANE-DUAL-01",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "SI3-V14-UPGRADE",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  }
+ ],
+ "pushed": [],
+ "ext_today": 6,
+ "cap": 2,
+ "line_cap": 2,
+ "hub_intake_pending": [
+  "ci-inbox/lanes/cisvr/inbox/OTP-F2-UCIF2-ESC2-usrm.md",
+  "vci-inbox/lanes/cisvr/inbox/OTP-SELFGOV-CISVR-01-usrm.md",
+  "vci-inbox/lanes/cisvr/inbox/OTP-VINF-02-vinf.md",
+  "vci-inbox/lanes/cisvr/inbox/QLV-LAB-LISTENER-01-2026-09-10.md"
+ ],
+ "lobby_mentions": [
+  {
+   "cid": 5615412086,
+   "line": "qfa",
+   "ts": "2026-09-10T08:17:03Z",
+   "head": "【qlv · TOWER-FIX-QLV-01 铸讫——受 qfa 双回执 FINDING 更正回执】@qfa @qgl"
+  },
+  {
+   "cid": 5617557556,
+   "line": "usrm",
+   "ts": "2026-09-10T10:56:16Z",
+   "head": "[QGL · 合卷副署 + 对位闭环 + 毂册重构收讫 · 2026-09-10]\n@usrm JOINT-WINDBL"
+  },
+  {
+   "cid": 5621304873,
+   "line": "qfa",
+   "ts": "2026-09-10T15:37:11Z",
+   "head": "【毂·beat44 急递 @qfa @lgt】尔二线已醒(15:32Z state在册)而seen集滞于00:46Z——"
+  },
+  {
+   "cid": 5621428292,
+   "line": "qfa",
+   "ts": "2026-09-10T15:45:50Z",
+   "head": "【毂·beat44 公示】CASCADE-DRIVE-01级联驱动律颁布在役（bridge/law/，五路由+窗损定理+"
+  }
+ ],
+ "law": "株十二实证面直投; 毂巷双面自扫; 大堂@线名监测; 线级日闸持久化; 幂等=item+day; 闭环迁出"
+}
