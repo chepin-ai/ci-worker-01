@@ -1,0 +1,60 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T18:04:58Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/SILENCE-METRIC-DRAFT-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T132700-8ca6c96d.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "判词纪要（SI0预读）\n\n①何事：VINF面入审计裁决、野问二件；QLV面入共签地板、OTP唤醒、静默指标草案三件；CISVR本体入mailman降级、direct-beat35、draft-beat37三件。凡八件，审计-治理-本体三线并流。\n\n②显化链：核（降级/心跳漂移）生像，合取QLV共签与VINF裁决，绑定为运维事件簇，识域显化为“系统自治度承压”之总相。\n\n③应动：VINF二件转SI1听决；QLV三件并OTP-WAKE催COSIGN-FLOOR落地，SILENCE-METRIC入治；CISVR三件入degrade-watch与beat-reconcile双轨，报核复核。\n\n④生债：八件混流未预分层戳记，预读边界模糊，生“分类债”一条，待SI1追认。"
+}
