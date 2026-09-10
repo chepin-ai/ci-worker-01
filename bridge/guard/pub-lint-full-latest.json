@@ -1,8 +1,11 @@
 {
- "ts": "2026-09-03T23:24:51Z",
+ "ts": "2026-09-10T06:46:30Z",
  "target": "ci-worker-01-",
  "mode": "full-tree",
- "scanned": 8,
- "fixed_n": 0,
- "fixed": []
+ "scanned": 315,
+ "fixed_n": 2,
+ "fixed": [
+  "ci/hub_tower.py",
+  "receipts/tower/state.json"
+ ]
 }
