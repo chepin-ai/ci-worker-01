@@ -1,0 +1,59 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-10T19:21:17Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-WAKE-QLV-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/SILENCE-METRIC-DRAFT-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-degrade-mailman-20260909T154841-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-direct-beat35-20260909T135238-qlv.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "hotmail": true
+  },
+  {
+   "kind": "hub-inbox",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "hotmail": true
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：vinf、qlv双通道八件齐至，涵审计裁决、野查询、实验室监听、共签地板、OTP唤醒、静默指标、降级信使及直连心跳。\n\n② 显化链：核层受degrade-mailman与direct-beat35扰动，本体抖动；像层双lane并发，镜像输入过载；合取层vinf审计与qlv运维信号强制交汇；绑定层COSIGN-FLOOR与OTP-WAKE竞逐身份锚定；识层lab-listener与SILENCE-METRIC争夺静默定义权，wildq为噪。\n\n③ 应动：先启OTP-WAKE-QLV-01-usrm验活，次动COSIGN-FLOOR-QLV-01联签接地，三动SILENCE-METRIC-DRAFT以肃基线；AUDIT-VERDICT-qtlv押后，待毂SI1正判；余件归档为噪。\n\n④ 生债：预读耗用HUB-TOWER-01审计算力，生未确权债务一条，须SI1回执清偿。"
+}
