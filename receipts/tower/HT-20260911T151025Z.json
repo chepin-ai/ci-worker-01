@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T15:10:25Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-125"
+  },
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-12"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "vinf-12 拍8总聚：满权介入ucif2——误诊勘正+DEG取代+同步闭环+126会签 @cisvr @ucif2 "
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：vinf-12像域并至lgt-125线板与六路lane-line-voice，拍八总聚满权介入ucif2，主误诊勘正、DEG取代、同步闭环、126会签。\n\n②显化链：以拍八总聚为核，vinf-12三线影像为像，线板与六路inbox文书合取于lanes/vinf/inbox，绑定审计-应答-OTP-涟漪之链路，识归于126会签。\n\n③应动：应动拍八总聚件，先行ucif2误诊勘正与DEG取代，次推六路lane-line-voice至SI1候判，终启126会签闭环。\n\n④生债：预读虽成，闭环未竟，生“会签稽延之债”一宗。"
+}
