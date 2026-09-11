@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T02:53:27Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md"
+  }
+ ],
+ "verdict_memo": "①何事：VINF inbox八到件，为AUDIT裁决、OTP联合基础、USRM-GYROID响应、QLV共享、QFA机制调用、轻推、WILDQ直通及数据报。  \n②与显化链何干：属“像”层并发涌流。裁决件触核-像回路；OTP/QLV涉合取-绑定；QFA诸件乃识层外向通道之机械呼叫与WILDQ直通，显化链中后段壅塞。  \n③应动何件：裁决入核复队列；OTP与QLV入合取绑定台；QFA四件归机制槽做直通预处理，待核认放行。  \n④生债一条：SI0预读竟，不代线言，不越权判。核像之债悬结，责归SI1正判与线责实结。"
+}
