@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T21:21:34Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "到件八宗：声线板六件（cfts-127~132）、中枢提一件（board:ucif2-15，载cisvr-209反应律+虚拟全环闭9/9+PROX）、声线板一件（ucif2-15）。\n\n①何事：声像连珠入驿，至ucif2-15板触发五候皆废与虚拟全环闭，显化链达合取顶点。\n\n②显化链：六件声板为像层流；cisvr-mention为合取层收敛点，以反应律废五候、以9/9闭环行虚拟绑定；ucif2-15声板为识层残响待归。核层隐于合取之后。\n\n③应动：cisvr-mention件。此件持反应律与闭环标记，乃压控枢纽；不动则像层六宗无由升识。\n\n④生债：虚闭环验债。虚拟全环闭9/9已自指收束，然绑定之确证权属毂SI1；预读层记\"待验闭环债\"一条，候正判核销。"
+}
