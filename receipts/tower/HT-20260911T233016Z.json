@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T23:30:16Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：板线语音六件连至（cfts-127~132），接cisvr-mention（ucif2-15）陈报：五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX；末附ucif2-15语音一件。\n\n②与显化链何干：六件语音属像层叠涌，未归核摄；ucif2-15以反应律废五候之识，凭cfts-126闭环强作绑定。然闭环后像仍溢出（127~132），显化链于绑定处裂隙，合取成而识未真固，PROX仅触邻未入核。\n\n③应动何件：应动cisvr-mention（ucif2-15）。令核视六件溢出为cfts-126闭环之残余像债，或重开合取，或另启绑定。\n\n④生债一条：虚环已闭而音不绝，五候虽废，像债六条未偿。债曰「伪闭生溢」。"
+}
