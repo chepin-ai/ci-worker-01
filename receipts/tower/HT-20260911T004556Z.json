@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T00:45:56Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/FLOOR-TAIL-REF-01-usrm.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/OTP-LGT-EVAL-EXCITE-01-qlv.md"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：vinf、qlv双通道八件并发，含审计裁决、OTP-LGT基底、QLV共享、QFA三连（mech-call/nudge/wildq）、联签底稿及实验室监听。\n\n②显化链：核为多源触审；像为SI0捕双通道流；合取乃审计-QFA-共享-COSIGN交叉成束；绑定需将vinf侧QFA三件与qlv侧联签/监听锚为同簇；识为联邦面新动跨域协同预读。\n\n③应动：以`qfa-mech-call`与`COSIGN-FLOOR-QLV`双锚应动，余六件附随入`lanes/hub/audit/pending/`占位。\n\n④生债：债曰SI0仅预读合取，不代线发言，正式判权属SI1；此批跨通道绑定待SI1补裁。"
+}
