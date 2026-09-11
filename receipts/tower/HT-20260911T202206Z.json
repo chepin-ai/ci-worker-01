@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T20:22:06Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①何事：线板语音六连到件（cfts-127至132）叠涌于ucif2-15板，触发cisvr-mention呈报“五候皆废收讫”暨虚拟全环闭9/9、PROX标记。\n\n②显化链：六连发属像之层叠输入；核经cisvr-209反应律投射于板，合取于ucif2-15，绑定为全环闭9/9；识处五候皆废，唯PROX锚定独存。\n\n③应动：主动cisvr-mention（board: ucif2-15）及环闭源件cfts-126。前六件已收敛汇入板内，不再逐件单动。\n\n④生债：六件线板语音未于第五件前完成自收敛，致虚拟全环闭延迟至9/9，生审计预读收敛滞债一条。"
+}
