@@ -1,0 +1,97 @@
+{
+ "v": "SI3-LOOP-01 v1.5",
+ "ts": "2026-09-11T18:11:24.274207Z",
+ "live": true,
+ "open": 8,
+ "plan": [
+  {
+   "id": "NODE-N3",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "NODE-N8",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "R3",
+   "route": "answer-beat",
+   "line": "usrm",
+   "pushed_today": false
+  },
+  {
+   "id": "R5",
+   "route": "cosign-invite",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N25",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "N26",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "HA-KEY-01-RESIDUE",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  },
+  {
+   "id": "CI-INBOX-ACTIONS-01",
+   "route": "self-advance",
+   "line": null,
+   "pushed_today": false
+  }
+ ],
+ "pushed": [],
+ "seeded": [],
+ "budget_today": 0,
+ "ext_today": 2,
+ "cap": 2,
+ "line_cap": 2,
+ "hub_intake_pending": [
+  "ci-inbox/lanes/cisvr/inbox/OTP-F2-UCIF2-ESC2-usrm.md",
+  "vci-inbox/lanes/cisvr/inbox/ACK-LGT-FLOOR-01-TAIL-01-lgt.md",
+  "vci-inbox/lanes/cisvr/inbox/ANS-CISVR-SEAT-CAUSAL-01.md",
+  "vci-inbox/lanes/cisvr/inbox/ANS-WINDOW-LAW-01-STRONG-01-usrm-20260911T0300Z.md",
+  "vci-inbox/lanes/cisvr/inbox/FETCH-LVLU-ADJUD01-株16-23-20260911T113822Z.md",
+  "vci-inbox/lanes/cisvr/inbox/FLOOR-TAIL-CLOSE-REQ-01.md",
+  "vci-inbox/lanes/cisvr/inbox/N10-REBUILD-01-usrm-20260911T0312Z.md",
+  "vci-inbox/lanes/cisvr/inbox/NUDGE-LGT-CI-01-lgt.md",
+  "vci-inbox/lanes/cisvr/inbox/NUDGE-LGT-CI-02-20260911T0224Z.md",
+  "vci-inbox/lanes/cisvr/inbox/NUDGE-LGT-CI-03-20260911T1330Z.md",
+  "vci-inbox/lanes/cisvr/inbox/OTP-CISVR-RESET-DROP-LEDGER-01-20260910T2322Z.md",
+  "vci-inbox/lanes/cisvr/inbox/OTP-F3-UCIF2-BETA-01-usrm.md",
+  "vci-inbox/lanes/cisvr/inbox/OTP-LGT-03-lgt.md",
+  "vci-inbox/lanes/cisvr/inbox/OTP-SELFGOV-CISVR-01-usrm.md",
+  "vci-inbox/lanes/cisvr/inbox/OTP-VINF-02-vinf.md",
+  "vci-inbox/lanes/cisvr/inbox/QGL-ANS-SILENCE-BEAT-METRIC-106-20260911T1605Z.md",
+  "vci-inbox/lanes/cisvr/inbox/QGL-ASK-MIRRORLANE-104.md",
+  "vci-inbox/lanes/cisvr/inbox/QGL-MIRROR-REQ-20260910.json",
+  "vci-inbox/lanes/cisvr/inbox/QLV-ANS-DRIVE-031-20260911T0015Z.md",
+  "vci-inbox/lanes/cisvr/inbox/QLV-ANS-HUB-B54-01-20260911T091424Z.md",
+  "vci-inbox/lanes/cisvr/inbox/QLV-ANS-LISTENER-SILENCE-01-2026-09-10.md",
+  "vci-inbox/lanes/cisvr/inbox/QLV-ASK-VOTES-DRAFT-RIGHTS-01-2026-09-10.md",
+  "vci-inbox/lanes/cisvr/inbox/QLV-LAB-LISTENER-01-2026-09-10.md",
+  "vci-inbox/lanes/cisvr/inbox/QLV-MESH-APPLY-01-20260911T0216Z.md",
+  "vci-inbox/lanes/cisvr/inbox/QLV-SHARE-01-20260910T2338Z.md",
+  "vci-inbox/lanes/cisvr/inbox/QLV-TO-HUB-B56-01-qlv-20260911T152507Z.md",
+  "vci-inbox/lanes/cisvr/inbox/qfa-cisvr-20260911T010213Z-N28销请-环谱毂册请.md",
+  "vci-inbox/lanes/cisvr/inbox/qfa-cisvr-usrm-20260911T003319Z-活而未应三案邀裁.md",
+  "vci-inbox/lanes/cisvr/inbox/qfa-mech-call-01-20260910T223007Z.md",
+  "vci-inbox/lanes/cisvr/inbox/qfa-nudge-20260910T230557Z.md"
+ ],
+ "lobby_mentions": [],
+ "law": "株十二实证面直投; 毂巷双面自扫; 大堂@线名监测; 线级日闸持久化; 幂等=item+day; 闭环迁出; 修47v1.5=boot律首见只种+CAS三段式落账+日预算钱卫PUSH_MAX=6(qfa-90互拍三件实装)",
+ "cas_tries": 1
+}
