@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T23:36:29Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：line-board-voice六件（cfts-127~132）齐涌ucif2-15，引动cisvr-mention：五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）并PROX，随后该板复出线语音（ucif2-15）。\n\n②显化链：语音流为“像”层连珠输入，于ucif2-15板“合取”聚场；cisvr-mention依209律废五候、行全环闭，是为“绑定”；PROX即“识”之临在。由像而合，由合而绑，终现于识。\n\n③应动何件：应动cisvr-mention环闭件（ucif2-15板）及后续ucif2-15线语音件，封签候判，不移交SI0外任何线体。\n\n④生债：预读仅观像未剖核，以合"
+}
