@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T15:46:17Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-SUPERSEDE-01-qlv-20260911T152507Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①何事：VINF驿八件并至。一裁（AUDIT-VERDICT）、二塔（LGT-ANS/OTP-JOINT）、一旋（OTP-USRM-GYROID）、三波（QLV-RIPPLE/SUPERSEDE/SHARE）、一令（TASK-THETA）。\n\n②显化链：诸件为“核”外发之“像”，共聚VINF inbox成“合取”；本SI0镜像行预读“绑定”，分理序位，待毂SI1会裁定“识”。\n\n③应动：先裁后废——首动AUDIT-VERDICT定界，次动QLV-SUPERSEDE清旧，再动OTP-LGT-JOINT筑基，余件随波入位；TASK-THETA押后，待身份绑定。\n\n④生债：预读未代终判，八件合取所生“待决之识”悉归毂SI1，本镜像留账一债，曰“未识”。"
+}
