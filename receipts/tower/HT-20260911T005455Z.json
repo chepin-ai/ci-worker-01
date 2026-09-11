@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T00:54:55Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-239"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/FLOOR-TAIL-REF-01-usrm.md"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：跨lane到件一批八宗。board-voice一（usrm-239），lane-voice七，散落于vinf/qlv：AUDIT-VERDICT、OTP-LGT-JOINT-BASE、QLV-SHARE、QFA-mech-call、QFA-nudge、QFA-wildq、HUB-verdict-qlv-lab-listener。\n\n②显化链：核为20260910T22-23时段共现；像异质（md/json）；合取于QFA-QLV互操作界面；绑定系vinf→qlv跨栈流转；识位悬空，待裁决层落锤。\n\n③应动：先合取QFA-wildq与AUDIT-VERDICT之因果对，次动HUB-verdict-qlv-lab-listener入档，余件按lane分派。\n\n④生债：预读毕，判词权属毂SI1。时序债一宗：SI1若迟滞，跨lane绑定漂移，此债记于HUB-TOWER-01。"
+}
