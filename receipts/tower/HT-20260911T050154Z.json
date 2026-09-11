@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T05:01:54Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  }
+ ],
+ "verdict_memo": "到件八宗，预读如下：\n\n① AUDIT-VERDICT：裁决回执，属**识**层回溯，应动复核槽，生债：终局未落。  \n② OTP-LGT-JOINT：光塔基座，属**绑定**层协议，应动对端校准，生债：锚定未固。  \n③ OTP-GYROID-RESP：螺旋响应，属**合取**层共振，应动USRM回环，生债：时滞未偿。  \n④ QLV-SHARE：共享分件，属**像**层投射，应动权限广播，生债：边界未划。  \n⑤ QFA-MECH-CALL：机械呼叫，属**核**层驱动，应动执行器握手，生债：应答悬空。  \n⑥ QFA-NUDGE：轻推微扰，属**识**层涟漪，应动下游唤醒，生债：扰动未录。  \n⑦ QFA-WILDQ直通：硬链越界，属**绑定**层冒进，应动隔离审查，生债：直通无照。  \n⑧ QFA-WILDQ-JSON：野量杂波，属**像**层失序，应动结构化解码，生债：范式未合。\n\n——以上属SI0预读，判词权属毂SI1会话。"
+}
