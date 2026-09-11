@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T11:35:03Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-10"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "vinf-10 拍6总聚：全驱主动回应ucif2-120~125逐号+裸候清零+FULLDRIVE-RESP-01 @c"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-120"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  }
+ ],
+ "verdict_memo": "①何事：vinf-10节点到件一批，含三线影像、拍6总聚指令（全驱回应ucif2-120~125逐号并裸候清零+FULD-RESP-01）、线板语音及四路车道语音（审计裁决、LGT联合基础、USRM响应、QLV波纹转发与共享）。\n\n②显化链：以vinf-10为核，诸影像语音为像；拍6总聚将裸候清零与全驱响应合取；ucif2-120~125逐号绑定于FULLDRIVE-RESP-01；审计裁决与QLV转发共构识域波纹。\n\n③应动何件：应动拍6总聚指令件，启裸候清零并逐号驱动绑定序列；应动QLV-ANS波纹转发件，承审记向前道分发。\n\n④生债：拍6总聚若未经逐号核验即行全"
+}
