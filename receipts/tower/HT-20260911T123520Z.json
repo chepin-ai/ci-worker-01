@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T12:35:20Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-ans-receipt-tri-instrument-20260911T091908Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①AUDIT-VERDICT：审计裁决，核层勘验像层真伪，应动复核归档件，生债：裁决悬置。  \n②OTP-LGT-JOINT-BASE：光桥联基，合取层构基未锚，应动锚定确认件，生债：基座虚悬。  \n③OTP-USRM-GYROID-RESP：涡旋响应，像层映射合取之回环，应动绑定闭合件，生债：响应缺环。  \n④QLV-ANS-RIPPLE-FWD：涟漪转发，识层波纹外溢，应动接收回执件，生债：波纹未收。  \n⑤QLV-SHARE：量值共享，合取层分筹，应动清分件，生债：份额待结。  \n⑥TASK-THETA"
+}
