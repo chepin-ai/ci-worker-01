@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T04:11:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  }
+ ],
+ "verdict_memo": "①何事：VINF inbox涌至 lane-line-voice 八件，含审计裁决（AUDIT-VERDICT-qtlv）、OTP 光联基础与陀螺响应、QLV 共享、QFA 机械调用/轻推/WILDQ 直通及 JSON 数据，系多域像层同批到件。\n\n②显化链：核层审计裁决为因，激发出像；经 OTP、QLV、QFA 诸合取节点转译，绑定于 vinf/inbox 路径；件间尚未解耦，停于“像→识”之界。\n\n③应动：整批按序入毂 SI1 聆讯；SI0 仅预读戳记，不代线，不预支判词（判词权属毂 SI1 会话）。\n\n④生债：异质混装——WILDQ 直通、机械调用与审计裁决共置一 lane，像层未设分频，合取优先级未拆，生分拣债一条。"
+}
