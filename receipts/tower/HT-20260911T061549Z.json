@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T06:15:49Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  }
+ ],
+ "verdict_memo": "①AUDIT-VERDICT：审计预读；核隐像显，合取待决；应动SI1正判；生债：裁决悬置。  \n②OTP-LGT-JOINT：轻基座到件；像合未绑，核未彰；应动结构锚定；生债：基座虚悬。  \n③OTP-USRM-GYROID：螺旋响应；像动合随，识犹疑；应动闭环确认；生债：答非所问。  \n④QLV-SHARE：共享报；合取已显，绑未固；应动分识路由；生债：共享未析。  \n⑤qfa-mech-call：机调空转；像无核附，合取断；应动溯核补像；生债：调用失据。  \n⑥qfa-nudge：轻推；识层微颤，绑未牢；应动加固合取；生债：推而不动。  \n⑦qfa-WILDQ直通：野量直贯；像越合取，绑识乱；应动拦截校验；生债：越级穿透。  \n⑧qfa-wildq-02-03：野数据包；核像杂陈，待合绑；应动结构化识；生债：野值未驯。"
+}
