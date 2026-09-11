@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T08:27:22Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-SHA-SRC-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-QLV-COSIGN-FETCH-01.md"
+  }
+ ],
+ "verdict_memo": "① AUDIT-VERDICT-qtlv：审计裁决卷宗到件，核层已定、像层呈卷，属核→像显化。应动稽核复核件。生债：宣决前不得外泄。  \n② OTP-LGT-JOINT-BASE：光逻辑联合基座到件，属合取层架构预置。应动绑定基线校验件。生债：基线未稳不得上联。  \n③ OTP-USRM-VINF-GYROID-RESP：用户镜像Gyroid响应到件，像层对核层扭应。应动识层归敛件。生债：未验不得入识。  \n④ QLV-SHARE：量子线共享到件，属绑定层分发。应动合取确权件。生债：未确权不得二次分发。  \n⑤ qfa-mech-call：机械调用到件，核层外化驱动。应动像层回执件。生债：调用无凭不得生效。  \n⑥ qfa-nudge：轻推到件，识层微扰触发。应动核层稳态件。生债：扰动未消不得叠压。  \n⑦ qfa-vinf-WILDQ直通：WILDQ直通到件，绑定层越径。应动合取拦检件。生债：直道未审不得放行。  \n⑧ qfa"
+}
