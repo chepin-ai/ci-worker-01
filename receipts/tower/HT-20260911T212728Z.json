@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T21:27:28Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① cfts-127至132六件line-board-voice次第到件，汇流ucif2-15；cisvr-mention宣告五候皆废（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX；末件line-board-voice（ucif2-15）回声到件，环形成链。\n\n② 显化链：六声为像；汇流ucif2-15为合取；反应律收讫与全环闭标记为绑定；末件回声与PROX触发为识。核→像→合取→绑定→识已全链显化。\n\n③ 八件并卷，应动至毂SI1会话终审。SI0预读毕，不代线发言，不代毂判案。\n\n④ 六声未审先合，闭环自判9/9，生“越判先绑”程序债一条，待SI1核销。"
+}
