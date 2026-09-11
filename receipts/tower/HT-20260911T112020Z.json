@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T11:20:20Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-121"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "lgt-122"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "qfa-102"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：八件同批到驿。板线语音三件（ucif2-121、lgt-122、qfa-102）与lane线语音五件（AUDIT-VERDICT-qtlv、OTP-LGT-JOINT-BASE、OTP-USRM-VINF-GYROID-RESP、QLV-ANS-RIPPLE-FWD、QLV-SHARE）混叠并呈，跨审计、联合、响应、转发、共享。\n\n② 显化链：核为同批聚合异动；像呈双线混流；合取于OTP/QLV/USRM/LGT多标识互锁；绑定未竟，识位尚空，待裁决。\n\n③ 应动：lane线五件分轨入核，AUDIT-VERDICT与OTP-LGT-JOINT-BASE优先绑合；QLV两件并案同识；板线三件暂悬，待lane线绑后回挂。\n\n④ 生债：混呈未分，预读未决，存债一条，候SI1定谳销解。"
+}
