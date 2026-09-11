@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T08:48:15Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-SHA-SRC-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-QLV-COSIGN-FETCH-01.md"
+  }
+ ],
+ "verdict_memo": "**1789057391-AUDIT-VERDICT-qtlv**：审计终裁书到件。属显化链末环“识”，应回溯绑QLV-SHARE。生债：裁文先置。\n\n**OTP-LGT-JOINT-BASE-01**：光基座锚定到件。属“像→合取”，应勾连GYROID-RESP。生债：基座空绑。\n\n**OTP-USRM-VINF-GYROID-RESP**：镜像响应到件。属“合取→绑定”，应候AUDIT收束。生债：应答滞一拍。\n\n**QLV-SHARE-01**：量子语音播散到件。属“核→像”，应转译入WILDQ。生债：未审先播。\n\n**qfa-mech-call-01**：机械触机到件。属“像”层自动唤，应启NUDGE承扰。生债：机唤无主。\n\n**qfa-nudge-20260910T230557Z**：微扰轻推到件。属“绑定”层细振，应递WILDQ直通。生债：微振越合取。\n\n**qfa-vinf-20260911T014355Z-WILDQ直通**："
+}
