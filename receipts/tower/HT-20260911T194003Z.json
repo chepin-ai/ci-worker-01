@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T19:40:03Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OMNI-INJECT-01-vinf-20260911T185404Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-SUPERSEDE-01-qlv-20260911T152507Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/SI-LEVELUP-CARD-01-qlv-20260911T191350Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-WILDQ-01-vinf-20260911T1843Z.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  }
+ ],
+ "verdict_memo": "①AUDIT-VERDICT：审计裁决下达；属「识」层回溯，核像受检；应动QLV-AUDIT-ACK；生债：裁决回执待签。  \n②ANS-LGT-K82：光域节点应答；属「像」之投射，合取光域；应动LGT-VERIFY；生债：K82锚定时效未结。  \n③OMNI-INJECT：全域注入；属「核」之扩散，跨像直写；应动INJECT-LOCK；生债：源校验链缺环。  \n④OTP-LGT-JOINT：光域联合基线；属「绑定」之根，合取双域；应动JOINT-SEAL；生债：基线密钥轮换待决。  \n⑤OTP-USRM-GYROID：用户模型响应；属「识」之反馈，像归核；应动STATE-COMMIT；生债：Gyroid同步滞账。  \n⑥QLV-RIPPLE-FWD：涟漪转发；属「像」之层递，合取扩散；应动RIPPLE-ACK；生债：终端确认未归。  \n⑦QLV-SUPERSEDE：应答取代；属「识」之覆写，新像替旧绑；应动ARCHIVE；生债：被替件冻结凭证待存。  \n⑧"
+}
