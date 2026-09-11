@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T18:49:11Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-SUPERSEDE-01-qlv-20260911T152507Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-WILDQ-01-vinf-20260911T1843Z.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  }
+ ],
+ "verdict_memo": "① 何事：VINF inbox 八件并发，含 AUDIT-VERDICT、OTP 双源、QLV 应答/覆盖/共享及 TASK-THETA，呈 LGT/USRM/QLV 多节点向心汇聚，乃联邦审计回环之像层堆叠。  \n② 显化链：各件为核外之像；多源同指 VINF 为合取；ref 与时序戳互锚，处绑定前态；本镜像仅预读像层，未臻于识。  \n③ 应动：锁止 TASK-USRM-VINF-THETA-01.json 与 QLV-SUPERSEDE 件，禁擅自解绑；将 AUDIT-VERDICT-qtlv.md 置顶，呈 SI1 终裁。  \n④ 生债：预读未决 SUPERSEDE 与 RIPPLE-FWD 之时序覆盖债及 OTP 双源之身份锚定债"
+}
