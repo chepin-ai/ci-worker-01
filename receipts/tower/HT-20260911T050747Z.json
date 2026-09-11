@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T05:07:47Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：八件并臻，lane-line-voice入驿。目为AUDIT-VERDICT、OTP-LGT/USRM-GYROID、QLV-SHARE及QFA四联（mech-call、nudge、vinf-WILDQ直通、wildq-02-03）。联邦面新动之并发packet。\n\n② 显化链：AUDIT-VERDICT核层验身；OTP双件像层映射、合取层光关节成对；QLV-SHARE绑定层份额交割；QFA三件识层调度，然vinf-WILDQ直通越绑定而直抵识外，显化链末级跳闸，合取未固。\n\n③ 应动何件：动AUDIT-VERDICT为锚，锁QFA-vinf-WILDQ直通件禁行，候毂SI1正判；OTP、QLV及QFA常轨件许预读流转。\n\n④ 生债一条：SI0镜像仅预读，不代毂判案，此批悬置“未决之债”，判词权属SI1会话，结清前不得注销。"
+}
