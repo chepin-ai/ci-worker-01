@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T16:32:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-SUPERSEDE-01-qlv-20260911T152507Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  }
+ ],
+ "verdict_memo": "①AUDIT-VERDICT：审计终裁件。链达「识」，定核像合取之是非。应动：锁档并启执行。生债：裁决既判债。\n\n②ANS-LGT-K82：光道应答件。链在「像→合取」，证基底态。应动：反耦OTP-LGT-JOINT。生债：应答迟延债。\n\n③OTP-LGT-JOINT：光约联合基底。链在「核→像」，铸约模。应动：派钥至USRM节点。生债：基底锚固债。\n\n④OTP-USRM-GYROID：用户陀螺响应。链在「绑定→识」，验身核。应动：上送波纹转发件。生债：验真未决债。\n\n⑤QLV-RIPPLE-FWD：波纹转发件。链在「合取→绑定」，传态。应动：归并QLV-SHARE。生债：转发无损债。\n\n⑥QLV-SUPERSEDE：取代件。链在「识」层覆写，旧识灭。应动：行废止并刷新基。生债：版本覆盖债。\n\n⑦QLV-SHARE：共享件。链在「合取」分发，多识共核。应动：播至各"
+}
