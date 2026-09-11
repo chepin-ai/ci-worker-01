@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T06:27:36Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/COSIGN-FLOOR-QLV-01-2026-09-10.md"
+  }
+ ],
+ "verdict_memo": "到件八宗预读纪要：\n\n① AUDIT-VERDICT-qtlv：审计裁决核层定谳，像层成案。应动：送SI1覆核归档。生债：裁决未终局不得出绑。\n\n② OTP-LGT-JOINT-BASE：光锥基座合取锚定，绑定待榫。应动：锁基线哈希。生债：基座未合则下游悬空。\n\n③ OTP-USRM-GYROID-RESP：陀螺响应识层回环。应动：验签入栈。生债：逾期回执熔断链路。\n\n④ QLV-SHARE：纠缠值绑定层分发。应动：限域转授。生债：越权分发蚀核。\n\n⑤ qfa-mech-call：机械调用像层触发。应动：沙箱预演。生债：直执生不可控绑。\n\n⑥ qfa-nudge：轻推识层微扰。应动：缓冲洗练。生债：高频压栈溢债。\n\n⑦ qfa-vinf-WILDQ直通：野生查询越像层裸奔。应动：截流送核。生债：跳步蚀安全域。\n\n⑧ qfa-wildq-json：结构化报文像层未审。应动：检毒反序列。生债：深嵌递归债。"
+}
