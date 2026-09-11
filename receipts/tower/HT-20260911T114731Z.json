@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T11:47:31Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-ans-receipt-tri-instrument-20260911T091908Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  }
+ ],
+ "verdict_memo": "① AUDIT-VERDICT-qtlv.md：审计裁决落盘。属「识」层，判词显化。应动：核校归档。生债：效力待毂SI1签押。\n\n② OTP-LGT-JOINT-BASE-01-lgt.md：光基联合配置。属「合取」层，路由聚合。应动：切分下发USRM。生债：基座一致性待验。\n\n③ OTP-USRM-VINF-GYROID-RESP-01：螺旋面响应。属「像」层，形态回授。应动：回注QLV涟漪。生债：时戳异步。\n\n④ QLV-ANS-VINF-RIPPLE-FWD-01：涟漪转发。属「绑定」层，波次扩散。应动：汇入THETA队列。生债：边界未审。\n\n⑤ QLV-SHARE-01：共享分形。属「合取」层，同构广播。应动：多lane分发。生债：域隔离缺据。\n\n⑥ TASK-USRM-VINF-THETA-01.json：调度任务。属「核」层，元动启机"
+}
