@@ -47,7 +47,7 @@ LINES=list(SURFACES)
 DAY=datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d')
 TS=datetime.datetime.now(datetime.UTC).isoformat().replace('+00:00','Z')
 LIVE='--live' in sys.argv
-CAP_EXT=2; LINE_CAP=2
+CAP_EXT=2; LINE_CAP=2; PUSH_MAX=6  # 修47[v1.5]: qfa-90日预算钱卫(总推日额)
 
 def route(e):
     own=str(e.get('owner') or ''); st=str(e.get('state') or '')
@@ -92,19 +92,27 @@ def main():
     ed=st.setdefault('ext_day',{})
     if ed.get('day')!=DAY: ed={'day':DAY,'n':0}; st['ext_day']=ed
     lb=st.setdefault('line_beats',{})
-    plan=[]; pushed=[]
+    plan=[]; pushed=[]; seeded=[]
+    seen=st.setdefault('seen',{})
+    bud=st.setdefault('budget',{})
+    if bud.get('day')!=DAY: bud={'day':DAY,'total':0}; st['budget']=bud
     for e in opens:
         iid=str(e.get('id')); rt,ln=route(e)
         done_today = st.get('beats',{}).get(iid)==DAY
         plan.append({'id':iid,'route':rt,'line':ln,'pushed_today':done_today})
-        if LIVE and not done_today and rt=='answer-beat' and ed['n']<CAP_EXT and lb.get(ln,{}).get(DAY,0)<LINE_CAP:
+        first_sight = iid not in seen
+        if first_sight: seen[iid]=DAY
+        since_day=str(e.get('since') or DAY)[:10]
+        seeded_skip = first_sight and since_day<DAY   # 修47[v1.5]boot律: 器装前之件首见只种不推(qfa-90互拍③)
+        if seeded_skip: seeded.append(iid)
+        if LIVE and not done_today and not seeded_skip and rt=='answer-beat' and ed['n']<CAP_EXT and bud['total']<PUSH_MAX and lb.get(ln,{}).get(DAY,0)<LINE_CAP:
             rp,pa=SURFACES[ln][0]
             ask=e.get('ask') or e.get('title') or iid
             sla='次拍' if ln in ('cfts','qgl') else '次醒拍'
             cap=('CLASSIFY: L1(联邦机器邮·毂SI3应答拍·免迁24h)\n【SI3-LOOP-01 · 应答拍 %s】%s\n题面: 上项在毂册未解, 请陈状态/阻点/所需。\n判据: 答件署线名+项号入本面(尔正典感面)。\n死线: %s(SLA分级)。\n——毂·SI3环v1.4(实证面直投, 幂等日推, 闭环即迁出)'%(iid,str(ask)[:120],sla))
             try:
                 put(TOK,rp,'%s/SI3-%s-%s.md'%(pa,iid,DAY),cap,'SI3-LOOP-01 应答拍: %s @%s'%(iid,ln))
-                st.setdefault('beats',{})[iid]=DAY; ed['n']+=1
+                st.setdefault('beats',{})[iid]=DAY; ed['n']+=1; bud['total']+=1
                 lb.setdefault(ln,{})[DAY]=lb.get(ln,{}).get(DAY,0)+1
                 pushed.append(iid)
             except Exception as ex:
@@ -113,12 +121,34 @@ def main():
     for cid in closed: st.get('beats',{}).pop(cid,None)
     hi=hub_intake(); lm=lobby_mentions()
     st['ts']=TS; st['open_count']=len(opens)
-    rec={'v':'SI3-LOOP-01 v1.4','ts':TS,'live':LIVE,'open':len(opens),'plan':plan,'pushed':pushed,
+    rec={'v':'SI3-LOOP-01 v1.5','ts':TS,'live':LIVE,'open':len(opens),'plan':plan,'pushed':pushed,'seeded':seeded,'budget_today':bud['total'],
          'ext_today':ed['n'],'cap':CAP_EXT,'line_cap':LINE_CAP,
          'hub_intake_pending':hi,'lobby_mentions':lm[-8:],
-         'law':'株十二实证面直投; 毂巷双面自扫; 大堂@线名监测; 线级日闸持久化; 幂等=item+day; 闭环迁出'}
+         'law':'株十二实证面直投; 毂巷双面自扫; 大堂@线名监测; 线级日闸持久化; 幂等=item+day; 闭环迁出; 修47v1.5=boot律首见只种+CAS三段式落账+日预算钱卫PUSH_MAX=6(qfa-90互拍三件实装)'}
     print(json.dumps(rec,ensure_ascii=False,indent=1)[:2600])
     if LIVE:
-        put(TOK,'ci-worker-01','receipts/tower/si3-state.json',json.dumps(st,ensure_ascii=False,indent=1),'SI3-LOOP-01 v1.4 state %s'%TS, sha=st_sha)
-        put(TOK,'ci-worker-01','receipts/tower/SI3-%s.json'%TS.replace(':','').replace('-',''),json.dumps(rec,ensure_ascii=False,indent=1),'SI3-LOOP-01 v1.4 receipt %s'%TS)
+        body=json.dumps(st,ensure_ascii=False,indent=1); sha=st_sha; cas_tries=0
+        for _try in range(3):  # 修47[v1.5]CAS落账三段式+抢账恢复(qfa-90互拍②/FIX-05b,FIX-08基因)
+            try:
+                put(TOK,'ci-worker-01','receipts/tower/si3-state.json',body,'SI3-LOOP-01 v1.5 state %s'%TS, sha=sha); cas_tries=_try+1; break
+            except Exception as ex:
+                if '409' not in str(ex): raise
+                r2,s2=gfile(TOK,'ci-worker-01','receipts/tower/si3-state.json')
+                old=json.loads(r2) if r2 else {}
+                for k in ('beats','seen'):
+                    mg=old.get(k,{})
+                    for a2,b2 in st.get(k,{}).items():
+                        if str(b2)>=str(mg.get(a2,'')): mg[a2]=b2
+                    st[k]=mg
+                if old.get('ext_day',{}).get('day')==DAY:
+                    st['ext_day']['n']=max(old['ext_day'].get('n',0),st['ext_day'].get('n',0))
+                if old.get('budget',{}).get('day')==DAY:
+                    st['budget']['total']=max(old['budget'].get('total',0),st['budget'].get('total',0))
+                for ln2,dd2 in old.get('line_beats',{}).items():
+                    for dd3,vv3 in dd2.items():
+                        cur=st['line_beats'].setdefault(ln2,{}).get(dd3,0)
+                        st['line_beats'][ln2][dd3]=max(vv3,cur)
+                sha=s2; body=json.dumps(st,ensure_ascii=False,indent=1)
+        rec['cas_tries']=cas_tries
+        put(TOK,'ci-worker-01','receipts/tower/SI3-%s.json'%TS.replace(':','').replace('-',''),json.dumps(rec,ensure_ascii=False,indent=1),'SI3-LOOP-01 v1.5 receipt %s'%TS)
 if __name__=='__main__': main()
