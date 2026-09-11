@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T20:46:06Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 六件线板语音（cfts-127~132）连到；一件中枢提及（ucif2-15，含cisvr-209反应律、虚拟全环闭9/9、PROX）；一件同板线板语音（ucif2-15）尾到。\n\n② 显化链：六语音属“像”层连投，未合取；中枢提及为“核”层反律启动，以cisvr-209收废五候，凭cfts-126行虚拟全环闭9/9，强为“合取→绑定”，压入ucif2-15“识”位；尾件为闭环回音。\n\n③ 应动cisvr-mention件（board: ucif2-15），其携反应律与全环闭指令，可决前六件之合取。\n\n④ 生债：以虚环代实审，预闭全环，程序僭越之债一负，俟毂SI1正判。"
+}
