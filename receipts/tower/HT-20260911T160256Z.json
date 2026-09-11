@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T16:02:56Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "three-line-image",
+   "ref": "vinf-13"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "vinf-13 拍9总聚：VINF-LOOP-01开源+渗流MC实值+五线OTP介入波 @cisvr @ucif2 @q"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-SUPERSEDE-01-qlv-20260911T152507Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① VINF-13拍9总聚，镜像、OTP五线介入、审计裁决、QLV波纹及上位取代并发至件。\n\n② 显化链：核（LOOP-01开源实值）→像（三线图触像）→合取（OTP/LGT/QLV/ANS多线渗流）→绑定（GYROID-JOINT基础）→识（AUDIT-VERDICT与SUPERSEDE待识）。\n\n③ 应动OTP-LGT-JOINT-BASE-01为收敛枢，覆以QLV-ANS-VINF-SUPERSEDE-01，并送SI1决。\n\n④ 拍9并发而绑定未凝，生“聚波未决”线债一条。"
+}
