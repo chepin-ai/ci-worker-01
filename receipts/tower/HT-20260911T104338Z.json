@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T10:43:38Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-ans-receipt-tri-instrument-20260911T091908Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md"
+  }
+ ],
+ "verdict_memo": "①何事：八件 lane-line-voice 到件并至，为 AUDIT-VERDICT、OTP-LGT-JOINT、OTP-USRM-GYROID-RESP、QLV-ANS-RIPPLE-FWD、QLV-SHARE、QFA-MECH-CALL、QFA-NUDGE、QFA-VINF-WILDQ 直通，属 VINF 多信道同日汇流。\n\n②显化链：各件自核（协议本体）生像（line-voice 标识），经合取（跨 AUDIT/OTP/QLV/QFA 四模混流），至绑定（时戳-ref 锚定），未竟识（裁决）。其中 WILDQ 直通、RIPPLE-FWD 绑点前移，合取未固；GYROID-RESP 与 SHARE 像重核轻。\n\n③应动：OTP 二件、QLV 二件入合取池待绑；QFA 三件并 AUDIT-VERDICT 入核审栈；WILDQ 直通先补绑再送识。全件移交 SI1 会话。\n\n④生债：生「hub-tower-01 八件预读合取未终」一债，须由毂 SI1 消偿。"
+}
