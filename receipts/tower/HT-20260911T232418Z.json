@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T23:24:18Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 到件八件：line-board-voice六件（cfts-127至cfts-132）、cisvr-mention一件（ucif2-15板，载“五候皆废收讫”暨cisvr-209反应律、虚拟全环闭9/9之PROX）、line-board-voice一件（ucif2-15）。\n\n② 显化链：127-132为像位散音，未合未绑；cisvr-mention自核位下律，令像位六件之候转终止，强启合取→绑定之环闭；ucif2-15为环闭锚板，PROX代行识位过渡。\n\n③ 应动：ucif2-15（cisvr-mention件），依209反应律废五候、收全环，使127-132失转并归并于板。\n\n④ 生债：以律废候、以PROX代识，预支“识”位一次；待SI1正审后，须补全环之显化清偿。"
+}
