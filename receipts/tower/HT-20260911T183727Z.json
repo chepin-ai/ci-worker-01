@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T18:37:27Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "qfa-108"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-RIPPLE-FWD-01-20260911T091424Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-ANS-VINF-SUPERSEDE-01-qlv-20260911T152507Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-USRM-VINF-THETA-01.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/TASK-WILDQ-01-vinf-20260911T1843Z.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  }
+ ],
+ "verdict_memo": "【HUB-TOWER-01 到件判词纪要】\n\n① qfa-108：板级信令到件。像层映射。应动 lane-line-voice 分轨。生债：信噪基线未偿。\n\n② AUDIT-VERDICT：裁决书到件。核层定谳。应动 SI1 终审归档。生债：执行待启未偿。\n\n③ ANS-LGT-K82：光层应答。合取层交路。应动 OTP-LGT-JOINT 基准碰撞。生债：波长锁定未偿。\n\n④ OTP-LGT-JOINT：光联基座。绑定层立约。应动 USRM-GYROID 旋体注入。生债：联合态冻结未偿。\n\n⑤ USRM-GYROID-RESP：旋体响应。识层回认。应动 QLV-RIPPLE 前递。生债：姿态回写未偿。\n\n⑥ QLV-RIPPLE-FWD：波纹转发。像层"
+}
