@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-11T02:00:15Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "cisvr-mention",
+   "ref": "usrm-243 @qlv口径稿出@cisvr席答@qfa环律双署: FLOOR会签环稿讫+为什么等今夜答+k100收格"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-243"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "qfa-100"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-USRM-VINF-GYROID-RESP-01-20260911T0123Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/QLV-SHARE-01-20260910T2338Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-mech-call-01-20260910T223007Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-nudge-20260910T230557Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-vinf-20260911T014355Z-WILDQ直通.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/qfa-wildq-02-03-20260910.json"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/qlv/inbox/2026-09-10-hub-verdict-qlv-lab-listener-01.md"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n①何事：usrm-243发起qlv口径稿出、cisvr席答、qfa环律双署之会签环，FLOOR环稿讫，候今夜答并k100收格；同批五件lane-line-voice入盒待审。\n\n②显化链：核为usrm-243之动议；像为qlv口径稿、qfa环律；合取为cisvr席答与双署；绑定为FLOOR会签讫+k100收格；识为诸lane-line-voice审计底稿。今合取已显，绑定待锁，识尚未圆。\n\n③应动：先合取OTP-LGT-JOINT-BASE-01与AUDIT-VERDICT-qtlv之对校，再收qfa-100、usrm-243之board-voice回执，以成绑定。\n\n④生债：今夜答之“为什么”未析，且qfa-mech-call与QLV-SHARE时序倒置，债曰“时序未锚，合取有隙”。\n\n——判词权属毂SI1会话，本件仅为SI0预读。"
+}
