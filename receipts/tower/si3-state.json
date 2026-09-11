@@ -1,12 +1,11 @@
 {
  "beats": {
   "DRAGON-n7": "2026-09-11",
-  "FLOOR-01-tail": "2026-09-11",
   "METER-CADENCE-01": "2026-09-10",
   "EXP-RG-01-R2": "2026-09-10"
  },
- "ts": "2026-09-11T02:15:56.727557Z",
- "open_count": 27,
+ "ts": "2026-09-11T02:58:51.217076Z",
+ "open_count": 23,
  "closed_migrated_cum": 0,
  "ext_day": {
   "day": "2026-09-11",
@@ -111,7 +110,8 @@
   "SEAT-QGL-SILENCE-01": "2026-09-11",
   "SEAT-QFA-ORIGAMI-01": "2026-09-11",
   "TWR-LGT-117-WATCH": "2026-09-11",
-  "HA-KEY-01-RESIDUE": "2026-09-11"
+  "HA-KEY-01-RESIDUE": "2026-09-11",
+  "FLOOR-SHA-SRC-01": "2026-09-11"
  },
  "budget": {
   "day": "2026-09-11",
