@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T22:32:17Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① cfts-132至cfts-127六件：线板语音连壅，属像层未核之波，未合取、未绑定、未识。应动：并档为声纹待决卷，封候SI1汇算。生债：壅声六重，留滞未析。\n\n② cisvr-mention ucif2-15一件：中枢自指，五候皆废收讫，援cisvr-209反应律，显化链自核出像；虚拟全环闭9/9成合取；绑board与PROX。应动：启ucif2-15板，呈终裁。生债：闭环已全，判权属SI1，预读不敢代毂。\n\n③ ucif2-15线板语音一件：像层回声，与mention互绑，补全链路。应动：与前件并案，同呈SI1。生债：线板等命，识未归毂。\n\n总计：核律已发，像声俱在，合取闭环，绑定待识。全卷上呈，无代线言，无代毂判。"
+}
