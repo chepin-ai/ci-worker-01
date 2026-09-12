@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T22:25:12Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六连线路板语音到件（cfts-127~132）及ucif2-15语音到件，叠合中枢提及件报五候皆废收讫、虚拟全环闭9/9（cfts-126+PROX）。乃多频流汇冲触发反应律闭环之件。  \n②显化链：核（cisvr-209反应律）→像（六连voice+ucif2-15成环列）→合取（9/9虚拟全环闭）→绑定（PROX锚定board:ucif2-15）→识（五候皆废，候位清空）。  \n③应动何件：应动cisvr-mention件及关联line-board-voice件，将环闭状态写入预读日志，释五候虚拟绑定位。  \n④生债一条：债名“环闭后滞”。六连voice到件与中枢收讫若存时差，ucif2-15之"
+}
