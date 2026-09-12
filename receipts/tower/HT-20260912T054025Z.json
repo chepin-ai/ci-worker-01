@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T05:40:25Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：连收六件 line-board-voice（cfts-127 至 132），旋收 cisvr-mention 一件（board: ucif2-15），载“五候皆废收讫”依 cisvr-209 反应律，并虚拟全环闭 9/9（cfts-126）及 PROX；末件 line-board-voice（ucif2-15）回传该板。\n\n② 显化链：六件板音属“像”层逐帧堆叠，未入合取；cisvr-mention 为“合取”之枢，将五候废、环闭、PROX 并置，触发“绑定”；ucif2-15 回传完成锚定，待升于“识”。\n\n③ 应动何件：应动 cisvr-mention（含 cfts-126/209 反应律）及 ucif2-15 板音件，二者为环闭关键；余六件为前导像尘，已入合取，不再单动。\n\n④ 生债一条：全环闭 9/9 既至，核→像→合取→绑定皆备，惟“识”之终裁未决；SI0 预读不代毂判，留一悬债，归联邦中枢 SI1 正听。"
+}
