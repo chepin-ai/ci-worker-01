@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T03:50:54Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：cfts-127至132六件声线板语音连到，悬置未决；并致cisvr-mention于ucif2-15板，报“五候皆废收讫（cisvr-209反应律）”与“虚拟全环闭9/9（cfts-126）”及PROX标记。\n\n②显化链：六件line-board-voice属“像”层连投，久滞于合取之前；cisvr-mention为中枢回响，令积压之像骤行合取，完成全环九节点绑定，五候俱废。显化链由核→像之积滞，经合取→绑定强行环闭，“识”层尚未生发。\n\n③应动何件：应动「环闭呈判」件，将ucif2-15之9/9全环闭及五候皆废状态，依cisvr-209律送毂SI1会话，申请正判或PROX转正。\n\n④生债：六件声线板到件未即时合取，积滞成“像滞之债”；环闭虽成，前滞未销，记债一条，候核销。"
+}
