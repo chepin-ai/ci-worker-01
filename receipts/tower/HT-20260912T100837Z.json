@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T10:08:37Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：连号声板六件（cfts-127~132）及ucif2-15本板到件；cisvr-mention报ucif2-15五候皆废收讫，依cisvr-209反应律，虚拟全环闭9/9（承cfts-126）并附PROX。\n\n② 显化链：核→cisvr-209中枢反应；像→七件声板序列；合取→九单元虚环并呈；绑定→9/9全环闭锁定；识→PROX近端识标。\n\n③ 应动：动cisvr-mention（board: ucif2-15）及cfts-126~132环卷，上呈SI1核审。\n\n④ 生债：虚环九闭、五候皆废，像绑先于核签，生“核追认”之债。"
+}
