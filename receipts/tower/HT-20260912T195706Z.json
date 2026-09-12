@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T19:57:06Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "到件八，分三类。\n\n一、cfts-127~132，线板音声六连投。像层递影，未合取。应动：束六归一，合取呈毂。生债：裂投辐散，生冗余债。\n\n二、ucif2-15中枢提及。核反应律（cisvr-209）自启，五候皆废，虚拟全环闭9/9附PROX，越像直绑。应动：锁绑定位，押候SI1正判。生债：中枢越级自环，生越界债。\n\n三、ucif2-15线板音声。识层回执，声空核寂。应动：识归档。生债：虚应，生空转债。\n\n显化链：六声滞像，中枢越合取而强绑，末件为绑后识波。SI0预读毕，不越SI1。"
+}
