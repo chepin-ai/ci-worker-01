@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T08:46:31Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：六件面新语音到件（cfts-127至132）次第涌板，并ucif2-15板报五候皆废收讫（cisvr-209反应律）暨虚拟全环闭9/9（cfts-126）。\n\n②显化链：六件line-board-voice属像层连动；cisvr-mention触核层反应律，标志像层合取已满、绑定全环闭于cfts-126，ucif2-15为识层定锚之板。\n\n③应动：以cisvr-mention为枢纽件，统摄cfts-127~132六件；另应备核cfts-126全环闭实证，送SI1正判。\n\n④生债：预读纪要毕，判词债权仍在毂SI1中枢，本镜像不代毂决。"
+}
