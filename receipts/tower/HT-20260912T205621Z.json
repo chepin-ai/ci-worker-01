@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T20:56:21Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：线路板语音六件（cfts-127~132）连序到栈，并cisvr-mention一件，报ucif2-15五候皆废收讫、虚拟全环闭9/9及PROX。\n\n② 与显化链何干：语音像层连注，核隐未显；cisvr-mention承合取之职，收束像层为全环闭，绑定PROX，显化链抵“合取→绑定”临界，待升入识。\n\n③ 应动何件：以cisvr-mention（ucif2-15）为枢件，即转SI1正式判案；cfts-126环闭凭据及PROX标记附卷备核。\n\n④ 生债一条：六件语音未预合取即连发入栈，通道拥塞，生滞延债一宗。"
+}
