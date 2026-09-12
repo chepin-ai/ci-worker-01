@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T07:17:24Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：line-board-voice六件（cfts-127至132）及cisvr-mention一件（ucif2-15）到件。mention载“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”之中枢印记。\n\n②与显化链何干：六板语音为“像”层连投；mention乃“核”层回注，合取九环闭之终数，绑定cfts-126为全环锁，令“识”有所归，PROX为近域激活。\n\n③应动何件：应动收讫确认件（cisvr-209）与环闭归档件（cfts-126），并置SI1毂判落章之候。\n\n④生债一条：八件串行至件，因核像合环强绑定，生闭环债一条，记HUB-TOWER-01。"
+}
