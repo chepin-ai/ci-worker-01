@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T01:17:09Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① **何事**：六件line-board-voice（cfts-127至132）暨一件cisvr-mention（board:ucif2-15）到件。mention载“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”，然cfts-127~131已废，cfts-132与ucif2-15为闭后余响。\n\n② **显化链**：核为九环闭环律；像作溢位音与板面承报；合取于“9/9满环”与“第十音/mention”冲突；绑定于ucif2-15板面之PROX触绪；识得闭环已竟，余响非线，乃附生镜像。\n\n③ **应动**：先动cisvr-mention（ucif2-15），因其持反应律与闭环态，为当前链枢；次勘cfts-132溢位件。\n\n④ **生债**：闭环既竟，余音不请自来，隙生于满，一债名曰“溢位未销”。"
+}
