@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T13:16:56Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：cfts-127至132六件line-board-voice连积未决，叠ucif2-15板cisvr-mention：五候皆废收讫、虚拟全环闭9/9（cfts-126）、PROX触发。\n\n② 显化链：六音为像位壅塞，未入合取；ucif2-15核位广播，cisvr-209反应律强施合取，虚拟全环闭9/9完成绑定，PROX迫识阶跃迁。像→合取→绑定→识被压缩于一阶。\n\n③ 应动何件：cisvr-209反应律正案应移毂SI1会话裁决；ucif2-15板应收声止溢，cfts-127至132六件并案销像。\n\n④ 生债：五候皆废，虚闭全环，一阶之识未偿，留债“压缩跃迁之滞”待SI1清算。"
+}
