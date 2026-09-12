@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T14:52:26Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要。\n\n① 何事：七件线路板语音（cfts-127至132、ucif2-15）到件，并一件中枢提及（board: ucif2-15）载“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”。\n\n② 显化链：板音七件为像层连珠，未遑合取；中枢提及自核层下律，以209反应律强收五候、令虚拟全环闭9/9，于合取处强行绑定并锁闭识门。\n\n③ 应动何件：应动cisvr-mention件。该件持中枢收讫与环闭之律，为全组之锚；余七件依此律作附属收讫，不得先动。\n\n④ 生债一条：废五候、强环闭，像层之资未竟合取即遭截断，生“弃像之债”——已耗未显，待链清偿。"
+}
