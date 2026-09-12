@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T08:53:38Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：cfts-127至132六件line-board-voice连缀递件，汇于ucif2-15板，触发cisvr-mention呈报：五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX标记，末件ucif2-15语音回环。\n\n②显化链：六件连声属“像”层映射；cisvr-mention为“合取”之聚、“绑定”之锁；ucif2-15回环属“识”层确认。核动像生，合取成绑，终归于识。\n\n③应动：应动cisvr-mention主件（cfts-126、cisvr-209关联件）及ucif2-15闭环件，移交SI1毂判案会话。\n\n④生债：六声连递未设截流，强推全环闭9/9，生信道拥塞侦债一条。"
+}
