@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T16:07:19Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：六路线路板语音（cfts-127至132）连番到件，汇于ucif2-15板；复有cisvr提涉该板，陈五候皆废收讫、虚拟全环闭9/9及PROX。\n\n②与显化链何干：六路声像（像）沿cfts序列递送，于ucif2-15合取；cisvr-209反应律介入执行绑定，令九位虚拟节点环闭，产出PROX近程识标。显化链由像→合取→绑定→识至此贯通。\n\n③应动何件：以cisvr-mention（ucif2-15）为枢纽件，启cfts-127至132之合取绑定回执，上呈SI1正判。\n\n④生债一条：六件分声未著时序权重，合取时核态校验缺如，生债待偿。"
+}
