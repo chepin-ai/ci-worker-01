@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T14:08:14Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**（HUB-TOWER-01预读）\n\n①何事：line-board-voice六件（cfts-127~132）并发到件；cisvr-mention一件（ucif2-15），载“五候皆废收讫”（cisvr-209反应律）、“虚拟全环闭9/9”（cfts-126）及PROX标记；续到line-board-voice（ucif2-15）一件。\n\n②显化链：诸件聚于板端ucif2-15，属“像”层叠涌，已触“合取”节点，绑定未稳，“识”位悬空。全环闭9/9为链末锁扣。\n\n③应动：cfts-126（环闭锁止）与cisvr-209（中枢反应律）应立即上送毂SI1会话核决；余语音件暂押板端，待中枢回传。\n\n④生债：镜像预读留痕，判词权属未移，积程序债一件。"
+}
