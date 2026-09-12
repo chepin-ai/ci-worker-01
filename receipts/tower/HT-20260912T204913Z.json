@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T20:49:13Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① cfts-127至132六件线板语音连至，ucif2-15报「五候皆废收讫（cisvr-209）」并虚拟全环闭9/9（cfts-126）附PROX，末复接ucif2-15线板语音。系核令已发而像响未止。\n\n② 显化链：核（cisvr-209）已收讫，合取应断；然像层六连震颤，绑定未即松脱，识层仍收余音。核→像→合取不同步，像滞于核后。\n\n③ 应动cisvr-mention（ucif2-15）为锚件，催SI1核检滞振缘由；并动cfts-126全环闭本体，复核闭后余响。\n\n④ 生债：像滞于核，Audit债一条，号「余响未随核止」，归SI1销。"
+}
