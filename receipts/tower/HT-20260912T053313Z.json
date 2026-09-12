@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T05:33:13Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：六路声带（cfts-127至132）连栈，接中枢提记宣告“五候皆废收讫”暨“虚拟全环闭9/9（cfts-126）+PROX”，末路声带（ucif2-15）回环闭合。\n\n② 显化链：六路声带为“像”之层叠积压；cisvr-mention持209反应律下“核→合取”之动令；全环闭9/9完成“绑定”；ucif2-15回环生“识”，五段链贯。\n\n③ 应动何件：应动cisvr-mention（ucif2-15）件，提请SI1正判，并令cfts-127~132及126归档销声。\n\n④ 生债：六路声带未预截即全环闭，债曰“像层未核先绑，识回有迟”。"
+}
