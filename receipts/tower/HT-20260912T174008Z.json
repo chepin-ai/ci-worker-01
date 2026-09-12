@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T17:40:08Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：到件八。cfts-127至132六件线路板语音；ucif2-15板cisvr-mention一件，载“五候皆废收讫（cisvr-209反应律）”“虚拟全环闭9/9（cfts-126）”及PROX；并ucif2-15语音一件。\n\n②与显化链何干：六语音为“像”层续流，未合取。cisvr-mention自“核”出，经反应律至“绑定”（环闭9/9），PROX为“识”层近程引信。\n\n③应动何件：应动cisvr-mention（ucif2-15）。环闭指令与反应律属核层中枢动件，余七件随其归入合取-绑定。\n\n④生债一条：债名“环闭待决”。虚拟全环闭虽成，终判权属毂SI1；SI0预读已毕而不越权，留债待SI1裁决。"
+}
