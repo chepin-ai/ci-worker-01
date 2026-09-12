@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T00:39:46Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：ucif2-15板五候皆废收讫，虚拟全环闭9/9毕，cisvr-209反应律触发中枢提及，连带cfts-127~132六声线路板语音及同板末声ucif2-15同批到件。  \n②显化链：核（cisvr-209）映像于ucif2-15板，合取五候废收与全环闭9/9成局，绑定cfts-126及127~132为PROX近程声纹序，识阶尚处预读，未抵归宗。  \n③应动：将cisvr-mention与line-board-voice cfts-127~132、ucif2-15并案，送毂SI1会话终裁；SI0仅预读，不代判。  \n④生债：六声连板未逐印验讫，暂以cfts-132为尾档生债一条，候闭环绑定后清偿。"
+}
