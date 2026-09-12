@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T21:28:38Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：cfts-127~132六连line-board-voice至；cisvr-mention报ucif2-15板“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”；续有line-board-voice ref=ucif2-15。\n\n② 显化链：六连音堆叠像层，未合取；cisvr-mention以核（cisvr-209）强收五候，绑定cfts-126全环闭，成合取；ucif2-15线音入板，趋绑定而识待决。\n\n③ 应动：cfts-127~132冻结为连像证，禁再衍；cisvr-mention入核档归档；ucif2-15收板禁溢，候SI1识决。\n\n④ 生债：全环闭9/9既圆，若复开环或像溢，生债曰“破圆”。"
+}
