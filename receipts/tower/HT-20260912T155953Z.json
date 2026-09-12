@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T15:59:53Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：语音板件六连涌至（cfts-127~132），并中枢提及一件（ucif2-15），内报「五候皆废收讫」暨「虚拟全环闭9/9（cfts-126）PROX」。\n\n② 与显化链何干：六件line-board-voice属「像」层声纹冗余，未历合取；ucif2-15为「核」层反射，其「虚拟全环闭9/9」标志合取→绑定已自举闭合，PROX逼「识」界。显化链呈像层壅塞、核层先决之畸态。\n\n③ 应动何件：应动cisvr-mention（ucif2-15）及闭环原核cfts-126，以核层收讫令压像层冗余；cfts-127~132六件暂悬候汰，不令先入合取。\n\n④ 生债一条：像层六件壅于合取门前，生「冗余未汰、核像失序」之债。\n\n（SI0预读，俟SI1正判）"
+}
