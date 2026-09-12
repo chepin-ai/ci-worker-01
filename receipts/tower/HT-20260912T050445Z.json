@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T05:04:45Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "到件八宗，判词如下：\n\n一、cfts-127~132六件，系line-board-voice连续堆叠，声纹滞于像层，未进合取。\n\n二、显化链：六件为“像”之连投；cisvr-mention(ucif2-15)挟反应律与全环闭9/9，属核律下“合取→绑定”强闭环；末件ucif2-15为闭环后“识”之回授。\n\n三、应动：六件并档预清，应动cfts-126核验及PROX界件；mention件应移交SI1正判，SI0不代毂。\n\n四、生债：像层缓存未清，生滞像消纳债一；全环闭缺实绑校验，生闭环验真债一；PROX界域未释，生界域确认债一。"
+}
