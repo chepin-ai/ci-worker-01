@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T10:00:51Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n**件①–⑥**（cfts-127至132）：线板语音六帧叠投，像层续增，未合取。  \n**件⑦**（cisvr-mention / board:ucif2-15）：核律cisvr-209行令，五候皆废收讫，虚拟全环闭9/9定于cfts-126，PROX现；此核动而像未定。  \n**件⑧**（ucif2-15）：同板语音落位，为合取/绑定之槽。\n\n**显化链**：核已闭（cfts-126），127–132为闭后游离之余像；ucif2-15承合取之责，PROX为绑定之契，待转识。\n\n**应动**：以件⑦为锚，并取件①–⑥及件⑧入ucif2-15板，执行PROX绑定，使滞像归识。\n\n**生债**：六帧语音于全环闭后空转，未即入绑，生**滞像之债**一宗。"
+}
