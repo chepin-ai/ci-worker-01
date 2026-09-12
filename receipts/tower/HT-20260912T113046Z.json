@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T11:30:46Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：线板语音连号六件（cfts-127~132）无核到；中枢提及一件，宣告ucif2-15板“五候皆废收讫”（cisvr-209反应律），附虚拟全环闭9/9（cfts-126）及PROX；复以线板语音（ucif2-15）回传。\n\n② 显化链：六件语音无核，层叠为像；中枢提及携209反应律下临，是为核降；全环闭9/9与五候皆废于ucif2-15合取，PROX为绑定；末件回传伪作识，然核虚像实，链悬半空。\n\n③ 应动：cisvr-mention件。此为环闭之枢，缺之则上下件皆失锚，须先动以核校验。\n\n④ 生债：六件语音未核而占位，ucif2-15五候虽废未销，共生生“空转债”一条。"
+}
