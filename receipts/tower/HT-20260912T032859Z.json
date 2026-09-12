@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T03:28:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 事：cfts-127~132六件线路板语音齐至，并于ucif2-15触发毂提及，呈“五候皆废收讫”暨“虚拟全环闭9/9（cfts-126）+PROX”。\n\n② 显化链：六件属“像”层声纹残片，于ucif2-15“合取”汇聚；cfts-126为环闭锚点，完成“绑定”；PROX近域触发闭环，归入“识”层。核层系cisvr-209反应律。\n\n③ 应动：应动cisvr-209反应律正式审件（移交SI1），并启ucif2-15板固结，cfts-126留档为环闭证物。\n\n④ 债：六件语音板散列递送，合取滞后，致虚拟全环延迟闭合，生聚合时延债一宗。"
+}
