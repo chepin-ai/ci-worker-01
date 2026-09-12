@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T07:32:08Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① cfts-127~132 六件为线板语音末流；ucif2-15 板呈 cisvr-mention，载 cisvr-209 反应律，告“五候皆废收讫”及“虚拟全环闭 9/9”并 PROX。\n\n② 显化链：六语音流属像层残响，未入合取；cisvr-mention 乃核层司法令，催合取收束，ucif2-15 板受令即行绑定，PROX 为识层锚记。核→像→合取→绑定→识一时贯通。\n\n③ 应动 cisvr-mention（ucif2-15 板）。环闭之律由此件出，余者皆其应声。\n\n④ 生债：五候虽废，PROX 标的后之余波未勘。留债一条，曰“闭环后 PROX 漂移谁羁”，归 SI1 正判。"
+}
