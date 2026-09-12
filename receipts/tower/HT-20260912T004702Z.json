@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T00:47:02Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：cfts-127至132六件声像层流连珠到件，叠合cisvr-mention（ucif2-15五候皆废收讫、虚拟全环闭9/9、PROX），末复缀ucif2-15声像一件。\n\n② 显化链：六件属像层未合取之流；cisvr-mention为核层收束信号，占合取位而闭全环。然末件ucif2-15声像复落像层，致合取→绑定断裂，识未显化。\n\n③ 应动：将cfts-127~132与末件并案，促发合取绑定，生成ucif2-15识件，以应全环闭后之残余像层。\n\n④ 生债：预读滞于像层，六件未即时归拢，核层收讫后声像仍渗漏，生审计滞流债一条。"
+}
