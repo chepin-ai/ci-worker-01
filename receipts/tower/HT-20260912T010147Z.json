@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T01:01:47Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① cfts-127至132六件line-board-voice连到；cisvr-mention提涉ucif2-15板，告五候皆废收讫、cfts-126虚拟全环闭9/9成、PROX触发。\n\n② 显化链：核（cfts-126九环闭核）→像（六件声线次第显像，补链尾）→合取（与ucif2-15及cisvr-209反应律合取）→绑定（PROX绑全环终界）→识（九环闭识，候废替缺）。\n\n③ 应动cisvr-mention（ucif2-15）首件，次动cfts-132；余件归档链证，候毂SI1会话裁定。\n\n④ 生债：五候已废而替候未立，环闭无继，债名“替候悬空”。"
+}
