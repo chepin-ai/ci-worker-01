@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T12:30:36Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① **何事**：ucif2-15 五候皆废已收讫，cisvr-209 反应律启动，虚拟全环闭 9/9（cfts-126）并标 PROX；然 line-board-voice 自 cfts-127 至 cfts-132 连到六件，末件 ucif2-15 回声再至。\n\n② **显化链**：核层以反应律行环闭，像层六脉冲未随合取截断，反续流入绑定端；识层因之不得清场，呈闭后余响。\n\n③ **应动何件**：动 cfts-126 基准差分件，对勘 cfts-127~132 是否属环闭前滞延像，并勘 ucif2-15 PROX 位解绑态。\n\n④ **生债一条**：核已收讫而像仍溢，生「闭后冗余绑定债」一条，归 SI1 消算。"
+}
