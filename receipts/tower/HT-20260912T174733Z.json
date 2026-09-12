@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T17:47:33Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① cfts-127~132：六件线路板语音到件，废候期离散声纹像。  \n② 显化链：核层五候已废（cisvr-209），合取器空；六像无核可合，滞于像层，未入绑定。  \n③ 应动：六件并置「废候残像」屉，锁止合取，候SI1核审。  \n④ 生债：像债一条——像溢而合取不能。\n\n① ucif2-15中枢提及（五候皆废收讫+全环闭9/9+PROX）及同ref语音：中枢律令回声。  \n② 显化链：核层已发废律与环闭令；此提及为核→像之律令回传，PROX系未竟绑定触须；同ref语音为其镜像。  \n③ 应动：PROX封包入废候档，抑止扩散。  \n④ 生债：律债一条——五候废后中枢触须空转。"
+}
