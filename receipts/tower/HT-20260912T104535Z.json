@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T10:45:35Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：连收 line-board-voice 六件（cfts-127 至 132）及 cisvr-mention 一件（board: ucif2-15）。后者报「五候皆废收讫」并引 cisvr-209 反应律，复标虚拟全环闭 9/9（cfts-126）及 PROX。\n\n②显化链何干：cfts-126 之「9/9 全环闭」乃「合取」阶满相，链动将跃向「绑定」。六件语音为核动在「像」之余波，成序列音痕，尚未抵识。\n\n③应动何件：首动 cisvr-mention（ucif2-15），其挟闭环号与反应律，为当前显化链主节；line-board-voice 六件应封贮归档，俟毂 SI1 终审。\n\n④生债一条：环闭既竟，而六件音痕仍悬于像层未销，生「闭环后余波滞留」之债，须于下一合取前清账。"
+}
