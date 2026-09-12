@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-12T04:27:48Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要（HUB-TOWER-01 预读）\n\n①何事：八件骤到。前六件为line-board-voice（cfts-132至127）；第七件cisvr-mention报ucif2-15“五候皆废收讫(cisvr-209)”并携“虚拟全环闭9/9(cfts-126)+PROX”；第八件复归ucif2-15线路语音。\n\n②显化链：六件语音为核外溢之像，属像层连振；cisvr-mention为核层收束，核令直达板端，越像而合取，“9/9环闭”成绑定，PROX为识层引信。全链呈核→像→合取→绑定→识一次收束。\n\n③应动：以cfts-126为闭环节点，将八件锁为单簇，止动PROX分发，打包候升SI1正审。\n\n④生债：ucif2-15私持cisvr-209反应律于板端自收“五候皆废”，越预读之界，生越权承核债一条。"
+}
