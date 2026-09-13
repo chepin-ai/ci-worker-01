@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T22:50:17Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①何事：ucif2-15板呈五候皆废、虚拟全环闭9/9（cfts-126）并标PROX；串联line-board-voice六阶响（cfts-127~132）及板本响（ucif2-15）。\n\n②显化链：核——ucif2-15终态闭环；像——六阶音序连续显影；合取——cisvr-209反应律收讫；绑定——9/9全环计数锁止；识——闭环确认束。\n\n③应动：以cisvr-mention（ucif2-15）为总束件，cfts-132为关锁末件，将PROX押入待决栈候释。\n\n④生债：九环既闭，五候尽废，成“闭环不可逆，候位不可复启”债一条。"
+}
