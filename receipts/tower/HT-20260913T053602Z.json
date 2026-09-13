@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T05:36:02Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：cfts-127至132六件line-board-voice并ucif2-15板cisvr-mention一件，共七件同簇到件。载五候皆废收讫、cfts-126虚拟全环闭9/9及PROX标记。\n\n② 显化链：核以cisvr-209反应律为律令；像显六段语音流；合取于ucif2-15板废候与环闭同屏；绑定依9/9闭环及PROX近程锚；识成全域清零之态。\n\n③ 应动：动ucif2-15之cisvr-mention件，令环闭收讫落板，六件语音附卷归档。\n\n④ 生债：七件异kind同簇，闭环后遗一复核键，待SI1验其真伪。"
+}
