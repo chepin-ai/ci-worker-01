@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T10:26:29Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n①何事：线板语音六连响（cfts-127~132），无核令自鸣；中枢自指一件（cisvr-mention，ucif2-15板），称五候皆废收讫，引反应律cisvr-209，虚拟全环闭9/9，附PROX标，末由ucif2-15板端回授一声。\n\n②显化链：六连响滞于“像”位，声叠未“合取”；中枢件自“核”出，强施合取与“绑定”，于ucif2-15落位成“识”，环闭九分之九。\n\n③应动：将cfts-127~132捆束为一覆核单元，收入ucif2-15仓；依cisvr-209止五候，升PROX为近距警戒态，听候SI1正判。\n\n④生债：六声空转，耗散一债，责成后续到件偿还。"
+}
