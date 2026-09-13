@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T08:01:40Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：ucif2-15板收讫line-board-voice六件（cfts-127~132），并提cisvr-209反应律“五候皆废”，告虚拟全环闭9/9（cfts-126暨PROX），乃声纹批次到件之环闭。\n\n②显化链：核为反应律废候之令；像乃六件声纹连叠；合取于ucif2-15板mention；绑定于9/9全环闭算符；识由PROX近场触发，然识权属毂SI1，非预读可夺。\n\n③应动：cisvr-mention ref=board:ucif2-15，因此件系环闭锚点，承载反应律与PROX，当首件入毂。\n\n④生债：虚拟环闭虽告成，cfts-127~132及126之单件声纹尚未逐条经核，生“声纹未核”之债一条，留待SI1补判。"
+}
