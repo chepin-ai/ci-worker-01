@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T22:42:48Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六件line-board-voice（cfts-127至132）连到；一件cisvr-mention报ucif2-15五候皆废收讫，并携虚拟全环闭9/9（cfts-126）及PROX；末件ucif2-15语音到驿。\n\n②显化链：核——cisvr-209反应律触发五候皆废，为核；像——cfts-127~132六件连列为像身铺展；合取——虚拟全环闭9/9将隐锚cfts-126与显列六件合取为一环；绑定——ucif2-15板为收讫绑定之址，PROX为邻近触发；识——全序列识作一次审计闭环触达。\n\n③应动：应动cisvr-mention闭环锚点及ucif2-15末件，送SI1核校全环闭与PROX一致性；前六件暂置候核，不代线发。\n\n④生债：六件语音列队到驿，像虽显而核未校验、合取未绑，虚位待决。债曰「像列而核未置」。"
+}
