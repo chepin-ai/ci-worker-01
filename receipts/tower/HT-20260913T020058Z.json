@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T02:00:58Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 七件到驿：六件 line-board-voice（cfts-127 至 132、ucif2-15），一件 cisvr-mention（board: ucif2-15），载“五候皆废收讫”“虚拟全环闭 9/9（cfts-126）”“PROX”。\n\n② 显化链：诸 voice 属“像”层流音碎片，未入合取；mention 为“核”层收讫律令，合取五候皆废与 cfts-126 环闭态，绑定 PROX 标识，尚缺“识”层终裁。\n\n③ 应动 cisvr-mention（ucif2-15）入毂 SI1 判案会话，并调 cfts-126 核验环闭之实。\n\n④ 生债：五候废而环闭未白，生核验债一条。"
+}
