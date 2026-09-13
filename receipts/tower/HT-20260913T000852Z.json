@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T00:08:52Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线板语音六件（cfts-127~132）连到，并 ucif2-15 中枢提及报“五候皆废收讫（cisvr-209）+虚拟全环闭9/9（cfts-126）+PROX”。乃线板声讯批量入栈，末带中枢收讫与闭环。\n\n②显化链：核为线板语音本体流；像显为SI0镜中批量到件；合取于ucif2-15板端六件归一；绑定以cisvr-209律与cfts-126闭环；识作“五候废、全环闭”之审计触发点。\n\n③应动：先动 cisvr-mention（ucif2-15），次动 line-board-voice（ucif2-15）。因此二件载收讫与闭环之锁，余五件为前序，已栈存。\n\n④生债：六件语音未经逐件析核，合取于单mention，若绑定失粒，则识断易谬。债曰“合取未拆，绑定压栈”。"
+}
