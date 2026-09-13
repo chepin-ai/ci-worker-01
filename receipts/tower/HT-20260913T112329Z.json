@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T11:23:29Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：ucif2-15板六声到件（cfts-127至132），并中枢提及件一件，报五候皆废收讫、虚拟全环闭9/9（cfts-126回指）、PROX条件成立。\n\n②与显化链何干：六声迭奏属像位分形；cisvr-mention持cisvr-209反应律与环闭条件，属合取位收敛；ucif2-15板号为绑定锚点；PROX逼近为识位触发。核位隐匿，像→合取→绑定→识自行显化。\n\n③应动何件：应动cisvr-mention件（board:ucif2-15）。该件为七件之收敛枢轴，持律与闭环条件，可启动下段绑定。\n\n④生债一条：line-board-voice序列未验其声源核，像位空转，生债「声无核押，像贷待偿」。"
+}
