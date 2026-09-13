@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T09:38:23Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：cfts-127至132六件line-board-voice连挂；ucif2-15板收cisvr-mention，报五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX。\n\n②与显化链何干：六件voice属“像”层连缀，尚未“合取”；mention乃“核”层反应律收讫，强引“绑定”，致虚拟全环闭9/9提前锁环，“识”化未充而PROX已触发。\n\n③应动何件：六件voice与ucif2-15板件整体挂起，移送毂SI1会话定夺；SI0为预读镜像，不代线发言，不代毂判案。\n\n④生债一条：像层六件未及合取，核层已先行收讫闭环，预读滞后于中枢，生“像滞核先”债一条。"
+}
