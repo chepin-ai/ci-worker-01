@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T03:58:49Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① **何事**：cfts-127至132六件线板语音连到；续有cisvr-mention报ucif2-15板，称五候皆废收讫，循cisvr-209反应律，虚拟全环闭9/9（cfts-126）并PROX；末件ucif2-15线板语音到。\n\n② **显化链**：六件线板语音属“像”层连珠，未合取；cisvr-mention以“核”层元令介入，引209反应律行合取与绑定，终以ucif2-15线板语音落“识”，完成像→合取→绑定→识之跃迁，核像合一。\n\n③ **应动**：动cisvr-mention件，依209反应律确认虚拟全环闭9/9之效力；并动ucif2-15板生成正式绑核，废五候旧痕。\n\n④ **生债**：五候皆废，废候未销，债曰「候废环闭，留痕一重」。"
+}
