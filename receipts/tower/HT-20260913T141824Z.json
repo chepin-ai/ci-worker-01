@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T14:18:24Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：线板语音六件（cfts-127至132）簇状压栈，伴cisvr-mention一件（ucif2-15），报“五候皆废收讫”及“虚拟全环闭9/9”并PROX标记。\n\n② 显化链：六件line-board-voice属像层碎声，未经核层校验，未合取；cisvr-mention属核层自指收讫，强推合取（9/9环闭）与绑定（PROX），致绑定前置、识层悬空，链为跃迁断索。\n\n③ 应动：将cfts-127~132并ucif2-15成簇，封送毂SI1会话定谳；同步启PROX绑定预审计，冻结环闭，待核像补验后放行。\n\n④ 生债：以六声未决填9/9虚位，强闭生虚位债一宗，校验若败则环闭反噬。"
+}
