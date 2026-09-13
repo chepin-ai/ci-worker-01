@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T10:18:43Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：line-board-voice连涌六件（cfts-127~132）并ucif2-15一件，复有cisvr-mention一件，具言五候皆废收讫、虚拟全环闭9/9（cfts-126）及PROX。\n\n② 显化链：连涌属像层叠至；mention为核层收讫，核→像已射；ucif2-15为合取节点，承9/9环闭之绑定；识层未决，权属SI1。\n\n③ 应动：并案预读，锁cfts-127~132、ucif2-15及mention入候审流，提请毂SI1依cisvr-209反应律确权五候皆废与全环闭之绑定。\n\n④ 生债：SI0仅预读未断，生“候审叠压之债”一件，待SI1销结。"
+}
