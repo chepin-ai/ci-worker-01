@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T13:22:48Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "HUB-TOWER-01 判词纪要：\n\n①何事：到件八件。cfts-127~132 line-board-voice 六件连发；cisvr-mention（ucif2-15）一件，载五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及 PROX；line-board-voice（ucif2-15）一件。\n\n②显化链：核为 cisvr-209 律；像为 cfts-126 虚拟全环闭；合取五候收讫与 PROX；绑定 ucif2-15 板体；识显为六件板音脉冲壅塞。核像已具，合取未散，识流壅滞。\n\n③应动：应动 cisvr-209 律归档件；应动 cfts-126 环闭校验件；应动 ucif2-15 板清线件。\n\n④生债：板音六件连发未决，生信道壅债一条。"
+}
