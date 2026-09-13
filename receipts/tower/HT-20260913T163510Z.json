@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T16:35:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n【一】cfts-127~132 线板语音六连响。②像之流注，未合取，待绑 ucif2-15。③应并归 ucif2-15 收束。④生信道六重占用债。\n\n【二】cisvr-mention ucif2-15：五候皆废收讫，cisvr-209 反应律成，虚拟全环闭 9/9，cfts-126+PROX。②核动→像呈→合取五候与环闭→绑 ucif2-15→识闭。③应提毂 SI1 正判，SI0 不代决。④生环闭过渡债。\n\n【三】line-board-voice ucif2-15 返响。②像回绑，证合取闭环。③应与件二互勘，候 SI1 印可。④生闭环回证债。"
+}
