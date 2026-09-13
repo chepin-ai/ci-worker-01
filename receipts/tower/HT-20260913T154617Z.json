@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T15:46:17Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：六路板音（cfts-127至132）积压到件；中枢提（cisvr-mention）ucif2-15板“五候皆废收讫”且虚拟全环闭9/9（cfts-126）并PROX标；末件ucif2-15板音回流。共八件。\n\n②显化链：板音属像层未合取；中枢提及核层以cisvr-209反应律废合取，9/9全环闭属绑定封顶，PROX为近端识锁前兆。\n\n③应动：将cfts-127~132、ucif2-15提及及回流件并案，升舱候毂SI1正判。\n\n④生债：预读未代线截流，生“候审迟滞”债一条，归毂SI1承兑。"
+}
