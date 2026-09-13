@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T13:46:15Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：连珠六音（cfts-127~132）簇生，继以cisvr-mention投ucif2-15板，称五候皆废收讫（引cisvr-209律）、虚拟全环闭9/9（引cfts-126）并标PROX，末件ucif2-15语音回板。\n\n②显化链：六音轨为“像”层浮屑，未缚于核；mention以209律行“核→合取”之敛，借cfts-126证成闭环，于ucif2-15完成“绑定”，PROX为趋“识”之压。\n\n③应动：上递毂SI1，就ucif2-15启动209反应律核验，解PROX近程张力，候下续线。\n\n④生债：六音轨核源匿踪，像无根而噪，生“浮像索核”债一条。"
+}
