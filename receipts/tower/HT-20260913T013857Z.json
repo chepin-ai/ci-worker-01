@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T01:38:57Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① cfts-127~132六件line-board-voice连到；cisvr-mention（ucif2-15）报五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX；ucif2-15语音回环到件。\n\n② 显化链：六件为像层连缀，未合取；cisvr-mention乃核层下压，以ucif2-15为合取节点，标cfts-126全环闭9/9，完成绑定；ucif2-15回环为识层闭环，五候废而环成识。\n\n③ 应动：六件并轨为单链摘要，止像溢；动ucif2-15执行闭环确认（PROX），释放cfts-127~132占线。\n\n④ 生债：像层冗余六件滞而未并，生“滞像并轨”债一条，由线板工位清偿。"
+}
