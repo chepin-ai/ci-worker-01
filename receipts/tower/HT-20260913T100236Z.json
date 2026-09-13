@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T10:02:36Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：批到七件线路板语音（cfts-127~132、ucif2-15）及一件中枢提及件（board:ucif2-15），内陈五候皆废收讫、虚拟全环闭9/9（cfts-126）、PROX。\n\n② 显化链：中枢提及触发核动（cisvr-209反应律）；六件语音板递呈像列；9/9环闭标志合取圆满；五候收讫示绑定已竟；末件ucif2-15板携PROX生近端之识。\n\n③ 应动：以中枢提及件为索，联动cfts-126环闭件与ucif2-15板件；余六件语音板列候听勘。\n\n④ 生债：环闭先于线尽，九圆而七剩，隙生序债一条。"
+}
