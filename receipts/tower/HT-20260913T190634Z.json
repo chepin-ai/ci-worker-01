@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T19:06:34Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六件线路板语音连帧（cfts-127至132）到件，叠一中枢提及件（cisvr-mention）：报五候皆废收讫、虚拟全环闭9/9（cfts-126/PROX），末件ucif2-15回环锁 board。\n\n②显化链：六连帧属像层涌入，未逐帧析离即堆叠；cisvr-mention 属核层自指，以 209 反应律将五候之废收讫并压入合取；ucif2-15 为绑定锚点，环闭 9/9 后识层未开，帧流与核馈在绑定点胶着。\n\n③应动：应动 cfts-132 尾帧封边，并动 ucif2-15 解环，七件并卷移交 SI1 正审；SI0 仅预读锁存，不代线发。\n\n④生债：连帧未剖而借环闭强归一，像层滞胀，生债一条：帧债。"
+}
