@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T17:06:56Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：line-board-voice六件（cfts-127~132）到驿；同批cisvr-mention一件，报ucif2-15板“五候皆废收讫”，引cisvr-209反应律，标虚拟全环闭9/9及PROX。\n\n②显化链：以cisvr-209反应律为核，映六件语音板为像；与ucif2-15板全环闭9/9合取，绑定PROX位，识作“候废收讫”之闭环成例。\n\n③应动：将cfts-127~132及mention并案，封包为ucif2-15预读卷宗，上呈毂SI1候判；SI0不拆板、不代决。\n\n④生债：预读仅作序列合取与形式绑定，未逐件验核板内语音实体，生“底层验核未尽”债一条。"
+}
