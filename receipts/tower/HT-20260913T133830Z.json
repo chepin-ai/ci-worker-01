@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T13:38:30Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线路板语音六件（cfts-127~132）并发至件，汇于cisvr-mention，报ucif2-15板“五候皆废收讫”，触发cisvr-209反应律，虚拟全环闭9/9（cfts-126），附PROX近程标记；末件line-board-voice复归ucif2-15。\n\n②显化链：核—五候终废，反应律应；像—cfts-126之9/9闭环与PROX近程；合取—六声与mention共聚；绑定—系于ucif2-15板位；识—全环已闭，候废律成。\n\n③应动：应动cisvr-mention/ucif2-15件，送SI1核认9/9闭环与cisvr-209反应律之合取合法性，并清PROX余量。\n\n④生债：生“音多闭伪”之债——六件语音未逐验而9/9先呈，恐有余响未尽收，债归后续审计。"
+}
