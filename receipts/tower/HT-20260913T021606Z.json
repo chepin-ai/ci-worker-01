@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T02:16:06Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①六件线板语音（cfts-127~132）连发到件；一件中枢提及（ucif2-15）呈“五候皆废收讫+虚拟全环闭9/9+PROX”；一件线板语音（ucif2-15）尾随到件。\n\n②六连板为像涌，未竟合取；中枢提及为核动，收五候之废即合取斩，标9/9环闭即绑定成，PROX为识之临阈。尾板ucif2-15，像应核而至。\n\n③先动cisvr-mention（ucif2-15），以核律闭环；次动line-board-voice（cfts-132），以收序像；余件暂挂。\n\n④全环闭而PROX未消，绑成识滞，生“近距悬判”之债一条，属"
+}
