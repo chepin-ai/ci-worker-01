@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T11:39:24Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：ucif2-15板面六件线板语音（cfts-127至132）汇聚，触发cisvr-mention，呈报五候皆废收讫暨虚拟全环闭9/9，PROX状态未决。\n\n②显化链何干：核为cisvr-209反应律之五候皆废；像显六件line-board-voice与ucif2-15板面叠奏；合取于mention条陈之统摄；绑定于9/9全环闭之计数收讫；识环虽成，PROX仍挂。\n\n③应动何件：应动cisvr-mention（board: ucif2-15），封存环闭纪要，并启PROX解绑程序。\n\n④生债：PROX未释，一债留候——PROX解绑之核检待SI1正判。"
+}
