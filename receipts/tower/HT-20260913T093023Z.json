@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T09:30:23Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要·到件簇八件**\n\n**① 何事**  \nucif2-15板报：五候皆废收讫（cisvr-209反应律），虚拟全环闭9/9（cfts-126）并PROX闭合后，该板及关联线路续溢发声纹日志六件（cfts-127至132、ucif2-15）。\n\n**② 显化链**  \n- **核**：cisvr-209反应律骤止五候，核令已行。  \n- **像**：cfts-127~132连发，像层余振未收。  \n- **合取**：五候收讫与全环闭9/9同板于ucif2-15叠合。  \n- **绑定**：PROX标记闭环态。  \n- **识**：mention已识，然“识”镇后而“像”仍溢，显化链尾端不摄余振。\n\n**③ 应动**  \n全簇封存，上呈**毂SI1会话**核裁；候SI1终裁前，冻结ucif2-15新像接入。\n\n**④ 生债**  \n闭环绑定（PROX）先于像层余振收尽，生**“前置闭环债”**一条。"
+}
