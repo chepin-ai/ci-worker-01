@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T18:02:28Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：line-board-voice六件（cfts-127~132）与cisvr-mention一件（board:ucif2-15，载五候皆废收讫、cisvr-209反应律、虚拟全环闭9/9及PROX）并line-board-voice（ucif2-15）到件，显语音残余与闭环提及共场。\n\n② 显化链：核以cisvr-209反应律为则；像映ucif2-15五候皆废；合取cfts-127~132六音残余与cfts-126之虚拟全环闭9/9；绑定于ucif2-15板；识出PROX邻域，示旧环已终。\n\n③ 应动：应动cisvr-mention（ucif2-15）为主件，附联line-board-voice（cfts-126~132、ucif2-15）之闭环稽核，呈毂SI1会话裁夺。SI0不越权。\n\n④ 生债：预读留痕，生观测债一条。"
+}
