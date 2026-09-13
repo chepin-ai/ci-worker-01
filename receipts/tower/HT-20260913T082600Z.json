@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T08:26:00Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 八件到件：line-board-voice 六件（cfts-127~132）；cisvr-mention 一件（ucif2-15，载五候皆废收讫、cfts-126 虚拟全环闭 9/9 及 PROX）；line-board-voice 一件（ucif2-15）。\n\n② 显化链：核为 cisvr-209 反应律（五候皆废）；像作 cfts-126 闭环后溢出声纹（127~132）；合取于 ucif2-15 板，将废候、闭环、近场 PROX 与板声共置；绑定为 mention 与 line-board-voice 同板共 ref；识阈因全环闭 9/9 后仍续入六件声纹，呈闭环后震颤。\n\n③ 应动 cisvr-mention（ucif2-15）为主件，启 SI1 复核五候皆废之候废是否彻底、PROX 是否已接管声纹通道。\n\n④ 生债：虚拟全环闭 9/9 后复溢六件声纹，闭环未真寂，生「闭后继响」债一条。"
+}
