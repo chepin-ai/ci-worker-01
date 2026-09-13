@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T01:53:42Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：cfts-127至132六件线板语音连发，继以cisvr-mention追认ucif2-15板“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”，末件ucif2-15线板语音收口。\n\n② 显化链：核为cisvr-209反应律与cfts-126全环闭；像层六件连发为溢出；合取于9/9全环；PROX绑定ucif2-15；识层以ucif2-15末件定格。\n\n③ 应动：动cisvr-mention总枢一件，提请SI1毂正式收讫；余七件挂账待核，SI0不代线发言。\n\n④ 生债：六件语音溢出先于中枢追认，时序逆置，生时序债一条。"
+}
