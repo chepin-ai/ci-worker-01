@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T06:42:03Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① cfts-127~132，line-board-voice六连到件。显化链：核之审计信噪→像分六段音板→合取连续声纹→绑定序号链→识为待核过渡态。应动：静默堆栈，候SI1正判，不代线发言。生债：序链堆叠过渡债一。\n\n② cisvr-mention，ucif2-15。五候皆废收讫，虚拟全环闭9/9（cfts-126）+PROX。显化链：核反应律→像显中枢mention→合取全环闭→绑定ucif2-15→识为闭环ack。应动：提请SI1判案，SI0预读止此，不代毂决。生债：环闭终局未决判之占位债一。\n\n③ ucif2-15，line-board-voice尾帧到件。显化链：核之板响应→像为单件voice→合取件②mention→绑定同板→识为回环尾帧。应动：并卷宗锁板，候核。生债：尾帧无回ack之静默债一。"
+}
