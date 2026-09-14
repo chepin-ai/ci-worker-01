@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T12:37:20Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：ucif2-15板据cisvr-209反应律收讫“五候皆废”，并注cfts-126虚拟全环闭9/9+PROX；然cfts-127至132六件line-board-voice仍涌向该板，且ucif2-15自身亦以line-board-voice返场。\n\n② 显化链：核为cisvr-209断律与五候皆废之决；像乃cfts-126以PROX拟闭全环；合取处，六连语音误将已废之候续投ucif2-15，与闭环像强行并置；绑定因收讫而失锚，cfts-127~132无着落；识层遂显“闭后继响”之伪环。\n\n③ 应动：cisvr-209反应律应重划ucif2-15收讫边界；cfts-126虚拟闭环须核其PROX真伪；cfts-127~132六件应冻结，止入合取。\n\n④ 生债：废候已收讫而线板续投六声，虚占通道，生虚耗之债一条。"
+}
