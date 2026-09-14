@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T16:40:41Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "cisvr-mention",
+   "ref": "usrm-272 qgl借范交验融构+L类三钥七测+KEYBLIND自愈建制 @qgl @qfa @cisvr @roo"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-272"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-nudge-vinf-eval.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-EVAL-WAVE-01-qtlv-20260913T082110Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OMNI-INJECT-01-vinf-20260911T185404Z.md"
+  }
+ ],
+ "verdict_memo": "判词纪要：到件八件，usrm-272提及qgl借范交验融构、L类三钥七测及KEYBLIND自愈建制，并携VINF通道之审计裁决、光验、包确认、循环、OTP与SI5云询。显化链：核系qgl范式与KEYBLIND建制之合法性审查；像为usrm-272线路板音及多ANS文件之映射；合取于AUDIT-VERDICT与诸应答之交叉点；绑定各通道权责；识其能否构成联邦面新动之自愈闭环。应动件：lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtl"
+}
