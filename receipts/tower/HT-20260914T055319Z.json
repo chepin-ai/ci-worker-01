@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T05:53:19Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六件line-board-voice连投（cfts-127~132），一件cisvr-mention（ucif2-15）收讫“五候皆废”（cisvr-209反应律）、“虚拟全环闭9/9”（cfts-126）及PROX，末件ucif2-15语音落板。系环闭宣告伴近端触发。\n\n②显化链：连投语音属“像”层叠噪；中枢收讫“五候皆废”为“合取”断流归档；“9/9全环闭”属“绑定”满格封顶；PROX介入“识”之邻域校验，边界未决。\n\n③应动：以cisvr-mention/ucif2-15为核件，cfts-127~132及cfts-126降为附随声纹；即动PROX边界确权件，移交毂SI1终裁（判词权属SI1会话，此处不代）。\n\n④生债：环闭已合，PROX邻识余量未消，生“近端余量”一债，待毂SI1消解。"
+}
