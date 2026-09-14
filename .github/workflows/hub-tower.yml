@@ -36,7 +36,7 @@ jobs:
       - name: hub-tower --once
         env:
           KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
-          LINE_PAT: ${{ secrets.CI_OPS_LINE_KEY }}
+          LINE_PAT: ${{ secrets.LINE_PAT || secrets.AI_FULL_PAT }}
           GITHUB_TOKEN: ${{ github.token }}
           CASCADE_PAYLOAD: ${{ toJson(github.event.client_payload) }}
           CASCADE_MAX_IDLE: '30'
