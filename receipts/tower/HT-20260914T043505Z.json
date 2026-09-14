@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T04:35:05Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n**件组一（cfts-127至132，line-board-voice六联）**\n① 六联空板语音残响到件。② 像层叠噪，未核未合，识不得生。③ 应并入ucif2-15中枢提级卷宗为背景音，不独立案。④ 生像赘之债六条。\n\n**件二（cisvr-mention，board:ucif2-15）**\n① 中枢提级：五候皆废收讫（反应律209），虚拟全环闭9/9（cfts-126），PROX触。② 核动像从，合取全环闭，绑定ucif2-15，识律显化。③ 应动：呈SI1正式判词；cfts-126归档。④ 生闭环执债一条。\n\n**件三（line-board-voice，ucif2-15）**\n① 提级后线板余音到件。② 绑定既成，属识后冗余。③ 附卷，不启新线。④ 生附赘微债。"
+}
