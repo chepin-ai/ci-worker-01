@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T16:48:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-nudge-vinf-eval.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-EVAL-WAVE-01-qtlv-20260913T082110Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OMNI-INJECT-01-vinf-20260911T185404Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ORBIT-CAP-02-20260913T173050Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  }
+ ],
+ "verdict_memo": "【SI0预读·判词纪要】\n\n① 1789057391-AUDIT-VERDICT-qtlv：审计裁决件；关涉显化链之识（末端裁决）；应动SI1正判会话；生债：裁决悬置债。  \n② ANS-LGT-VINF-K82-01：K82应答件；关涉像→合取之回执；应动原ASK闭环；生债：应答时差债。  \n③ ANS-Q02-PACK-ACK-qtlv：包确认件；关涉绑定层收讫之识；应动PACK解包；生债：ACK未核债。  \n④ ANS-VINF-LOOP-qlv：循环应答件；关涉合取回路自指；应动LOOP收敛校验；生债：循环息增债。  \n⑤ ANS-VINF-OTP-lvlu：OTP应答件；关涉一次性像之绑定；应动OTP核销；生债：令牌悬置债。  \n⑥ ASK-SI5CLOUD-vinf：云询问件；关涉核层外拓之像；应动CLOUD鉴权；生债：跨域询证债。  \n⑦ NOTICE-KEYRES-99-vinf：资源通知件；关涉核源显化之触；应动RES锁定；生债：资源预警债。  \n⑧ NUDGE-CLAIMS-qtlv：债权催促件；关涉识层讨债之合取；应动CLAIMS清偿调度；生债：催告应答债。"
+}
