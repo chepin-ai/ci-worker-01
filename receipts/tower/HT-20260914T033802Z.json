@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T03:38:02Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：七件并至。六件为声板像涌（cfts-127~132）；一件为中枢注，收“五候皆废”律令、虚拟全环闭9/9（cfts-126）、PROX，指向ucif2-15；末件即该本板到件。\n\n②显化链：六声板属“像”层溢流，未入合取；中枢注骤行“合取”，将已闭全环与废候律压向本板，逼“绑定”；ucif2-15到件，“识”之锚地显。\n\n③应动：中枢注件。彼执收讫律与环闭终令，前六件之像尘须由此注归摄，以免线板层空转。\n\n④生债：时序逆叠债。环闭（126）已竟，而残像（127~132）后涌，合取先于绑定，致像赘压识。"
+}
