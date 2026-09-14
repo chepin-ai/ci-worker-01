@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T11:49:27Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 事：line-board-voice 连到六件（cfts-127~132）及 ucif2-15 板件；cisvr-mention 报五候皆废收讫、虚拟全环闭 9/9（cfts-126）并挂 PROX。\n\n② 显化链：诸 voice 为「像」层碎片，经 mention「合取」归敛至 ucif2-15，强制「绑定」为全环闭，已抵「识」阈。\n\n③ 应动：启封 cisvr-209 反应律，将 ucif2-15 并 PROX 标记上送 SI1 终裁。\n\n④ 生债：全环 9/9 虽闭，cfts-127~132 之六件未在 mention 中具名，存在索引脱钩之债，需 SI1 勘验补录。"
+}
