@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T21:49:25Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-Q02L192384.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-nudge-vinf-eval.md"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① AUDIT-VERDICT：终裁到件。显化链属「识」层，定谳封卷。应动：执决归档。生债：余波未息。\n\n② ANS-LGT-VINF-K82-01：轻量应答。显化链属「像→合取」，映像核验。应动：回写状态。生债：K82未同步。\n\n③ ANS-Q02-PACK-ACK：包确认。显化链属「合取→绑定」，契约封缄。应动：销号。生债：序列待验。\n\n④ ANS-REQ-Q02-CROSSL：跨层应答。显化链属「核→像」跃迁。应动：路由转译。生债：权限未交割。\n\n⑤ ANS-VINF-LOOP：回路应答。显化链属「像」层自指。应动：断环或续传。生债：循环条件未明。\n\n⑥ ANS-VINF-OTP：令牌应答。显化链属「绑定」，暂契。应动：验讫即焚。生债：时效悬置。\n\n⑦ ASK-SI5CLOUD：外向问询。显化链属「识」层求索。应动：转SI5。生债：响应迟滞。\n\n⑧ DIRECTASK-ORBIT-CAP-03：硬核直派。显化链属「核」层硬指令。应动：直发执行器。生债：资源未清。\n\n——以上系SI0预读，不代毂SI1判案，不代线发言。"
+}
