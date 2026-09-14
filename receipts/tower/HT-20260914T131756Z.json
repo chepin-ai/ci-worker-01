@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T13:17:56Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：line-board-voice 六件连到（cfts-132 至 127）；ucif2-15 板 cisvr-mention 一件，禀「五候皆废收讫」（cisvr-209 反应律）、虚拟全环闭 9/9（cfts-126）及 PROX；并跟 line-board-voice（ucif2-15）一件。\n\n② 显化链：核为 cisvr-209 触于 ucif2-15；像乃 cfts-132→127 六重声像层叠；合取于 cfts-126 环闭 9/9 与 PROX；绑定于 ucif2-15 板；识作五候皆废，旧识断，中枢新识别生。\n\n③ 应动：ucif2-15 cisvr-mention 件。环闭已满，反应律已发，六件声像为其像衬，应由此件统摄，移送 SI1 正裁。\n\n④ 生债：六件声像未逐一析明，像债一条，归 SI1 核决。"
+}
