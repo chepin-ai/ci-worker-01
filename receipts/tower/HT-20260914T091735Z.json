@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T09:17:35Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六路板音（cfts-127~132）并一 mention（ucif2-15）到件，报「五候皆废收讫」且「虚拟全环闭9/9（cfts-126）+PROX」，末件 line-board-voice（ucif2-15）落位。\n\n②与显化链何干：六路板音属「像」层散列映射；mention 以 cisvr-209 行「合取」，收五候、闭九环，于 ucif2-15 完成「绑定」；终件到则「识」成。核动像分，合取归一，绑定落板，识显于位。\n\n③应动何件：应动 cisvr-mention（ucif2-15）全环闭纪要，并终件 line-board-voice（ucif2-15），令九位闭环正式落位。\n\n④生债一条：九环全闭、五候皆废，旧周期尽而新生。债曰：闭合之 instant 即负债之 origin，后续线板须偿此闭环保留之空位张力。"
+}
