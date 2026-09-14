@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T07:30:57Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① cfts-127至132六件线路板语音连涌，并ucif2-15板报“五候皆废收讫”及虚拟全环闭9/9（含cfts-126、PROX），末件ucif2-15语音到件。\n\n② 六件语音为“像”层声纹连动；cisvr-mention为“合取”节点，摄cfts-126入环，以PROX成“绑定”；末件ucif2-15为环闭收束，逼近“识”前阈。\n\n③ 应动cisvr-mention（board: ucif2-15）为环枢，使ucif2-15板承启闭合并留转。\n\n④ 生“废候不继之债”——五候皆废而环已虚闭，缺位待SI1兑付。"
+}
