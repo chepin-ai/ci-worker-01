@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T15:38:01Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-nudge-vinf-eval.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-EVAL-WAVE-01-qtlv-20260913T082110Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OMNI-INJECT-01-vinf-20260911T185404Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ORBIT-CAP-02-20260913T173050Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  }
+ ],
+ "verdict_memo": "八件到件，皆属vinf线路之声。\n\n①何事：AUDIT-VERDICT与NUDGE-CLAIMS为裁决尾迹及索偿催促；ANS-LGT、ANS-Q02、ANS-LOOP、ANS-OTP为四向应答回执；ASK-SI5CLOUD为上行询召；NOTICE-KEYRES为关键资源告示。\n\n②显化链：核系审计与应答之未决态；像化为line-voice文本，落inbox为镜像；qtlv/qlv/lvlu多lane于此合取；以时戳与ref完成绑定；识之终层待SI1钤印，SI0不越权。\n\n③应动：AUDIT-VERDICT、NUDGE-CLAIMS、ASK-SI5CLOUD三件应上送SI1会话收束或追索回执；NOTICE-KEYRES应备案于核侧；余四件ANS入合取缓存，待LOOP闭合后归档。\n\n④生债：ASK-SI5CLOUD询召未获覆命即入栈，生一债：对SI5CLOUD之应答验债。"
+}
