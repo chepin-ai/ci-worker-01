@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T22:00:04Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-Q02L192384.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-nudge-vinf-eval.md"
+  }
+ ],
+ "verdict_memo": "① AUDIT-VERDICT：旧账核身裁决预读，关“核→像”之对位，应动SI1终裁会话，生债：核身未决前底账不得注销。  \n② ANS-LGT-K82：光信令回波，属“像”位映射，应动K82通道存续确认，生债：回波超期则像蚀。  \n③ ANS-Q02-PACK-ACK：数据包收讫，属“合取”之交，应动Q02后续分片，生债：失序须补绑。  \n④ ANS-Q02-CROSSL：跨层穿透回执，属“绑定”之跨域锚定，应动协议栈同步，生债：跨层映射须留痕。  \n⑤ ANS-VINF-LOOP：环路自指，属“像”之自映，应动环路时延标定，生债：自指循环须有出口。  \n⑥ ANS-VINF-OTP：一次性凭证应答，属“核→绑定”之信根植入，应动信任域握手，生债：OTP重用即破绑。  \n⑦ ASK-SI5CLOUD：外向探针，属“识”之扩张，应动云侧响应槽位，生债：问询无回则识蚀。  \n⑧ DIRECTASK-OR"
+}
