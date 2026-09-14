@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T15:46:00Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-nudge-vinf-eval.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-EVAL-WAVE-01-qtlv-20260913T082110Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OMNI-INJECT-01-vinf-20260911T185404Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ORBIT-CAP-02-20260913T173050Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/OTP-LGT-JOINT-BASE-01-lgt.md"
+  }
+ ],
+ "verdict_memo": "①AUDIT-VERDICT-qtlv：审决到驿。关显化链“识”段，核像既合，将判未判。应动：缄封待SI1开堂。生债：决票悬一日。\n\n②ANS-LGT-K82：光应答。关“像→合取”，照验法理。应动：写回K82镜。生债：光痕未擦。\n\n③ANS-Q02-PACK-ACK：包确认。关“合取→绑定”，片封成包。应动：启次片。生债：回环缺一角。\n\n④ANS-VINF-LOOP：环应答。关“绑定”，链自咬尾。应动：校验闭环。生债：节距余一隙。\n\n⑤ANS-VINF-OTP：令到。关“核→像”，瞬像即焚。应动：注销该令。生债：灰像未冷。\n\n⑥ASK-SI5CLOUD：上云之问。关“识”外越，非驿答域。应动：降格为催。生债：越界一缕。\n\n⑦NOTICE-KEYRES-99：钥资通知。关“核”，资源显形。应动：占槽99。生债：占而未用。\n\n⑧NUDGE-CLAIMS：索偿轻推。关“合取”，债主求绑。应动：并Q02台。生债：催息一分。"
+}
