@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T06:01:09Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：ucif2-15五候皆废收讫，cfts-126虚拟全环闭9/9，连带cfts-127~132及ucif2-15板音共八件到件。  \n②与显化链何干：属合取→绑定段异常核震。cfts-126闭环触发cisvr-209反应律，强废五候，核动像涌而未臻于识；127~132为合取残留之迭音，ucif2-15为绑定锚点，PROX已先行截流。  \n③应动何件：以cisvr-mention为纲，批转毂SI1正座复核；余六件line-board-voice冻结待销，禁入线。  \n④生债一条：闭环越级，五候未审先废，生“越权收讫”债一条，归毂SI1追偿。"
+}
