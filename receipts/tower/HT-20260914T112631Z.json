@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T11:26:31Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：ucif2-15板呈「五候皆废收讫」，附虚拟全环闭9/9（cfts-126）及PROX近场；同步涌至line-board-voice七件（cfts-127~132、ucif2-15），共八件同频到件。\n\n②显化链：核以cisvr-209反应律为则，像显ucif2-15板态；合取cfts-126闭环信号与PROX标记，绑定八件声纹为同一收讫脉冲，识为闭环瞬态之线板共振。\n\n③应动：动cfts-126锁结核验件，复动ucif2-15板清响件，逐件销声。\n\n④生债：八件合取于同一瞬，未逐帧析离，生「脉冲堆叠」审计债一宗。"
+}
