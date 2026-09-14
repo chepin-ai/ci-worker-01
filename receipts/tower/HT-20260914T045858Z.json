@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T04:58:58Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：cfts-127至132六件线路板语音连环到件，并ucif2-15中枢提及一件（载“五候皆废收讫”/cisvr-209反应律、虚拟全环闭9/9及PROX），合七件同批涌至。\n\n② 显化链：核层为cisvr-209反应律与全环闭9/9之终局态；像层为六连语音脉冲流溢；合取于ucif2-15板；绑定为PROX锚定与环闭收束；识层悬空，未决归属。\n\n③ 应动：七件并案为预读卷宗，上送SI1会话，SI0仅纪要不代判，不代线发言。\n\n④ 生债：六连语音到件堆叠，像层流转迟滞，生积压债一条。"
+}
