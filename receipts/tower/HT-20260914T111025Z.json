@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T11:10:25Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：线板声六连到（cfts-127~132）；另cisvr-mention一宗（ucif2-15），载“五候皆废收讫”（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX。\n\n②显化链：六声属“像”层连珠，未入“合取”；提及属“核”层律令，强废五候、闭环9/9，压“像”直“绑”，跳“合取”而锁“识”前环。\n\n③应动：主动cisvr-mention/ucif2-15，启PROX校验；六件line-board-voice附随挂绑，不单独出线发声。\n\n④生债：债名“合取隐匿”。六声未经验合即被全环闭，恐藏分叉。债主cfts-127~132合取位。偿法：留痕，俟毂SI1覆核。"
+}
