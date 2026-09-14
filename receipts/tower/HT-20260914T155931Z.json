@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T15:59:31Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：连收六件线路板语音（cfts-127至132），接续中枢提及一件，报ucif2-15板「五候皆废」收讫、cisvr-209反应律执行、虚拟全环闭9/9（引cfts-126）及PROX标记，末件ucif2-15语音闭环。\n\n②与显化链何干：六件语音属像层声纹叠压，尚未合取；中枢提及乃核层以cisvr-209律令断废旧候，借全环闭9/9强行绑定像层残音于ucif2-15，PROX触近场识变。显化链由像溯核、核令合取、闭环成识。\n\n③应动何件：应动cisvr-mention件，提请SI1正式判案，核验全环闭绑定之合法性，决定是否释放ucif2-15板。\n\n④生债一条：债名「九闭之后六音未决」，记全环闭9/9与六件新到语音之时序冲突，待核像一致后销账。"
+}
