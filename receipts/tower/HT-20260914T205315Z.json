@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T20:53:15Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-Q02L192384.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-nudge-vinf-eval.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-EVAL-WAVE-01-qtlv-20260913T082110Z.md"
+  }
+ ],
+ "verdict_memo": "件① AUDIT-VERDICT：审计终裁像到件。属核→像显化终环，应动封卷入库。生债：审计迹存证不空。  \n件② ANS-LGT-K82：光层应答到件。属像层合取前段，应动跨层绑定。生债：时戳对齐。  \n件③ ANS-Q02-PACK-ACK：Q02包确认到件。属合取层收讫，应动解包分派。生债：序位不跳。  \n件④ ANS-REQ-Q02-CROSSL：跨层请求答到件。属绑定层通路，应动双向鉴权。生债：边界不泄。  \n件⑤ ANS-VINF-LOOP：循环应答到件。属识层自指，应动收敛校验。生债：终止条件必达。  \n件⑥ ANS-VINF-OTP：一次性码应答到件。属像层瞬态，应动核销令牌。生债：重放豁免一次。  \n件⑦ ASK-SI5CLOUD：上云问询到件。属核层外探，应动配额回执。生债：答责未了。  \n件⑧ NOTICE-BYPASS-ORBIT-CAP：轨道旁路容量告警到件。属识层告警，应动降级预案。生债：冗余补足。"
+}
