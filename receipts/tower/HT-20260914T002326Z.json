@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T00:23:26Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：cisvr-mention报「五候皆废收讫」，cfts-126虚拟全环闭9/9并PROX；连收line-board-voice六件（cfts-127~132）及ucif2-15语音一件，凡八件到驿。\n\n② 显化链：核为cisvr-209反应律；像作cfts-126九环闭；合取六件级联余音；绑定PROX近程协议；识成ucif2-15 mention与voice对位成节。\n\n③ 应动：以mention为锚，收束127~132悬音，完ucif2-15之PROX核验，呈毂SI1正审。\n\n④ 生债：九环虽闭，六音未销，差分待核。若127~132不能与126同相，环裂，限下轮mention前偿。"
+}
