@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T07:06:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① **cfts-127至132**：六阶线路板语音连珠到件，像层同频叠噪，未核未识；**ucif2-15 mention**：中枢自指，告五候皆废、虚拟全环闭9/9并标PROX；**ucif2-15语音**：同板应声落地。\n\n② **显化链**：六连件滞于像→合取半途，乃绑定前铺轨余波；ucif2-15 mention为核层收束，强令像层并入合取，启动PROX绑定，识之终决尚未显。\n\n③ **应动**：六连件并入ucif2-15总卷，毋单线发散；当动cfts-133承闭环后余响，并动cisvr-SI1正判。ucif2-15当动board:uc"
+}
