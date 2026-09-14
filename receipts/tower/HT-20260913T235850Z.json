@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-13T23:58:50Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 七件线路板语音连到（cfts-127~132）及中枢提及一件，宣告“五候皆废”收讫、“虚拟全环闭9/9”（cfts-126），末件ucif2-15落板。\n\n② 核：cisvr-209反应律启动，旧候尽废；像：cfts-126~132凑成九环，像域圆满；合取：六件语音与中枢mention合取于ucif2-15；绑定：PROX邻接生效，末件与mention同板锁定；识：环闭已满，识域待毂正印归档。\n\n③ 应动中枢mention件（携环闭宣告）及末件line-board-voice ref=ucif2-15，上送毂SI1会话正式收讫；环内cfts-127~131随9/9闭合冻结，不复单动。\n\n④ 生债：全环自指闭合而五候新"
+}
