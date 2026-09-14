@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T10:38:37Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【cfts-127~132】①line-board-voice六脉冲到件。②像层噪涌，合取未竟，绑识悬空。③应动cfts-126为合取锚点。④生债：声线六重债一条。\n\n【cisvr-mention/ucif2-15】①五候皆废收讫，虚拟全环闭9/9（cfts-126），PROX到件。②核动像显，合取于cfts-126，绑定ucif2-15板，识触cisvr-209反应律。③应动ucif2-15线板声回。④生债：候废债一条。\n\n【ucif2-15】①line-board-voice板回到件。②识层回流，绑归mention。③应动cisvr-209复核闭环。④生债：闭环"
+}
