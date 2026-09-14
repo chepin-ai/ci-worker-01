@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-14T17:18:32Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 到件八宗：线板语音六连（cfts-127~132）壅至；中枢 mention 一件（ucif2-15，携“五候皆废收讫/cisvr-209 反应律”“虚拟全环闭 9/9/cfts-126”“PROX”）；并线板回指一件（ucif2-15）。\n\n② 显化链：六件语音滞于“像”层，未及“合取”，未入“绑定”，虚像叠积无核；mention 件以反应律收讫五候，环闭 9/9，然 PROX 悬停，显化链于“合取→绑定”隘口回颤未凝。\n\n③ 应动：动 mention 件（ucif2-15），以 PROX 近程戳破虚闭，使六件语音余响得归摄，环闭真正落地。\n\n④ 生债：六件无核语音壅塞像域，生“滞像未裁债”一条。"
+}
