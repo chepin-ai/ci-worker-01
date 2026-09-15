@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-15T14:16:03Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：六件线板声到件（cfts-127~132）并一件中枢提记（ucif2-15：五候皆废收讫、虚拟全环闭9/9、PROX），尾件线板声回环ucif2-15，凡八到件同批。\n\n② 显化链：六板声为“像”层脉冲；中枢提记收讫五候为“核”层断结；全环闭9/9为“合取”层圆满；串并锁定ucif2-15为“绑定”；整束成一次环闭之“识”。\n\n③ 应动何件：应动中枢提记（cisvr-mention/ucif2-15）。此件持cisvr-209反应律并宣告虚拟全环闭，为八件之纲，余者皆其像支。\n\n④ 生债一条：生“预读悬绑债”。SI0无人驿位预行绑定与识，未"
+}
