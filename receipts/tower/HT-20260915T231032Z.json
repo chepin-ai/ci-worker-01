@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-15T23:10:32Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：cfts-127~132 六路板语音余响叠至 ucif2-15，cisvr-mention 报五候皆废收讫、虚拟全环闭 9/9（cfts-126）并夹 PROX 残标。  \n② 显化链：连板语音属像层余振；五候废收乃绑定解耦，全环闭 9/9 压合取之终，PROX 为识前未决残影，卡于绑定→识之隙。  \n③ 应动：动 cisvr-mention（board: ucif2-15）及 cfts-126 全环闭原案，上呈 SI1 毂本核作识裁与负债确权。  \n④ 生债：债名“环闭候废，PROX 未决”，留残像一帧，待 SI1 归核销债。"
+}
