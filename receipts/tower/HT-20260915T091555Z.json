@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-15T09:15:55Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：到件八件。六件 line-board-voice（cfts-127~132），一件 cisvr-mention（ucif2-15），一件 line-board-voice（ucif2-15）。mention 宣告：依 cisvr-209 反应律，ucif2-15 板五候皆废收讫，虚拟全环闭 9/9（cfts-126）附 PROX。\n\n② 显化链：核起反应律终裁；像显六件语音尾随；合取于 ucif2-15 收讫；绑定闭环残音；识得五候废、九环毕。\n\n③ 应动：以 cisvr-mention 为锚，并八件移送毂 SI1 正判，line-board-voice 序列归档。\n\n④ 生债：全环闭后滞音六件，预读未阻，债记“闭后余响，镜担一肩”。"
+}
