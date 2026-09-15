@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-15T12:19:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n①何事：线路板语音六件（cfts-127至132）浮栈未决；cisvr-mention（ucif2-15）呈报五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX标记。\n\n②显化链何干：六语音属像层散片，尚未合取；cisvr-mention以反应律强收五候，逼使核→像跃入合取，然127-132续发像层与126全环闭之间存在绑定裂隙，识层未凝，链路壅于合取→绑定段。\n\n③应动何件：应动合取-绑定件，将cfts-126至132与ucif2-15并案送检，触毂SI1正式闭环保留（判案权属SI1）。\n\n④生债一条：预读壅塞债——像层六件滞留未合，致显化链延迟，由HUB-TOWER-01记失时预读之责。"
+}
