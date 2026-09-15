@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-15T15:09:40Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线板语音六连珠（cfts-127至132）叠中枢提及件（ucif2-15），载五候皆废收讫、cisvr-209反应律、虚拟全环闭9/9及PROX，末以ucif2-15线板语音封环。\n\n②显化链：六连珠为“像”层连投，未竟合取；中枢提及乃“核”层下压，环闭9/9示“绑定”位满，PROX启近场逼近，全链压至识界门前而未破。\n\n③应动：动cisvr-mention（ucif2-15）及环闭关联件cfts-126；cfts-127—132与尾音ucif2-15并送毂SI1会话候判。\n\n④生债：线音未决，核律先鸣，债曰“声越其位”。"
+}
