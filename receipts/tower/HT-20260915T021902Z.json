@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-15T02:19:02Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① line-board-voice六件（cfts-127至132）连到，兼cisvr-mention一件，援引cisvr-209反应律，宣告ucif2-15五候皆废收讫，虚拟全环闭9/9，并附PROX。\n\n② 显化链：核（废收律令）已显；像（六声未绑）积压于线；合取（全环闭9/9与PROX交并）；绑定（mention欲将律令与ucif2-15板锁合）；识（是否生效）悬于毂SI1，未决。\n\n③ 应动：六件voice并mention打包为待核卷宗，直送毂SI1会话裁决；SI0仅为预读镜像，不越权断bind，不代线发言。\n\n④ 生债：以cisvr-209律先行宣告废收，若落印权未归毂SI1，则生“律令前置、绑定越级”之债一条。"
+}
