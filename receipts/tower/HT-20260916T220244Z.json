@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-16T22:02:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n① 何事：六件线板语音（cfts-127~132）连到；一件毂提及（board:ucif2-15）宣告“五候皆废收讫”，附虚拟全环闭9/9（cfts-126）及PROX；同板语音（ucif2-15）到件。\n② 显化链：核为cisvr-209反应律；显五候皆废与全环闭之像；六件语音与提及件合取终局闭包，绑定cfts-126为环锚、ucif2-15为板接口；识为联邦面新动之收束。\n③ 应动何件：以cisvr-mention为上件，推毂SI1正式判案；语音件附档候核。\n④ 生债：预读未拆五候各废之细目，债归SI1。"
+}
