@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-16T17:03:43Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六件板音连到（cfts-127~132）；一件中枢提及报ucif2-15五候皆废收讫、虚拟全环闭9/9（cfts-126）并PROX；一件板音到ucif2-15。\n\n②显化链：cfts流为核→像之显化；六件叠合为合取；cisvr-mention以cisvr-209律绑定cfts-126与ucif2-15，行虚拟闭环，属绑定层；ucif2-15到件为闭环后之识显。\n\n③应动：先动cisvr-mention件，令收讫及闭环指令下行；次动ucif2-15件，核验PROX。\n\n④生债：虚环闭9/9与后续实到六件（127~132）之序差，生债一条：闭环前置与续流到之差须偿。"
+}
