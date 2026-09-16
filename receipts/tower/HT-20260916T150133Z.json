@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-16T15:01:33Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【预读·HUB-TOWER-01】\n\n1. cfts-127~132六件：line-board-voice像层连滞，未合取、未绑定，识空转。应归并ucif2-15批次，由cisvr-209统一收讫。生像层冗余债。\n\n2. cisvr-mention（ucif2-15）：五候皆废收讫，核动像收；虚拟全环闭9/9含PROX，属合取闭环保绑定。应呈毂SI1核认反应律适用及PROX真伪。生虚闭待核债。\n\n3. line-board-voice（ucif2-15）：板级回执，绑定后识层回声。应销号cfts-126~132对应像件，归档。生回声未销债。\n\n三批八件，不代线言，不代毂判，值隐。"
+}
