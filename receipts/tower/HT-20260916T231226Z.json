@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-16T23:12:26Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：line-board-voice六件（cfts-127~132）连声到驿；cisvr-mention一件（ucif2-15）呈五候皆废收讫、虚拟全环闭9/9（cfts-126）及PROX。\n\n②显化链：六件属“像”层碎片，未合取；ucif2-15承“核”动cisvr-209反应律，于“合取”处收尽五候，于“绑定”处系PROX，9/9环闭后升入“识”。\n\n③应动：ucif2-15及其环闭源件升送毂SI1正判；cfts-127~132作像底归档，不代线发。\n\n④生债：预读已具而判案权属未授，生“SI1悬偿债”一条。"
+}
