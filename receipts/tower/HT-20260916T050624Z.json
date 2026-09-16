@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-16T05:06:24Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线板语音六件（cfts-127~132）及毂提及件（board:ucif2-15）并至，载“五候皆废收讫（cisvr-209反应律）”“虚拟全环闭9/9（cfts-126）”及PROX。\n\n②显化链：核（cisvr-209反应律）→像（六件line-board-voice）→合取（五候皆废+全环闭+PROX）→绑定（ucif2-15汇总结点）→识（未定，待判）。\n\n③应动：将ucif2-15及关联六件并送毂SI1会话定谳；SI0仅止预读，不代线发言，不代毂判案。\n\n④生债：预读未决，判词权属SI1，生债一条，俟主核定谳后销。"
+}
