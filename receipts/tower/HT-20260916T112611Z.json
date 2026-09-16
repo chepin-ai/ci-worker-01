@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-16T11:26:11Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① cfts-127~132六件，line-board-voice像位连珠；ucif2-15中枢提及，五候皆废、全环闭9/9（cfts-126）并PROX，核位反应律（cisvr-209）发；ucif2-15声像回环，识位落板。  \n② 显化链：六声像属「像」之浮涌；中枢提及以核律行「合取→绑定」，强收九环；回环成「识」。核→像→合取→绑定→识已走毕。  \n③ 应动：六声像聚合转SI1核审；ucif2-15中枢件触闭环保底；ucif2-15声像执行绑定确认。  \n④ 生债：声像六重未核先传，九环闭而单条未散列核销，生审计滞留债一条。"
+}
