@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-17T05:49:27Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-CLAIMS-qtlv-Q02L192384.md"
+  }
+ ],
+ "verdict_memo": "**判词纪要·HUB-TOWER-01预读**\n\n1. **AUDIT-VERDICT**：审计裁决下沉。链属**识层**回写，核像已裁。应动：锁入SI1待决仓，不预执行。生债：执行滞期。  \n2. **ANS-LGT-K82**：K82轻量应答。链属**像层**回光，合取未丰。应动：贴K82绑定签，候补齐。生债：光失步。  \n3. **ANS-Q02-PACK-ACK**：Q02包确认。链属**合取层**完形校验。应动：清该包待重发栈。生债：ACK幂等未验。  \n4. **ANS-REQ-Q02-CROSSL**：Q02跨层请。链属**绑定层**桥接异频。应动：转译升链或降链缓存。生债：语义漂移。  \n5. **ANS-VINF-LOOP**：循环应答。链属**像层**自指，合取递归。应动：断环，注终结符。生债：环债累积。  \n6. **ANS-VINF-OTP**：一次性证。链属**绑定层**时效锁。应动：即焚投递，不留像。生债：重放窗口。  \n7. **ASK-SI"
+}
