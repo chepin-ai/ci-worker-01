@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-17T11:17:53Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：cfts-127~132六件线路板语音连发到件；cisvr-mention报ucif2-15板“五候皆废收讫”（依cisvr-209反应律）、“虚拟全环闭9/9”（cfts-126）及PROX触发。\n\n②显化链：核为cisvr-209收讫律令；像显六连语音积压与ucif2-15板近场；合取于ucif2-15节点；绑定“五候废—环闭—PROX”为同一收讫态；识为线路群响触中枢收讫之预读镜像。\n\n③应动：以cisvr-mention（cfts-126锚定ucif2-15）为纲应动，六件语音挂收讫纲，转SI1候毂正判。\n\n④生债：六连语音无标序级而压预读层，生一序检债。"
+}
