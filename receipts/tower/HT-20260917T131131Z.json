@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-17T13:11:31Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**HUB-TOWER-01 判词纪要**\n\n- **cfts-127~132**：线板语音六连到件，像层流影，未达合取，直归档，不动核。\n- **ucif2-15中枢提级**：五候皆废收讫，依cisvr-209反应律，虚拟全环闭9/9，核层自净毕，跃至合取临界，PROX现绑定前兆。\n- **ucif2-15线板**：像层尾响，已随中枢收讫，静默。\n- **显化链**：六连件为像滞；中枢件为核→合取跃迁；PROX为合取→绑定之阈；九环闭则识层将启未启。\n- **应动**：cfts系列归档不动；ucif2-15启PROX预审，候毂SI1正判，不代决。\n- **生债**：PROX悬于阈前，绑定未决，生**「阈"
+}
