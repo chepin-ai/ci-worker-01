@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-17T12:14:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① **何事**：ucif2-15板六路语音牌（cfts-127~132）暨中枢提及一则到件，陈“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”。\n\n② **显化链**：核在ucif2-15板；像作六连声纹到件流；合取于cisvr-mention所载环闭律与反应律；绑以cfts-126为闭环锚，六声归板；识为板级语音流全环闭事件。\n\n③ **应动**：主件ucif2-15，附cfts-127~132及提及件为预读包，候SI1拆检，不代线发言。\n\n④ **生债**：六声未分显化，概化合包债一条。"
+}
