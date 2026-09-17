@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-17T09:24:33Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：line-board-voice六件（cfts-127~132）连珠到件，继以cisvr-mention（ucif2-15）禀“五候皆废收讫”暨虚环全闭9/9（cfts-126）+PROX，末件ucif2-15 voice复至。\n\n②显化链：核为ucif2-15板与cisvr-209反应律；像化六件voice为声列；合取“五候皆废”与“虚环闭9/9”；以PROX绑定板-环；识得候位尽废，声轨归圆。\n\n③应动：cisvr-mention（ucif2-15）。此件持反应律与环闭之据，应首动以核PROX落位。\n\n④生债：六件voice堆叠一线，环闭后余响未清，生“滞声债”一条，待销。"
+}
