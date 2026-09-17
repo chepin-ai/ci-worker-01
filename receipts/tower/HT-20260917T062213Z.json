@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-17T06:22:13Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：线板语音六件（cfts-127~132）并ucif2-15线板语音一件，附中枢提及一件，呈报ucif2-15五候皆废收讫、虚拟全环闭9/9及PROX标记。\n\n② 显化链：前六件为像层连珠，未入合取；中枢提及携cisvr-209反应律与闭环态，自核层下压，阻断像→合取之跃迁，强插绑定调度。PROX示邻域待识。\n\n③ 应动：八件归宗，以中枢提及为枢，封存候判，转毂SI1会话决之。线板侧止语，不续新像，不代线发言。\n\n④ 生债：预读槽滞留一宗未决，生审计壅塞债一条。"
+}
