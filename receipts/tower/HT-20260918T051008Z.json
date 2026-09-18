@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-18T05:10:08Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：ucif2-15板五候皆废，cisvr-209收讫；cfts-126成虚拟全环闭9/9；PROX绑定下，cfts-127至132语音列与ucif2-15板音同批到件。\n\n②显化链：核—板候全废之核变；像—cfts-127~132六阶音镜像铺陈；合取—cfts-126全环闭节点；绑定—PROX锁板音于环闭态；识—滞于SI0预读，待SI1终裁。\n\n③应动：升cisvr-mention件（ucif2-15板）入SI1复核；以cfts-132尾件收束语音列，余件归档。\n\n④生债：候废之兆未先显，环闭后觉，生债一条曰“废候迟报”。"
+}
