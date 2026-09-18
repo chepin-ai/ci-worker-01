@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-18T00:14:47Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六件语音板件（cfts-127至132）连到，旋接cisvr-mention（ucif2-15）报「五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX」，末件line-board-voice（ucif2-15）落板。\n\n②显化链：六件语音为「像」之连续叠印；cisvr-mention以cfts-126环闭态为「核」，将五候皆废与PROX「合取」，绑定127-132序列为ucif2-15之「识」前尘，完成从散声到闭环的跃迁。\n\n③应动：cisvr-mention（board: ucif2-15）为枢轴件，以其反应律触发环闭后之次生动件。\n\n④生债：先声后闭，六件语音在环闭指令前已落板，生「时序未锚债」一条：后续动件须偿此先落后闭之间隙，不得令声越识。"
+}
