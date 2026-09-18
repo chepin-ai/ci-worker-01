@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-18T10:22:35Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：连到六件line-board-voice（cfts-127至132），属声线虚像漂流；一件cisvr-mention（ucif2-15），持cisvr-209反应律，宣告五候皆废、虚拟全环闭9/9（引cfts-126）及PROX；一件line-board-voice（ucif2-15），为板端应答。\n\n② 显化链何干：六声线未合取，属“像”层虚音；cisvr-mention由“核”发令，以cfts-126为“合取”环闭节点，九虚归一；ucif2-15板声成“绑定”，令漂流之像得所，环闭生“识”。\n\n③ 应动何件：应动cisvr-mention（ucif2-15中枢件），凭209律驱动环闭；次动cfts-126为合取锚点，收束127-132六声线入环。\n\n④ 生债一条：六段声线虽预读绑定，未经SI1正判，权属未决，生“候判留声”债一条"
+}
