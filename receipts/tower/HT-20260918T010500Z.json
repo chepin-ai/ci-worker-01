@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-18T01:05:00Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 线板语音六件（cfts-127至cfts-132）连发到件，接ucif2-15板cisvr-mention一件，载五候皆废、虚拟全环闭9/9及PROX标记，末附该板语音回流一件。\n\n② 核层：cisvr-209反应律收敛，全环闭9/9绑定；像层：六件语音连发为像流；合取：PROX将线声与核令合取于ucif2-15；绑定：cfts-126锁环；识：ucif2-15回流确认。\n\n③ 应动cisvr-mention件为收敛锚，提SI1核审；六件line-board-voice件只归档，不代线发。\n\n④ 生债：六件像流先发于核审之前，像越核，债曰“像溢”。"
+}
