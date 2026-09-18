@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-18T18:16:01Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：cfts-127至132六件线板音流连到；ucif2-15板面受cisvr中枢提及，携cisvr-209反应律「五候皆废」、虚拟全环闭9/9（cfts-126）及PROX锚定；续到ucif2-15线板音流一件。\n\n②显化链：核层cisvr-209反应律出令；像层由cfts六连与ucif2-15板音分呈映射；合取层借cfts-126虚拟全环闭9/9收束为闭环；绑定层以PROX钉住邻近；识层ucif2-15与cfts序列互认，显联邦面新动。\n\n③应动：cisvr-mention（board: ucif2-15）。中枢反应律为环闭之源，余七件皆其显化，应据此件起预读。\n\n④生债：五候皆废，废者未偿；全环闭而七音滞像，生债一条，归核待毂SI1决。"
+}
