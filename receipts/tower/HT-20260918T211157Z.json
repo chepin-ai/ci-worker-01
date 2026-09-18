@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-18T21:11:57Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 六件语音板（cfts-127~132）与ucif2-15节点汇聚，cisvr-mention报「五候皆废收讫+cisvr-209反应律+虚拟全环闭9/9+PROX」，系闭环裁决前置事件簇。\n\n② 显化链：六件语音属「像」位层积，mention为「合取」触发，ucif2-15为「绑定」锚点，整体迫近「识」位；然核位未明，链缺首环。\n\n③ 应动：将全环闭簇并PROX标记上呈毂SI1，依cisvr-209反应律激活正式判词；ucif2-15节点冻结，待核位补足后解绑。\n\n④ 生债：六件语音未经逐件显化即被批量环闭，生「像溢债」，须于SI1会话逐项析取销账。"
+}
