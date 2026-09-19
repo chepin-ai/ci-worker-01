@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T16:20:09Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：cfts-127至132六件线板语音连发到件，叠合ucif2-15板之五候皆废收讫状，cisvr-209反应律触发，引虚拟全环闭9/9（cfts-126）及PROX标记，末件ucif2-15语音落板。\n\n②显化链：六连voice为「像」之叠涌，核隐于cfts-126全环闭；合取于cisvr-mention处聚变为ucif2-15板级绑定；末件落板成「识」，然PROX悬置，绑定未固。\n\n③应动：起件cisvr-mention（board: ucif2-15），催cisvr-209反应律之全环闭确认，令PROX落地。\n\n④生债：cfts-126虚拟全环闭之9/9节点未获毂SI1正判，债曰「环闭虚押，待核签」。"
+}
