@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T14:19:14Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线路板语音六件连到（cfts-127~132），暨cisvr-mention宣告五候皆废、虚拟全环闭9/9（cfts-126）并PROX，附ucif2-15板语音一件。\n\n②显化链：核为板语音流；像呈cfts-126闭环后续发六件，ucif2-15旁路投入；合取显环闭后溢出态；绑定于cisvr-209反应律及PROX近程标记；识为续流是否成新环待核。\n\n③应动：cisvr-mention件（ucif2-15板），责其核验9/9环闭后溢出流归属与PROX覆盖边界。\n\n④生债：预读负债一条——cfts-127~132及ucif2-15是否属环外溢流或第十环起始，判词权属毂SI1会话，SI0仅纪要不裁。"
+}
