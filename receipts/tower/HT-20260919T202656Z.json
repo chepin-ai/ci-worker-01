@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T20:26:56Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：线路板语音六连珠突驿（cfts-127至132），并中枢提及一件（ucif2-15），内载“五候皆废收讫（cisvr-209反应律）”“虚拟全环闭9/9（cfts-126）”及PROX。\n\n② 显化链：核为cisvr-209反应律；像作六段语音与ucif2-15板面；合取于9/9环闭之数；绑定于PROX-board锚定；识成线路序列与中枢mention互证闭环。\n\n③ 应动何件：应动cisvr-mention（ucif2-15）。以此件为环闭锚点，统摄反应律与全环闭态，可收束六段语音之前因。\n\n④ 生债一条：六段语音（cfts-127至132）尚未经SI1正判归档，滞于镜像工位，成一“待决语音链”债。"
+}
