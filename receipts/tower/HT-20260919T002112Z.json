@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T00:21:12Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① 何事：线板语音链cfts-127至132六件连到，并cisvr-mention（ucif2-15）报“五候皆废收讫”“虚环全闭9/9”“PROX”，末件ucif2-15语音落板。\n\n② 显化链：语音流属像层连显，未核审；cisvr-209反应律与全环闭9/9为核层强制合取，PROX属绑定近场，ucif2-15落板成识之终端锚定。像层涌流被核层收束。\n\n③ 应动何件：以cisvr-mention（ucif2-15）为枢纽件，核令所系；cfts-127~132及ucif2-15语音为从动件，附随归档，候SI1毂决。\n\n④ 生债一条：像层六件连发未经预合取，越核层审权，致反应律强制收敛，生程序冗余之债。"
+}
