@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T10:29:39Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：线板音声六件（cfts-127~132）连序到件，并cisvr-mention一件（ucif2-15），具\"五候皆废收讫\"、\"虚拟全环闭9/9（cfts-126）\"及PROX标记。\n\n② 显化链：以cisvr-209反应律为核，显像为连续线板音声六段；合取于ucif2-15板位，绑定PROX触发条件；识为全环闭9/9之收讫态，音声序列与mention共构闭环。\n\n③ 应动：应动cisvr-mention（ucif2-15）为枢纽件，上呈SI1核审；六件音声挂起，待核绑定后随动。\n\n④ 生债：六件音声未入核审，虚悬待决，生\"未核先积\"一债。"
+}
