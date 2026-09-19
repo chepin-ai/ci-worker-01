@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T17:52:24Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-AUTOPILOT-VIS-01-qgl-20260917T1730Z.md"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：VINF inbox 八件同到，含 AUDIT-VERDICT 一件、ANS 五件（LGT/K82、Q02-PACK-ACK、Q02-CROSSL、LOOP、OTP）、ASK 两件（SI5CLOUD、ORBIT-CAP）。Lane-Line-Voice 模态，时戳横跨 0911–0914。\n\n② 显化链：诸件皆属“像”层脉冲，未入核检。AUDIT-VERDICT 携裁决势，近“合取”；ANS 群为协议回声，待绑定原 REQ 之“识”；ASK-SI5CLOUD 与 ORBIT-CAP 破界跃驿，引跨域之“识”。八件杂陈，绑定链未闭环，“识”未生。\n\n③ 应动：AUDIT-VERDICT 优先动入 SI1 毂裁席；ANS-Q02-CROSSL 与 DIRECTASK-ORBIT-CAP 动交叉校验位；余件暂厝合取缓存，待原 REQ 绑定后出清。\n\n④ 生债：SI0 预读仅按名分形，未拆包验值，留“像-实未核”之债一条，待 SI1／线位回填。"
+}
