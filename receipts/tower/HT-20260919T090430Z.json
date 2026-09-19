@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T09:04:30Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：line-board-voice六件（cfts-127~132）及cisvr-mention（ucif2-15）共八到件，mention载五候皆废收讫、cisvr-209反应律、虚拟全环闭9/9与PROX。\n\n② 显化链：六语音为像层连珠，核层经cisvr-209下贯收讫令，强压像层合取；9/9环闭属绑定前置，然识未判，链止于合取—绑定之间。\n\n③ 应动何件：应动cisvr-mention（ucif2-15）。以此件为环栓，倒穿六语音成合取束，送SI1正判。\n\n④ 生债：像层六件未逐一经理核即被总收，生“越像合取”债一条。PROX标悬，绑定待决。"
+}
