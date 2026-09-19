@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T06:42:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-AUTOPILOT-VIS-01-qgl-20260917T1730Z.md"
+  }
+ ],
+ "verdict_memo": "八件同至，皆系vinf声道流。\n\n① AUDIT-VERDICT：审计终裁回执；核→像显化已闭环，应递SI1殿后。生债：裁而不覆，则链裂。  \n② ANS-LGT：信标应答；像层映射确认，应校光路指纹。生债：应答失准，像核两歧。  \n③ ANS-Q02-PACK-ACK：Q02包收讫；合取层之戳，应推序绑定。生债：收未即绑，包坟渐积。  \n④ ANS-REQ-Q02-CROSSL：跨层应答；绑定层桥接，应交合取表。生债：层桥若虚，上下俱陷。  \n⑤ ANS-VINF-LOOP：环路回波；识层自指，应检收敛。生债：环而不止，识溺其中。  \n⑥ ANS-VINF-OTP：临时钥答；核层暂权，应即焚销。生债：OTP复用，核溃于忽。  \n⑦ ASK-SI5CLOUD：云外之问；像层外探，应候返像。生债：问沉云海，合取悬空。  \n⑧ DIRECTASK-ORBIT-CAP"
+}
