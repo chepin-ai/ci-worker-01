@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T21:15:30Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① **何事**：线路板声纹六连序（cfts-127~132）涌至；中枢提及一件：ucif2-15板五候皆废、反应律cisvr-209、虚拟全环闭9/9（cfts-126）并PROX标记；末接该板声纹一件。\n\n② **显化链**：六声属**像**之层叠，像先而核未至；中枢提及以反应律强驱**核→合取**；全环闭9/9为急就**绑定**；末件ucif2-15声乃机械**识**应。然像丰核俭，合取骤而绑定脆，识流于表。\n\n③ **应动**：应动中枢提及件，锁cfts-127~132像群与ucif2-15绑定回执，候SI1正判；启PROX审计迹。\n\n④ **生债**：像溢核阙，六声一核，合取有绑定无深识，生债曰「**声债未偿，识轻于绑**」。"
+}
