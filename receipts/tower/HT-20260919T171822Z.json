@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T17:18:22Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要（HUB-TOWER-01预读）\n\n①何事：到件一至六为line-board-voice，ref cfts-127至cfts-132，像层六连珠；到件七为cisvr-mention，board: ucif2-15，报“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9+PROX”；到件八为line-board-voice，ref ucif2-15，绑定应声。\n\n②显化链：六件线板滞于像播，未越合取；mention乃核层律令下贯，以cisvr-209废五候、闭九环，强压像层；末件ucif2-15线板完成绑定，然识层未清，合取有缺。\n\n③应动：核令既出，应动下件——启PROX收束；线板序列（cfts-127~132及ucif2-15）"
+}
