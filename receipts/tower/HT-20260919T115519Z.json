@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T11:55:19Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-AUTOPILOT-VIS-01-qgl-20260917T1730Z.md"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① AUDIT-VERDICT：审计裁决到件，关“核”之定谳，应动SI1正读候决，生债：决前不得转译分发。  \n② ANS-LGT-K82：光信应答，关“像”之映射，应动K82链路真值校验，生债：像真未核不入境。  \n③ ANS-Q02-PACK-ACK：包确认，关“合取”之聚，应动PACK哈希对账，生债：ack不代收到货。  \n④ ANS-REQ-Q02-CROSSL：跨链答，关“绑定”之联，应动锚点锁重验，生债：绑定不自升格为核。  \n⑤ ANS-VINF-LOOP：循环答，关“识”之回环，应动终止符检视，生债：循环不自指为识。  \n⑥ ANS-VINF-OTP：瞬码答，关“像”之灭，应动时效核销，生债：像灭债消，逾期不补。  \n⑦ ASK-SI5CLOUD：云问，关“核”之外证，应动SI5边界划定，生债：问而不约，云不担责。  \n⑧ DIRECTASK-ORBIT-CAP：直询轨道，关“绑定”之直达，应动CAP硬约束回显，生债：直达即债，容量为额。"
+}
