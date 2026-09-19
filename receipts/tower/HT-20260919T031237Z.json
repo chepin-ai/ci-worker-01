@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-19T03:12:37Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：声线板六连到件（cfts-127~132）叠合中枢述件（cisvr-mention/ucif2-15），报五候皆废收讫、虚拟全环闭9/9毕。\n\n②显化链：六声线为「像」层连投；cisvr-mention承「核」层律令（cisvr-209反应律），行「合取」（五候废收讫）与「绑定」（PROX）；ucif2-15板声归「识」层印可，核→像→合取→绑定→识全链显化毕。\n\n③应动：应动毂SI1会话出正式判案；并动cfts-126闭环节归档件锁环。\n\n④生债：债曰「九环已闭，六声未裁，栈压待核」。程序滞债，权属SI1清偿。"
+}
