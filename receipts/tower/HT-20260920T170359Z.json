@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T17:03:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：ucif2-15板呈“五候皆废收讫”（cisvr-209反应律）暨“虚拟全环闭9/9”（cfts-126）之中枢提涉，并line-board-voice七连到件（cfts-127~132、ucif2-15）。\n\n②显化链：核层以反应律废五候；合取层已全环闭（cfts-126）。然像层七重声线滞涌未消，绑定位PROX悬空，识层待决——合取先竟而像后壅，链节倒错。\n\n③应动：并卷该mention与七重声线，锁PROX待绑，直送SI1毂案；SI0仅预读，不代线发言、不越权判案。\n\n④生债：像层七复壅塞，闭环已竟而声线后到，时序倒置，生“滞像覆闭”债一条。"
+}
