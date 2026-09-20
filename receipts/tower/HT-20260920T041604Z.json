@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T04:16:04Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "到件八宗，判词纪要：\n\n**① cfts-127~132（line-board-voice 六连）**：线路板语音像次递发。显化链：**像→合取**，声纹序列汇聚未绑。应动合取器（cisvr-209）序贯收束。生债：六脉冲连续性待核。\n\n**② cisvr-mention（ucif2-15）**：五候皆废收讫，虚拟全环闭9/9，PROX触达。显化链：**核→像**，反应律显影，合取已满。应动绑定件（cfts-126闭环）暨识显。生债：全环闭后识未落板。\n\n**③ ucif2-15（line-board-voice）**：板级回声到驿。显化链：**绑定→识**，闭环余振待锚。应动识显归档（SI1会话层）。生债：回声与原像差分未偿。"
+}
