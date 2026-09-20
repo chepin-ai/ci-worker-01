@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T05:19:17Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n1. cfts-127~132：六件并至，line-board-voice像流。属显化链“像”层叠涌，未合取。应动：悬置队列，俟cfts-126虚全环闭核验后批量绑入。生债：像积压，核缓存占压一条。\n\n2. cisvr-mention ucif2-15：五候皆废收讫，虚全环闭9/9，cisvr-209反应律+PROX。属显化链“合取→绑定”跃迁，核像交汇。应动：启cfts-126/PROX双通道，上呈SI1毂决。生债：虚闭环若溃，绑定反噬核一条。\n\n3. line-board-voice ucif2-15：板级语音回授。属显化链“识”层回声，已附主件。应动：归并ucif2-15主件，去冗。生债：回声冗余，耗识算力一条。"
+}
