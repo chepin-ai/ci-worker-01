@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T20:13:04Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① **何事**：六件线板语音件（cfts-127至132）及ucif2-15件到件；同期核层发cisvr-mention，以cisvr-209反应律宣告ucif2-15五候皆废收讫，并定虚拟全环闭9/9。\n\n② **显化链**：核先决收讫、闭环，像后至滞流。ucif2-15为合取位，核令已点收，然像层七件语音未同步绑入该环，致绑定缺位、识层难断此像流属环内余响或环外溢出。\n\n③ **应动**：应动SI1核账，将cfts-127~132及ucif2-15补绑于9/9闭环，或标记为闭后溢出；同时校核cisvr-209全环闭计数，修正时序错位。\n\n④ **生债**：核判先于像达，闭环在前、像成在后，时序倒置，生**“先"
+}
