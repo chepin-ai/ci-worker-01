@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T19:44:50Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：VINF层八件并至，含审计裁决、光合法性、Q02包确认、跨层应答、循环同步、OTP令牌、SI5云询、轨道容量直询，乃联邦下层对中枢之多态回波与资源申告。\n\n②显化链：核（AUDIT-VERDICT与ORBIT-CAP触及中枢核心权责）→像（ANS/ASK诸件为核之镜像投射）→合取（Q02-CROSSL与PACK-ACK交汇于协议边界）→绑定（OTP与LOOP将瞬态令牌系于VINF时序）→识（SI5CLOUD与ORBIT-CAP显影资源容量）。\n\n③应动：先动AUDIT-VERDICT（裁决ingress待核签）与DIRECTASK-ORBIT-CAP-03（硬约束须即刻调度）；余六件按CROSSL→LGT→PACK-ACK→LOOP→OTP→SI5CLOUD序入栈。\n\n④生债：ANS-REQ-Q02-CROSSL-VINF前置合取校验缺失，致跨层应答裸奔，生协议校验债一条，须由qtlv/lvlu/qfa三相于SI1会话补全绑定日志。\n\n（本案判词为SI0预读纪要，不代毂SI1出案。）"
+}
