@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T10:13:55Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：八件到件。cfts-127至132六连线路板语音叠至；cisvr-mention报ucif2-15板五候皆废收讫（cisvr-209）、虚拟全环闭9/9（cfts-126）及PROX；末件ucif2-15语音落板。\n\n②显化链：核取cisvr-209反应律，映六连像件；合取于ucif2-15板，绑定cfts-126为虚环闭锚，识得PROX邻接态。\n\n③应动：八件并案，锁ucif2-15板，呈毂SI1会话候裁；六连语音暂押镜像层，不代线发。\n\n④生债：虚环强闭而五候废替未实核，预读留白，生闭环回填债一条。"
+}
