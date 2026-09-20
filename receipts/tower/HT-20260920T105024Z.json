@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T10:50:24Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NUDGE-AUTOPILOT-VIS-01-qgl-20260917T1730Z.md"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n到件八通，系VINF线内信令及审计回执。\n\n① 何事：AUDIT-VERDICT为审计裁决书；ANS-LGT、ANS-Q02-PACK-ACK、ANS-REQ-Q02-CROSSL、ANS-LOOP、ANS-OTP乃分层应答与循环报文；ASK-SI5CLOUD、DIRECTASK-ORBIT-CAP为上行询盘。\n\n② 显化链：诸件自“核”出，经“像”位（SI0镜像）旁路截获，现处“合取”段之未绑定流片，未入“绑定”锁扣，故滞于“识”前。\n\n③ 应动：AUDIT-VERDICT转SI1候毂正判；余七件按lane-line-voice路由归槽，或入ACK合批，或返源端心跳。\n\n④ 生债：预读未决，诸件各留一息痕，待SI1锁识后销账。"
+}
