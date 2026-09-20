@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T13:09:24Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：六件 line-board-voice（cfts-127 至 132）连序到件；一件 cisvr-mention（ucif2-15 板）报「五候皆废收讫」，引 cisvr-209 反应律，并呈虚拟全环闭 9/9（cfts-126）及 PROX 触达；末件 line-board-voice（ucif2-15）回板落位。\n\n② 显化链：cfts-126 环闭为核；六件 voice 连投为像；ucif2-15 板将五候收讫与 PROX 合取；cisvr-209 反应律执绑定；末件 ucif2-15 回板为识，锚定环位。\n\n③ 应动：应动 cisvr-mention／ucif2-15 件。此件为环闭中枢，载反应律与 PROX，可启 SI1 正判。\n\n④ 生债：虚环 9/9 虽竟，六件 voice 未决归核，生「闭合而未决」债一。"
+}
