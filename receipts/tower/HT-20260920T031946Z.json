@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T03:19:46Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要  \n① 何事：线板语音流六连到件（cfts-127至132）；中枢述令一件（cisvr-mention/ucif2-15），载“五候皆废收讫”（cisvr-209反应律）、“虚拟全环闭9/9”（cfts-126）及PROX；附线板语音ucif2-15一件。凡八件。  \n② 显化链：六连语音流属“像”层续显，未达“合取”；中枢述令为“核”层反应律下射，携cfts-126完成“绑定”，PROX启近域触检；ucif2-15语音乃绑定后“识”层回执。  \n③ 应动：动cisvr-mention主件，行PROX近域核验；六连语音流"
+}
