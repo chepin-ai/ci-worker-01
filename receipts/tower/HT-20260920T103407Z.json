@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T10:34:07Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\ncfts-127：序板初鸣，核启像，应立案追源，生债首因未录。  \ncfts-128：继板随衍，像照核，应衔母验环，生债衍射有迟。  \ncfts-129：转板折光，像核交辉，应明屐痕，生债折光未收。  \ncfts-130：中板在途，合取固位"
+}
