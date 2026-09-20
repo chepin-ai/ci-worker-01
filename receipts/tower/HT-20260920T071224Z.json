@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T07:12:24Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n①何事：线路板语音流六连到件（cfts-127~132），叠中枢提及一件：ucif2-15板五候皆废，依cisvr-209律收讫，虚拟全环闭9/9，附PROX。末件为该板回铃。乃序列收讫之件簇。\n\n②显化链：六连语音属像层叠，于合取位成序；中枢提及以cisvr-209律将废候状态绑定于核（ucif2-15），9/9闭环完成识之显化，PROX为邻余未决量。\n\n③应动何件：应动中枢提及件及末件ucif2-15。前者携律令与闭环信标，后者为靶向板，二件当捆送入毂SI1会话终审。\n\n④生债一条：五候皆废，先件无迹，SI0预读已替核"
+}
