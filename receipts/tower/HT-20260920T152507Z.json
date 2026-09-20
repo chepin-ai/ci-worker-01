@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T15:25:07Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线板语音六件（cfts-127~132）与中枢提及一件（ucif2-15）并至，附码“五候皆废收讫”“虚拟全环闭9/9”“PROX”。\n\n②与显化链何干：核为cisvr-209反应律之废收令；像为六连语音镜像叠投ucif2-15板；合取于同候一线七件；PROX作绑定楔，钉废收态于board；识显全环闭9/9终态，然叠件未析，识之粒度有亏。\n\n③应动何件：动cisvr-mention（ucif2-15）为锚，下扫cfts-127~132六件做废收确权归档，令环闭落地。\n\n④生债一条：七件合取而无分案标识，核像绑定后缺分离识，若后续拆件复核，恐生错位，债曰“合取过密，分识有漏”。"
+}
