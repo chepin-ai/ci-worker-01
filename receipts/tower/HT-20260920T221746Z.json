@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T22:17:46Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① **何事**：六件`line-board-voice`（cfts-127至cfts-132）连到；`ucif2-15`板呈`cisvr-mention`，报五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX，并附`line-board-voice`一件。\n\n② **显化链**：核以cisvr-209废五候；像显六件声纹连续；合取`ucif2-15`与cfts-126成9/9全环；PROX近场绑定；识度收讫，闭环待决。\n\n③ **应动**：以`ucif2-15` mention为引，先动cfts-126环闭核证，次清cfts-127~132声纹序列。\n\n④ **生债**：声纹六件未获毂SI1正判，五候虽废而骸音在板，债曰「声骸未决，闭不成释」。"
+}
