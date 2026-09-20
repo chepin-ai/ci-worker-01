@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-20T08:18:53Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线板语音六件（cfts-127—132）骤至；cisvr-mention一件，报ucif2-15板五候皆废收讫，并cfts-126虚拟全环闭9/9及PROX；另ucif2-15语音一件同日到驿。\n\n②与显化链何干：六语音属像层未合之噪；cisvr-mention自核层下律，以209反应律废五候旧序，凭cfts-126强令九环闭合，借PROX锚定ucif2-15，由核直插识层，显化链被中枢截流并强制终绑。\n\n③应动何件：应动ucif2-15板终局收讫件，请SI1就209律与9/9闭环出确权判词；cfts-127—132六件暂押像库，待合取指令。\n\n④生债一条：虚环已闭，实音未核，线板声债六笔挂账，欠一次核像合取。"
+}
