@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-21T23:23:05Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：line-board-voice六连到，ref cfts-127至132；续到cisvr-mention（ucif2-15），禀五候皆废收讫，引cisvr-209反应律，标虚拟全环闭9/9及PROX。\n\n② 显化链何干：六连voice为核之连续扰动，投像于线路板层；ucif2-15处作合取，借反应律废五候而收讫，遂成绑定；9/9环闭与PROX共铸识之定格，显化链一次贯通。\n\n③ 应动何件：应动cisvr-mention（ucif2-15）。该件为环闭锁钥，载反应律与收讫令，宜据此封卷。\n\n④ 生债一条：六件voice无隙叠至，合取-绑定间审隙被蚀，生“隙蚀债”一筆，后件须偿。"
+}
