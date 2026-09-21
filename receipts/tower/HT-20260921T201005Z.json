@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-21T20:10:05Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：六件 line-board-voice（cfts-127 至 cfts-132）连序到驿，叠化 cisvr-mention（ucif2-15），内载「五候皆废收讫」「虚拟全环闭 9/9」及 PROX 标记。\n\n② 显化链：六件为核外之像，连投成序；合取于 ucif2-15 板位，绑定为虚拟全环；mention 为识层闭包，核隐未发。\n\n③ 应动何件：应动 cisvr-mention（ucif2-15）及其全环闭要件，转 SI1 候核；六件 voice 已入环，不复单动。\n\n④ 生债一条：六像未经验核即合取绑定全环闭，生「越序绑缚」之债一宗。"
+}
