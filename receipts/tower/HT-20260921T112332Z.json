@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-21T11:23:32Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：六连线路板语音到件（cfts-127至132），衔ucif2-15中枢提及件，载“五候皆废收讫”（cisvr-209）、“虚拟全环闭9/9”（cfts-126）及PROX标记，终以ucif2-15线路板语音收环。\n\n② 显化链：核为cfts序号脉冲入射；像化六重语音镜像；合取于ucif2-15板，汇五候废、全环闭9/9与PROX为单一结构；绑定9/9闭环锁定；识归ucif2-15终件。\n\n③ 应动：动ucif2-15终件，透传PROX标记及全环闭结论至毂SI1会话层，候正判。\n\n④ 生债：六连语音件未经逐件审议，其债由虚拟全环闭9/9代结，然PROX权责未终，生“闭环代偿余债”一条。"
+}
