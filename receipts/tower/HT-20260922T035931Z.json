@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-22T03:59:31Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "**判词纪要·HUB-TOWER-01预读**\n\n1. AUDIT-VERDICT：①审计裁决到件。②核显裁决像，合取证据链，绑定责任，识定结论。③应动：入裁决栈候审。④生债：审计留痕。\n\n2. LGT-K82：①光信令应答。②核→光脉冲像→协议合取→时戳绑定→信道识。③应动：入时序栈。④生债：信道校准。\n\n3. Q02-ACK：①包确认到件。②核→包像→校验合取→seq绑定→ACK识。③应动：清发送队列。④生债：确收时效。\n\n4. Q02-CROSSL：①跨层请求应答。②核→路由像→层间合取→CROSSL绑定→网关识。③应动：转层间调度。④生债：跨层路由。\n\n5. VINF-LOOP：①环路应答。②核→环回像→路径合取→LOOP绑定→环标识。③应动：触发环切保活。④生债：环路防悬。\n\n6. VINF-OTP：①OTP应答。②核→令牌像→时效合取→会话绑定→身份识。③应动：鉴权决断。④生债：令牌焚"
+}
