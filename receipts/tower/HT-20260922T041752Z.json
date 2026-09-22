@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-22T04:17:52Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 线板语音七件连投（cfts-127至132及ucif2-15），并cisvr-mention一应，呈ucif2-15板五候皆废、虚拟全环闭9/9之象。\n\n② 显化链：像层叠涌，无核而漫；于ucif2-15强合取，绑入cisvr-209反应律、PROX及cfts-126全环闭标记，核→像→合取→绑定淤塞，识不得出。\n\n③ 应动cisvr-mention件（board: ucif2-15），此为合取绑定之枢；次动cfts-126源件，以破全环闭之锁。\n\n④ 生债：像溢抢道，合取越权，显化链核声被掩，生链路壅塞债一次。"
+}
