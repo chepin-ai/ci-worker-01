@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-22T12:30:34Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 八件到件：线板语音cfts-127至132及ucif2-15共六件，并cisvr-mention一件。中枢提摄ucif2-15板：五候皆废收讫，虚拟全环闭9/9（cfts-126），标PROX。\n\n② 显化链：核→cisvr-209反应律废五候；像→cfts-127~132声纹连帧暨ucif2-15尾帧；合取→以cfts-126闭环为节，汇续五帧；绑定→锚定于ucif2-15板；识→“候废环闭”之摄受成立。\n\n③ 应动：将cfts-127~132与ucif2-15并归ucif2-15板单一绑定件，作收讫确认；cfts-126已核，不另动。\n\n④ 生债：像层六帧离散到件，未先预合取，致中枢提摄后补绑，预支合取债一件。"
+}
