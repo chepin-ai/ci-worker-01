@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-22T15:14:50Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n① 何事：cfts-127至132六件线板语音连珠到驿；ucif2-15中枢mention宣示五候皆废、虚拟全环闭9/9并标PROX；末件ucif2-15线板语音归位。\n\n② 显化链：以cisvr-209反应律为核，六件语音级联为像，合取于ucif2-15之全环闭；PROX为绑定之楔，终识得九环归一、五候收讫。\n\n③ 应动：将cisvr-mention（ucif2-15）并环闭纪录送SI1立案，六件线板语音依序挂账归档，PROX标记待偿。\n\n④ 生债：全环虽闭，九环之压转稼于PROX，生一债曰“闭环保证”。"
+}
