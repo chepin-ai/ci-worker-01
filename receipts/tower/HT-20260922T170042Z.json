@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-22T17:00:42Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "① AUDIT-VERDICT：核之旧像，合取待裁，绑定未决，识滞。应动：封缄待SI1。生债：审断链完整性。\n\n② ANS-LGT-K82：像级轻应，核隐，合取片。应动：K82归仓。生债：光应未核。\n\n③ ANS-Q02-PACK-ACK：绑定回显，像合取成环。应动：销Q02待办。生债：ACK溯核缺。\n\n④ ANS-Q02-CROSSL：跨层像越，合取冲，绑定错位。应动：交叉校验。生债：层间虚绑。\n\n⑤ ANS-VINF-LOOP：像自指，识回环，核蚀。应动：截环送裁。生债：循环因果。\n\n⑥ ANS-VINF-OTP：瞬像绑定，识不留痕。应动：即焚。生债：核灭失。\n\n⑦ ASK-SI5CLOUD：核外求像，合取无基。应动：转驿桥，拒直连。生债：跨境识权。\n\n⑧ DIRECTASK-ORBIT-CAP：直驱轨道，像侵核域。应动：降为间接ASK。生债：越权识债。"
+}
