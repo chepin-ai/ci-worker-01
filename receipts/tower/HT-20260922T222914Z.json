@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-22T22:29:14Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "到件八宗。①何事：cfts-127至132六件，线路板语音连拍；cisvr-mention一件，宣告五候皆废收讫、虚拟全环闭9/9并标PROX；ucif2-15一件，同板语音落点。②显化链：核为cisvr-209反应律与9/9环闭；像乃cfts127-132六重残响；合取于ucif2-15板汇五候与环闭；绑定以PROX锁邻接；识落ref=ucif2-15语音件。③应动：先动cisvr-mention核件，勘验收讫与环闭；次动ucif2-15板件，落识定痕。④生债：六件板响未标决，序列悬置，生“语音未决债”一条。"
+}
