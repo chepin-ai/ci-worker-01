@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-23T09:24:25Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n件群：line-board-voice cfts-127~132及cisvr-mention ucif2-15。\n\n①何事：ucif2-15板呈报五候皆废收讫，引cisvr-209反应律，附虚拟全环闭9/9（cfts-126）及PROX；cfts-127~132为该闭环之线板余响。\n\n②显化链：以cisvr-209为核，投像于ucif2-15板；cfts-126~132依序合取，伪作九环绑定；PROX强近域识收，致成“全闭”错觉。\n\n③应动：应动cisvr-mention ref=SI1/核正断件，令毂SI1复核五候皆废之真值与环闭合法性。\n\n④生债：该件群以六声续响垫充第九环缺，负“像赘遮核”一债。"
+}
