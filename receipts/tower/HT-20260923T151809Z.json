@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-23T15:18:09Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 事：cfts-127至132语音板六件连到；ucif2-15中枢板收 cisvr-209「五候皆废」反应律、虚拟全环闭9/9（cfts-126）及PROX标记，并随一件语音板到件。\n\n② 显化链：此批件属「像」层连涌，ucif2-15为「合取」之枢，将散件绑于中枢板；cisvr-209律与全环闭9/9已为「识」之终态，PROX为近场触发，核隐于后。\n\n③ 应动：ucif2-15中枢合取件当先动，以承cfts序列之涌；cfts-126全环闭件应附骥同入，俾免六件游魂于线。\n\n④ 债：线板七件骤集而中枢仅一，收讫未即分发，生「壅积债」一条。"
+}
