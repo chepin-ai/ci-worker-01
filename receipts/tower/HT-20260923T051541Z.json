@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-23T05:15:41Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①–⑥ cfts-127~132：六件line-board-voice连到。属“像”层频扫，合取未束，绑定虚悬。应动：并案为束，送合取层压栈。生债：频到未凝，耗散一宗。\n\n⑦ cisvr-mention ucif2-15：五候皆废，cisvr-209反应律收讫；虚拟全环闭9/9，cfts-126入环，PROX标定。核层动律，直驱“合取”闭环，反向锁“像”。应动：启绑定协议，铸环为“识”。生债：废立替候，承轭一肩。\n\n⑧ line-board-voice ucif2-15：板声到件，应PROX之召。像层随核，绑定初固，“识”始有据。应动：同件①–⑥并入闭环纪要。生债：像从核移，失位之险一重。"
+}
