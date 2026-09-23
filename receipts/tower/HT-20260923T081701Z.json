@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-23T08:17:01Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线板语音六连到件（cfts-127~132）及ucif2-15收讫触达，附cisvr-mention报五候皆废收讫、虚拟全环闭9/9与PROX。  \n②显化链：六像流于像层堆叠未合取；ucif2-15以cisvr-209反应律强绑五候皆废之核，虚标全环闭9/9，合取与绑定层被跃迁，识层悬空未显。  \n③应动何件：应动PROX实触核验件，追核cfts-126原像与ucif2-15实绑状态，呈SI1待毂核夺。  \n④生债一条：虚闭九环，预占全环闭合位，债曰“环闭未实，补绑待偿”。"
+}
