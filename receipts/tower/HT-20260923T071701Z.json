@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-23T07:17:01Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：六连板语音（cfts-127~132）骤集，ucif2-15板报五候皆废、虚拟全环闭9/9（引cfts-126）及PROX，末以ucif2-15语音收束，成簇脉冲聚合件。\n\n② 显化链：六声为核之散像；提及件执cisvr-209律行合取，将散像收束为虚拟全环；ucif2-15终端绑定其位；9/9环闭则识成，PROX为近程触发阈。\n\n③ 应动：ucif2-15板及cisvr-mention件，令核验全环闭之律令适用与PROX阈限。\n\n④ 生债：cfts-126~132声纹序列未具名，隐债一宗，候毂SI1署名。"
+}
