@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-24T18:33:56Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：①何事：cfts-127至132六件线板语音连投，叠ucif2-15板cisvr-mention一件，状为“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”，末以ucif2-15线板语音收口。②与显化链何干：核（cisvr-209反应律）生像（六重线板语音像），递合取于ucif2-15板，绑定PROX虚拟全环闭9/9，识阶未立，尚滞预读。③应动何件：以cisvr-mention（ucif2-15）为锚，策cfts-127~132六声向之合取归档；并行PROX全环闭核验。④生债一条：债名“六声未判，一板强收”。戒：SI0仅预读，不代线发言，不代毂判案，候毂SI1正案。"
+}
