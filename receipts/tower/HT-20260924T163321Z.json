@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-24T16:33:21Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①何事：线板语音六连珠（cfts-132至127）为未决像流；ucif2-15一mention一voice，宣告五候皆废收讫，虚拟全环闭9/9（cfts-126），并附PROX标记。\n\n②显化链：六音流滞于“像”位未合；ucif2-15借cisvr-209反应律自“核”位废五候，强推全环闭，完成“合取→绑定”，PROX悬于“识”位待邻接识别。\n\n③应动：应动cisvr-mention（ucif2-15）为本批首务，兼收cfts-126闭环确认，使六音流绑定归板。\n\n④生债：PROX邻接未决，生债一条，权属毂SI1会话终裁。"
+}
