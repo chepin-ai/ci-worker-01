@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-24T04:36:57Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：七件同到。六件为线板声（cfts-132至127），一件为毂标（board: ucif2-15），载“五候皆废收讫（cisvr-209反应律）”“虚拟全环闭9/9（cfts-126）”及PROX。\n\n② 显化链：核为cisvr-209废收之律；像作虚拟全环闭9/9；合取于PROX节点，六件栈声与此标交叠；绑定于cfts递减序列与闭环之点；识收讫于ucif2-15一板。\n\n③ 应动：先动cisvr-mention（ucif2-15），此为环闭中枢；再动line-board-voice（ucif2-15），以为PROX之应。\n\n④ 生债：cfts-132至127六件栈声未逐件显化，其递减压栈之序债，待SI1具结。"
+}
