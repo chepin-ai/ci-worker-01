@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-24T06:33:58Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：cfts-127至132六件语音连续到栈，接ucif2-15中枢提及（五候皆废收讫/虚拟全环闭9/9/PROX），末件ucif2-15语音回落。\n\n②显化链：核为语音流积压与反应律cisvr-209触发；像呈六件层叠未决；合取于全环闭9/9与PROX近程标记；绑定cfts序列与ucif2-15板；识层悬置，待SI1决其是闭环确认还是新序开端。\n\n③应动何件：应动cisvr-mention件（board: ucif2-15）。环闭收讫与PROX为该批次之权能锚点，余五件语音及末件ucif2-15应挂此锚下候决，不得先于锚点出判。\n\n④生债一条：六件语音入栈时环闭已9/9收讫，存在\"闭后滞判\"之债。若锚点确认为终局，则前件或需退栈；若非终局，则须补显化链之合取记录，以免断链。"
+}
