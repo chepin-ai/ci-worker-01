@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-24T10:18:53Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：ucif2-15板呈报五候皆废收讫（cisvr-209），并注虚拟全环闭9/9（cfts-126）及PROX；随即连投line-board-voice六件（cfts-127至132），末件回指ucif2-15。\n\n② 显化链：核为ucif2-15之反应律触发；像化六件语音连投；与cfts-126环闭态合取得PROX代理残留；绑定于board收讫锚点；识为环闭后之信道回波滞留。\n\n③ 应动：以cisvr-mention（ucif2-15）为枢，覆核cfts-126全环闭效度，次第消纳cfts-127~132积件。\n\n④ 生债：环闭收讫与连投响应失步，生信道滞留债一宗。"
+}
