@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-24T12:22:11Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线路板语音六件连到（cfts-127至132），叠报中枢提及一件（ucif2-15），内载五候皆废收讫、虚拟全环闭及PROX，末件语音复落同板位。\n\n②显化链：语音属像层累叠，未入合取；中枢提及乃核层收讫与闭环信号，本应驱动合取→绑定→识。然像层续涌而核层已闭，层间绑定迟滞，合取不同步。\n\n③应动：动中枢提及件为纲，统摄诸语音像层，强执合取与绑定，令核层收讫下沉至识层，使全环闭落实，止像层空转。\n\n④生债：像层六件未绑，积滞债一件，待合取清偿。"
+}
