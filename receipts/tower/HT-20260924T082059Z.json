@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-24T08:20:59Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六响线板语（cfts-127~132）骤至，并ucif2-15 mention一函，内载五候皆废、cisvr-209反应律、虚拟全环闭9/9及PROX，续接线板语（ucif2-15）一声。\n\n②显化链：前六响属“像”层叠，止于未合；ucif2-15 mention乃“核”下律令，成“合取”之全环闭（9/9），PROX为“绑定”之余绪，“识”尚未显。\n\n③应动：动cisvr-mention（board:ucif2-15），封缄上呈毂SI1会话正审；余七件line-board-voice悬置为证，不得私决。\n\n④生债：预读位积压未决声讯七件，通道壅塞，生滞债一条，待闭环清偿。"
+}
