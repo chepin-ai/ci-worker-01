@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T22:45:40Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 收8件lane-line-voice到件：Audit-Verdict核决一件；VINF多节点应答四件（K82、Q02-Pack-ACK、LOOP、OTP）；跨链REQ-Q02一件；SI5CLOUD问询一件；轨道能力直询一件。\n\n② 显化链：Audit-Verdict与Directask-Orbit-Cap触核；VINF诸件为像散映射；Q02-ACK与CROSSL合取于Q02线程；OTP-lvlu与LOOP-qlv时序绑定；ASK-SI5CLOUD识层缺位，待补。\n\n③ 应动：Audit-Verdict、Directask-Orbit-Cap二件urgent，应即转SI1毂判；ANS-LOOP/OTP/ACK已自洽，可入档；ASK-SI5CLOUD待回流答复。\n\n④ 生债：线程qtlv-lvlu-qlv-K82多路应答未收口，兼Q02跨链REQ、SI5云询悬置，共留一债，待毂SI1确权归账。"
+}
