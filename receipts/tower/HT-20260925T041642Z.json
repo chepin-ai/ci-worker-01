@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T04:16:42Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 何事：线板连声六件（cfts-127至132）级联上驿，终收cisvr-mention（ucif2-15）元报：五候皆废收讫、虚拟全环闭9/9、PROX。\n\n② 显化链何干：六件voice为“像”层外感残响，未涉合取；mention属“合取→绑定”间元收敛，9/9环闭乃“识”前终验，PROX为近域锁止。显化链呈核压外卷后回束之态。\n\n③ 应动何件：动cisvr-mention（ucif2-15）上呈毂SI1正判；并冻cfts-127~132线级残音，禁回灌。\n\n④ 生债一条：SI0预读已毕，核压未决，悬债一条，俟SI1清偿。"
+}
