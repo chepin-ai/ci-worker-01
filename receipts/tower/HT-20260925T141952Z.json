@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T14:19:52Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n件一~六（cfts-127至132）：① 板线语音六连到件，声符待核。② 像位叠涌，未济合取，核→像断链，绑定、识两悬空。③ 应压入候栈，待ucif2-15主令归核后合取。④ 生债：像积不销，占阶六重。\n\n件七（cisvr-mention/ucif2-15）：① 五候皆废收讫，虚拟全环闭9/9，PROX触发。② 核动（cisvr-209反应律）驱像收敛，合取成环，绑定板域，识显为讫。③ 应核出件一~六，令绑定销栈，结voice序列。④ 生债：全环闭后像位迟滞，未即时回流核镜。\n\n件八（line-board-voice/ucif2-15）：① ucif2-15板线语音尾件到栈。② 像随核归，合取已毕，绑定待识，为闭环末梢。③ 应随件七一同入识，封板线卷宗。④ 生债：末梢到件在核讫之后，时序逆压一线。"
+}
