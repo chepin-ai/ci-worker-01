@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T22:23:49Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①线板语音六件（cfts-127至132）连到，cisvr-mention一件（ucif2-15，五候皆废、虚拟全环闭9/9、PROX），及ucif2-15线板语音一件。\n\n②六件为“像”之簇生；中枢提及乃“核”以cisvr-209反应律投射，令像簇向ucif2-15趋“合取”；环闭9/9示合取位已满，PROX为近场“绑定”引信，簇-板将成“识”而待决。\n\n③应将cfts-127~132像簇与ucif2-15板执行合取绑定，依cisvr-209收讫，并上呈SI1会话核试。\n\n④像簇已齐，绑定悬而未落，生“滞像待缚之债”。"
+}
