@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T15:19:30Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 何事：cfts-127~132六件及ucif2-15板音到件，叠cisvr-mention载“五候皆废收讫（cisvr-209）+虚拟全环闭9/9（cfts-126）+PROX”，成板级全环闭事件。\n\n② 显化链：核为板音脉冲串；像显于ucif2-15；合取cisvr-209反应律与板音；绑定PROX；识为五候皆废、九环闭合。\n\n③ 应动：动cisvr-mention（ucif2-15）及cfts-126~132，候SI1就反应律适用性正判。\n\n④ 生债：预读位见全环闭而未待毂SI1正判，先成PROX绑定，生“越级绑识”之债。"
+}
