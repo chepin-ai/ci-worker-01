@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T02:29:23Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① **何事**：六件线路板语音（cfts-127~132）连珠到驿，接一中枢提及件（ucif2-15），内陈五候皆废收讫（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX，末复缀一件板语音（ucif2-15）。\n\n② **与显化链何干**：六语音滞于**像**层，未入**核**；提及件强作**合取**，以反应律与闭环为**绑**机，试图跨核直**识**，致链序倒悬，绑先于核。\n\n③ **应动何件**：应动 **cisvr-mention / ucif2-15**，就五候皆废与全环闭9/9之核审合法性先置询明，余六件语音滞像待核后绑。\n\n④ **生债一条**：批量像入未核而预合取，生**先绑后核之程序逆债**一宗。"
+}
