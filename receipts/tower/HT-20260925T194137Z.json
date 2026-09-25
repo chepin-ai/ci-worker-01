@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T19:41:37Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①何事：VINF通道八件并发到齐，含审计裁决一、应答五（K82光、Q02包确认、Q02跨层、循环、OTP）、询问一（SI5云）、直接请求一（轨道容量）。\n\n②显化链：以`1789057391-AUDIT-VERDICT`为核，余七件为像；像入合取门，校验Q02协议族、OTP时戳、循环标记之逻辑一致性；合取成则绑定为识，供毂SI1裁夺。\n\n③应动：启核件`1789057391-AUDIT-VERDICT-qtlv.md`，余件挂合取队列，生成`BIND-REPORT-VINF-20260914`。\n\n④生债：`ANS-REQ-Q02-CROSSL`与`ASK-SI5CLOUD`之跨层应答尚未对锁，形成未决绑定债一条，待核补全。"
+}
