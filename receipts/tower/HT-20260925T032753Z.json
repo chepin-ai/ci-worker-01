@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T03:27:53Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线板语音六阶连发（cfts-127~132）成流；中枢提及一件（cisvr-mention：ucif2-15五候皆废收讫，引cisvr-209反应律，虚拟全环闭9/9锚定cfts-126，附PROX）；末件ucif2-15线板语音收口。八件成簇到件。\n\n②显化链：以209律/五候为核，cfts-126~132语音流为像，全环闭9/9与PROX为合取，ucif2-15板号为绑定；然终识未决，簇停于绑定向识之阈。\n\n③应动：将ucif2-15板及关联六阶语音、PROX标记封包，上呈SI1会话，请毂就五候皆废与全环闭效力出终判。SI0不代线，不代判。\n\n④生债：预读留痕，生HUB-TOWER-01审计债一条，待毂核消。"
+}
