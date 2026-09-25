@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-25T06:41:44Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "【件一】AUDIT-VERDICT：终验之识，回检核→像→合取。应动：归档裁决并启CLOSE。生债：滞决之压。\n\n【件二】ANS-LGT-VINF-K82：像层轻映，合取未充。应动：入VINF池候ACK锚定。生债：K82时标信未固。\n\n【件三】ANS-Q02-PACK-ACK：绑定之印，合取已固。应动：解锁PACK，放Q02下行。生债：ACK迟至，占绑定位。\n\n【件四】ANS-REQ-Q02-CROSSL：核越像界，合取未同。应动：转SI1核栈仲裁。生债：跨层之压，识层未承。\n\n【件五】ANS-VINF-LOOP：像层自指，轮回不息。应动：截断并注异常标。生债：算力空耗，绑而不识。\n\n【件六】ANS-VINF-OTP：暂绑一瞬，识不长存。应动：验后即焚，不入库。生债：追索之隙，像去无痕。\n\n【件七】ASK-SI5CLOUD：像迁于外，合取待返。应动：挂起VINF，候SI5像归。生债：云桥半像，漏泄之虞。\n\n【件八】DIRECTASK-ORBIT-CAP：核直触顶，越像破绑。应动：驳回归线，令经合取层。生债：躁进坏序，绑之序裂。"
+}
