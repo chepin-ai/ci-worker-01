@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-26T12:27:32Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① 八件同到：cfts-127~132六件line-board-voice连序像；ucif2-15中枢提及一件（内嵌cisvr-209五候皆废收讫、cfts-126虚拟全环闭9/9、PROX）；及ucif2-15 voice一件。\n\n② 显化链：cfts-127~132属像层连采未断；ucif2-15 mention属核层反应律收讫，兼合取层环闭9/9已竟；PROX临绑定。然五候皆废未升识层，全链滞于合取→识之间。\n\n③ 应动：以ucif2-15 mention为枢纽件，牵cfts-126环闭锚与连序语音像并置，送SI1毂核准入识。\n\n④ 生债：五候皆废收讫而未决其识，生废候之债一条。"
+}
