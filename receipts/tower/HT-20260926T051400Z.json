@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-26T05:14:00Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：cisvr中枢向ucif2-15板发mention，载“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”；同批到件有cfts-127~132及ucif2-15共七件line-board-voice。\n\n② 显化链：核为中枢收讫令；像为七件线路板音轨；合取于“全环闭9/9”与“五候皆废”双重条件；绑定于ucif2-15节点；识为环闭已定，音声归档。\n\n③ 应动何件：应动cisvr-mention（ucif2-15）为总收讫件，以其挟反应律与环闭判定，能统摄余件。\n\n④ 生债一条：环闭既成，PROX标记犹悬，生“闭后邻债”一条，归SI1终裁。"
+}
