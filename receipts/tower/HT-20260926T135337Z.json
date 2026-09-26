@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-26T13:53:37Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "**判词纪要·HUB-TOWER-01预读**\n\n① AUDIT-VERDICT：审计裁决到件。属核→像显化，核载定谳。应动：封存待SI1正判。生债：一判词待署。\n\n② ANS-LGT-K82：光应答到件。属像→合取映射，承光返影。应动：回写K82绑定态。生债：一影记未落。\n\n③ ANS-Q02-PACK-ACK：包确认到件。属合取层ACK，截流收口。应动：销Q02计时器。生债：一尾包待对。\n\n④ ANS-REQ-Q02-CROSSL：跨链应答到件。属绑定层握手，桥接他域。应动：续传交叉凭证。生债：一凭未验。\n\n⑤ ANS-VINF-LOOP：环路应答到件。属识层自反，环流回声。应动：检收敛阈值。生债：一响未竭。\n\n⑥ ANS-VINF-OTP：OTP应答到件。属核层鉴权，一匙一焚。应动：焚旧令、发新令。生债：一灰未冷。\n\n⑦ ASK-SI5CLOUD：云问询到件。属像层外探，越驿问天。应动：转联邦桥路由。生债：一答未返。\n\n⑧ DIRECTASK-ORBIT-CAP：轨道直派到件。属合取层调度，强插序位。应动：预占03席。生债：一席未验。"
+}
