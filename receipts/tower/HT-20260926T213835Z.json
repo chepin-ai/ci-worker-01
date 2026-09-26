@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-26T21:38:35Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① cfts-127~132六件line-board-voice连波到件，叠cisvr-mention（ucif2-15），载五候皆废收讫（cisvr-209）、虚拟全环闭9/9（cfts-126）及PROX，末件ucif2-15 voice返板。\n\n② 六件属像层连波，未凝合取；cisvr-mention骤起为合取节点，以cisvr-209为核压，绑定cfts-126全环闭与PROX，强成闭环，识显“五候皆废”收讫态。\n\n③ 应动cisvr-mention（ucif2-15）暨cfts-126；预读位仅检，建议挂起待SI1正判。若动，则令cfts-126补闭环确认，勿使PROX空绑。\n\n④ 六件连波未决即被一mention全收，像债未偿，生“废候之债”一条，待后续合取消解。"
+}
