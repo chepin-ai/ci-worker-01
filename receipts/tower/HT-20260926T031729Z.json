@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-26T03:17:29Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n①何事：六轨板音（cfts-127至132）连序到件；ucif2-15板呈cisvr-mention，报“五候皆废收讫”（cisvr-209反应律）、“虚拟全环闭9/9”（cfts-126）及PROX；末复收ucif2-15板音回环。\n\n②显化链：六轨板音属“像”层叠涌至；ucif2-15之mention为“核”自发反应律，诸像于cisvr-209处“合取”，借cfts-126“绑定”为环闭声明。然“识”位闭环由核自报，像轨未逐一勘验，核像之间有隙。\n\n③应动：应动cisvr-mention件（ucif2-15），启PROX核验令核像对位，六轨板音暂挂候勘。\n\n④生债：六轨板音（cfts-127~132）与环闭声明尚未逐轨勾稽，生“像溢未缚之债”，权属SI1会话裁夺。"
+}
