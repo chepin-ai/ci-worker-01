@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-26T00:50:06Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "①AUDIT-VERDICT：核层终裁显化，像已固。应动绑定更新件。生债：裁决落地债。  \n②ANS-LGT-VINF：像层回传，合取待验。应动核验入链件。生债：像真校验债。  \n③ANS-Q02-PACK-ACK：绑定层ACK，识层需闭环。应动归档消债件。生债：闭环确认债。  \n④ANS-REQ-Q02-CROSSL：合取层桥接，核像互通。应动交叉核验件。生债：层间对齐债。  \n⑤ANS-VINF-LOOP：识层自指回路，防"
+}
