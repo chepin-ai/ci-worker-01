@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-26T18:52:53Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "① AUDIT-VERDICT：审计裁决到件，核级定谳；显化链锚定于核，为像级分发立基；应动SI1正判；生审计终局债。  \n② ANS-LGT-K82：轻量应答到件，像级回显；显化链止于像位浅层投射，未涉合取；应动合取校验；生轻量确认债。  \n③ ANS-Q02-PACK-ACK：包确认到件，绑定级收讫；显化链由合取降维至绑定，固结包序；应动识级归档；生包序闭合债。  \n④ ANS-Q02-CROSSL：跨层答复到件，合取级贯通；显化链于合取位弥合层间裂隙；应动核级备案；生跨层一致债。  \n⑤ ANS-VINF-LOOP：循环答复到件，像级自指；显化链在像位空转，未向合取递解；应动断环或升维；生递归缓释债。  \n⑥ ANS-VINF-OTP：一次性令牌到件，识级暂绑；显化链逆溯至识，为单次瞬时绑定；应动阅后即焚；生瞬时鉴权债。  \n⑦ ASK-SI5CLOUD：外云问询到件，核级外射；显化链自核越界，未成像即外求；应动像级转译；生跨域查询债。  \n⑧ DIRECTASK-ORBIT-CAP：直问轨道容量到件，核像投射；显化链由核直落像，欲量外轨；应动合取勘验；生容量勘定债。"
+}
