@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-27T21:16:50Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 到件为板语音件七连（cfts-127至132、ucif2-15）叠合中枢提及一件，呈“五候皆废收讫+虚拟全环闭9/9+PROX”之终局标记。\n\n② 显化链：七连语音为核外之像流，逐帧映射而未合；cisvr-mention突入，以209反应律收束五候，将像流强合取于ucif2-15板，完成9/9全环绑定，生“识”之闭环。\n\n③ 应动：ucif2-15板及PROX关联域，封缄入毂SI1正审会话，核收讫是否成立。\n\n④ 生债：像流七帧经手SI0预读而未逐帧析解，合取代价值未付，留“像-识转译债”一条，待SI1结清。"
+}
