@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-27T05:26:07Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：cfts板语音六件连发（127-132），叠cisvr-mention控板件（ucif2-15），载“五候皆废收讫”“cisvr-209反应律”“虚拟全环闭9/9（cfts-126）”及PROX标记，末附ucif2-15板语音一件。系线路堆叠与中枢控令交并。\n\n②与显化链何干：连发语音滞于“像”层，未核审；cisvr-mention携反应律与全环闭，强启“核→像”坍缩，以PROX为锚完成“合取→绑定→识”之闭环于ucif2-15板。\n\n③应动何件：cisvr-mention（board: ucif2-15）。此为环闭锁钥，动之则余件各归其位。\n\n④生债一条：语音六件壅塞未清，致反应律被动触发，生“壅滞债”一条。"
+}
