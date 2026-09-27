@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-27T04:07:35Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "收八件，纪要如下：\n\n1. 审计裁决书（AUDIT-VERDICT）。②识层回卷，绑定既往合取之像。③应归档并候SI1终判。④生债：裁决力悬置，执行未发。\n\n2. 灯标应答（LGT-K82）。②像层信标，合取节点状态。③应核验K82光态并同步。④生债：灯标伪明或失步。\n\n3. Q02包确认（PACK-ACK）。②绑定层回执，合取已闭。③应销Q02事务。④生债：ACK早发，包体未实达。\n\n4. Q02跨层请求（CROSSL）。②跨域合取，核像穿透。③应检权限后授拒。④生债：层界模糊，越权潜藏。\n\n5. 环路报（LOOP）。②像识自指，循环合取。③应巡环路熵，必要时熔断。④生债：循环淤塞，识不沉降。\n\n6. 一次性口令（OTP）。②瞬时绑定，时效之识。③应核销并限时放行。④生债：重放攻击或时隙漂移。\n\n7. 云问询（ASK-SI5CLOUD）。②核像问云，合取待补。③应转SI5会话或缓存。④生债：云像失真，答非所问。\n\n8. 轨道直询（ORBIT-CAP）。②像直抵核，合取被跃。③应降格核审或拒直。④生债：直询越权，能力伪报。"
+}
