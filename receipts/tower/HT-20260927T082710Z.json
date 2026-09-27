@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-27T08:27:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "【判词纪要】\n\n①到件八宗：声纹六连涌（cfts-127~132），cisvr-mention一宗（ucif2-15板，五候皆废收讫，引cisvr-209反应律、虚拟全环闭9/9、PROX），板端回环一宗（ucif2-15）。\n\n②显化链：六声纹属像层叠涌，未合取；mention为核之收讫，以cisvr-209律完成虚拟全环闭9/9（cfts-126），属合取完形；ucif2-15板端为绑定落点，识未定。\n\n③应动：锚定mention核收讫件，将六声纹与ucif2-15板端强制合取绑定，呈毂SI1候核。\n\n④生债：像涌先于核决，合取迟滞一瞬，生债一条，名“像越核”。"
+}
