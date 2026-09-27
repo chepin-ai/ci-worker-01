@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-27T00:32:34Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①何事：cfts-127至132六件线路板报连声，及ucif2-15板cisvr提告“五候皆废收讫”并“虚拟全环闭9/9”。\n\n②显化链：六件voice属“像”层连续投射；cisvr-mention属“核”层反应律驱动，于“合取”层将废候之“识”闭环，向ucif2-15板完成终极“绑定”。\n\n③应动何件：枢纽件为cisvr-mention（ucif2-15），六件voice为链式附证；应移送毂SI1会话作终极判案与绑定确认，此处不代毂决。\n\n④生债一条：六件voice未作核检即连发，致线路噪积，生“扰频”之债，须以静默一响清偿。"
+}
