@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-27T09:22:27Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① cfts-127至132六件line-board-voice齐到，并ucif2-15板cisvr-mention载\"五候皆废收讫(cisvr-209反应律)\"\"虚拟全环闭9/9(cfts-126)\"及PROX。\n\n② 显化链：核以cisvr-209废五候、立收讫；像起六频语音（cfts-127~132）成列；合取于ucif2-15板，承cfts-126虚环全闭之数；绑定以PROX；识待六音归位、环闭成境。\n\n③ 应动cisvr-mention（ucif2-15）为枢，统摄cfts-127~132入序候判。\n\n④ 生债：虚环既闭，六音到堂，识滞一隙，债在判迟。"
+}
