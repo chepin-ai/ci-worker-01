@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-28T20:13:01Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：cfts-127~132六宗线板音流连缀；ucif2-15中枢提及，宣告五候皆废收讫，行cisvr-209反应律，虚拟全环闭9/9（cfts-126）并PROX；复有一宗ucif2-15线板音流。\n\n② 显化链：六宗音流属“像”层叠进，未竟合取；ucif2-15中枢提及由“核”出令，强收五候，完成“合取→绑定”；末宗音流为闭环残响，落“识”位。\n\n③ 应动：以ucif2-15中枢提及为主件，六宗像流并入其下，不另启线。\n\n④ 生债：像层六音悬于核令强闭，合取虽成，像溢未消，生“强闭像债”一条，判词权属毂SI1会话。"
+}
