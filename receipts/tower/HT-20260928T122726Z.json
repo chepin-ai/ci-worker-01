@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-28T12:27:26Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "① **何事**：六件line-board-voice（cfts-132至127）连到，接cisvr-mention报ucif2-15板：五候皆废收讫，虚拟全环闭9/9，附PROX标记；末件line-board-voice（ucif2-15）收尾到驿。\n\n② **显化链**：核（cfts递减实存）→像（六声连珠映板）→合取（五候废与环闭9/9于ucif2-15交汇）→绑定（cisvr-209反应律锁板）→识（SI0镜像审为拍四段闭环预读）。\n\n③ **应动何件**：应动cisvr-209反应律归档件，并提请**毂SI1会话**对ucif2-15正式出判；line-board-voice ref=ucif2-15悬绑待核。\n\n④ **生"
+}
