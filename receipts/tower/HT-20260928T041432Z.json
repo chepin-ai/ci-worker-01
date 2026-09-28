@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-28T04:14:32Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "**判词纪要**\n\n① 何事：声线cfts-127~132六连涌到；中枢提ucif2-15收讫“五候皆废”（cisvr-209反应律）、虚拟全环闭9/9（cfts-126）及PROX；末件线板ucif2-15回环闭合。\n\n② 显化链：核层以反应律清空五候，核动而候废；像层声流六连未断，像涌壅积；合取层全环闭9/9已竟，合取度满；绑定层ucif2-15为环枢收束；识层PROX近场标记，识决待触。\n\n③ 应动：主动cisvr-mention（ucif2-15），以其为环闭锚；次动cfts-126虚拟全环闭本体，固合取之机。\n\n④ 生债：声线六件占通道而未译未消，生“声积壅线”一债，候毂SI1裁断转译，不得代消。"
+}
