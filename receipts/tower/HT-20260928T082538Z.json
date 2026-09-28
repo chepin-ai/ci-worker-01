@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-28T08:25:38Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 到件八件：line-board-voice 六件（cfts-127~132）、同板声线一件（ucif2-15）及 cisvr-mention 一件。后者报 ucif2-15 五候皆废收讫、虚拟全环闭 9/9 并 PROX，声纹堆积于同板。\n\n② 显化链：ucif2-15 为核；六件 cfts 声线与同板 voice 为像之层叠；mention 件合取五候皆废、环闭、PROX；cfts 编号与板号共绑；全环闭 9/9 示识位已满，声未及析而候先废。\n\n③ 应动 cisvr-mention（board: ucif2-15）为总纲，并动 line-board-voice（ref=ucif2-15）为同板主声；余 cfts-127~132 附属归宗。\n\n④ 生债：声纹未勘，五候已废，环闭先成，负债“先终后审”一债。"
+}
