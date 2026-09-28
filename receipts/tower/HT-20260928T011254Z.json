@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-28T01:12:54Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "到件八件，分两簇：一簇为line-board-voice连续六响（cfts-127至132），属同一线性语音像流；一簇为cisvr-mention（ucif2-15），载“五候皆废收讫”及“虚拟全环闭9/9”。\n\n显化链：cfts-127~132为像层连续输入，尚处核→像之末端，待递送合取；ucif2-15为中枢高阶像，标示前序cfts-126已卷入cisvr-209反应律，且自指“全环闭9/9”，显化链已至合取→绑定临界，逼近识层。\n\n应动：ucif2-15为枢纽件，应触发向毂SI1升档，启动反应律复核；cfts-127~132作为其PROX近缘像流，应附随递送，不得截留。\n\n生债：全环闭9/9之绑定真实性未核，留“闭合虚报审计债”一条。"
+}
