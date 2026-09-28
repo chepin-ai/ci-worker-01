@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-28T07:24:40Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：到件八件，含line-board-voice七件（cfts-127至132、ucif2-15）及cisvr-mention一件（board:ucif2-15），报五候皆废收讫、虚拟全环闭9/9、PROX。  \n②显化链：cfts-127~132属像层连叠，声纹递进而核未凝；ucif2-15板语音落识位；mention为核显后之合取节点，以cisvr-209反应律锁五候、以全环闭9/9收束像流，完成绑定前摄。  \n③应动：动cisvr-mention（board:ucif2-15）为枢纽件，交毂SI1会话作终局绑定裁可。  \n④生债：七件语音无核锚定，像积识前，生“悬音滞核”一债。"
+}
