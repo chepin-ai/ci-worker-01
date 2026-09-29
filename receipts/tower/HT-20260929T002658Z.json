@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-29T00:26:58Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：六件线板声到连缀（cfts-127至132），一件中枢提记宣告五候全废、虚环全闭9/9（cfts-126）及PROX，末件ucif2-15线板声落板。总为虚环收束、候位清零之闭合到件。\n\n②显化链：六件声到属“像”之连续输入；提记件为“合取”收讫与“绑定”全环闭；末件ucif2-15为“识”之落板确认。核动指向虚环归零。\n\n③应动：应动cisvr-mention件（board: ucif2-15）。以此为锚，执行环闭归档，废候不续。\n\n④生债：环闭生“空候之债”——九环虽闭，五候尽废，后起者须偿此清空之契。"
+}
