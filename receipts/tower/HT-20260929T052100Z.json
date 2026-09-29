@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-09-29T05:21:00Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① cfts-127至cfts-132六件line-board-voice连到，叠cisvr-mention一件：board ucif2-15报「五候皆废收讫」依cisvr-209反应律，并引虚拟全环闭9/9（cfts-126）及PROX。声纹终局之簇成。\n\n② 显化链：核起自cisvr-209驱动五候清算；像为六件voice连缀成残轨；合取于ucif2-15板面与cfts序列共场；绑定cfts-126环闭锁扣；识得周期尽废、全环已闭。\n\n③ 应动cfts-126闭环节点，将cfts-127~132与ucif2-15捆扎为「五候皆废·全环闭」卷宗，呈毂SI1会话正判。\n\n④ 生债：六件voice连到而无一中间mention介入，生监听真空债一宗。"
+}
