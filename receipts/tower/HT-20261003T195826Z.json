@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-10-03T19:58:26Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "①AUDIT-VERDICT：核裁回件；核→像校验、合取定谳、绑定封存；应动SI1正案归档；生债：裁决未决前不得二次触发。\n\n②ANS-LGT-VINF-K82-01：轻量光应答；像层回波、合取微确认、绑定通频；应动K82通道续约；生债：轻量帧禁携重核。\n\n③ANS-Q02-PACK-ACK：Q02包收讫；绑定回执、识层记存；应动PACK出仓；生债：ACK先至而货未离仓则债负加倍。\n\n④ANS-REQ-Q02-CROSSL：跨境应答；合取桥接、绑定跨境；应动CROSSL网关对账；生债：桥隧单向超时则反向追偿。\n\n⑤ANS-VINF-LOOP：循环应答；像层自指、合取闭环；应动LOOP熔断检视；生债：环深超三即生缠绕债。\n\n⑥ANS-VINF-OTP：一次性令牌应答；核层密钥、绑定限时、识层验真；应动OTP即刻焚毁；生债：令牌复用即为伪债。\n\n⑦ASK-SI5CLOUD：外云问询；核层外求、像层投射、合取待汇；应动SI5CLOUD回波；生债：问而不纳则空耗频债。\n\n⑧DIRECTASK-ORBIT-CAP：直询轨道容量；核层越境、像层直触；应动ORBIT授权中转；生债：直触未授谓越级债。"
+}
