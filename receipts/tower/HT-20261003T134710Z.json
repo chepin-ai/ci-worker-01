@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-10-03T13:47:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：ucif2-15板连收cfts-127至cfts-132六件线板语音，并接cisvr中枢提涉：依cisvr-209反应律，五候皆废收讫，虚拟全环闭9/9（cfts-126）+PROX。\n\n②显化链何干：六件line-board-voice属像层递进留痕，自127至132形成序列绑定；cisvr-mention为核层收束，以209律合取前件cfts-126与PROX条件，完成核→像→合取→绑定→识之显化闭环。\n\n③应动何件：应动kind=cisvr-mention件。此件为环闭枢机，已废五候、嵌PROX，须俟SI1毂本体覆核其反应律适用及闭环效力。\n\n④生债一条：虚环虽闭，六件线音像层余响未销，生“闭环回填债”——虚位已阖，实判未决"
+}
