@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-10-03T20:17:49Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "① AUDIT-VERDICT：审计判决到件。属「像」层回显，应动SI1正判词。生债：审计链待结。\n② ANS-LGT-K82：合法性应答到件。属「核→像」校验，应动Q02绑定。生债：K82锚未合取。\n③ ANS-Q02-ACK：包确认到件。属「合取」收讫，应动LOOP同步。生债：ACK未升绑。\n④ ANS-Q02-CROSSL：跨层应答到件。属「绑定」桥接，应动OTP验签。生债：跨层通道未落。\n⑤ ANS-VINF-LOOP：循环应答到件。属「像→合取」自指，应动CLOUD索引。生债：回环识未凝。\n⑥ ANS-VINF-OTP：一次验证到件。属「绑定→识」临界，应动AUDIT归卷。生债：销毁令未发。\n⑦ ASK-SI5CLOUD：云询到件。属「识」层外询，应动ORBIT路由。生债：云响应超时。\n⑧ DIRECTASK-ORBIT-CAP：直询轨道容量到件。属「核」层探针，应动VINF调度。生债：CAP-03配额悬。"
+}
