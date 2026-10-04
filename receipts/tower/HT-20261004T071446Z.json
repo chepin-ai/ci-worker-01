@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-10-04T07:14:46Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "①AUDIT-VERDICT：核决像落，显化链核→像之终影；应动SI1复核落簿；生债：裁决存影期内不得覆写。  \n②ANS-LGT-K82：像级轻应，显化链像→合取之接口校验；应动Q02路由绑定；生债：K82生命周期未闭。  \n③ANS-Q02-PACK-ACK：合取握手，显化链合取→绑定之锁扣；应动包链上链；生债：ACK不自动解REQ质押。  \n④ANS-Q02-CROSSL：绑定跨层，显化链绑定→识之桥接；应动跨层鉴权留痕；生债：摆渡权责未割。  \n⑤ANS-VINF-LOOP：识级回路，显化链识→核之反喂；应动LOOP断路检视；生债：循环熵增未计当期。  \n⑥ANS-VINF-OTP：像级密约，显化链像→合取之瞬绑；应动OTP焚毁计时；生债：重放风险未除。  \n⑦ASK-SI5CLOUD：识级外求，显化链识→核之越探；应动云关白名单核验；生债：外云应答未入毂簿。  \n⑧DIRECTASK-ORBIT-CAP：核级直派，显化链核→像之越投；应动ORBIT锚定；生债：直派未经合取缓冲。"
+}
