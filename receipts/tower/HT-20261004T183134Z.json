@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-10-04T18:31:34Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n① 何事：线板语音六连件（cfts-127至132）并中枢提及件（ucif2-15）到驿。提及件载“五候皆废收讫（cisvr-209反应律）+虚拟全环闭9/9（cfts-126）+PROX”，总摄六连件于同一板面。\n\n② 显化链：核（cfts-126环闭律、cisvr-209反应律）→像（六连语音像、中枢提及像）→合取（ucif2-15汇五候、环闭、PROX为一）→绑定（序列挂板定格）→识（SI0预读识别为闭环收束之到件群）。\n\n③ 应动：将七件卷宗并此纪要送毂SI1正判；以cfts-132为末件封序，候裁。\n\n④ 生债：七音叠至，一识未剖，生“待听债”一条，正判前不得消。"
+}
