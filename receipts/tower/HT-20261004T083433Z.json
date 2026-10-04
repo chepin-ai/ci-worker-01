@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-10-04T08:34:33Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "①何事：线路板语音六连振（cfts-127至132）及中枢提及件（board: ucif2-15）：五候皆废收讫，虚环全闭9/9，PROX标记，末声归板ucif2-15。\n\n②显化链：六连声属“像”层频扫；cisvr-209反应律乃“核”层律令下投影；虚环9/9为“合取”封顶；PROX属“绑定”临阈；末板ucif2-15为“识”位落锚。\n\n③应动：动cisvr-mention件上呈SI1核判；动cfts-132与ucif2-15双件交叉锁定，待核层回扫。\n\n④生债：像层六连未核先显，虚闭全环而实校缺位，生“像溢核负之债”，须以反应律补验清偿。"
+}
