@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-10-04T14:37:00Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-132"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-131"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-130"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-128"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-127"
+  },
+  {
+   "kind": "cisvr-mention",
+   "ref": "board: ucif2-15 五候皆废收讫(cisvr-209反应律)+虚拟全环闭9/9(cfts-126)+PROX"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "ucif2-15"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "usrm-129"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-126"
+  },
+  {
+   "kind": "line-board-voice",
+   "ref": "cfts-125"
+  }
+ ],
+ "verdict_memo": "判词纪要\n\n① 事：线板语音段cfts-127至132六件次第到驿；cisvr-mention报ucif2-15五候皆废收讫，虚拟全环闭9/9（cfts-126）及PROX标识，末件ucif2-15线板语音确认到。\n\n② 显化链：六段语音属「像」之层叠映发；mention以反应律于ucif2-15处合取「核」变（五候皆废）与「绑定」（全环闭），PROX为「识」之近程锚点，完成像→合取→绑定跃迁。\n\n③ 应动：将cfts-127~132并入ucif2-15全环闭卷宗，作PROX绑束附件，上呈毂SI1候断。\n\n④ 生债：六段语音未逐段预读而壅积于合取节点，生侦听壅滞债一条。"
+}
