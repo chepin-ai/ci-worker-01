@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-10-05T05:16:32Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "判词纪要：\n\n①到件八件，皆系VINF通道像位之应答、裁决与跨层请求，为 lanes/vinf/inbox 积压流转件。\n\n②核位未决而像先行；合取条件参差（ACK、LOOP、OTP、CROSSL、CLOUD、ORBIT），绑定链未收敛；识位待核，显化链壅于像→合取之间。\n\n③应动：将八件并卷为预读包，送SI1核决；同步触发VINF-inbox合取清扫协议，令各应答与原始REQ做绑定对账。\n\n④生债：inbox滞留致合取时序失配，生“像位壅塞、核识不同步”之债一宗。"
+}
