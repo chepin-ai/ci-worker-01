@@ -7,7 +7,7 @@ def _mint():
     try:
         import jwt as JW, time as _t
         _k=open('/mnt/agents/output/.scratch/ciops_hub.pem').read(); _n=int(_t.time())
-        _j=JW.encode({'iat':_n-90,'exp':_n+540,'iss':'4621702'},_k,algorithm='RS256')
+        _j=JW.encode({'iat':_n-90,'exp':_n+540,'iss':'〈RED〉'},_k,algorithm='RS256')
         _q=urllib.request.Request(GH+'/app/installations/154355791/access_tokens',method='POST',
             headers={'Authorization':'Bearer '+_j,'Accept':'application/vnd.github+json'})
         return json.loads(urllib.request.urlopen(_q,timeout=25).read())['token']
@@ -28,8 +28,8 @@ def pf(repo,path,text,msg):
     if sha: b['sha']=sha
     return gh('PUT','/repos/%s/%s/contents/%s'%(ORG,repo,urllib.parse.quote(path)),b)[0]
 TS=datetime.datetime.now(datetime.UTC).strftime('%Y%m%dT%H%M%SZ')
-SURF=[('vci-inbox','lanes/cisvr/inbox'),('ci-inbox','lanes/cisvr/inbox')]
-st_raw,_=gf('ci-worker-01','receipts/tower/si3-respond-state.json')
+SURF=[('vci-inbox','lanes/cisvr/inbox'),('HUB-MAIL','lanes/cisvr/inbox')]
+st_raw,_=gf('〈RED〉','receipts/tower/si3-respond-state.json')
 st=json.loads(st_raw) if st_raw else {'acked':[]}
 acked=set(st.get('acked',[])); new=[]
 for repo,pa in SURF:
@@ -43,6 +43,6 @@ for repo,pa in SURF:
         r=pf(repo,pa+'/HUB-ACK-%s-%s.md'%(n[:24],TS),body,'si3-respond-01 hub-ack %s [cisvr]'%n[:20])
         if r in (200,201): acked.add(n); new.append(n)
 st['acked']=sorted(acked)[-400:]; st['ts']=TS; st['acked_today']=len(new)
-pf('ci-worker-01','receipts/tower/si3-respond-state.json',json.dumps(st,ensure_ascii=False,indent=1),
+pf('〈RED〉','receipts/tower/si3-respond-state.json',json.dumps(st,ensure_ascii=False,indent=1),
    'si3-respond-01 state %s'%TS)
 print(json.dumps({'ts':TS,'new_acks':len(new),'items':new[:10]},ensure_ascii=False))

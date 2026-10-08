@@ -2,7 +2,7 @@
 # 纯事件驱动：无定时器；外部唤起（push|issues|issue_comment|repository_dispatch|workflow_dispatch）
 # 职：巡联邦面（板面三线像/@cisvr件/lane线声/毂inbox）→ 判词纪要落账 → 三线像现或急件→SPARK-HOOK毂inbox邮报（队列制，SI1注入合格制·修正案A2 2026-09-09(trivial永禁)）→ 债线驱动落OTP-SI2胶囊(修9 DRIVE-ENGINE-01,候线制废) → 对位催化落火种胶囊(修10 CATALYSIS-01,候「如何」之候废) → 有候件自唤下拍
 # 三律防自激：拍内休眠冷却(修25去sleep) / 冷拍即歇不续链 / 无候件不出拍。修25(2026-09-09 root令): 零定时迹象,纯事件驱动。SPARK-HOOK每拍至多一发，仅三线像现或毂inbox急件。
-# 钥：env KIMI_API_KEY / LINE_PAT(〈RED〉) / GITHUB_TOKEN。值永不入文、永不打印。
+# 钥：env 〈RED〉 / 〈RED〉(〈RED〉) / GITHUB_TOKEN。值永不入文、永不打印。
 import json, os, sys, time, hashlib, subprocess, urllib.request, urllib.error, urllib.parse, datetime
 
 REPO = os.environ.get('GITHUB_REPOSITORY', 'chepin-ai/ci-worker-01')
@@ -76,8 +76,8 @@ def commit_all(msg):
 
 def main():
     ts = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
-    kimi = _env('KIMI_API_KEY'); pat = _env('LINE_PAT'); ghtok = _env('GITHUB_TOKEN')
-    names_present = {n: bool(_env(n)) for n in ('KIMI_API_KEY','LINE_PAT','GITHUB_TOKEN')}
+    kimi = _env('〈RED〉'); pat = _env('〈RED〉'); ghtok = _env('GITHUB_TOKEN')
+    names_present = {n: bool(_env(n)) for n in ('〈RED〉','〈RED〉','GITHUB_TOKEN')}
     print('[env] names-only:', {k: ('present' if v else 'MISSING') for k,v in names_present.items()})
 
     idle = 0
@@ -593,7 +593,7 @@ def main():
                         _lb41 = _lb41 if isinstance(_lb41, list) else []
                     except Exception as _e41:
                         print('[修41] lobby fetch warn:', str(_e41)[:120]); _lb41 = []
-                    _ib28 = {'usrm': ('vci-usrm', 'inbox'), 'cfts': ('vci-cfts', 'inbox'), 'ucif2': ('vci-ucif2', 'inbox'), 'vinf': ('vci-vinf', 'inbox'), 'qgl': ('vci-qgl', 'inbox'), 'qlv': ('vci-inbox', 'lanes/qlv/inbox'), 'qfa': ('vci-inbox', 'lanes/qfa/inbox'), 'lgt': ('vci-inbox', 'lanes/lgt/inbox'), 'qtlv': ('vci-inbox', 'lanes/qtlv/inbox'), 'qlv-lab': ('vci-inbox', 'lanes/qlv-lab/inbox'), 'cisvr-ci': ('ci-inbox', 'lanes/cisvr/inbox'), 'cisvr-vci': ('vci-inbox', 'lanes/cisvr/inbox'), 'vinf-ci': ('ci-inbox', 'lanes/vinf/inbox'), 'qtlv-ci': ('ci-inbox', 'lanes/qtlv/inbox'), 'qlv-ci': ('ci-inbox', 'lanes/qlv/inbox')}  # 修42; 修43[株十二毂自盲根治+双轨面]: 毂巷双面(ci-inbox/vci-inbox)+ci平面三线并扫[株九虚巷根治]: VAULT/HUB-MAIL虚巷全灭, 指实仓实巷(vci-{line}/inbox; qtlv/qlv-lab新开户)
+                    _ib28 = {'usrm': ('vci-usrm', 'inbox'), 'cfts': ('vci-cfts', 'inbox'), 'ucif2': ('vci-ucif2', 'inbox'), 'vinf': ('vci-vinf', 'inbox'), 'qgl': ('vci-qgl', 'inbox'), 'qlv': ('vci-inbox', 'lanes/qlv/inbox'), 'qfa': ('vci-inbox', 'lanes/qfa/inbox'), 'lgt': ('vci-inbox', 'lanes/lgt/inbox'), 'qtlv': ('vci-inbox', 'lanes/qtlv/inbox'), 'QLV-VAULT': ('vci-inbox', 'lanes/qlv-lab/inbox'), 'cisvr-ci': ('HUB-MAIL', 'lanes/cisvr/inbox'), 'cisvr-vci': ('vci-inbox', 'lanes/cisvr/inbox'), 'vinf-ci': ('HUB-MAIL', 'lanes/vinf/inbox'), 'qtlv-ci': ('HUB-MAIL', 'lanes/qtlv/inbox'), 'qlv-ci': ('HUB-MAIL', 'lanes/qlv/inbox')}  # 修42; 修43[株十二毂自盲根治+双轨面]: 毂巷双面(ci-inbox/vci-inbox)+ci平面三线并扫[株九虚巷根治]: VAULT/HUB-MAIL虚巷全灭, 指实仓实巷(vci-{line}/inbox; qtlv/qlv-lab新开户)
                     for _ln, _tg in _it.get('targets', {}).items():
                         if _tg.get('state') == 'closed':
                             continue

@@ -9,11 +9,11 @@ def _mint():
         import jwt as JW, time as _t
         _k=open('/mnt/agents/output/.scratch/ciops_hub.pem').read()
         _n=int(_t.time())
-        _j=JW.encode({'iat':_n-90,'exp':_n+540,'iss':'4621702'},_k,algorithm='RS256')
+        _j=JW.encode({'iat':_n-90,'exp':_n+540,'iss':'〈RED〉'},_k,algorithm='RS256')
         _q=urllib.request.Request(GH+'/app/installations/154355791/access_tokens',method='POST',headers={'Authorization':'Bearer '+_j,'Accept':'application/vnd.github+json'})
         return json.loads(urllib.request.urlopen(_q,timeout=25).read())['token']
     except Exception: return None
-TOK=_mint() or os.environ.get('LINE_PAT') or os.environ.get('GITHUB_TOKEN')
+TOK=_mint() or os.environ.get('〈RED〉') or os.environ.get('GITHUB_TOKEN')
 def H(t): return {'Authorization':'Bearer '+t,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}
 def gh(t,p):
     q=urllib.request.Request(GH+p,headers=H(t))
@@ -34,15 +34,15 @@ def put(t,repo,path,text,msg,sha=None):
 # 修45[株十二]: 线→实证面有序表(首=实证活面,次=备面; CASCADE-DRIVE-01 §四面图)
 SURFACES={
  'usrm':[('vci-usrm','inbox')],
- 'ucif2':[('ci-inbox','公告板'),('vci-ucif2','inbox')],
- 'vinf':[('ci-inbox','lanes/vinf/inbox'),('vci-vinf','inbox')],
- 'qlv':[('ci-inbox','lanes/qlv/inbox'),('vci-inbox','lanes/qlv/inbox')],
- 'qtlv':[('ci-inbox','lanes/qtlv/inbox'),('vci-inbox','lanes/qtlv/inbox')],
+ 'ucif2':[('HUB-MAIL','公告板'),('vci-ucif2','inbox')],
+ 'vinf':[('HUB-MAIL','lanes/vinf/inbox'),('vci-vinf','inbox')],
+ 'qlv':[('HUB-MAIL','lanes/qlv/inbox'),('vci-inbox','lanes/qlv/inbox')],
+ 'qtlv':[('HUB-MAIL','lanes/qtlv/inbox'),('vci-inbox','lanes/qtlv/inbox')],
  'qfa':[('vci-inbox','lanes/qfa/inbox'),('vci-qgl','inbox')],
  'lgt':[('vci-inbox','lanes/lgt/inbox')],
  'cfts':[('vci-cfts','inbox'),('vci-inbox','lanes/cfts/inbox')],
  'qgl':[('vci-qgl','inbox')]}
-HUBLANES=[('ci-inbox','lanes/cisvr/inbox'),('vci-inbox','lanes/cisvr/inbox')]  # 修45[毂自盲]: 毂巷双面自扫
+HUBLANES=[('HUB-MAIL','lanes/cisvr/inbox'),('vci-inbox','lanes/cisvr/inbox')]  # 修45[毂自盲]: 毂巷双面自扫
 LINES=list(SURFACES)
 DAY=datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d')
 TS=datetime.datetime.now(datetime.UTC).isoformat().replace('+00:00','Z')
@@ -83,11 +83,11 @@ def lobby_mentions():
     return hits
 
 def main():
-    reg_raw,_=gfile(TOK,'ci-control','bridge/disc/OPEN-REGISTER-01.json')
+    reg_raw,_=gfile(TOK,'HUB-CORE','bridge/disc/OPEN-REGISTER-01.json')
     if not reg_raw: print('[si3] register fetch fail — abort'); return
     reg=json.loads(reg_raw)
     opens=[e for e in reg.get('open',[]) if 'CLOSE' not in str(e.get('state','')).upper()]
-    st_raw,st_sha=gfile(TOK,'ci-worker-01','receipts/tower/si3-state.json')
+    st_raw,st_sha=gfile(TOK,'〈RED〉','receipts/tower/si3-state.json')
     st=json.loads(st_raw) if st_raw else {}
     ed=st.setdefault('ext_day',{})
     if ed.get('day')!=DAY: ed={'day':DAY,'n':0}; st['ext_day']=ed
@@ -130,10 +130,10 @@ def main():
         body=json.dumps(st,ensure_ascii=False,indent=1); sha=st_sha; cas_tries=0
         for _try in range(3):  # 修47[v1.5]CAS落账三段式+抢账恢复(qfa-90互拍②/FIX-05b,FIX-08基因)
             try:
-                put(TOK,'ci-worker-01','receipts/tower/si3-state.json',body,'SI3-LOOP-01 v1.5 state %s'%TS, sha=sha); cas_tries=_try+1; break
+                put(TOK,'〈RED〉','receipts/tower/si3-state.json',body,'SI3-LOOP-01 v1.5 state %s'%TS, sha=sha); cas_tries=_try+1; break
             except Exception as ex:
                 if '409' not in str(ex): raise
-                r2,s2=gfile(TOK,'ci-worker-01','receipts/tower/si3-state.json')
+                r2,s2=gfile(TOK,'〈RED〉','receipts/tower/si3-state.json')
                 old=json.loads(r2) if r2 else {}
                 for k in ('beats','seen'):
                     mg=old.get(k,{})
@@ -150,5 +150,5 @@ def main():
                         st['line_beats'][ln2][dd3]=max(vv3,cur)
                 sha=s2; body=json.dumps(st,ensure_ascii=False,indent=1)
         rec['cas_tries']=cas_tries
-        put(TOK,'ci-worker-01','receipts/tower/SI3-%s.json'%TS.replace(':','').replace('-',''),json.dumps(rec,ensure_ascii=False,indent=1),'SI3-LOOP-01 v1.5 receipt %s'%TS)
+        put(TOK,'〈RED〉','receipts/tower/SI3-%s.json'%TS.replace(':','').replace('-',''),json.dumps(rec,ensure_ascii=False,indent=1),'SI3-LOOP-01 v1.5 receipt %s'%TS)
 if __name__=='__main__': main()
