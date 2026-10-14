@@ -1,13 +1,8 @@
 {
- "ts": "2026-10-08T05:07:45Z",
+ "ts": "2026-10-14T05:21:46Z",
  "target": "ci-worker-01-",
  "mode": "full-tree",
- "scanned": 6083,
- "fixed_n": 4,
- "fixed": [
-  "ci/hub_tower.py",
-  "ci/si3_loop.py",
-  "ci/si3_respond.py",
-  "receipts/tower/SELFTEST-20260907T091443Z.json"
- ]
+ "scanned": 6084,
+ "fixed_n": 0,
+ "fixed": []
 }
