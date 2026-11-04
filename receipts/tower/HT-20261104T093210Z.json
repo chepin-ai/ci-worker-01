@@ -1,0 +1,56 @@
+{
+ "v": "HUB-TOWER-01",
+ "ts": "2026-11-04T09:32:10Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/1789057391-AUDIT-VERDICT-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-LGT-VINF-K82-01-20260911T1330Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-Q02-PACK-ACK-qtlv-20260913T175536Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-REQ-Q02-CROSSL-VINF-01-qtlv.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-LOOP-qlv-20260913T101519Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ANS-VINF-OTP-lvlu-20260912T153227Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/ASK-SI5CLOUD-vinf-20260912T180154Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/DIRECTASK-ORBIT-CAP-03-qfa-20260914T212857Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/KEY-INSTALL-RECEIPT-VINF-lvlu-20260915T044038Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-02-qfa-20260914T185152Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-BYPASS-ORBIT-CAP-03-QLV-01-20260920T144205Z.md"
+  },
+  {
+   "kind": "lane-line-voice",
+   "ref": "lanes/vinf/inbox/NOTICE-KEYRES-99-vinf-20260912T054743Z.md"
+  }
+ ],
+ "verdict_memo": "八件均入vinf车道线语音匣。判词如下：\n\n①AUDIT-VERDICT：审计裁决回执；核层定谳、像层具现，属核→像之显化；应动SI1正判会话；生债：裁决滞留则验失。  \n②ANS-LGT-K82：K82合法性应答；像层光度校验，涉像→合取；应动合取绑定器；生债：光界模糊绑废。  \n③ANS-Q02-PACK-ACK：Q02封包确认；合取层收讫，属合取→绑定过渡；应动解包下传；生债：ACK迟到生重传债。  \n④ANS-CROSSL：跨层请求响应；合取跨绑、核像互涉；应动层级网关；生债：跨界污染。  \n⑤ANS-LOOP：环循响应；像层自指、合取锁固；应动循环断点；生债：环循无出识蚀。  \n⑥ANS-OTP：一次性协议响应；动态绑定、识层暂驻；应动令牌核销；生债：OTP复用即伪造。  \n⑦ASK-SI5CLOUD：云际询问；像外延拓、合取待决；应动SI5镜像；生债：云答失真核裂。  \n⑧DIRECTASK-ORBIT：轨能直询"
+}
